@@ -1,0 +1,7 @@
+/**
+ * Kita akan melanjutkan contoh kasus sebeleumnya
+ * Di interface PersonRepository kita akan membuat method insert(person: Person) yang digunakan untuk menyimoan data
+   ke database, namuntidak mengembalikan value, alias void
+ * Di class PersonService kita akan membuat method register(name: String) dimana kita akan membuat object person dengan
+   id random, lalu menyimpan ke database via PeronRepository, lalu mengembalikan object person tersebut
+/*

@@ -1,0 +1,8 @@
+/** Tes di dalam test
+ * Saat membuat unit test, ada baiknya ukuran test class nya tidak terlalu besar, karena akan sulit dibaca dan dimengerti
+ * Jika Test class sudah semakin besar, ada bainya kita pecah menjadi beberapa test class, lalu kita grouping sesuai
+   dengan jenis method testnya
+ * JUnit mendukung pembuatan class test didalam class test, jadu kita bisa memecah sebuah class test, tanpa harus membuat
+   class di file berbeda, kita cukup menggunakan inner class
+ * Untuk memberi tahu bahwa inner class adalah test class kita bisa menggunakan annotation @Nested
+*/

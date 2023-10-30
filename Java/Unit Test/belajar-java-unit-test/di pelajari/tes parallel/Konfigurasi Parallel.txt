@@ -1,0 +1,5 @@
+/** Menambahkan Konfigurasi Parallel
+ * Hal pertama yang perlu kita lakukan adalah membuat file junit-platform.properties di resource
+ * Lalu menambahkan value : junit.jupiter.executuion.parallel.enabaled= true
+ *
+*/

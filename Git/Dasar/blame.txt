@@ -1,0 +1,6 @@
+=> Saat membuat kode program kadang kita ingin tahu, siapa yang menambahkan baris code program tersebut, dan apa saja yang
+   ditambakan
+=> Git memiliki fitu yang bernama blame, ini bisa digunakan untuk mencari tahu, siapa yang menambah perubahan pada file dan
+   juga untuk mengetahui commit nya
+=> Caranya bias gunakan perintah :
+   git blame _nama_file_   

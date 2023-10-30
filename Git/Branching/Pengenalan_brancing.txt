@@ -1,0 +1,7 @@
+=> Saat ini hampir semua VCS memiliki fitur brancing
+=> Branching artinya kita membuat timeline baru yang berbeda dengan timeline utama
+=> Biasanya timeline utama, atau branch disebut dengan master atau main
+=> Saat kita membuat timeline branch baru, semua perubahan yang kita lakukan tidak akan merusak timeline branch utama
+=> Oleh karena itu fitur branching itu sangat cocok digunakan misal ketika akan menambah fitur di Repository, sehingga jika
+   terjadi masalah, dengan mudah kita tinggal pindah ke timeline utama
+=> Tidak ada batasan berapa banyak branch yang bisa kita buat di Git, kita bisa bebas membuat branch dari branch manapun 

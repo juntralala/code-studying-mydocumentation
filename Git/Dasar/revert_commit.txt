@@ -1,0 +1,6 @@
+=> Git memiliki fitur Rever Commit, yaitu fitur untuk membatalkan commit yang sudah kita lakukan dengan cara membuat commit baru
+   yang membatalkan commit sebelumnya
+=> Misal kita melakukan commit data perubahan dari teks Eko menjadi Eka, Jika di revert, maka secara otomatis git akan membuat
+   commit baru dengan melakukan perubahan dari Eka menjadi Eko
+=> Untuk melakukan revert, kita bisa gunakan perintah :
+   git revert _hash_

@@ -1,0 +1,15 @@
+=> Jika fetch hanya melakukan proses untuk mendapatkan perubahan di remote repository tanpa mengubah local repository
+=> Dengan menggunakan pull, kita akan mengambil perubahan yang ada di remote repository dan di simpan di local repository
+=> Hati-hati jangan sampai terjadi merge conflict, jika terjadi merge conflict, kita harus memperbaiki secara manual seperti
+   yang sudah kita kita pelajari di materi merge 
+=> Saat kita melakukan pull, secara otomatis kita akan melakukan fetch terlebih dahulu
+
+Melakuan pull :
+=> Untuk melakuakn pull ke local branch saat ini, kita bisa gunakan perintah :
+   git pull _namaRemote_ _remoteBranch_
+
+
+Praktek :
+=> Lakukan commit dan push di user pertama
+=> Lakukan pull di user ke dua 
+=> Bandingkan local branch dan remote branch di user ke dua

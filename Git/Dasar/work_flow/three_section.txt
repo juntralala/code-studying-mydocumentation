@@ -1,0 +1,8 @@
+=> Tiga State sebeleumnya di dalam Git dilakukan di section yang berbeda-beda,yaitu : 
+   - Working Directory
+   - Staging Area
+   - Repository
+=> Saat kita melakukan modifikasi file, itu dilakukan di Working Directory
+=> Staging Area merupakan section dimana file sudah disiapkan untuk disimpan permanen, di Staging Area semua informasi perubahan
+   file akan disimpan 
+=> Repository Area merupakan tempat dimana semua file dan database riwayat vesi file disimpan    

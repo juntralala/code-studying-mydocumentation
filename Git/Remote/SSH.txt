@@ -1,0 +1,7 @@
+=> SSH singkatan dari Secure Shell
+=> SSH merupakan protokol jaringan untuk komunikasi jaringan yang aman dan terenskripsi
+=> Pengguna sistem operasi Linux dan Mac biasanya sudah sangat familiar dengan SSH
+=> SSH merupakan aplikasi berbasis terminal 
+=> Di Linux dan Mac, SSH sudah terinstall secara otomatis, sedangkan di Windows, ketika kita menginstall Git, secara otomatis
+   Git akan menginstall SSH juga
+ 

@@ -1,0 +1,12 @@
+Lanjutan dari stash.txt :
+=> Untuk menyimpan semua perubahan yang terjadi di Working dan Staging Index, kita bisa menggunakan Stash
+=> Untuk menyimpan semua perubahan ke Stash, kita bisa gunakan perintah :
+   git stash push -m "message stash"
+=> Untuk melihat semua Stash, kita bisa gunakan perintah :
+   git stash list
+=> Untuk melihat perubahan yang terjadi di Stash, kita gunakan perintah :
+   git stash show stashId
+
+Simulasi :
+=> simpan semua perubahan ke stash
+=> Pindah ke branch utama

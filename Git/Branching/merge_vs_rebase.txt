@@ -1,0 +1,4 @@
+=> Rebase akan terlihat sangat rapih, karena timeline nya seakan seakan hanya ada satu timeline pada Repository
+=> Namun, rebase sebenarnya secara otomatis menulis ulang semua commit yang kita lakukan, maka artinya commit id pasti berubah,
+   artinya semua referance ke commit id sebelum-sebelumnya akan rusak dan hilang
+=> Tidak ada mana yang lebih baik, semua tergantung kebutuhan  

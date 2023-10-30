@@ -1,0 +1,90 @@
+<style>
+    *,body,html {
+        margin : 0 ;
+        padding : 0 ;
+        box-sizing : border-box;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin : 0 auto ;
+        position : relative ;
+        /* border : 8px solid ; */
+    }
+
+    video {
+        display :block ;
+        width : 100% ;
+    }
+
+    .video-compunent {
+        position: absolute;
+        bottom: 0;
+        left : 0 ;
+        margin : 2px 4px ;
+        /* box-sizing : border-box; */
+    }
+
+    .btn {
+        border-style : none ;
+        padding : 10px ;
+        font-weight : 800 ;
+        cursor : pointer ;
+        font-size : 24px ;
+        border-radius: 8px ;
+    }
+
+    .btn-play {
+        background-color: tomato;
+        color : white ;
+    }
+
+    .btn-pause {
+        background-color: skyblue;
+        color : white ;
+    }
+
+    .btn-minimize {
+        background-color: violet;
+        color : white ;
+    }
+
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+         <video controls>
+            <source src="./assets/video.mp4" type="video/mp4" />
+        </video>
+        <div class="video-compunent">
+            <button onclick="play ()" class="btn btn-play">PLAY</button>
+            <button onclick="pause ()" class="btn btn-pause">PAUSE</button>
+            <button onclick="minimize ()" class="btn btn-minimize">MINIMIZE</button>
+        </div>
+    </div>
+    <script>
+        const videoCompunent = document.querySelector("video")
+        function play () {
+            console.log("PLAY")
+            videoCompunent.play();
+        }
+        function pause () {
+            console.log('PAUSE')
+            videoCompunent.pause();
+        }
+        function minimize () {
+            console.log("MINIMIZE")
+            videoCompunent.requestPictureInPicture();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+=> Saat kita masuk ke folder submodule, sebenarnya akan seperti berada di project git repository submodule tersebut
+=> Sebenarnya, kita bisa melakukan management Git Repository di submodule tersebut, seperti melakukan commit, mengelola branch, dll
+=> Namun tidak disarankan untuk melakukan perubahan di submodule, lakukan lah perubahan langsung di git repositorynya saja, anggap
+   submodule hanya digunakan untuk menduplikasi perubahan yang terjadi di Git Repository aslinya 
+ 

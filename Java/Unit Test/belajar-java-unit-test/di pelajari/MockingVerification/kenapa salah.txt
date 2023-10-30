@@ -1,0 +1,7 @@
+/**
+ * Coba hapus kode personRepository.insert()
+ * Maka unit test nya tetap sukses
+ * Hal ini terajadi karena kita tidak melakukan verifikasi bahawa mocking object di panggil
+ * Hal ini sangat berbahaya, karena jika code sampai naik ke production, bisa jadi orang yang registrasi data nya tidak
+   masuk ke database
+*/

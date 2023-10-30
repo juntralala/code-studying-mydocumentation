@@ -1,0 +1,4 @@
+=> Dalam pengemabangan perangkat lunak, Branch biasanya dibuat ketika kita akan menambah fitur baru 
+=> Fitur baru akan ditambakan di branch baru, sehingga kita bisa bebas menambahkan fitur tanpa rasa takut melakukan kesalahan di
+   branch utama   
+=> Ketika fitur sudah siap, kita bisa melakukan merge (mengabungkan) branch fitur baru tersebut ke branch utama

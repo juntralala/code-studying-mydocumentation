@@ -1,0 +1,2 @@
+=> Kalau kita ingin melihat detail perubahan pada suatu commit, kita gunakan perintah :
+git show _hashnya_

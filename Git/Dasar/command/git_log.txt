@@ -1,0 +1,11 @@
+-- melihat semua riwayat commit --
+
+git log
+
+-- log sederhana --
+
+git log --oneline
+
+-- graph --
+
+git log --oneline --graph

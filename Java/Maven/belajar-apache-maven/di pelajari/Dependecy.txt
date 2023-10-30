@@ -1,0 +1,8 @@
+Dependency secara definisi adalah ketergantungan sebuah kompunen program terhadap kompunen lain
+
+Proyek aplikasi jarang sekali berdiri sendiri, biasanya mebutuhkandukungan dari pihak lain, seperti tool atau liblary
+
+Tanpa build tool seperti Apache Maven, untuk menambahkan liblary dari luar, kita haru melakukannya secara manual
+
+Apache Maven mendukung dependency manajement, di mana kita tidak perlu me-manage secara manual proses penambahan dependency
+(tool atau liblary) kedalam proyek aplikasi kita

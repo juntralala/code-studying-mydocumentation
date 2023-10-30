@@ -1,0 +1,9 @@
+Proses kompilasi pada bahasa pemrograman C++ melibatkan beberapa tahap, yaitu:
+
+Pra-pemrosesan (preprocessing): tahap ini dilakukan untuk menghilangkan semua direktif pra-pemrosesan (#include, #define, dan sebagainya) dari kode sumber C++ dan menggantinya dengan konten yang sesuai. Tahap ini dilakukan oleh praprosesor C++ (cpp).
+
+Kompilasi: tahap ini mengubah kode sumber C++ menjadi kode objek (file objek) yang terdiri dari bahasa mesin. Tahap ini dilakukan oleh kompiler C++ (g++ atau clang++ pada sistem Unix-like, atau MSVC pada sistem Windows).
+
+Linking: tahap ini menggabungkan beberapa file objek menjadi satu file biner (eksekutabel) yang dapat dijalankan. Pada tahap ini, juga dilakukan proses linking dengan library eksternal dan lain-lain yang diperlukan. Tahap ini dilakukan oleh linker C++ (ld pada sistem Unix-like, atau link pada sistem Windows).
+
+Setelah proses kompilasi selesai, kita akan mendapatkan file eksekutabel yang bisa dijalankan pada sistem operasi yang sesuai.

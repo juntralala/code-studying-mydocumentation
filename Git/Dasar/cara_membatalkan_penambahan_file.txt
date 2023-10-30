@@ -1,0 +1,3 @@
+=> Jika kita menambah file di Working Directory, lalu misal kita ingin membatalkan perubahanya
+=> Caranya cukup sederhana, kita hanya perlu menghapus file tersebut, atau menggunakan perintah :
+git clean -f 

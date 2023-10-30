@@ -1,0 +1,2 @@
+saat kita membuat prject biasanya akan ada 2 jenis code yang kita buat, kode programnya, dan kode testing nya
+maven mendukung hal tersebut

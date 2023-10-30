@@ -1,0 +1,136 @@
+*,
+html {
+    padding : 0 ;
+    margin  : 0 ;
+} 
+
+.container-navbar {
+    background-color : lightskyblue ;
+    height: 10vh ; 
+}
+
+.ul-navbar {
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    height: 12vh ;
+}
+
+.li-navbar {  
+    list-style : none ;
+}
+
+.a-li-navbar {
+    background-color: crimson ;
+    color : white ;
+    text-decoration : none ;
+    margin : 4px ;
+    padding: 5px ;
+    font-size : 30px ;
+    border-radius : 8px ;
+    border : 3px solid ;
+    border-color: crimson ;
+}
+
+.a-li-navbar:hover {
+    transition-duration : 0.5s ;
+    transition-delay : 0.2s ;
+    background-color : white ;
+    color : black ;
+    border : 3px solid ;
+    border-color :crimson ;
+    border-radius : 8px ;
+}
+
+.container-content {
+    background-color : #333 ;
+    height : 80vh ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.ruang-saklar {
+    height : 75vh ;
+    width : 50vh ;
+    background-color : white ;
+    border-radius : 8px ;
+    margin : 8px ;
+}
+
+.ruang {
+    height : 55vh ;
+}
+
+.lampu-tengah {
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.papan-saklar-ruang-makan {
+    height: 20vh ;
+    background-color : deepskyblue ;
+    border-bottom-left-radius: 8px ;
+    border-bottom-right-radius: 8px ;
+
+}
+
+.li-papan_saklar {
+    display : flex ;
+    justify-content : center ;
+    align-items: center ;
+    height: 6vh ;
+}
+
+.nama-papan-saklar {
+    background-color: aqua ;
+    margin-bottom: 8px ;
+}
+
+.container-footer {
+    background-color : aquamarine ;
+    height : 10vh ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.button {
+    background-color: blue ;
+    color : white ;
+    border-radius: 5px ;
+    padding: 5px ;
+    border : 2px solid ;
+    border-color : blue ;
+}
+
+button:hover {
+    transition-duration: 0.5s ;
+    transition-delay: 0.2s ;
+    background-color: white ;
+    color : black ;
+    border-radius: 5px ;
+    border : 2px solid ;
+    border-color : blue ;
+}
+
+.margin {
+    margin: 25px ;
+}
+
+.margin-top {
+    margin-top: 20px ;
+}
+
+.margin-samping {
+    margin-left : 25px ;
+    margin-right: 25px ;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}
+
+.margin-sisi {
+    margin-right: 8px ;
+    margin-left: 8px ;
+}

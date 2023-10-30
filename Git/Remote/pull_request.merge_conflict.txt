@@ -1,0 +1,2 @@
+=> Ketika melakukan PullRequest, kadang sering terjadi Merge Conflict yang menyebabkan tidak bisa lakukan proses merge otomatis
+=> Pada kasus seperti itu,kita perlu lakukan merge di branch asal nya terlebih dahulu, lalu memperbaiki conflict nya 

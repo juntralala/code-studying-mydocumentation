@@ -1,0 +1,4 @@
+=> Untuk melakukan fetch untuk semua branch di Remote Repository, kita bisa gunakan perintah :
+   git fetch _namaRemote_
+=> Atau jika ingin melakukan fetch untuk branch tertentu saja di remote, kita bisa gunakan :
+   git fetch _namaRemote_ _remoteBranch_

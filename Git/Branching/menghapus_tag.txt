@@ -1,0 +1,5 @@
+=> Tidak ada cara untuk mengubah Tag, jadi jika kita ingin mengubah Tag, kita bisa membuat Tag baru ke commitId yang sama, lalu
+   menghapus Tag yang lama
+=> untuk menghapus Tag, kita bisa menggunakan perintah :
+   git tag -d _namaTag_ 
+   git tag --delete _namaTag_   

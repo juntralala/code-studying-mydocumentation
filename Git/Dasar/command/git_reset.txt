@@ -1,0 +1,2 @@
+-- memindah posisi HEAD pointer -- 
+git reset <mode> _hash_

@@ -1,0 +1,7 @@
+/**
+ * Unuk membuat test di JUnit itu sederhana, kita cukup membuat class, lalu menambahkan method-method test-nya
+ * Method akan dianggap sebuah test jika ditambahkan anotation @Test
+ * Kode test disimpan di bagiann test dolder di Maven, bukan di main folder
+ * Biasanya saat membuat class untuk test, biasanya orang-orang membuat nama class nya sama dengan class yang akan di test,
+   misal jika nama class nya adalah Calculator, maka nama class test-nya adalah CalculatorTest
+*/

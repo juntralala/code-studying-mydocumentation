@@ -1,0 +1,2 @@
+=> Tag Saat kita melakuakn push data ke Remote Repository, data Tag tidak akan dkirim juga ke Remote Repository
+=> Jika kita ingin mengirim data Tag juga, kita perlu melakukan push tag tersebut 

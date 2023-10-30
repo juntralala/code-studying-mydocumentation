@@ -1,0 +1,2 @@
+git branch -r                                                        <- melihat semua Remote Branch        <- -r = remote
+git branch -a                                                        <- melihat semua branch dari local dan remote  <- -a = all

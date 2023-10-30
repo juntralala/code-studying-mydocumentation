@@ -1,0 +1,3 @@
+git diff _localbranch_ _remoteBranch_
+
+contohnya : git diff main origin/main

@@ -1,0 +1,4 @@
+/** Membuat urutan sendiri
+ * Jika kita ingin membuat cara pengurutan unit test function sendiri, kita bisa dengan mudah tiggal membuat class baru
+   turunan dari MethodOrederer interface
+*/

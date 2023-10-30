@@ -1,0 +1,7 @@
+Mengambil perubahan dari stash :
+=> untuk mengambil perubahan di stash, kita bisa gunakan perintah :
+   git stash apply _stashId_
+=> Untuk menghapus stash, kita bisa gunakan perintah :
+   git stash drop _stashId_
+=> Untuk menghapus semua stash, kita bisa gunakan perintah :
+   git stash clear  

@@ -1,0 +1,1 @@
+=> Untuk menghapus submodule, kita bisa hapus folder submodule nya, lalu ubah file .gitmodules nya 

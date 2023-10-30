@@ -1,0 +1,6 @@
+=> Git juga memiliki fitur seperti mesin waktu, dimana kita bisa kembali pada snapshot sebelumnya 
+=> Kita bisa tentukan kemana tujuan snapshot kita hanya dengan hash commit
+=> Cara jika kita ingin menuju ke snapshot tertentu, cukup gunakan perintah :
+   git checkout hash
+=> Jika ingin kembali ke snapshot paling awal/baru, kita gunakan perintah :
+   git checkout _namaBranch_

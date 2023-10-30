@@ -1,0 +1,5 @@
+=> Kadang saat kita membuat aplikasi, tidak semua file yang ingin kita track dalam Git, contoh seperti file log, hasil kompilasi,
+   kadang itu tidak butuh di track di Git
+=> Git memiliki fitur ignore, dimana kita bisa meminta Git secara otomatis tidak men-track file di Git
+=> Caranya kita bisa tambahkan file .gitignore ke Repository
+=> Lalu kita bisa tambahkan tiap baris di file .gitignore berisikan file atau folder yang tidak ingin kita track

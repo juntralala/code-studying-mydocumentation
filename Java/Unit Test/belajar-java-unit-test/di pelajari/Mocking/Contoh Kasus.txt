@@ -1,0 +1,7 @@
+/**
+ * Kita punya sebiah class model dengan nama class Person(id: String, name: String)
+ * Selanjutnya kita mempunyai interface PersonRepository sebagai interaksi ke Database, dan memiliki function
+   selectById(id: String) untuk mendapatkan data Person di database
+ * Dan akhirnya kita memiliki class PersonSevice yang digunakan sebagai class bisnis logic, dimana pada class tersebut
+   kita akan coba menggunakan PersonRepository untuk mendapatkan data database, jika gagal, maka kita akan throw Exception
+*/

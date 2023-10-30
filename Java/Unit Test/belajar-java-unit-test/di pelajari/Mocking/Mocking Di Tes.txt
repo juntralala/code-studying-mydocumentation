@@ -1,0 +1,5 @@
+/**
+ * Mockito memiliki MockitoExtention yang bisa kita gunakan untuk integreasi dengan JUnit
+ * Hal ini memudahkan kita ketika ingin membuat mock object, kita cukup gunakan @Mock
+ * Agar terbayang bagaimana proses mock, kita akan mencoba kasus yang lumayan panjang
+*/

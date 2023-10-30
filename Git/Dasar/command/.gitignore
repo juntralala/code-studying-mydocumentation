@@ -1,0 +1,12 @@
+# masukan folder atau file agar di ignore
+
+# ignore folder
+log/
+folderBaru/
+
+# Ignore semua file dengan extension .backup
+*.backup
+
+# ignore file
+ignore.txt
+file_anu.txt

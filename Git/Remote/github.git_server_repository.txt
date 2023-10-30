@@ -1,0 +1,4 @@
+=> Tiap Git Server biasanya memiliki fitur untuk membuat Git repository
+=> Tidak wajib membuat Git Repository di local dulu jika ingin membuat Git Repository di Git Server
+=> Sekarang silahkan membuat Git Repository di Github dengan nama belajar-git-remote
+=> https://github.com/new

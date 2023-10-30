@@ -1,0 +1,2 @@
+=> Default clone akan berisikan remote repository origin key git remote repository yang telah kita clone
+=> Default branch akan berisikan branch utama di remote repository, dan tidak akan mengambil branch lainnya

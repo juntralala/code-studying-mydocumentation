@@ -1,0 +1,4 @@
+=> penggabungan branch bisa menggunakan :
+   - merge
+   - rebase
+   - squash

@@ -1,0 +1,4 @@
+=> Untuk mengirim perubahan branch ke remote repository dengan nama branch yang sama :
+   git push _namaRemote_ _localBranch_
+=> Untuk mengirim perubahan branch ke remote repository dengan nama branch yang beda :
+   git push _namaRemote_ _localBranch_:_remoteBranch_ 

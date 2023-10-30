@@ -1,0 +1,3 @@
+Secara default, maven mendukung pembuatan distribution file menggunakan lifestyle package
+Hanya saja, hasil distribution file nya berupa file jar yang berisikan binary code dari project kita
+Jadi dependency lainnya tidak dimasukan, sehingga tidak bisa langsung di jalankan

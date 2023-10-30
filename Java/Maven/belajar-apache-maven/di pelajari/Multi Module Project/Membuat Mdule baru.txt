@@ -1,0 +1,6 @@
+Untuk membuat module baru, di dalam project yang sudah ada, kita hanya tinggal membuat folder baru, lalu menambahkan
+  setting pom.xml di folder tersebut
+Module harus memili parent, dimana parantnya adalah project di atas folder tersebut
+Selanjutnya, di parent-nya pun, module harus di include
+
+jika project dibuat menjadi multi module, ada masalah, tidak bisa lagi menyimpan source code di parent mudule, jadi harus di child nya

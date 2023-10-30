@@ -1,0 +1,15 @@
+git submodule add _urlGitRepo_ _namaFolder_                                     <- _namaFolder_ => nama folder submodulenya mau
+                                                                                                   disimpan dengan nama apa
+
+git submodule update --remote                                                   <- update semua submodule
+
+git submodule update --remote _namaFolderSubmodul_                              <- update satu submodule     
+
+git submodule init                                                         <- mengaktifkan submodule <-submodule.clone_submodule.txt
+
+git submodule set-branch --branch _namaBranch_ _namaFolder_                 <- mengganti branch submodule
+                                                                               _namaBranch_ => nama branch yang ada di submodule
+                                                                               _namaFolder_ => nama folder yang menjadi submodule 
+                                                                               sebelum ganti branch jangan lupa module update dulu
+                                                                               
+                    

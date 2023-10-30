@@ -1,0 +1,4 @@
+=> Sekarang kita sudah tahu tentang arsitektur Three tree, Sekarang pertanyaannya, bagaimana alur kerja menggunakan Git
+=> Secara sederhana, setiap perubahan akan kita lakukan di working Directory
+=> Jika ada yang mau kita siapkan untuk disimpan secara permanen, kita akan bawa perubahan tersebut ke staging index/area
+=> Selanjutnya, kita bisa melakukan penyimpanan versi baru secara permanen ke repository

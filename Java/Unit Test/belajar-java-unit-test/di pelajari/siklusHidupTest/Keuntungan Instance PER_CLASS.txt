@@ -1,0 +1,4 @@
+/**
+ * Salah satu euntungan menggunakan Lifecycle.PER_CLASS adalah, kita bisa menggunakan @BerforeAll dan @AfterAll di method biasa,
+   tidak harus menggunakan function object/static
+*/

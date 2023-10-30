@@ -1,0 +1,2 @@
+=> Jika ingin membatalkan perubahan file yang telah kita lakukan, kita bisa menggunakan perintah :
+git restore nama_file

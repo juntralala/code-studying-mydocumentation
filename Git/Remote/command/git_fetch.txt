@@ -1,0 +1,3 @@
+git fetch _namaRemote_                                                       <- melihat perubahan semua branch di Remote Repository
+
+git fetch _namaRemote_ _remoteBranch_                                        <- melihat perubahan 1 branch di Remote Repository

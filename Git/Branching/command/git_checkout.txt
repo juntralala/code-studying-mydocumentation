@@ -1,0 +1,2 @@
+git checkout _namaBranch_               <- pindah branch
+git checkout _tagName__

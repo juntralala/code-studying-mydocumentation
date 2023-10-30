@@ -1,0 +1,4 @@
+-- ini lanjutan pembahasan stash.txt --
+=> Secara default, ketika melakukan perpindahan branch, Git aka secara pintar membawa perubahan yang terjadi di branch saat ini
+   ke branch tujuan pindah
+=> Namun jika ternyata terdapa conflict

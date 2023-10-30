@@ -1,0 +1,7 @@
+Apache Maven adalah salah satu bulid automation yang free dan open-source
+
+Apache Maven menggunakan XML untuk mendefinisikan build script nya
+
+saat ini apache maven sangat populer di kalangan devloper java
+
+Apache Maven menggunakan JVM sebagai fondasi dasar

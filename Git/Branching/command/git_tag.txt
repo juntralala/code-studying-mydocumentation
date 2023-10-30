@@ -1,0 +1,8 @@
+git tag _namaTag_ commitId                                       <- membuat tag
+
+git tag -l                                                       <- menampilkan semua tag yang ada di Repository
+git tag --list
+
+git tag -d _namaTag_                                             <- mengahapus tag
+git tag --delete _namaTag_ 
+$ git push --delete origin tagname                               <- menghapus tag secara remote

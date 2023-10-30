@@ -1,0 +1,11 @@
+=> Secara default, saat kita melakukan clone, tidak semua remote branch akan dibuat di local git project
+=> Jika ingin melihat semua daftar branch yang ada di remote repository, kita bisa gunakan perintah :
+   git branch -r
+=> Atau jika kita ingin melihat semua branch di local dan remote, kita bisa menggunakan perintah
+   git branch -a
+
+
+
+
+
+

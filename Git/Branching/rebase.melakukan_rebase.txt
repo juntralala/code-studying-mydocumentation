@@ -1,0 +1,14 @@
+=> Untuk me-rebase, kita harus berpindah terlebih dahulu ke branch yang ingin gabung (branch feature/rebase), kebalikan merge
+=> Untuk melakukan rebase, kita bisa lakukan perintah :
+   git rebase _namaBranch_
+=> Jika saat ini kita ada di branch feature/rebase, lalu menggunakan perintah :
+   git rebase master
+=> Artinya kita melakukan rebase semua commit di master ke branch feature/rebase 
+
+praktek :
+=> Pindah ke branch feature/rebase
+=> Lakukan rebase dengan branch master
+
+
+-- karna rebase sifatnya menulis ulang semua history commit pada branch yang melakukan rebase, maka semua tag padanya akan
+   hilang, maka harus hati-hati dalam menggunakan perintah rebase

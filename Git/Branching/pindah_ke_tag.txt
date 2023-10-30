@@ -1,0 +1,4 @@
+=> Seperti yang sudah dijelaskan di kelas Git dasar, kita bisa melihat snashot sebelumnya di Git
+=> Sekarang dengan menggunakan Tag, kita juga bisa melihat snapshot sebelumnya tanpa harus menggunakan commitId, cukup
+   menggunakan Tag :
+   git checkout _tag_

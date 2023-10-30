@@ -1,0 +1,5 @@
+=> Ada banyak seklai Git Server yang tersedia, kita bisa gunakan salah satunya
+=> Github : https:://github.com/
+=> Gitlab : https:://gitlab.com/
+=> Bitbucket : https:://bitbucket.org/
+=> dll

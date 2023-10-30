@@ -1,0 +1,4 @@
+git cherry-pick _commitId_                                                      <- mengambil satu commit saja dari branch lain
+                                                                                commitId = hash
+
+git cherry-pick --abort                                                         <- jika ada conflict, ini untuk batal cherry-pick

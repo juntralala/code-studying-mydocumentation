@@ -1,0 +1,5 @@
+=> Ketika kita melakukan perubahan, Git secara otomatis mendeteksi bahwa file tersebut berurbah
+=> Jika kita melihat perubahan yang terjadi, kita juga bisa menggunakan Git untuk melihat perubahan nya dengan perintah :
+git diff  
+
+-- q untuk keluar --

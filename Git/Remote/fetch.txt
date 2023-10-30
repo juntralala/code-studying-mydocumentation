@@ -1,0 +1,4 @@
+=> Fetch adalah perintah di Git yang bisa kita gunakan untuk mendapatkan perubahan terakhir dari Remote Repository 
+=> Hal ini berguna ketika misalnya kita ingin mengetahui perubahan apa saja yang sudah terjadi pada Remote Repository, mungkin
+   rekan kerja kita sudah menambahkan perubahan ke Remote Repository
+=> Fetch tidak akan mengubah isi local Git Project kita  

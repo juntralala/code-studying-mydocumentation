@@ -1,0 +1,4 @@
+=> Git Server adalah Server yang bisa digunakan untuk menyimpan repository git yang sudah kita buat local
+=> Ada banyak sekali Git Server yang tersedia, baik itu yang gratis atau berbayar 
+=> Kelebihan ketika kita menggunakan Git Server adalah, data repository aman tersimpan di Server, sehingga jika kita hapus git
+   repository nya yang di local, repository masih aman di server  

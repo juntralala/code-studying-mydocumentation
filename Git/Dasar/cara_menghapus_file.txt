@@ -1,0 +1,4 @@
+=> Untuk menghapus file di Repository, kiat cukup lakukan delete file nya di folder nya
+=> Secara otomatis Git akan mendeteksi file yang hilang
+=> Sama seperti menambah dan menghapus, jika ingin dimpan ke Repository, kita harus menambahkan operasi tersebut ke Staging Index
+   lalu commit ke Repository 

@@ -1,0 +1,5 @@
+=> Jika branch sudah tidak digunakan lagi, idealnya kita perlu menghapus branch tersebut
+=> Untuk menghapus branch, kita perlu keluar terlebih dahulu dari branch tersebut
+=> kemudian gunakan perintah :
+   git branch -d _namaBranch_
+   git branch --delete _namaBranch_

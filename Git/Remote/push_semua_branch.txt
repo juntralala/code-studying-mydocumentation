@@ -1,0 +1,2 @@
+=> Jika ingin mengirim semua perubahan di semua branch ke remote repository, kita bisa gunakan perintah :
+   git psuh origin --all

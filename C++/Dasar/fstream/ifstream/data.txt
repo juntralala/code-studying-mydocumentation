@@ -1,0 +1,10 @@
+ini adalah file external
+bermula ini yaitu baris kedua
+
+data
+1 Ujun
+2 udin
+3 cogan
+4 amang
+5 jack
+6 amat

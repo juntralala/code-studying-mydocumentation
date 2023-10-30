@@ -1,0 +1,5 @@
+Saat kita menambahkan dependency kedalam project Maven, kita harus menentukan scope dependency tersebut, ada banyak sekali
+dependency yang ada di Maven, namun sebenarnya hanya beberapa saja yang sering kita gunakan, di andaranya :
+- compile, ini adalah scope default, Compile artinya depedecy tersebut akan di gunakan di build project, test project
+  dan menjalankan project
+- test, ini adalah scope untuk test project, hanya akan di include di test project

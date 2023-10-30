@@ -1,0 +1,17 @@
+=> Dalam pembuatan aplikasi, biasanya setiap programer akan melakukan penambahan kode program secara parallel
+=> Biasanya para programer akan membuat branch masing-masing
+=> Dan tidak bisa dihindari, kadang programer akan melakukan perubahan kode file yang sama di branch yang berbeda
+=> Dan biasanya ketika melakukan merge, akan terjadi yang namanya conflict 
+=> Hal ini disebabkan, satu file diubah di branch yang berbeda, sehingga ketika di merge, kita harus melakukan yang namanya Merge
+   Conflict  
+
+<-> praktek <->
+=> Buat 2 branch dari branch utama
+=> Branch feature/a mengubah file1 dan file2
+=> Branch feature/b mengubah file1 dan file3
+=> Merge branch feature/a ke branch utama
+=> Merge branch feature/b ke branch utama, hal ini akan memicu conflict
+
+<!--- proses merge yang mengalami conflict tidak akan mengubah Repository  ---!>
+<!--- tapi, ia akan mengubah Staging Index dan Working Directory untuk file yang tidak conflict nya ---!>
+<!--- dan, ia akan mengubah Working Directory untuk file yang conflict nya ---!>

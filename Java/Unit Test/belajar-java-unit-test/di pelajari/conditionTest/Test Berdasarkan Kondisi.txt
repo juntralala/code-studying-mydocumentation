@@ -1,0 +1,6 @@
+/**
+ * Sebenarnya kita bisa menggnakan Assumsions untuk menjalankan unit test berdasarkan kondisi tertentu
+ * Namun JUnit menyediakan fitur yang lebih mudah untuk pengecekan beberapa kondisi, seperti kondisi sitem operasi,
+   versi java, system property, atau envyronment variable
+ * Ini lebih mudah dibandingkan menggnakan Assumsions
+*/

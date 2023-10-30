@@ -1,0 +1,8 @@
+/**
+ * JUnit adalah test framework yang paling populer di java
+ * saat video tutor UnitTest dibuat versi terbaru JUnit adalah 5
+ * JUnit 5 membutuhkan java minimal veri 8
+ * jnit.org
+*/
+
+framework yang populer selain JUnit adalah TestEngine

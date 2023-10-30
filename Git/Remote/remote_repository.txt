@@ -1,0 +1,2 @@
+=> Ketika membuat Git Project, secara default, Git tdak tahu tentang Remote Repository
+=> Kita perlu memberitahu ke Git Project yang sudah kita buat tentang lokasi Git Repository

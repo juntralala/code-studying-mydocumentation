@@ -1,0 +1,14 @@
+maven berkerja dalam konsep lifecyle
+
+untuk menjalankan lifecyle, kita bisa menggunakan perintah : mvn namalifcyle
+
+lifecyle akan menjalankan banyak plugin, entah bawaan maven, atau bisa kita tambahkan plugin lain jika mau
+
+/* CONTOH LIFCYCLE */
+clean : membersihkan folder target (tempat menyimpan hasil kompilasi)
+compile : untuk melakukan kompilasi source code project
+test-compile : untuk melakukan kompilasi source code test
+test : untuk menjalankan unit test
+package : untuk melakukan distribution file aplikasi
+install : untuk mengintall project ke local repository, sehingga bisa digunakan di project lain di local
+deploy : deploy project ke remote repository di server

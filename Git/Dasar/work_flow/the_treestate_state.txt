@@ -1,0 +1,5 @@
+=> Harap diperhatikan, ini adalah hal utama yang wajib dimengerti di Git agar selanjutnya bisa mengerti dengan baik
+=> Git memiliki tiga state terhadap file kita : modified, staged dan committed 
+=> Modified artinya kita mengubah (megedit, mengubah, menghapus) namun belum disimpan secara permanen di repository
+=> Staged artinya kita menandai modifikasi yang kita lakukan dalam sebuah file akan disimpan secara permanen kedalam repository
+=> Committed artinya data sudah aman disimpan di repository

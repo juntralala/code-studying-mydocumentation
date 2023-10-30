@@ -1,0 +1,9 @@
+=> Git memiliki fitur untuk membandingkan satu commit dengan commit lainnya
+=> Namun jangan samapai salah pengertian, membandingkan disini adalah membandingkan snapshot hasil commit, bukan prubahan yang 
+   terjadi antar commit
+=> Contohnya pada commit sebelumnya kita pernah menambahkan file3.txt, namun jika kita membandingkan antara commit pertama dan
+   terakhir (HEAD), hasilnya adalah perbandingan antara file1 dan file2, tidak ada perbandingan file3
+=> Hal ini dikarenakan commit bukanlah perbandingan perubahan yang pernah terjadi, melainkan perbandingan hasil commit
+=> untuk membandingkan commit kita bsia menggunakn perintah : 
+git diff _hash1_ _hash2_ 
+   

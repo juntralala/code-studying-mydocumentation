@@ -1,0 +1,10 @@
+git remote add _namaRemote_ _ssh-url_
+
+git ramote                                                                       <- melihat semua remote          <- yang tersimpan di project .git
+
+git remote get-url _namaRemote_                                                  <- melihat URL detail remote repository
+
+git remote rm _namaRemote_                                                       <- menghapus remote
+
+
+

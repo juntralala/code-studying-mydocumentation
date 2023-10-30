@@ -1,0 +1,134 @@
+*,html,body {
+    padding : 0 ;
+    margin : 0 ;
+    box-sizing: border-box;
+}
+
+/* .container {} */
+
+.container-navbar {
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    background-color : deepskyblue ;
+    height : 10vh;
+    width : 100%;
+    position : fixed ;
+}
+
+.ul-navbar {
+    display: flex ;
+    flex-wrap: wrap;
+    position : relative;
+    bottom : -8 ;
+}
+
+.li-ul-navbar {
+    list-style : none ;
+}
+
+.a-li-ul-navbar {
+    background-color:red;
+    border : 4px solid;
+    border-radius : 10px ;
+    border-color: red;
+    cursor : pointer ;
+    margin : 4px ;
+    padding : 4px ;
+    font-size : 30px;
+    font-weight: 700;
+    color : white ;
+    text-decoration : none ;
+}
+
+.a-li-ul-navbar:hover {
+    background-color : white ;
+    color :black ;
+    transition: ease-in-out .5s;
+    transition-delay : .2s
+}
+
+.container-content {
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+    background-color : aliceblue ;
+    height: 100vh;
+}
+
+.ruang {
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    flex-wrap: wrap;
+    position: relative;
+    border : 4px solid ;
+    border-radius : 10px ;
+    border-color: aliceblue;
+    background-color : #444 ;
+    width: 25vw ;
+    height : 80vh ;
+    padding-bottom : 140px;
+}
+
+.lampu {
+    margin : 20px  ;
+}
+
+.papan-saklar {
+    display : flex ;
+    justify-content : space-evenly ;
+    align-items : center ;
+    background-color:lightskyblue   ;
+    border-end-start-radius: 7px;
+    border-end-end-radius: 7px;
+    width : calc(25vw - 8px);
+    height : 26% ;
+    position: absolute;
+    bottom : 0 ;
+    padding-top : 40px;
+}
+
+.btn {
+    background-color: red;
+    color : white ;
+    border: 3px solid;
+    border-color: red;
+    font-size: 15px ;
+    border-radius : 8px;
+    padding : 7px;
+    font-weight:600;
+}
+
+.btn:hover {
+    background-color : white ;
+    color : black ;
+    transition : ease-in-out ;
+    transition-duration: .5s ;
+    transition-delay: .2s ;
+}
+
+.btn-semua-lampu {
+    position : absolute ;
+    top : 10px ;
+}
+
+/* .btn-lampu {
+    margin-top : 40px ; 
+} */
+
+.container-footer {
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    background-color: deepskyblue;
+    height : 10vh ;
+    width : 100% ;
+    position : fixed;
+    bottom : 0 ;
+}
+
+.h1-footer {
+    
+    color : white;
+}

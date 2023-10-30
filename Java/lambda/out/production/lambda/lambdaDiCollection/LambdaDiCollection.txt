@@ -1,0 +1,5 @@
+/** Lambda Di Collection
+ * saat fitur lamda keluar di java 8, ada banyak sekali default method yang di tambahan ke java Collection
+ * beberapa ada default method yang banyak memanfaatkan fitur lambda
+ * di materi ini kita akan membahas beberapa method yang memanfaatkan itur lambda
+ */

@@ -1,0 +1,9 @@
+git add file.txt
+
+git add file1.txt file2.txt
+
+git add .     <- untuk menambahkan semua file yang berubah 
+
+<-- mengubah nama file dengan dua perintah -->
+git add file.txt
+git add file_newname.txt

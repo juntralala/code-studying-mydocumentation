@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a onclick="rerender()" id="home">HOME</a>
+            <a onclick="darkMode()" id="mode">MODE-DARK</a>
+            <a onclick="jandaMode()" id="modeJanda">MODE-JANDA</a>
+        </nav>
+        <div>
+            <h1>CUY UNIVERSITY SESI 6</h1>
+            <p class="info" id="info"></p>
+        </div>
+    </div>
+    <script>
+        let body = document.body ;
+        let info = document.getElementById("info");
+        let mode = document.getElementById("mode");
+        let home = document.getElementById("home");
+        let modeJanda = document.getElementById("modeJanda");
+
+        const limitDark = 5 ;
+        let counterDark = 0 ;
+        let darkRemeaningLeft= limitDark ;
+        function darkMode()  {
+            
+            if (darkRemeaningLeft==0) {
+                info.textContent = `JATAH FITUR DARKMODE ANDA TELAH HABIS`;
+                mode.style.display = "none" ;
+                home.textContent = "RESTART" ;
+                return;
+            };
+            
+            darkRemeaningLeft = limitDark-counterDark;
+            body.classList.toggle("dark");
+            if (body.classList.value=='dark') {
+                counterDark += 1 ;
+                mode.textContent = "MODE-LIGHT"
+            } else {
+                mode.textContent = "MODE-DARK"
+            }
+
+            console.log(info);
+
+            info.textContent = `Dark mode di pakai ${counterDark}x, tersisa ${darkRemeaningLeft}x`;
+        }
+
+        function jandaMode() {
+            body.classList.toggle("purple");
+        }
+
+        function rerender() {
+            location.reload(2);
+        }
+    </script>
+</body>
+</html>

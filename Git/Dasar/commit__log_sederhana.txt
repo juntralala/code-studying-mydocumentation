@@ -1,0 +1,4 @@
+-- log sederhana --
+=> Kadanag kita hanya ingin melihat commit log message nya saja atau istilahnya adalah versi sederhana nya saja
+=> Untuk melakukan itu kita bisa menggunakan perintah :
+git log --oneline

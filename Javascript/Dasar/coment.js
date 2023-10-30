@@ -1,0 +1,6 @@
+// singgle line
+
+/*
+multiline
+coment
+*/

@@ -1,0 +1,21 @@
+=> Tag merpakan fitur, dimana kita bisa menandai sebuat commit id
+=> Sebelunya kita sudah tahu dengan HEAD, yaitu reference ke commit terakhir di branch kita saat ini
+=> Jika kita ingin membuat sebuah reference ke sebuah commit, kita bisa menggunakan Tag
+=> Dalam pengembangan software, biasanya Tag digunakan sebagai penanda versi rilis dari aplikasi, misal Tag 1.0.0, Tag 2.0.0
+   dll
+=> Karena Tag merupakan sebuah reference ke commit, jadi Tag bisa dilakukan di branch manapun
+
+
+Membuat Tag : 
+=> Tag adalah sesuatu yang unik, artinya jika kita sudah membuat tag dengan nama A, maka kita tidak bisa membuat tag dengan nama
+   yang sama lagi
+=> Untuk membuat Tag kita gunakan perintah :
+   git tag _tagName_ commitId
+
+
+Praktek :
+=> Buat file version.txt, lalu isi dengan informasi versi aplikasi
+=> lakukan lah :
+   - Ubah file dengan isi 1.0.0, lalu commit dan buat tag untuk commit tersebut 
+   - Ubah file dengan isi 1.0.1, lalu commit dan buat tag untuk commit tersebut 
+   - Ubah file dengan isi 1.0.2, lalu commit dan buat tag untuk commit tersebut 

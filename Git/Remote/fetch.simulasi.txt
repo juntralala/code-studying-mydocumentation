@@ -1,0 +1,3 @@
+=> Lakukan commit dan push di user pertama
+=> Lakukan fetch di user kedua
+=> Di user kedua lakukan git diff dari branch local dan branch remote

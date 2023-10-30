@@ -1,0 +1,8 @@
+=> Sebelumnya kita sudah belajar semua fitur yang terdapat di Git
+=> Namun semua fitur yang kita bahas, masih kita lakukan di local komputer kita masing-masing
+=> Saat nanti berkerja dengan tim atau berkolaborasi, kita tidak hanya menyimpan git repository pada satu komputer saja
+=> Tiap anggota tim, kemungkinan akan mengcopy git repository yang kita buat, dan juga melakukan kontribusi ke git repository nya
+=> Git mendukung centralized server, dimana kita bisa menyimpan perubahan git repository yang di komputer ke Git server
+=> Karena Git merupakan distributed version control, walaupun kita gunakan Git Server, tapi kita tidak wajib terkoneksi ketika
+   ingin mengelola git repository
+=> Hanya ketika ingin mengirim perubahan atau mengambil perubahan, baru kita butuh terkoneksi ke Git Server

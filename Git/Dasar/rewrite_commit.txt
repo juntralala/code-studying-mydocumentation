@@ -1,0 +1,12 @@
+-- lanjutan git_mode.txt dan reset_commit.txt --
+
+=> Jika kita melakukan reset, namun kita belum melakukan cmmit baru 
+=> kita masih bisa kembali lagi, maju ke commit yang paling baru/akhir
+=> Namun jika kita telah membuat commit baru, secara otomatis commit lama akan ditimpa oleh commit baru
+
+-- cara kembalinya
+git reset --soft _hash_terakhir_
+git reset --mixed _hash_terakhir_
+git reset --hard _hash_terakhir_
+
+-- karna itu kita harus mencatat riwayat hash nya atau mencopynya sebelum melakukan reset

@@ -1,0 +1,3 @@
+=> Saat terjad conflict, tidak ada cara otomatis memperbaikinya
+=> Jadi, kita harus memperbiki conflict secara manual
+=> Dan jika perbaikan conflict telah dilakukan, kita perlu melakukan commit perubahan tersebut

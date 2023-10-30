@@ -1,0 +1,7 @@
+/**
+ * Kadang ada masanya kita ingin menonaktifkan unit test, misal karena terjadi error di unit test tersebut, dan belum
+   belum bisa di perbaiki
+ * Sebenarnya cara paling mudah menonaktifkan Unit Test adalah dengan menghapus anotation @Test, namun jika kita
+   melakukan itu, kita tidak bisa mendeteksi kalau ada Unit Test yang di nonaktifkan
+ * untuk menonaktifkan Unit Test dengan benar, kita bisa mneggunakan anotation @Disabled
+*/

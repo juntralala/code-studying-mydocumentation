@@ -1,0 +1,7 @@
+/**
+ * Class atau function di unit test bisa ditambahkan tag (tanda) dengan menggunakan annotation @Tag
+ * Dengan menambahkan tag kedalam unit test, kita bisa fleksible ketika menjalankan unit test, bisa memilih tag mana
+   yang mau di-include atau di-exclude
+ * Jika ditambahkan tag di class unit test, maka otomatis setiap function unit test didalamnya akan memiliki tag tersebut
+ * Jika kita ingin menambahkan lebih dari satu tag kedalam satu class atau function unit test, kita menggunakan @Tags
+*/

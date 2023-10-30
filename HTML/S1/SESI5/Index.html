@@ -1,0 +1,94 @@
+<html>
+    <Head>
+        <link rel="shortcut icon" href="R.png"/>
+        <title>Sesi 5</title>
+    </Head>
+    <!-- DISINI KITA MELAKUKAN STYLING -->
+    <style>
+        *,html { margin : 0;padding : 0 }
+        #root {
+            background-color : tomato ;
+            color : white;
+            font-size : 2em ;
+            text-align: center;
+            height: 100vh ;
+        }
+    </style>
+    <body>
+        <!-- CONTAINER -->
+        <div id="root">
+            <input type="text"     placeholder="username" id="usernameInput" />
+            <input type="password" placeholder="password" id="passwordInput" />
+            <button onclick="onLogin ()" id="buttonLogIn">Log In</button>
+            <button onclick="onLogout ()" id="buttonLogOut">Log Out</button>
+            <br>
+            <h1 id="berhasil">Berhasil Log In</h1>
+            <h1 id="gagal">Gagal Log In</h1>
+        </div> 
+
+        <!-- INI SCRIPT KITA -->
+
+        <script type="application/javascript">
+
+            let usernameInput = document.getElementById("usernameInput")
+            let passwordInput = document.getElementById("passwordInput")
+            let berhasil = document.getElementById("berhasil")
+            let gagal = document.getElementById("gagal")
+            let buttonLogIn = document.getElementById("buttonLogIn")
+            let buttonLogOut = document.getElementById("buttonLogOut")
+
+            berhasil.style.display = "none" ;
+            gagal.style.display = "none" ;
+            buttonLogOut.style.display = "none" ;
+
+            function onLogin () {
+                console.log('User Melakukan Log in');
+                console.log("username : ",usernameInput.value);
+                console.log("password : ",passwordInput.value);
+
+                buttonLogOut.style.display = "block" ;
+
+                localStorage.setItem("username",usernameInput.value);
+                localStorage.setItem("password",passwordInput.value);
+
+                if (usernameInput.value == "UJUN" && passwordInput.value == "UJUN123") {
+                    localStorage.setItem("role","berhasil");
+                    usernameInput.style.display = "none" ;
+                    passwordInput.style.display = "none" ;
+                    buttonLogIn.style.display = "none" ;
+                    berhasil.style.display = "block" ;
+                    gagal.style.display    = "none" ;
+                } else {
+                    localStorage.setItem("role","gagal");
+                    usernameInput.style.display = "none" ;
+                    passwordInput.style.display = "none" ;
+                    buttonLogIn.style.display = "none" ;
+                    berhasil.style.display = "none" ;
+                    gagal.style.display    = "block" ;
+                    
+                }
+            }
+            if (localStorage.getItem("username")) {
+                usernameInput.style.display = "none" ;
+                passwordInput.style.display = "none" ;
+                buttonLogIn.style.display = "none" ;
+
+                buttonLogOut.style.display = "block" ;
+
+                if (localStorage.getItem("role")== "berhasil") {
+                    berhasil.style.display = "block" ;
+                    gagal.style.display    = "none" ;
+                } else {
+                    berhasil.style.display = "none" ;
+                    gagal.style.display    = "block" ;
+                    
+                }
+            }
+
+            function onLogout () {
+                localStorage.clear () ;
+                location.reload () ;
+            }
+        </script>      
+    </body>
+</html>

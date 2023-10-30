@@ -1,0 +1,6 @@
+/**
+* sebelumnya kita sudah tau bahwa operator perbandingan Object menggunakan method equals
+* bagaimana dengan operator perbandingan lainnya? seperti kurang dari atau lebih dari
+* opertor perbandingan tersebut, bisa kita lakukan jika object kita mewarisi interface generic Comparable
+* ini banyak sekali digunakan, seperti untuk proses pengurutan data misalnya
+*/

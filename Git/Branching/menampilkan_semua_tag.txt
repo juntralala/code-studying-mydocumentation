@@ -1,0 +1,10 @@
+=> Untuk menampilkan semua Tag yang ada di Repository, kita bisa menggunakan perintah :
+   git tag -l
+   git tag --list
+
+
+
+
+3464c7d (HEAD -> master) Release version 1.0.2
+82ad2b7 Release version 1.0.1
+3dd04cb Release version 1.0.0

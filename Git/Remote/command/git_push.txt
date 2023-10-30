@@ -1,0 +1,11 @@
+
+git push _namaRemote_ _localBranch_                                                  <- menambah semua perubahan ke Remote Repository
+git push _namaRemote_ _localBranch_:_remoteBranch_                                      detailnya ada di push_branc.txt
+
+
+git push _namaRemote_ --all                                                          <- menambah semua branch ke Remote Repository 
+
+git push --delete _namaRemote_ _remoteBranch_                                        <- menghapus remote branch
+
+git push _namaRemote_ _tag_                                                          <- mengirim tag ke Remote Repository
+git push _namaRemote_ --tags                                                         <- mengirim semua tag ke Remote Repository

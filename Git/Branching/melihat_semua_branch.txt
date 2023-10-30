@@ -1,0 +1,4 @@
+=> Untuk melihat semua branch yang ada di Repository kita, kita bisa gunakan perintah :
+   git branch --list
+=> atau lebih singkat :
+   git branch 

@@ -1,0 +1,5 @@
+=> Pada kelas ini, kita akan menggunakan Git Server yang paling populer dan banyak digunakan, yaitu Github
+=> Github memiliki versi gratis dan berbayar
+=> banyak sekali project OpenSource yang menggunakan Github untuk menyimpan git repository nya
+=> Silahkan membuat akun terlebih dahulu di Github
+=> https://github.com/ 

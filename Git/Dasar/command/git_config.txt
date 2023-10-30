@@ -1,0 +1,14 @@
+git config --global user.name  "UJUN-2004"
+git config --global user.email  "abdwahidbjm17@gmail.com"
+git config --global core.editor "code --wait"
+git config --global diff.tool "default-difftool"
+git config --global difftool.default-difftoll.cmd "code --wait --diff \$LOCAL \$REMOTE"
+
+git config --list 
+git config --list --show-origin
+
+
+<=> Menambah Alias <=>
+git config --global alias.co commit
+git config --global alias.logone "log --oneline"                   <-- kalau lebih dari satu kata harus pakai tanda petik
+git config --global --unset alias.NamaAlias

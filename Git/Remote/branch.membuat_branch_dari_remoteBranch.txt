@@ -1,0 +1,7 @@
+Membuat/Mengambil branch dari Remote Repository :
+=> Karena secara default hanya branch utama yang dibuat di local git project ketika di clone, kadang kita ingin membuat 
+   local branch yang berisikan data dari remote branch
+=> Untuk melakukan hal itu, kita bisa gunakan perintah :
+   git checkout -b _localbranch_ _remoteBranch_
+
+   _localbranch_ -> remote branch akan disimpan ke local dengan nama apa

@@ -1,0 +1,9 @@
+=> Git memiliki fitur yang bernama alias 
+=> Dengan alias, kita bisa menambahkan perintah lain untuk perintah yang sudah ada di Git
+=> Misal kita menambahkan perintah co atau komit untuk nama lain commit misalnya
+=> Atau misal menambah alias logone untuk nama lain dari log --oneline
+
+<=> Menambah Alias <=>
+git config --global alias.co commit
+git config --global alias.komit commit
+git config --global alias.logone "log --oneline"                   <-- kalau lebih dari satu kata harus pakai tanda petik

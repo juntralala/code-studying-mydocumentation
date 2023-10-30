@@ -1,0 +1,3 @@
+cara membatalkan penambahan file.txt
+
+git clean -f

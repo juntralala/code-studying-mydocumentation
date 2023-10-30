@@ -1,0 +1,6 @@
+/** Sesudah dan Sebelum semua Unit Test
+ * @BeforeEach & @AfterEach akan dieksekusi setiap kali function @Test jalan
+ * Namun kadang kita ingin melakukan sesuatu hanya satu kali sebelum semua unit test ,atau sesudah semua unit test berjalan
+ * Ini bisa dilakukan menggunakan annotation @BeforeAll dan @AfterAll
+ * Namun, hanya static function yang bisa digunakan sebagai @BeforeAll dan @AfterAll
+*/

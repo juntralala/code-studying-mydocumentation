@@ -1,0 +1,2 @@
+\ untuk menjenerate SSH key
+ssh-keygen

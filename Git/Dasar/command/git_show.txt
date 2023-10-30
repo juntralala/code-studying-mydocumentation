@@ -1,0 +1,4 @@
+-- melihat perubahan pada suatu commit --
+
+git show                 <- default HEAD pointer
+git show _hashnya_

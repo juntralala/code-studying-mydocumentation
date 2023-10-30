@@ -1,0 +1,8 @@
+=> Saat kita sudah mempelajari Git Branching, kadang kita ingin melihat apa hubungan suatu commit log dengan commit log sebelumnya
+=> Hal ini bisa kita lakukan menggunakna perintah :
+git log --oneline --graph
+
+
+
+
+-- kalau projectnya belum menggunakan branch, tampilannya sederhana saja

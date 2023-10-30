@@ -1,0 +1,9 @@
+=> Untuk melakukan clone, kita bisa gunakan perintah :
+   git clone _urlRemoteRepository_
+=> Secara default, clone akan membuat project dengan nama folder sama dengan nama project Remote Repository
+=> Jika kita ingin melakukan clone, dengan nama folder yang berbeda dengan nama project Remote Repository, gunakan perintah :
+   git clone _urlRemoteRepository_ _namaFolder_
+
+Simulasi : 
+=> Simulasikan terdapat 2 pengguna
+=> Clone project Git di remote di folder yang berbeda

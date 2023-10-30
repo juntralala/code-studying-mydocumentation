@@ -1,0 +1,2 @@
+=> Selanjutnya untuk memastikan apakah kita sudah bisa terkoneksi ke Github menggunakan SSH, kita bisa gunakan perintah :
+ssh -T git@github.com

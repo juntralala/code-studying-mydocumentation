@@ -1,0 +1,5 @@
+/**
+ * Kadang dalam membuat Unit Test, kita tidak hanya ingin mengetes kasus apakah sukses atau gagal
+ * Ada kalanya kita ingin mengetes sebuah exception misalnya
+ * Assertions juga bisa digunakn unuk mengecek apakah sebuah exception terjadi
+*/

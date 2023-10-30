@@ -1,0 +1,18 @@
+/**
+ * Sebelumnya kita sudah tau jika ingin menambahkan paramter di function unit test, maka kita perlu membuat ParamterResolver
+ * Namun jika terlalu bnyak membuat ParamterResolver juga agak menyulitkan kita
+ * JUnit memiliki fitur bernama @ParameterizedTest, dimana jenis unit test ini memang khusus dibuat agar dapat menerima paramter
+ * Yang perlu kita lakukan adalah mengganti @Test menjadi @ParameterizedTest
+*/
+
+/** @ParamterizedTest mendukung beberapa sumber tipedata paramter, yaitu
+ * @ValueSource,  untuk sumber Number, Char, Boolean, dan String
+ * @EnumSource,   untuk sumber berupa Enum
+ * @MethodSource, untuk sumber dari static method
+ * @CsvSource,    untuk sumber berupa data CSV
+ * @CsvFileSource,  untuk sumber berupa file CSV
+ * @ArgumentSource,  untuk sumber dari class ArgumentProvider
+ * @EmptySource
+ * @NullSource
+ * @NullAndEmptySource
+*/

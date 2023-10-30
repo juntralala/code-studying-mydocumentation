@@ -1,0 +1,6 @@
+/**
+ * Unit Test akan fokus menguji bagian kode program terkecil, biasanya menguji sebuah method
+ * Unit Test biasanya dibuat kecil dan cepat, oleh karena itu biasanya kadang kode unit test lebih banyak dari kode aslinya,
+   karrena semua skenario pengujian akan dicoba di unit test
+ * Unit test bisa digunakan sebagai cara untuk meningkat kan kualitas kode program kita
+*/

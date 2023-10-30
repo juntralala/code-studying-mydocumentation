@@ -1,0 +1,3 @@
+=> Semua perubahan nanti dilakukan Git Repository profile kita
+=> Dan setelah selesai, kita bisa melakukan pull request ke Repository sumber Forking kita
+=> Seperti ini lah cara kerja ketika berkontribusi ke project opensource

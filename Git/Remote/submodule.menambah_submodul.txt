@@ -1,0 +1,9 @@
+=> Untuk menambah dubmodule ke dalam git repository, kita bisa gunakan perintah :
+   git submodule _urlGitRepository_ _namaFolder_
+=> Saat kita menambahkan submodule, secara otomatis semua git repository submodule tersebut akan di clone ke dalam folder
+   yang kita tentukan
+=> Bagaimana Git medeteksi folder bahwa itu adalah submodule?
+=>  Git akan mendeteksinya dari file .submodules
+
+Simulasi :
+=> buat folder baru, lalu buat/init project git baru disana

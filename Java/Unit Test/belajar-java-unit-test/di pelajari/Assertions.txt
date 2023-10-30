@@ -1,0 +1,7 @@
+/** Assertions
+ * Saat membuat test, kita harus memastikan bahwa test tersebut sesuai dengan expektasi kita inginkan
+ * jika manual, kita menggunakan exception if else, namun ini tidak di rekomendasikan
+ * JUnit meniliki fitur untuk melakukan Assertions, yait memastikan bahwa unit test sesuai dengan kondisi yang kita iginkan
+ * Assertions pada JUnit di representasikan dalam class Assertions, dan di dalamnya terdapat banyak sekali function static
+ junit.org/junit5/docs/current/api/org/junit.jupiter.api/junit/jupiter/api/assertions.html
+*/

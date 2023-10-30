@@ -1,0 +1,8 @@
+git checkout _hash_ -- _namafile_
+git checkout _hash_                                                                <- lihat snapshot sebelumnya
+
+
+
+command dari Branching :
+git checkout _branch_
+git checkout _tag_

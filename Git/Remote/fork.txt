@@ -1,0 +1,4 @@
+=> Salah satu git workflow yang sebelumnya kita jelaskan di kelas Git Branching adalah Forking Flow
+=> Forking Workflow biasanya digunakan ketika kita ingin kontribusi ke project opensource, dimana kita tidak punya akses langsung
+   ke Git Repository nya, sehingga kita melakukan Forking (duplikasi) Git Repository ke tempat kita
+=> Pada kasus menggunakan github, misal kita melakukan Forking dari ProgramerZamanNow ke github profile kita     

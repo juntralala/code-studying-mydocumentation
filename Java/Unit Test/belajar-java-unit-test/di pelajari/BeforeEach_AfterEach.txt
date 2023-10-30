@@ -1,0 +1,8 @@
+/** Sebelum dan sesudah Unit Test
+ * Kadang kita ingin menjalankan kode yang sama sebelum dan sesudah eksekusi unit test
+ * Hal ini sebenarnya bisa dilakukan secara manual di Function @Test nya, namun hal ini akan membuat kode duplilkat banyak sekalai
+ * JUnit memiliki anotation @BeforeEach dan @AfterEach
+ * @BeforeEach digunakan untuk menandai function yang akan di eksekusi sebelum unit test di jalankan
+ * @AfterEach digunakan untuk menandai function yang akan di eksekusi setelah unit test di jalankan
+ * INGAT, bahwa ini akan selalu dieksekusi setiap kali ada function @Test, bukan sekali untuk class test saja
+*/

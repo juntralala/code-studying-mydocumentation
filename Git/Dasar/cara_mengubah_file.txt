@@ -1,0 +1,4 @@
+=> Untuk melakukan perubahan file, kita cukup lakukan perubahan file terhadap file yang sudah ada di Repository
+=> Secara otomatis git bisa mendeteksi perubahan 
+=> Sama seperti menambah file, jika perubahan ingin kita simpan permanen ke Repository, maka kita bisa pindahkan ke staging index
+   lalu commit ke Repository 

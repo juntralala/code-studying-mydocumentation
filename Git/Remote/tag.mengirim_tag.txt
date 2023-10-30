@@ -1,0 +1,4 @@
+=> Untuk mengirimkan Tag ke Remote Repository, kita bisa gunakan perintah :
+   git push _namaRemote_ _tag_
+=> Atau jika ingin mengirmkan semua Tag ke Remote Repository, kita bisa gunakan perintah :
+   git push _namaRemote_ --tags 

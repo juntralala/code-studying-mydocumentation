@@ -1,0 +1,5 @@
+=> Perintah git restore hanya bisa digunakan untuk membatalkan perubahan yang terjadi di Working Directory
+=> Artinya jika perubahan terlanjur dimasukkan ke Staging Index, Maka untuk membatalkannya tidak bisa kita lakukan secara
+   langsung dari Staging Index
+=> Kita perlu mengembalikan psisi Staging Index ke Working Directory terlebih dahulu, caranya kita bisa menggunakan perintah :
+git restore --staged nama_file

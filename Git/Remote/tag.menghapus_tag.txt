@@ -1,0 +1,3 @@
+=> Saat kita menghapus Tag di local Repository, data Tag tersebut tetap ada di Remote Repository
+=> Jika kita ingin menghapus Tag di Remote Repository, kita bisa gunakan perintah :
+   git push --delete _namaRemote_ _tag_ 

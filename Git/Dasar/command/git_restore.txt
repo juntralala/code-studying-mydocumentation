@@ -1,0 +1,9 @@
+-- cara membatalkan perubahan file --
+
+git restore file1.txt 
+git restore file1.txt file2.txt
+
+-- membatalkan Staging Index --
+
+git restore --staged nama_file 
+

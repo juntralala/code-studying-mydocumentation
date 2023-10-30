@@ -1,0 +1,4 @@
+=> Untuk membuat branch baru, caranya sangat mudah, kita gunakan perintah :
+   git branch _namaBranchBaru_
+=> Saat kita buat branch baru, secara otomatis branch baru akan dimulai dari posisi branch saat ini. Misalnua, jika kita membuat
+   branch baru ketika posisi kita sedang di branch master, maka branch baru tersebut akan dibuat di branch master 

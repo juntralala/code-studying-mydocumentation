@@ -1,0 +1,8 @@
+Generic adalah kemampuan menambahkan parameter type saat membuat lass atau method
+berbeda dengan tipe data yang biasa kita gunakan di class pada function, generic memungkinkan kita bisa mengubah-ubah
+bentuk tipe data sesuai dengan yang kita mau
+
+// MANFAAT GENERIC
+pengecekan ketika kompilasi
+tidak perlu manual menggunakan pengecekan tipe data dan konversi tipe data
+memudahkan programmer membuat kode program yang generic sehingga bisa digunakanoleh berbaaitipe data

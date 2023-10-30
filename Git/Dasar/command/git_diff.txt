@@ -1,0 +1,9 @@
+<-- melihat semua perubahan pada Working Directory -->
+
+git diff
+
+-- q untuk keluar --
+
+<-- compare commit -->
+
+git diff _hash1_ _hash2_

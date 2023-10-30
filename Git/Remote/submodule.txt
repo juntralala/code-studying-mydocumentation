@@ -1,0 +1,6 @@
+=> Saat kita membuat project aplikasi, kadang kita ingin membaut liblary yang berisi kode program yang ingin kita gunakan Pada
+   beberapa aplikasi
+=> Pada kasus seperti ini fitur Git Submodule sangat bermanfaat 
+=> Git Submodule memungkinkan kita menambah git repository ke git repository yang lain, atau dinamakan Submodule
+=> Dengan menggunakan Submodule, kita bisa melakukan management git repository terpisah, besertaan kita bisa mengakses git
+   repository lain  

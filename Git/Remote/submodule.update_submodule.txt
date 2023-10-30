@@ -1,0 +1,5 @@
+=> Jika terjadi perubahan di repository submodule, kita bisa mendapatkan update perubahanya dengan menggunakan perintah :
+   git submodule update --remote _namaFolder_
+=> Atau jika ingin semua submodule di update, kita bisa gunakan perintah :
+   git submodule update --remote
+=> Atau jika ingin melakukan update manual, kita bisa masuk ke folder submodule, lalu melakukan pull ke git remote submodule dulu

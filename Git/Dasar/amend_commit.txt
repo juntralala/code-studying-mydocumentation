@@ -1,0 +1,14 @@
+=> Kadang saat sudah melakukan commit, mungkin ada beberapa hal yang terlupakan 
+=> Biasanya, kita akan lakukan reset soft ke commit sebelumnya, lalu tambahkan perubahan yang terlupakan, lalu kita lalkukan
+   commit ulang
+=> Sebenarnya, hal terebut bisa dilakukan tanpa secara manual melakukan reset. Caranya bisa menggunakan perintah :
+   git commmit --amend  
+=> Perlu diingat, ammend akan merubah hash commit karena data perubahan yang di-commit bertambah
+
+
+Praktek :
+ * Tambahkan file3.txt 
+ * Commit file3.txt ke Repository
+ * Ubah isi file3.txt
+ * Commit dengan ammend ke Repository :
+ git commit --amend 

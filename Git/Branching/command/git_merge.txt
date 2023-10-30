@@ -1,0 +1,5 @@
+git merge _namaBranch_                                                              <- menggabungkan branch
+
+git merge --abort                                                                   <- membatal merge
+
+git merge --squash _namaBranch_                                                     <- merge menggunakan squash

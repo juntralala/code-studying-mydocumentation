@@ -1,0 +1,4 @@
+=> Jika kita melakukan kesalahan pembuatan nama branch, kita juga bisa lakukan perubahan nama branch
+=> Perlu diperhatikan, untuk melakukannya kita harus pindah terlebih dahulu ke branch yang ingin kita ubah namanya
+=> Seusudah pindah, kita bisa gunakan perintah : 
+   git branch -m _namaBranchBaru_

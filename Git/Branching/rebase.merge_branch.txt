@@ -1,0 +1,4 @@
+=> Setelah melakukan rebase, bukan berarti branch yang direbase (master) sekarang posisinya ada di branch yang melakukan rebase,
+   posisinya tetap ada di commit terakhir di branch tersebut
+=> Seperti yang terlihat pada gambar Diagram Rebase Branch 
+=> Agar posisinya sama dengan branch yang melakukan rebase, kita bisa menggunakan printah merge 

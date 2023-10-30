@@ -1,0 +1,6 @@
+=> Hal pertama yang perlu kita lakukuan ketika menggunakan SSH adalah, membuat SSH key
+=> SSH Key merupakan kunci yang digunakan untuk autentikasi ke SSH Server
+=> Untuk membuat SSH Key, kita bisa gunakan perintah ssh-keygen di terminal
+=> Setelah selesai, maka secara otomatis akan terdapat 2 key di local komputer kita, yaitu public key dan private key
+=> Kita bisa melihatnya didalam folder .ssh di Home directory kita
+=> File id_rsa adalah private key, dan id_rsa.pub adalah public key

@@ -1,0 +1,4 @@
+=> Untuk melihat remote repository yang ada di git project, kita bisa gunakan perintah :
+   git remote 
+=> Untuk melihat URL detail remote repository, kita bias gunakan perintah :
+   git remote get-url _namaRemote_

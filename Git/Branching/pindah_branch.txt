@@ -1,0 +1,5 @@
+=> Setelah kita buat branch baru, kita tidak akan secara otomatis pindah branch
+=> Untuk pindah ke branch lain, harus kita lakukan secara manual
+=> Caranya, bisa kita gunakan perintah :
+   git switch _namaBranch_
+   git checkout _namaBranch_

@@ -1,0 +1,6 @@
+/**
+ * JUnit mendukung eksekusi unit test berulang kali sesuai jumlah hang kita tentukan
+ * Untuk mengulang eksekusi unit test, kita bisa menggunakan annotation @RepeatedTest pada method unit test-nya
+ * @RepeatedTest bisa digunakakan untuk mengubah detail nama test-nya, dan kita bisa menggunakan value{displayName}
+   untuk mendapatkan display name, {currentRepitition} untuk mendapatkan total perulangannya
+*/

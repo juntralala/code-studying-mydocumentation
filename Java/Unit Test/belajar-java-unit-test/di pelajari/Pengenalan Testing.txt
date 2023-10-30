@@ -1,0 +1,5 @@
+/**
+ * Sofware Testing adalah salah satu disiplin ilmu software engineering
+ * Tujuan utama dari Software Testing adalah memastikan kualitas kode dan aplikasi kita baik
+ * Ilmu untuk sofaware testing sendiri sangatlah luas, pada materi ini kita hanya akan fokus ke Unit Testing
+*/

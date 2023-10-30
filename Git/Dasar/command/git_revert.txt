@@ -1,0 +1,2 @@
+-- fitur membatalkan perubahan commit --
+git revert _hash_

@@ -1,0 +1,3 @@
+Saat aplikasi kita sudah sangat besar, kadang ada baiknya kita buat aplikasi kita dalam bentuk modular
+Misal kita pisahkan module model, controller, view, service, repository, dll
+Untungnya, Maven mendukung pembuatan project multi module

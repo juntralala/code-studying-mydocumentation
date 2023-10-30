@@ -1,0 +1,118 @@
+html,body {
+    padding : 0;
+    margin : 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+:root {
+    --main-bg : rgb(13, 65, 224) ;
+    --secondary-bg : #eaeaea;
+    --secondary-bg-2 : #f9f9f9;
+    --text-main : white;
+    --text-secondary : #222;
+    --icon-main-color : rgb(255, 0, 0);
+    --icon-secondary-color : #999; 
+}
+
+.container {
+    background-color : var(--main-bg);
+    height : 100vh;
+    width : 100%;
+    min-height : 100vh;
+}
+
+.container2 {
+    display : none ;
+}
+
+.wrapper {
+    display : flex ;
+    align-items: center;
+    justify-content: center;
+    flex-wrap : wrap ;
+    text-align : center;
+    width : 100% ;
+    height :auto;
+}
+.card {
+    background-color : var(--secondary-bg);
+    border : 2px solid var(--secondary-bg-2);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+    color : var(--text-secondary);
+    width : 40%;
+    padding : 32px;
+    margin : 8px;
+}
+
+.card > h1 {
+    font-size : 2em;
+}
+
+.card > .icons {
+    font-size: 48px;
+    color : var(--icon-main-color);
+    margin-top : 8px ;
+}
+
+.card > p {
+    font-size : .5em ;
+    margin-top: 8px ;
+}
+
+.btn {
+    font-family: 'Press Start 2P', cursive;
+    margin-top : 16px;
+    padding :8px;
+    cursor: pointer;
+    border: none;
+    width : 100% ;
+}
+
+.btn:hover {
+    background-color : blue;
+    color : white;
+    -ms-transform: rotateY(2deg);
+    transform : rotate(2deg);
+    transition : .3s;
+    transition-delay: .3s;
+} 
+
+@media screen and (max-width : 476px) {
+    .container {
+        background-color : #fff;
+    }
+
+    .container2 {
+        display : none;
+    }
+
+    .card {
+        width : 95%;
+    }
+
+    .card > H1 {
+        font-size : 2.5em ;
+    }
+
+    .icons {
+        font-size : 2.5em ;
+    }
+
+    .card > p {
+        font-size : 1.5em;
+    }
+
+    .btn {
+        font-size : 2em ;
+    }
+}
+
+@media screen and (min-width : 1200px) {
+    .container {
+        display : none ;
+    }
+
+    .container2 {
+        display : block ;
+    }
+}

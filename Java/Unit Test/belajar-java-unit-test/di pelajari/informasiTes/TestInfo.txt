@@ -1,0 +1,11 @@
+/** Informasi Test
+ * Walaupun mungkin jarang kita gunakan, kita bisa mendapatkan information test yang sedang berjalan dengan interface TestInfo
+ * Kita bisa menambahkan TestInfo sebagai parameter di functoin unit test
+*/
+
+/** method-method TestInfo interface
+ * getDisplay() : String
+ * getTags() : Set<String>
+ * getTestClass() : Optional<Class<?>>
+ * getTestMehtod() : Optional<Method>
+*/

@@ -1,0 +1,6 @@
+=> Saat kita melakukan clone sebuah Git Repository yang terdapat submodule-nya, tidak secara default Repository submodule akan
+   di clone juga 
+=> Setelah kita melakukan clone, kita perlu melakukan perintah init untuk mengaktifkan modulenya dengan perintah :
+   git submodule init
+=> Perintah ini akan membaca dari file .gitmodule lalu membuat submodule sesuai file tersebut  
+=> Selanjutnya untuk download submodule Git Repository nya, kita bisa gunakan perintah submodule update 

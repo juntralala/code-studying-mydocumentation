@@ -1,0 +1,7 @@
+/**
+ * Sebelumnya kita sudah tahu jika ingin membatalkan test, kita bisa menggunakan Exception TestAbortedException
+ * Namun sebenarnya ada cara yang lebih mudah, yaitu dengan menggunakan Assumtions
+ * Penggunaan Assumption mirip seperti Assertions, jika nilai tidak sama, maka function Assumptions akan throw TestAbortedException
+   sehingga secara otomatis akan membatalkan unit test yang sedang berjalan
+ * junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/Assumptions.html
+*/

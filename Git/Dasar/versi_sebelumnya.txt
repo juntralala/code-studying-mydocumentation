@@ -1,0 +1,7 @@
+ -(versi file sebelumnya )-
+ 
+=> Kada kita memiliki masalah dengan file yang sudah kita commit ke Repository
+=> Git memiliki fitur dimana kita bisa melihat versi file pada commit sebelumnya
+=> Saat kita ambil versi file sebelumnya, file pada commit tersebut akan berada di Staging Index
+=> Untuk melakukannya, kita bisa gunakan perintah :
+   git checkout hash -- namafile

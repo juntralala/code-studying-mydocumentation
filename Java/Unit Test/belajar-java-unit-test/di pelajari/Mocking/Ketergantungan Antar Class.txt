@@ -1,0 +1,8 @@
+/**
+ * Saat membuat aplikasi yang besar, sourcecode pun akan semakin membesan, struktur class pun semakin kompleks
+ * Kita tidak bisa memungkiri bahwa akan ada ketergantungan antar class
+ * Unit test yang bagus itu bisa terprediksi dan cukup mengektes satu function saja, jika harus mengetes interaksi
+   antar class, lebih disarankan integration test
+ * Lantas, bagaimana jika kita harus mengetes class yang ketergantungan dengan class lain?
+ * Solusinya adalah melakukan mocking terhadap dependency yang dibutuhkan oleh class yang akan kita tes
+*/

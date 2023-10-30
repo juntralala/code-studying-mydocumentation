@@ -1,0 +1,11 @@
+=> Merge adalah proses menggabungkan 2 buah branch
+=> Merge biasanya dilakukan setelah kita selesai membuat kode program di sebuah branch, dan ingin menggabungkan fitur tersebut
+   ke branch lian, misal ke branch utama
+=> Saat kita melakukan merge, branch tidak akan dihapus, artinya kita masih tetap bisa melakuan commit di branch yang adalah
+=> Jika kita ingin menghapus branch yang sudah di merge, kira pelu lakukan secara manual
+
+<--->  Melakuan Merge <--->
+=> Untuk melakukan merge, pertama kita perlu berpindah ke branch dimana lokasi merge akan dilakukan
+=> Selanjutnya gunakan perintah :
+   git merge _namaBranch_
+=> Artinya branch dari nama branch akan di merge kedalam branch saat ini kita berada

@@ -1,0 +1,1 @@
+std::cout << "Halo Muhammad Junaidi"<< std::endl;

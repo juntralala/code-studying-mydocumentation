@@ -1,0 +1,5 @@
+=> Perintah push juga bisa digunakan untuk menghapus branch yang ada di Remote Repository 
+=> Kita bisa gunakan perintah :
+   git push --delete _namaRemote_ _remoteBranch_
+=> Perlu diingat, menghapus remote branch bukan berarti menghapus branch di local, jadi jika kita ingin hapus di local, kita
+   harus lakukan secara manual 

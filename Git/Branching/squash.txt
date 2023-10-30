@@ -1,0 +1,17 @@
+=> Saat kita melakukan merge atau rebase, semua commit history akan tetapa ada
+=> Jadi kita berada di branch tersebut melakuakn commit sebanyak 10 kali, ketika kita melakuakn  
+=> Kadang ada kasus dimana kita ingin melakukan penggabungan commit tersebut menjadi 1 commit saja, harusl ini dinamakan squash
+=> Squash akan membuat 10 commit hitory tersebut menjadi 1 commit, dimana semua 10 perubahan terebut akan di gabungkan
+   menjadi 1 commit saja
+=> perintah squash :
+   git merge --squash _namaBranch_
+
+ <!= Jika kita melakukan squash, semua perubahan tidak akan tersimpan di Repository melainkan Staging Index, kalau kita sudah
+    yakin akan perubahannya, bisa kita commit =>
+
+
+Simulasi :
+=> Di branch master, buat branch feature/merge-squash
+=> Di branch master, buat perubahan file version.txt dan commit
+=> Di branch feature/merge-squash, buat commit file1 dan file2
+=> Di branch master, merge dengan branch feature/merge-squash menggunakan squash   

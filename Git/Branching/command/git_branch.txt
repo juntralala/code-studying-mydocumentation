@@ -1,0 +1,12 @@
+git branch --show-current             
+
+git branch _namaBranchBaru_                                                 <- membuat branch baru
+
+git branch                                                                  <- melihat semua branch
+git branch --list                                                           
+
+git branch -m _namaBaruBranch_                                              <- mengubah nama branch                <- hanya jika nama branch tersebut belum ada
+git branch -M _namaBaruBranch_                                              <- mengubah nama branch secara paksa   <- jika namanya sudah digunakan branch lain, maka branch lain tersebut akan dihapus
+
+git branch -d _namaBranch_                                                  <- menghapus branch  
+git branch --delete _namaBranch_  

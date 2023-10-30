@@ -1,0 +1,1 @@
+git pull _namaRemote_ _remoteBranch_                                              <- mengambil perubahan dari Remote Branch

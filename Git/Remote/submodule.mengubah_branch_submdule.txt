@@ -1,0 +1,10 @@
+=> Untuk mengubah branch di submodule, sebenarnya kita bisa melakukannya secara manual menggunakan perintah git branch
+   di dalam folder submodulenya
+=> Namun hal ini tidak akan membuat konsisten, karena bisa jadi tiap orang bisa berbeda-beda branch submodule nya
+=> Agar sama, kita gunakan perintah submodule set-branch untuk mengubah branch submodule, sehingga secara otomatis semua git Repo
+   akan menggunakan branch yang sudah ditentukan
+=> Caranya kita bisa gunakan perintah :
+   git submodule set-branch --branch _namaBranch_ _namaFolder_
+
+_namaBranch_ => nama branch yang ada di submodule
+_namaFolder_ => nama folder yang menjadi submodule

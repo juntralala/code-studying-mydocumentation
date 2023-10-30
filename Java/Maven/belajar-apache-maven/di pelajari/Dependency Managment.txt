@@ -1,0 +1,15 @@
+Saat project kita sudah besar, kadang kita sering menggunakan banyak dependency
+
+Masalah dengan banyak dependency adalah, jika kita salah dalam memasukkan dependency yang sama namun versinya berbeda-beda
+
+Maven mendukung fitur Dependency Management, dimana kita bisa memsukkan daftar dependency di parent module beserta versinya,
+lalu menambahkan dependency tersebut ke module child tanpa harus memasukkan versinya
+
+Secara otomatis versi dependensy akan sama dengan yang ada di dependency management di parent module
+
+
+//
+sebelumnya kita langsung meng-set dependency di parent, nah disini problemnya, semua module entah itu module app atau data
+semua dependencynya
+
+padahal module app tidak membutuhkan dependency Junit

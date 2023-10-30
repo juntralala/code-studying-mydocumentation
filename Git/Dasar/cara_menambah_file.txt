@@ -1,0 +1,5 @@
+=> Untuk menambah file baru ke Repository, kita cukup tambahkan saja filenya
+=> Secara otomatis file yang kita tambahkan awalnya akan ada di working directory
+=> Secara default saat menambahkan file baru, file tersebut tidak akan di track perubahanya
+=> Agar perubahan di track, kita harus pindahkan dari Working Directory ke Staging Index 
+

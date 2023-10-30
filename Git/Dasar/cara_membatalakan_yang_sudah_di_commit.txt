@@ -1,0 +1,6 @@
+=> Bagaimana jika perubahan yang kita lakukan terlanjur di commit
+=> Tidak ada yang bisa lakukan untuk membatalkan perubahan, jika perubahan terlanjur di commit
+=> Yang bisa kita lakukan adalah dengan dua cara, Rollback Commit atau Revert Commit
+=> Kedua cara tersebut akan kita bahas
+
+Rollback Commit dan Revert Commit tidak dijelaskan disini

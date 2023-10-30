@@ -1,0 +1,5 @@
+=> sebelumnya kita sudah melakukan pengaturan/config menggunakan  Visual Studio Code untuk melihat diff
+=> Jika kita ingin menggunakan Visual Studio COde untuk melihat perbedaan antar commit, kita bisa gunakan perintah :
+git difftool _hash1_ _hash2_ 
+
+!-- difftool tidak akan bisa digunakan sebelum kita melakukan config dengan vsCode atau yang lainnya --

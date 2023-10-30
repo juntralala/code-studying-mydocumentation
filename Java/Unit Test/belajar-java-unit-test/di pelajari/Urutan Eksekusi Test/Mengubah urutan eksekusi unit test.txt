@@ -1,0 +1,9 @@
+/** Mengubah Urutan Eksekusi Unit Test
+ * JUnit mendukung perubahan urutan eksekusi test jika kita mau, menggunakan annottaion @TestMethodOrder, ada beberapa
+   cara yang bisa kita gunakan
+ * Alphanumeric, artinya urutan eksekusi unit test akan diurutkan berdasarkan alphanumeric
+ * Random, artinya urutan eksekusi unit test akan dilakukan secara random
+ * OrderAnnotation, artinya urutan eksekusi unit test akan mengikuti annotation @Order yang ada di tiap method unit test
+*/
+
+NOTE : Alphanumeric sudah deprecated pada JUnit 5.7 dan sekarang kita lebih disarankan menggunakan DisplayName

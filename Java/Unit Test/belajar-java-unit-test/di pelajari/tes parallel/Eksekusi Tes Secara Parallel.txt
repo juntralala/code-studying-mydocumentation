@@ -1,0 +1,7 @@
+/**
+ * Defaultnya, JUnit tidak mendukung eksekusi parallel, artinya Unit Test akan dijalankan secara squetial satupersatu
+ * Namun, kada ada kasus dimana kita ingin mempercepat proses unit test dengan cara dijalankan secara parallel,
+   hal ini bisa kita lakukan di JUnit, hanya sanya perlu beberapa langkah terlebih dulu
+ * Tapi ingat, pastikan unit tes kita aman ketika diajalankan secara parallel <setiap tes harus independen>
+ *
+*/

@@ -1,0 +1,4 @@
+=> Untuk menambah remote repository, bisa kita gunakan perintah :
+   git remote add _namaRemote_ _ssh-url_
+=> Salah satu kebiasaan di Git, memberi nama untuk remote repository dengan nama origin
+=> membuat remote boleh lebih dari satu

@@ -1,0 +1,6 @@
+=> Git adalah Distributed Version Control, artinya walaupun kita Repository di local computer kita, semua riwayat perubahan
+   dismpan di komputer kita
+=> Kekurangan hal tersebut adalah jika semakin lama Repository maka semakin besar ukurannya, namun keuntungan nya, kita bisa
+   melihat semua riwayat commit, atau disebut Commit Log
+=> Untuk melihat Commit Log, kita bisa gunakan perintah :
+git log 

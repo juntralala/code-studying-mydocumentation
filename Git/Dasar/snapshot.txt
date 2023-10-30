@@ -1,0 +1,6 @@
+=> Pada materi sebelumnya kita selalu menyebutkan versi pada perubahan file
+=> Padahal perubahan yang dilakukan bisa jadi dilakukan secara bersamaan untuk beberapa file, hal ini berarti sebenarnya tidak 
+   ada yang namanya versi file
+=> Semua perubahan yang terjadi akan direkam, dan akan kita sebut namanya adalah Snapshot
+=> Snapshot berisikan semua perubahan yang terjadi di semua file yang kita commit
+=> Setiap snapshot akan mengahasilkan hash

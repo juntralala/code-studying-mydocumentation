@@ -1,0 +1,4 @@
+=> Saat kita berkerja dengan tim, biasanya saat melakukan perubahan kita akan membaut branch yang berbeda dengan branch utama
+=> Setelah selesai, Kita bisa melakukan yang namanya merge ke branch utama
+=> Namun, beberapa fitur di remote git repository mendukung fitur yang namanya  Pull Request/Merge Request
+=> Fitur ini sangat cocok untuk melakukan review otomatis di remote repository, tanpa harus manual melakukan review dengan git diff

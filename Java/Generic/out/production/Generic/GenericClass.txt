@@ -1,0 +1,10 @@
+Generic class adalah class atau interface yang memiliki parameter type
+Tidak ada ketentuan dalam pembuatan generic parameter type, namun kebiasaan kebanyakan orang menggunakan 1 karakter
+sebagai generic parameter type
+Nama generic parameter yang biasa digunakan adalah:
+- E >> Element (biasa digunakan di collection atau struktur data)
+- K >> Key
+- N >> Number
+- T >> Type
+- V >> Value
+- S,U,V >> 2th,3th,4th types

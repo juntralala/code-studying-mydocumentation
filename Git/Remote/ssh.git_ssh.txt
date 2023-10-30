@@ -1,0 +1,4 @@
+=> Git sendiri memiliki beberapa mekaniskme untuk komunikasi dengan Git Server, seperti HTTPS dan SSH
+=> Pada kelas ini, kita akan menggunakan SSH untuk komunikasi dengan Git Server 
+=> Hal ini karena SSH merupakan protocol yang di rekomendasikan ketika berkomunikasi dengan Git Server
+  

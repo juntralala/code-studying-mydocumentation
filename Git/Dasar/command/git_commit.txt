@@ -1,0 +1,5 @@
+git commit -m "pesan"
+
+
+-- penjelasan ada di amend_commit.txt --
+git commit --amend -m "pesan"

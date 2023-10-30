@@ -1,0 +1,8 @@
+/**
+ * JUnit mendukung pewarisan di test, artinya jika kita membuat class atau interface dan menambahkan information test disitu,
+   maka ketika kita membuat turunannya, secara otomatis semua fitur test nya dimiliki turunannya
+ * Ini sangat cocok semisal kita sering membuat kode BeforeEach atau AfterEach yang berulang ulang, dibanding dibuat
+   pada semua test class, lebih baik dibuat satukali pada parent test class, dan testclass tinggal menjadi child class
+   dari parent test class
+ *
+*/

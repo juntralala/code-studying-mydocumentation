@@ -1,0 +1,3 @@
+=> Setelah kita membuat SSH Key, selanjutnya kita perlu meregistrasikan SSH public key ke Github 
+=> Hal ini dilakukan, agar nanti ketika terkoneksi ke Git Server di Github, kita tidak perlu melakukan autentikasi lagi
+=> https://github.com/settings/keys  

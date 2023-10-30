@@ -1,0 +1,10 @@
+/**
+ * Secara default, lifecycle(siklus hidup) object test adalah independent permethod test, artinya object unit test,
+   artinya object unit test selalu dibuat baru permethod unit test, oleh karena itu kita tidak bisa bergantung dengan
+   method test lainnya
+ * Cara pembuatan unit test di JUnit ditentukan oleh annotation @TestInstance, dimana default nya adalah Lifecycle.PER_METHOD
+   artinya setiap method akan dibuatkan instance/object baru
+ * kita bisa merubahnya menjadi Lifecycle.PER_CLASS jika mau, dengan demikian instance/object tes nya hanya dibuat sekali
+   per class, dan method test akan menggunakan object tes yang sama
+ * Hal ini bisa kita manfaatkan ketika ingin memuat test yang tergantung dengan test lainnya
+*/

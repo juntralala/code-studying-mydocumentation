@@ -1,0 +1,4 @@
+-- compare commit menggunakan text editor --
+!-- difftool tidak akan bisa digunakan sebelum kita melakukan config dengan vsCode atau yang lainnya --
+
+git difftool _hash1_ _hash2_

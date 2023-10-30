@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Tugas SESI4</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="shortcut icon" src="assets/images/on.gif"/>
+    </head>
+    <body>
+        <div class="container">
+            <!-- NAVIGATION BAR -->
+            <div class="container-navbar">
+                <ul class="ul-navbar">
+                    <li class="li-navbar"><a href="biodata.html" class="a-li-navbar">BIODATA</a></li>
+                    <li class="li-navbar"><a href="baca saya.html" class="a-li-navbar">BACA SAYA</a></li>
+                    <li class="li-navbar"><a href="contact me.html" class="a-li-navbar">CONTACT ME</a></li>
+                </ul>
+            </div>
+            <!-- NAVIGATIOB BAR END -->
+
+            <!-- CONTENT -->
+            <div class="container-content">
+                <!-- RUANG KELUARGA -->
+                <div class="ruang-saklar">
+                    <div class="ruang lampu-tengah">
+                        <div>
+                            <div class="lampu-tengah margin-top">
+                                <img id="lrk1" src="assets/images/off.gif"/>
+                            </div>
+                            <div>
+                                <img id="lrk2" src="assets/images/off.gif" class="margin"/>
+                                <img id="lrk3" src="assets/images/off.gif" class="margin"/>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="papan-saklar-ruang-makan">
+                        <li class="li-papan_saklar nama-papan-saklar">
+                            RUANG KELUARGA
+                        </li>
+                        <li class="li-papan_saklar">
+                            <button onclick="saklarRuangKeluarga ('swift0',0)" class="margin-sisi button">SEMUA LAMPU</button>
+                        </li>
+                        <li class="li-papan_saklar">
+                            <button onclick="saklarRuangKeluarga ('swift1',1)" class="margin-sisi button">LAMPU1</button>
+                            <button onclick="saklarRuangKeluarga ('swift2',2)" class="margin-sisi button">LAMPU2</button>
+                            <button onclick="saklarRuangKeluarga ('swift3',3)" class="margin-sisi button">LAMPU3</button>
+                        </li>
+                    </ul> 
+                </div>
+                <!-- RUANG MAKAN -->
+                <div class="ruang-saklar">
+                    <div class="ruang lampu-tengah">
+                        <img src="assets/images/off.gif" id="lrm"/>
+                    </div>
+                    <ul class="papan-saklar-ruang-makan">
+                        <li class="li-papan_saklar nama-papan-saklar">RUANG MAKAN</li>
+                        <li class="li-papan_saklar">
+                            <button onclick="saklarRuangMakan ('swift', 1)" class="margin-sisi button" id="button" >LAMPU</button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- RUANG TIDUR -->
+                <div class="ruang-saklar">
+                    <div class="ruang lampu-tengah">
+                        <div class="margin">
+                            <img id="lrt1" src="assets/images/off.gif"/>
+                        </div>
+                        <div class="margin">
+                            <img id="lrt2" src="assets/images/off.gif"/>
+                        </div>
+                    </div>
+                    <ul class="papan-saklar-ruang-makan">
+                        <li class="li-papan_saklar nama-papan-saklar">
+                            RUANG TIDUR
+                        </li>
+                        <li class="li-papan_saklar">
+                            <button onclick="saklarRuangTidur ('swift0',0)" class="margin-sisi button">SEMUA LAMPU</button>
+                        </li>
+                        <li class="li-papan_saklar">
+                            <button onclick="saklarRuangTidur ('swift1',1)" class="margin-sisi button">LAMPU1</button>
+                            <button onclick="saklarRuangTidur ('swift2',2)" class="margin-sisi button">LAMPU2</button>
+                        </li>
+                    </ul>    
+                </div>
+                <!-- RUANG TAMU -->
+                <div class="ruang-saklar">
+                    <div class="ruang lampu-tengah width">
+                        <div>
+                            <div>
+                                <img id="lrTamu1" src="assets/images/off.gif" class="margin-samping"/>
+                                <img id="lrTamu2" src="assets/images/off.gif" class="margin-samping"/>
+                            </div>
+                            <div>
+                                <img id="lrTamu3" src="assets/images/off.gif" class="margin-samping"/>
+                                <img id="lrTamu4" src="assets/images/off.gif" class="margin-samping"/>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="papan-saklar-ruang-makan">
+                        <li class="li-papan_saklar nama-papan-saklar">
+                            RUANG TAMU
+                        </li>
+                        <li class="li-papan_saklar">
+                            <button onclick="saklarRuangTamu ('swift0',0)" class="margin-sisi button">SEMUA LAMPU</button>
+                        </li>
+                        <li class="li-papan_saklar">
+                            <button onclick="saklarRuangTamu ('swift1',1)" class="margin-sisi button">LAMPU1</button>
+                            <button onclick="saklarRuangTamu ('swift2',2)" class="margin-sisi button">LAMPU2</button>
+                            <button onclick="saklarRuangTamu ('swift3',3)" class="margin-sisi button">LAMPU3</button>
+                            <button onclick="saklarRuangTamu ('swift4',4)" class="margin-sisi button">LAMPU4</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- CONTENT END -->
+
+            <!-- FOOTER -->
+            <div class="container-footer">
+                <h1>😆WEBSITE INI DIBUAT DENGAN SEMANGAT😆</h1>
+            </div>
+            <!-- FOOTER END -->
+        </div>
+        <script type="application/javascript"  src="script.js"></script>
+    </body>
+</html>

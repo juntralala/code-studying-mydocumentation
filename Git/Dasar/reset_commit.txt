@@ -1,0 +1,13 @@
+=> Sebelumnya kita sudah tahu cara membatalkan perubahan, namun bagaimana jika ternyata perubahan sudah terlanjur sudah kita
+   commit ke Repository?
+=> Untuk hal seperti itu, kita bisa melakukan reset commit
+=> Reset commit merumapak mekanisme diamana kira menggeser HEAD pinter keposisi yang kita mau, artinya commmit selanjutnya akan
+   dilakukan di posisi HEAD baru
+=> Untuk reset commit kita bisa menggunakan perintah :
+   git reset <mode> hash
+=> Perlu diketahui, ada beberapa mode pengaturan melakukan reset commit
+
+
+-- lanjutan adalah git_mode.txt dan reset_commit.txt --
+
+

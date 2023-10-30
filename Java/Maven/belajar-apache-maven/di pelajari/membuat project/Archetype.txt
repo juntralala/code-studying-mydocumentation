@@ -1,0 +1,3 @@
+Maven mendukung berbagai macam project dengan mudah
+pemubuatan project di maven menggunakan archetype, archetype dalah template project
+kita bisa menggunakan yang sudah diseiakan leh maven, atau bahkan kita bisa membuat template archetype sendiri

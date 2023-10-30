@@ -1,0 +1,12 @@
+/**
+ * Mocking pada dasarnya adalah membuat object tiruan
+ * Hal ini dilakukan agar behaviour object tersebut bisa ditentukan sesuai dengan keinginan kita
+ * Dengan mocking kita bisa membuat request response seolah-olah object tersebut benar dibuat
+*/
+
+/**
+ * Ada banyak framework untuk melakukan mocking, namun dimateri ini kita kan mneggunakan Mockito
+ * Mockito adadalh salah satu framework paling populer di Java, dan bisa digunakan pula untuk Kotlin
+ * Dan Mockito bisa diintegrasikan baik dengan JUnit
+ * https://site.mockito.org/
+*/

@@ -1,0 +1,11 @@
+git stash push -m "message"                                                        <- menyimpan menyimpan perubahan ke stash
+
+git stash list                                                                     <- melihat semua stash
+
+git stash show _stashId_                                                           <- melihat perubahan yang ada di stash
+
+git stash apply _stashId_                                                          <- mengambil perubahan dari stash 
+
+git stash drop _stashId_                                                           <- mengahapus satu stash 
+
+git stash clear                                                                    <- menghapus semua stash

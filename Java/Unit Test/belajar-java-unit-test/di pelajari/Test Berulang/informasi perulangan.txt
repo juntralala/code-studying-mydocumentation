@@ -1,0 +1,5 @@
+/**
+ * @RepeatedTest juga memiliki object RepetitionInfo yang di inject oleh class RepetitionInfoResolver, sehingga kita
+   bisa mendapatkan informasi RepetitionInfo melalui parameter function unit test
+ *
+*/

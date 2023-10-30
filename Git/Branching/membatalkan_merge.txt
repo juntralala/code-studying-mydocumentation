@@ -1,0 +1,6 @@
+=> Jika terjadi conflict, kita wajib memperbikinya terlebih dahulu
+=> Semua perubahan yang tidak conflict akan secara otomatis berada di Staging Index
+=> Sedangkan perubahan yang conflict akan secara otomatis berada di Working Directory
+=> Jika kita ingin membatalkan merge, kita bisa gunakan perintah :
+   git merge --abort
+=> Secara otomatis semua perbahan di branch yang ingin kita merge akan dihapus

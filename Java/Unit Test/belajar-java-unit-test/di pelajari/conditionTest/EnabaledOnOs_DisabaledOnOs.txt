@@ -1,0 +1,5 @@
+/** Kondisi Sistem Operasi
+ * Untuk kondisi sistem operasi, kita bisa menggunakan beberapa annotation
+ * @EnabledOnOs  digunakan untuk menandai unit test boleh berjalan di sistem operasi yang ditetukan
+ * @DisabledOnOs digunakan untuk menandai unit test tidak boleh berjalan di sistem operasi yang ditetukan
+*/

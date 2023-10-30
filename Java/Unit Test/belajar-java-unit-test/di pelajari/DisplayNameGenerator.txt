@@ -1,0 +1,5 @@
+/** NOTE : fitur ini jarang digunkan oleh PZN
+ * JUnit mendukunng pembuatan DisplayName secara otomatis menggunakan generator
+ * Yang kita perlu lakukan adalah membuat class turunan dari interface DisplayNameGenerator, lalu menambahkan
+   annotation @DisplayNameGeneration di test class nya
+*/

@@ -1,0 +1,4 @@
+=> Untuk mengambil Tag, kita bia gunakan perintah
+   git fetch _namaRemote_ _tag_
+=> Atau jika ingin mengambil semua Tag, kita bisa gunakan perintah 
+   git fetch _namaRemote_   

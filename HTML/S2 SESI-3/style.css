@@ -1,0 +1,43 @@
+*,html,body {
+	margin : 0;
+	padding : 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+
+header {
+	background-color: blue;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: 10px;
+}
+
+navbar {
+	display: flex;
+	padding: 10px;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.btn-cta {
+	border:none;
+	padding: 12px 6px;
+}

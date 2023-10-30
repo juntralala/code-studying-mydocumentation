@@ -1,0 +1,12 @@
+-- lanjutan dari reset_commit.text --
+-- lanjutan adalah reset_commit.txt --
+
+=> --soft : memindah HEAD pointer, namun tidak melakukan perubahan apapun di Staging Index dan Working Directory
+=> --mixed (default) : memindah HEAD pointer, mengubah Staging Index menjadi sama dengan Repository, namun tidak mengubah apapun
+   di Working Directory
+=> --hard : memindah HEAD pointer, dan mengubah Staging Index dan Working Directory sehingga sama dengan Repository (-- hard paling destructive)
+
+-> sebenarnya masiha ada 2 mode lainnya, tapi yang biasanya dibahas cuman tiga ini, 2 mode yang tidak dibahas :
+--merge
+--keep
+   Jadi total ada 5 mode

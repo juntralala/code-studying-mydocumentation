@@ -1,0 +1,1 @@
+TRUNCATE nama_table;   -- menghapus semua data dalam table, kemudian tablenya dibuat ulang

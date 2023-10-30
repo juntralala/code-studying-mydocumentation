@@ -1,0 +1,11 @@
+=> Sebelumnya untuk menggabungkan dua branch, kita sudah belajar yang namanya merge
+=> Sekarang kita akan bahas cara lain menggabungkan dua buah branch, yaitu rebase
+=> Rebase agak sedikit kompleks
+
+
+Simulasi :
+=> Di branch utama, buat branch feature/rebase
+=> Di branch utama, ubah file1.txt lalu commit 
+=> Pindah ke branch feature/rebase 
+=> Di branch feature/rebase, ubah file2.txt lalu commit
+=> Di branch feature/rebase, ubah file3.txt lalu commit

@@ -1,0 +1,21 @@
+=> Kadang-kadang ada kedaan dimana kita sedang melakukan sebuah perubahan di sebuah branch, namun perubahanya belum bisa disimpan
+   ke Repository, misal masih di Working atau Staging Index
+=> Lalu kita butuh secepatnya melakukan perubahan d branch lain
+=> Jika perubahan tersebut belu siap kita commit, kita bisa menyimpan semua perubahan tersebut  ke Stash
+=> Stash adalah sebuah tempat dimana kita bisa menyimpan perubahan di Working atau Staging Index sementara, agar branch saat ini 
+   menjadi bersih kembali, sehingga kita bisa pindah ke branch lain
+
+<!--- jika branch saat ini tidak bersih serta ada conflict, maka perpindahan branch akan gagal
+
+<!---> pembahasan lanjutan di error_ketika_pindah_branch.txt <---!>
+<!---> pembahasan lanjutan di menyimpan_perubahan_ke_stash.txt <---!>
+
+
+Simulasi :
+=> Di branch utama
+=> Buat branch baru dengan nama feature/d 
+=> Di branch utama, buat perubahan di file1.txt, lalu commit
+=> Pindah ke branch feature/d
+=> Lakukan perubahan file1.txt, tambahkan ke Staging Index 
+=> Lakukan perubahan file2.txt, biarkan di Working Directory 
+=> Pindah ke branch utama

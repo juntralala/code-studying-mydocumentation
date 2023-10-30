@@ -1,0 +1,6 @@
+/**
+ * Pada materi sebelumnya, kita tidak melakukan verifikasi kepada object mocking, apakah dipanggil atau tidak
+ * Pada kasus sebelumnya mungkin tidak terlalu berguna karena kebetulan function nya tidak mengembalikan value, sehingga
+   jika kita lupa memanggil methodnya, sudah pasti unit test nya gagal, beda halnya jika method nya void
+ * Lantas bagaiamana jika function nya tidak mengembalikan value? alias function void
+*/
