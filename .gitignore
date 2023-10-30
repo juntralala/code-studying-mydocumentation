@@ -1,0 +1,8 @@
+# mengignore folder
+.git/
+.vscode/
+.idea/
+
+# mengignore semua file ber extensi .exe
+*.exe
+*.iml
