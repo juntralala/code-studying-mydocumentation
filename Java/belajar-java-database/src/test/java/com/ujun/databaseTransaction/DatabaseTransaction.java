@@ -16,6 +16,7 @@ import java.sql.SQLException;
 
 public class DatabaseTransaction {
 
+    // contoh rollback commit
     @Test
     public void testCommit() throws SQLException {
         Connection connection = ConnectionUtil.getDataSource().getConnection();
@@ -33,6 +34,7 @@ public class DatabaseTransaction {
         connection.close();
     }
 
+    // contoh rollback transaction
     @Test
     public void testRollback() throws SQLException {
         Connection connection = ConnectionUtil.getDataSource().getConnection();
