@@ -2,7 +2,11 @@
 .git/
 .vscode/
 .idea/
+out/
+__pycache__/
 
 # mengignore semua file ber extensi .exe
 *.exe
 *.iml
+*.class
+*.pyc
