@@ -1,7 +1,0 @@
-/**
- * Kadang kita ingin memastikan bahwa sebuah unit test berjalan tidak melebihi dari waktu sekian detik
- * Misal kasus ketika ingin memastikan kode program kita memiliki performa bagus atau cepat
- * JUnit memili fitur Timeout, yaitu memastikan jalan unit test tidak melebihi dari waktu yang ditentukan, jika lebih dari
-   waktu yang ditentukan, secara otomatis unit test tersebut akan gagal
- * Kita bisa menggunakan annotation @Timeout untuk melakukan hal tersebut
-*/

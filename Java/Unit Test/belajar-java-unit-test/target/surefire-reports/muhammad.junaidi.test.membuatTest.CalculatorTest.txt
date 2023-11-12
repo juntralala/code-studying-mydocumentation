@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: muhammad.junaidi.test.membuatTest.CalculatorTest
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.054 s - in muhammad.junaidi.test.membuatTest.CalculatorTest

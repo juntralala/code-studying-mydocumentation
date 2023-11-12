@@ -1,4 +1,0 @@
-saat java keluar dengan fitur lambda nya
-java juga menyediakan sebuah package baru bernama java.tul.function
-package ini banyak sekali berisi FunctionalInterfaceyang bisa kita gunakan untuk kebutuhan lambda
-dengan menggunakan interface-interface di package ini kita mungkin tidak perlu lagi membuat sendiri FunctionalInterface secara manual

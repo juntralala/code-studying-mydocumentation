@@ -2,8 +2,6 @@
 .git/
 .vscode/
 .idea/
-out/
-target/
 
 # mengignore semua file ber extensi .exe
 *.exe
