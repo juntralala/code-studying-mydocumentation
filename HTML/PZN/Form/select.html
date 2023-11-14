@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head lang="id_ID">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device_width, initial-scale=1.0">
+    <title>Input Area</title>
+  </head>
+<!-- option pada select memiliki atribut selected -->
+  <body>
+  <form>
+    <label for="provinsi">Pilih Provinsi:</label>
+    <select name="provinsi" id="provinsi">
+      <option value="DKI Jakarta">DKI Jakarta</option>
+      <option value="Jawa Barat" selected="">Jawa Barat</option>
+      <option value="Jawa Tengah">Jawa Tengah</option>
+      <option value="Jawa Timur">Jawa Timur</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
+
+  <form>
+    <label for="hoby">Pilih Hoby:</label>
+    <select name="hoby" id="hoby" multiple size="2">
+      <option value="Mancing">Mancing</option>
+      <option value="Bersepda">Bersepeda</option>
+      <option value="Gaming">Gaming</option>
+      <option value="Tidur">Tidur</option>
+    </select>
+    <input type="submit" value="Kirim">
+</form>
+  </body>
+</html>
