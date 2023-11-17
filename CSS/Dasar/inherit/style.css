@@ -1,0 +1,12 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 8px;
+}
+
+.kentang {
+  border : 2px solid;
+  padding: inherit;
+}

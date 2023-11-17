@@ -1,0 +1,149 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #efefba;
+  padding: 8px;
+}
+
+.header-logo img{
+  height: 100px;
+}
+
+
+.header-title {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 8px;
+}
+
+.header-title a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size : 28px;
+  color : deepskyblue;
+}
+
+.nav {
+  background-color: black;
+  padding : 10px;
+}
+
+.nav ul {
+  list-style: none;
+  display: block;
+  margin : 0;
+  padding: 0;
+}
+
+.nav-item {
+  display : inline-block;
+  margin-left :10px;
+  padding: 4px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color : #efefef;
+}
+
+.content {
+  width :80%;
+  margin : 0px auto;
+}
+
+.content h1 {
+  font-size: 28px;
+  color: darkolivegreen;
+}
+
+.content h2 {
+  color: olivedrab;
+}
+
+.content p {
+  color: olive;
+}
+
+.table-header {
+  background-color: #efefbb;
+}
+
+.table-content {
+  background-color: azure;
+}
+
+.table-genap {
+  background-color : aliceblue;
+}
+
+f
+
+.table-header tr th {
+  padding : 10px;
+}
+
+.table-content tr td img {
+  width :50px;
+}
+
+.table-content tr td {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.table-content tr:hover {
+  background-color: #efefaa;
+}
+
+.form-group {
+  margin : 10px 0px;
+}
+
+
+.form-group label {
+  display: block;
+  font-size: 22px;
+  color : grey;
+  margin-bottom: 6px;
+}
+
+.form-group input{
+  display: block;
+  width : 60%;
+}
+
+.form-group textarea {
+  display: block;
+  height: 300px;
+  width: 60%;
+}
+
+form button {
+  padding : 12px 24px;
+  color: aliceblue;
+  font-size: 22px;
+  font-weight: bold;
+  background: seagreen;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+form button:hover {
+  transition: ease-in-out;
+  transition-delay: 0.2s;
+  transition-duration: 1s;
+  background-color: black;
+}
+
+form button:active {
+  background-color : deepskyblue ;
+}

@@ -1,0 +1,35 @@
+h1 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div { 
+  height: 300px;
+  margin: 10px;
+  border: 4px dashed skyblue;
+}
+
+.image-large {
+  width: 300px ;
+  height: auto ;
+}
+
+.image-medium {
+  width: 150px ;
+  height: auto ;
+}
+
+.align-right {
+  float: right;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+  
