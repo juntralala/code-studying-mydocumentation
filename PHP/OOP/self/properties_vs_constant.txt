@@ -1,0 +1,6 @@
+
+/**
+ * Saat kita membuat object, properies yang terdapat didalam class akan secara otomatis dibuatkan properties di tiap object,karna itu kita perlu menggunakan object, atau dari dalam object ktu sendiri kita perlu menggunaman keyword this
+ * Berbeda dengan constant, constant di class tidak akan dibjat perobject, constant itu hidupnya di class, bukan object. Karna itu untuk mengaksesnya kita perlu menggunakan NamaClass::NAMA_CONST
+ * Sederhanya, properties akan dibuat per instance class (object), dan constant dibuat satu pada clas
+*/

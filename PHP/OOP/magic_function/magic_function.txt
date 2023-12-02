@@ -1,0 +1,7 @@
+/**
+ * Magic function adalah function-function yang sudah ditentukan kegunaannya di PHP
+ * Kita tidak bisa membuat magic function tersebut kecuali sudah di tentukan kegunaannya
+ * Sebelumnya kita sudah mebahas beberapa magic function, seperti __construct(), __destruct(), dan __clone()
+ * Dan masih banyak lagi function lainnya, lebih lengkap bisa dilihat pada link :
+   https://www.php.net/manual/en/language.oop5.magic.php
+*/

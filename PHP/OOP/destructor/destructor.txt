@@ -1,0 +1,9 @@
+/**
+ * Jika constructor adalah function yang akan dipanggil ketika object dibuat
+ * Destructor adalah function yang akan dipanggil ketika lbjecy dihapus
+ * Biasanya dihapus ketika object tersebut sudah tidak digunakan lagi, atay ketika aplikasi akan mati
+ * Untuk membuat destructor, kita bisa menggunakan nama function __destruct
+ * Khusus untuk destructor kita tidak boleh menambahkan argument/parameter
+ * Dalam penggunaan sehari-hari, ini cocok untuk menutup koneksi database jika tak digunakan lagi,
+   atau menutup proses menulis ke file, agar tidak terjadi memlry leak
+*/

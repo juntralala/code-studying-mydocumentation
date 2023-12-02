@@ -1,0 +1,4 @@
+/**
+ * Jika didalam class kita ingin mengases constant, kita perlu menggunakan NamaClass::NAMA_CONST
+ * Namun, didalam class yanh sama, mita bisa gunakan self untuk mempermudah
+ */
