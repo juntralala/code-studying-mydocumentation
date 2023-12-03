@@ -1,7 +1,7 @@
 <?php
 
 abstract class Animal {
-  abstract public function run():void;
+  // abstract public function run():void;
 }
 
 class Cat extends Animal{

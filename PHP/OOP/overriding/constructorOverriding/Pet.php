@@ -10,7 +10,7 @@ class Pet {
   }
 }
 
-class Cat {
+class Cat extends Pet{
   var string $color;
   
   function __construct(string $name, int $age, string $color) {
