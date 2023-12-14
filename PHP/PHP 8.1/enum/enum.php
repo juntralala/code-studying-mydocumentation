@@ -20,7 +20,6 @@ enum Gender {
 
 class Orang {
     public Gender $gender;
-
     public function __construct(Gender $gender) {
         $this->gender = $gender;
     }
@@ -28,10 +27,9 @@ class Orang {
 
 $dawi = new Orang(Gender::Female);
 $dawi->gender = Gender::Male;
+var_dump($dawi);
 
 $arrayEnumValue = Gender::cases();
-
-var_dump($dawi);
 var_dump($arrayEnumValue);
 
 
