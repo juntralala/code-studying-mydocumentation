@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Align Items</title>
+    <link rel="stylesheet" href="flex-start.css">
+    <link rel="stylesheet" href="flex-end.css">
+    <link rel="stylesheet" href="center.css">
+    <link rel="stylesheet" href="stretch.css">
+    <link rel="stylesheet" href="baseline.css">
+    <style>
+        .container {
+            width: 600px;
+            height: 400px;
+            border : 5px solid black;
+            margin : 30 auto;
+            padding : 5px;
+            display: flex;
+        }
+
+        .content {
+            width: 120px;
+            height: 120px;
+            background-color: blue;
+            margin: 2px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-bottom: 14vh;">default align-items : flex-start</h1>
+    <h1>align-items : flex-start</h1>
+    <div class="container align-items-flex-start">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+        <div class="content">4</div>
+    </div>
+    <h1>align-items : flex-end</h1>
+    <div class="container align-items-flex-end">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+        <div class="content">4</div>
+    </div>
+    <h1>align-items : center</h1>
+    <div class="container align-items-center">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+        <div class="content">4</div>
+    </div>
+    <h1>align-items : stretch</h1>
+    <div class="container align-items-stretch">
+        <div class="content" style="height: unset;">1</div>
+        <div class="content" style="height: unset;">2</div>
+        <div class="content" style="height: unset;">3</div>
+        <div class="content" style="height: unset;">4</div>
+    </div>
+    <h1>align-items : baseline</h1>
+    <div class="container align-items-baseline">
+        <div class="content" style="font-size: 78;">1</div>
+        <div class="content" style="font-size: xx-large;">2</div>
+        <div class="content" style="font-size: 64;">3</div>
+        <div class="content" style="font-size: large;">4</div>
+    </div>
+
+</body>
+</html>

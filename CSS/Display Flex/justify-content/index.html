@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Justify Content</title>
+    <link rel="stylesheet" href="flex-start.css"> <!-- default justify-content : flex-start -->
+    <link rel="stylesheet" href="flex-end.css">
+    <link rel="stylesheet" href="center.css">
+    <link rel="stylesheet" href="space-between.css">
+    <link rel="stylesheet" href="space-around.css">
+    <link rel="stylesheet" href="space-evenly.css">
+    <style>
+        .container {
+            width: 600px;
+            border : 5px solid black;
+            margin : 30 auto;
+            padding : 5px;
+            display: flex;
+        }
+
+        .content {
+            width: 120px;
+            height: 120px;
+            background-color: blue;
+            margin: 2px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>justify-content : flex-start</h1> <!-- default justify-content : flex-start -->
+    <div class="container justify-content-flex-start">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+    </div>
+    <h1>justify-content : flex-end</h1>
+    <div class="container justify-content-flex-end">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+    </div>
+    <h1>justify-content : center</h1>
+    <div class="container justify-content-center">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+    </div>
+    <h1>justify-content : space-between</h1>
+    <div class="container justify-content-space-between">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+    </div>
+    <h1>justify-content : space-around</h1>
+    <div class="container justify-content-space-around">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+    </div>
+    <h1>justify-content : space-evenly</h1>
+    <div class="container justify-content-space-evenly">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+    </div>
+</body>
+</html>

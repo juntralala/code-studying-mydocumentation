@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>flex-order / flex</title>
+    <style>
+        .container {
+            width: 600px;
+            height: 120px;
+            border : 5px solid black;
+            margin : 30 auto;
+            padding : 5px;
+            display: flex;
+        }
+
+        .content {
+            /* width: 120px; */
+            /* height: 120px; */
+            background-color: blue;
+            margin: 2px;
+            text-align:center;
+        }
+        
+        /* align-items: stretch; */ /* <= kalau pakai flex-grow sama kaya pakai ini (defaultnya) <=  */
+
+        .satu { flex-grow : 1; } 
+        .dua { flex-grow : 2; } 
+        .tiga { flex-grow : 6   ; } 
+        .empat { flex-grow : 4; } 
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-bottom: 32;">Flex</h1>
+    <div class="container">
+        <div class="content satu">1</div>
+        <div class="content dua">2</div>
+        <div class="content tiga">3</div>
+        <div class="content empat">4</div>
+    </div>
+</body>
+</html>
