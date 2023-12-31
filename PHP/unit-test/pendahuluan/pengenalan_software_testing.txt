@@ -1,0 +1,5 @@
+/**
+ * Software testing adalah salah satu disiplin ilmu dalam software engineering
+ * Tujuan utama dari software testing adalah memastikan kualitas kode dan aplikasi kita baik
+ * Ilmu untuk software testing sendiri sangatlah luas, pada materi ini kita hanya akan fokus ke unit testing
+*/
