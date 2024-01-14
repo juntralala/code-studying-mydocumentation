@@ -1,0 +1,5 @@
+/**
+ * Saat membuat library, sudah pasti kita akan melakukan proses update dan upgrade
+ * Untuk melakukan upgrade, caranya cukup mudah, kita hanya tinggal memebuat update kode library, lalu
+   membuat release atau tag baru
+*/

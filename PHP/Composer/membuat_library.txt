@@ -1,0 +1,5 @@
+/**
+ * Sekarang kita tahu cara menggunakan composer di project applikasi kita
+ * Sekarang pertanyaanya bagaimana jika kita ingin membuat library?
+ * Library yang bisa digunakan diproject kita atau project orang lain?
+ * Composer tidak hanya mendukung pembuatan project, tapi juga library

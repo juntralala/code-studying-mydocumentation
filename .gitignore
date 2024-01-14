@@ -4,6 +4,7 @@
 .idea/
 out/
 __pycache__/
+vendor/
 
 # mengignore semua file ber extensi .exe
 *.exe

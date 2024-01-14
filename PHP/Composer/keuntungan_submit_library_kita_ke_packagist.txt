@@ -1,0 +1,4 @@
+/**
+ * Kita tidak perlu menambahkan repository git ke composer.json satu persatu
+ * Bisa sync secara otomatis ketika ada release versi baru
+*/

@@ -1,0 +1,5 @@
+/** Cara Download library yang telah kita buat dari Repository kita 
+ * Setelah library telah kita upload ke repository, kita bisa menggunakan library tersebut ke project kita
+ * Untungnya Composer juga terintegrasi dengan Git repository, jadi kita bisa menambahkan git repository
+   sebagai composer repository
+*/

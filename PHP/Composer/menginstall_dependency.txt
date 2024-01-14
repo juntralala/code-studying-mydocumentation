@@ -1,0 +1,12 @@
+ * Setelah kita membuat project Composer, selanjutnya kita akan menginstall dependency
+ * Walaupun sampai sekarang kita masih belum menambahkan dependendcy apapun, tetapi itu tidak masalah
+ * Unutk menginstall dependency, kita bisa menggunakan perintah :
+   composer update
+ * Perintah composer update akan menginstall semua dependency yang terdapat di file composer.json, lalu semua
+   dependency nya akan diupdate ke composer.log
+ * Hasil semua instalasi dependency akan disimpan ke folder vendor
+
+
+
+ * ada juga perintah : composer install
+ * kalau composer update menginstall dari file composer.json, sedangkan composer install dari composer.lock

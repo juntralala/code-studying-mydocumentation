@@ -1,0 +1,4 @@
+ * Untuk membuat projct Composer sangat sederhana, kita cukup membuat file composer.json pada project PHP kita
+ * oleh Karena itu kita bisa menmbahkan pada object baru maupun project lama
+ * Namun jika ingin secara otomatis, kita bisa menggunakan perintah :
+   composere init

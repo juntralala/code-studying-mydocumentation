@@ -1,0 +1,8 @@
+ * Composer adalah salah satu Dependency Management Tool yang populer untuk PHP
+ * Composer terinspirasi dari dependency management NPM (nodejs) dan Bundler (ruby)
+ * Dengan Composer, kita cukup membuat konfigurasi file yang berisi dependency yang kita butuhkan
+ * Composer akan secara otomatis download semua library dan dependency nya yang dibutuhkan sesuai dengan
+   versi yang kita gunakan
+ * Kita juga bisa update versi library yang kita gunakan dengan mudah hanya dengan mengubah versi di file
+   konfigurasi yang terdapat di project kita
+ * https://getcomposer.org/ 

@@ -1,0 +1,5 @@
+/**
+ * Kita juga bisa mengubah dan meningkatkan fungsionalitas composer itu sendiri
+ * Untuk hali ini, composer memiliki fitur Plugin
+   https://getcomposer.org/doc/articles/plugins.md 
+*/

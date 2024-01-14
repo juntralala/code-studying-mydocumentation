@@ -1,0 +1,6 @@
+/**
+ * Kadang library tidak hanya berisi kode PHP saja
+ * Kadang library juga berisi binary file untuk dieksekusi, contohnya jika teman-teman menggunakan library PHPUnit
+ * Fitur ini di composer bernama Vendor Binary
+ * https://getcomposer.org/doc/articles/vendor-binaries.md 
+*/

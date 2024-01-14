@@ -1,0 +1,7 @@
+ * Masalah yang sudah kita bahas sebelumnya, bisa kita hindari jika kita menggunakan Dependency Management
+   Tool
+ * Dependency Management Tool bertugas untuk mendownload semua library yang kita butuhkan beserta library
+   yang dibutuhkan oleh library yang kita gunakan
+ * Semua dilakukan secara otomatis
+ * Dan juga Dependency Management Tool bisa download library sesuai dengan versi yang dibutuhkan secara
+   otomatis

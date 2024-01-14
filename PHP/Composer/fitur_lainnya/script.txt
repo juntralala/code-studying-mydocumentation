@@ -1,0 +1,7 @@
+/** Script
+ * Fitur ini bisa digunakan untuk membuat custom script
+ * Dengan custom script kita bisa membuat perintah misal :
+   composer script-saya
+*/
+
+// note saya : fitur sama seperti fitur alias di git

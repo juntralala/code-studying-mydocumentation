@@ -1,0 +1,6 @@
+/**
+ * Saat kita membuat aplikasi di perusahaan, sudah pasti project dan library nya tidak akan public, alias private
+ * Composer juga mendukung private repository dengan menambahkan authentication
+ * Tiap jenis repository berbeda-beda cara authentication nya
+ * Kita bisa lihat di dokumentasinya https://getcomposer.org/doc/articles/authentication-for-private-packages.md 
+*/

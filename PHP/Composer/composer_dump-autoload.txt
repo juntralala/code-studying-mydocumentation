@@ -1,0 +1,5 @@
+/**
+ * Setelah kita menambahkan autoload, kita perlu melakukan generate ulang file autoload.php
+ * Untuk melakukan itu kita bisa menggunakan perintah :
+   composer dump-autoload
+*/

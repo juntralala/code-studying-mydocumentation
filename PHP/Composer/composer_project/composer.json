@@ -1,0 +1,25 @@
+{
+    "name": "ujun-al-rantaui/composer-project",
+    "description": "belajar composer dari Programmer Zaman Now",
+    "type": "project",
+    "authors": [
+        {
+            "name": "UJUN-Al-Rantaui",
+            "email": "ujun.muhammadjunaidi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "UjunAlRantaui\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ujun-al-rantaui/composer_library": "2.0.0",
+        "monolog/monolog": "3.5.0"
+    },
+    "scripts": {
+        "jalankan-terminal": "php -S localhost:8080",
+        "hello": "echo 'hello world\n'"
+    }
+}

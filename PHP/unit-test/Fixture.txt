@@ -1,0 +1,8 @@
+/** 
+ * Salah satu yang memekan waktu ketika membuat unit test adalah membuat kode awal yang berulang-ulang
+   sebelum unit test 
+ * Atau membuat kode akhir yang berulang ulang sesudah unit test
+ * Hal ini dinamakan fixture
+ * Pada unit test sebelumnya yang sudah kita buat, kita sering sekali membuat object $counter, atau $person
+ * Dengan menggunakan fitur Fixture di PHPUnit, hal ini bisa dipermudah
+*/

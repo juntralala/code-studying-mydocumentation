@@ -1,0 +1,6 @@
+/**
+ * Saat menambahkan library, kita perlu menentukan versi berapa yang akan kita gunakan
+ * Ada beberAPA menggunakan library di composer, semuanya tertulis di halaman resmi composer :
+   https://getcomposer.org/doc/aticles/version.md
+ * Version di Composer mengikuti Semantic Versionic : https://semver.org
+ 

@@ -1,0 +1,6 @@
+ * https://getcomposer.org/download/ 
+ * Untuk menginstall Composer sangatlah sederhana, kita cukup download binary file composer, lalu masukkan
+   ke dalam path directory bin PHP, atau bisa gunakan directory terpisah, namun kita perlu menambahkan ke
+   PATH lagi jika menggunakan directory terpisah
+ * Setelah menginstall Composer di PATH, kita bisa gunakan perintah berikut di terminal / command line untuk'
+   mengecek versi composer yang sudah terinstall : composer --version

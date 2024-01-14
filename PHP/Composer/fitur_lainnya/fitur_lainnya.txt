@@ -1,0 +1,5 @@
+ * Sebenarnya, sampai disini teman-teman sudah bisa mulai menggunakan composer
+ * Karena tujuan composer memang untuk dependency management
+ * Namun selain dependency management, masih banyak lagi fitur-fitur tambahan yang terdapat di composer
+ * Kita akan bahas sekilas saja, dan teman-teman bisa eksplore lebih dalam jika tertarik dengan fitur-fitur
+   lainnya diluar dependency management

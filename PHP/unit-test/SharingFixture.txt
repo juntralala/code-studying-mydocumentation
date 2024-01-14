@@ -1,0 +1,8 @@
+/**
+ * Karena object dari class unit test selalu dibuat ulang, maka kadang agak menyulitkan jika kita ingin
+   membuat data yang bisa di sharing antar unit test, misal koneksi ke database
+ * Untuk hal seperti ini, kita bisa membuat datanya berupa variable static, sehingga variable static tersebut
+   tidak perlu tergantung pada object unit test nya lagi
+*/
+
+// contohnya ada di CounterStaticTest.php 

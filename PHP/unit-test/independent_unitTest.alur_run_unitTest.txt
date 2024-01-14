@@ -1,0 +1,12 @@
+/** Independent unit test
+ * Secara default, class unit test itu sebenarnya akan selalu dibuat sebelum function unit test dijalankan 
+   jadi tidak menjalankan object unitTest yang sama
+ * Begini cara jalan unit test :
+   => membuat object unit test
+   => menjalankan fixture setUp
+   => menjalankan function unit test
+   => menjalankan fixture tearDown
+   => kemudian, ulangi dari awal untuk semua function unit test selanjutnya
+*/
+
+// lanjutanya SharingFIxture.txt

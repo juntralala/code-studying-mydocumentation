@@ -1,0 +1,4 @@
+/**
+ * Setelah selesai membuat repository, kita bisa upload library yang sudah kita buat ke Git repository
+ * Ada banyak Git Repository yang gratis, contohnya github
+ * Pada course ini saya tidak akan membahas tentang Git, karena materi Git dibuat dalam course terpisah

@@ -1,0 +1,8 @@
+/** 
+ * Composer secara otomatis menyimpan semua library yang kita gunakan di directory vendor
+ * Lantas bagaimana cara include file library nya?
+ * Kita tidak perlu melakukannya satu per satu, kita cukup menggunakan file /vendor/autoload.php yang sudah
+   secara otomatis digenerate oleh composer
+ * File autoload.php tersebut bisa secara otomatis menginclude class-class yang kita butuhkan di library
+ * Jadi di file PHP kita, kita cukup menambahkan autoload.php saja
+*/

@@ -1,0 +1,5 @@
+/**
+ * Khusus library OpenSource, kita juga bisa submit ke packagist
+ * Caranya pun sangat mudah, kita cukup registrasi, lalu submit repository kita yang ada di github
+ * packagist bisa secara otomatis mendeteksi versi library kita sesuai dengan Tag atau Releas di Git
+*/

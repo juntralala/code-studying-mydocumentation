@@ -1,0 +1,5 @@
+ * Composer menggunakan fitur PHP Class Autoload untuk load class yang ada di directory vendor
+ * https://www.php.net/manual/en/language.oop5.autoload.php
+ * Selain itu kita bisa memasukkan source code di project kita ke autoload agar kita tidak perlu melakukan 
+   include satu persatu file PHP class nya
+ * Namun agar bisa autoload, ada standar yang perlu kita ikuti

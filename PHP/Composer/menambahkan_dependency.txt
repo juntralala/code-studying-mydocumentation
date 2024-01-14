@@ -1,0 +1,10 @@
+/**
+ * Salah satu keuntungan menggunakan Composer adalah, kita bisa dengan mudah menambahkan dependency library
+   yang kita butuhkan
+ * Terdapat 2 jenis library composer :
+   1. Library yang digunakan ketika devlopment
+   2. Library yang digunakan ketika aplikasi sedang berjalan
+ * Contoh library yang kita gunakan ketika devlopment adalah Unit Test
+ * Untuk menambah library, kita bisa tambahkan di composer dengan attribute require (untuk library aplikasi),
+   dan require-dev (untuk library devlopment)
+*/

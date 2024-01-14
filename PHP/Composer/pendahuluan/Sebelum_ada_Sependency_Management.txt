@@ -1,0 +1,8 @@
+ * Saat kita membuat aplikasi, biasanya kita sering sekali membutuhkan library atau framework
+ * Sebelum menggunakan dependency management, jika kita membutuhkan library atau framework, maka kita perlu
+   download library atau frameworktersebut secara manual. Setelah itu kita masukkan ke dalam kode program kita
+ * Jika library nya sederhana, mungkin masih mudah untuk mengelolanya, tapi bagaimana jika ternyata library
+   tersebut membutuhkan library lain, dan tidak hanya satu, tapi ada banyak?
+ * Alhasil kita harus download semua library yang dibutuhkan oleh library yang kita gunakan
+ * Belum lagi, kita harus tahu versi berapa library lain yang digunakan oleh library yang kita gunakan
+ * Dan kadang project kita pun menjadi bengkak karena ukuran library yang terlalu banyak

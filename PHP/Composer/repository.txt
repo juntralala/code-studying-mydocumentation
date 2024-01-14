@@ -1,0 +1,7 @@
+/**
+ * Repository merupakan tempat semua dependency disimpan  
+ * Secara default, composer menggunakan repository packagist
+ * https://packagist.org/
+ * kita juga bisa menambahkan repository selain packagist jika mau :
+   https://getcomposer.org/doc/05-repsitories.md
+*/

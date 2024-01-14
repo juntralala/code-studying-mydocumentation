@@ -1,0 +1,8 @@
+/**
+ * Pada composer.json sebelumnya, kita sudah menggunakan namespace ProgrammerZamanNow di directory src
+   <!- ampun ku UjunAlRantaui lain ProgrammerZamanNow 
+ * Artinya jika kita import class dari namespace ProgrammerZamanNow, maka akan include file di directory src 
+ * Jika namespace nya ProgrammerZamanNow, maka foldernya dalah src, jika namespace adalah
+   ProgrammerZamanNow\Data, maka foldernya adalah src\Data
+ * Sedangkan untuk nama file, harus sama dengan nama class, jika nama classnya People, nama file harus People.php 
+*/
