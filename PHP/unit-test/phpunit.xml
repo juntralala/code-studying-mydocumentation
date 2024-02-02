@@ -1,0 +1,15 @@
+<phpunit colors="true" stopOnError="true" verbose="true">
+    <testsuites>
+        <testsuite name="all">
+            <directory>test</directory>
+        </testsuite>
+        <testsuite name="counter">
+            <file>test/CounterTest.php</file>
+            <file>test/CounterStaticTest.php</file>
+        </testsuite>
+        <testsuite name="product">
+            <file>test/ProductServiceTest.php</file>
+            <file>test/ProductServiceMockTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

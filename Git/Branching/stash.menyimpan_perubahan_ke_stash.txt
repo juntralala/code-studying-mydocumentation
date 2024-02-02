@@ -7,6 +7,11 @@ Lanjutan dari stash.txt :
 => Untuk melihat perubahan yang terjadi di Stash, kita gunakan perintah :
    git stash show stashId
 
+=>> SECARA DEFAULT, git stash tidak bisa menyimpan untracked file, atau file yang belum pernah sama sekali ditambahkan ke staging index 
+     atau repository
+=>> Jika ingin menyimpan perubahan bersama untracked file, tambahkan parameter -u :
+    git stash push -m "message stash" -u
+
 Simulasi :
 => simpan semua perubahan ke stash
 => Pindah ke branch utama

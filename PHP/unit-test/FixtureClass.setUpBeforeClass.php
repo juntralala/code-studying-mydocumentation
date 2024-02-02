@@ -1,0 +1,1 @@
+// penjelasannya ada di FIxtureClass.php
