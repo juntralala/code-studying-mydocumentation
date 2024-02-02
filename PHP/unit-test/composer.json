@@ -22,6 +22,8 @@
         "phpunit/phpunit": "10.5.5"
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit --configuration phpunit.xml --testsuite all",
+        "test:counter": "vendor/bin/phpunit --configuration phpunit.xml --testsuite counter",
+        "test:product": "vendor/bin/phpunit --configuration phpunit.xml --testsuite product"
     }
 }

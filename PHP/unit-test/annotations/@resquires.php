@@ -1,0 +1,1 @@
+// penjelasannya ada di Skip_bersarkan_kondisi.php 

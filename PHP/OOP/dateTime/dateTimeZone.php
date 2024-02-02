@@ -9,6 +9,6 @@ $dateTime = new DateTime();
 
 var_dump($dateTime); // timezone defaultnya tergantung laptop
 
-$dateTime->setTimezone(new DateTimeZone("Asia/Jakarta"));
+$dateTime->setTimezone(new DateTimeZone("Asia/Makassar"));
 
 var_dump($dateTime);
