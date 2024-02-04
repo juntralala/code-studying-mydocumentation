@@ -13,8 +13,8 @@ console.log(address)
 
 // tanpa optional chaining operator
 let address2 
-if (person === undefined && person === null) {
-    address = person.address.country
+if (person !== undefined && person !== null) {
+    address2 = person.address.country
 }
 console.log(address2)
 

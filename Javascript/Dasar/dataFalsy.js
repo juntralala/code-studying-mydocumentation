@@ -18,3 +18,9 @@ if (arrayKosong) {
 } else {
     console.log("FALSE")
 }
+
+let nan = NaN
+console.log((nan)? "TRUE" : "FALSE")
+
+let nul = null
+console.log((nul)? "TRUE" : "FALSE")
