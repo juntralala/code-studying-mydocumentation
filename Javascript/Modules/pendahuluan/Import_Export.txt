@@ -1,0 +1,6 @@
+/** Import Export
+ * Secara Garis besar, ada dua kata kunci yang digunakan dalam JavaScript moduleS, yaitu import dan export
+ * import merupakan katakunci yang digunakan untuk mengambil sesuatu dari module lain
+ * Sedangkan export merupakan yang digunakan untuk memberitahu module lain, bagian mana yang mau kita
+   export keluar, supaya bisa diimport oleh module lain
+*/

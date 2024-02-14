@@ -1,0 +1,25 @@
+<html>
+<body>
+
+    <input type="text" name="name" id="name">
+    <input type="button" value="Say" id="sayButton">
+    <button onclick="sayButton2(document.getElementById('name').value)">Button Say Buatan KU</button>
+
+    <script type="module">
+        document.getElementById('sayButton').onclick = function() {
+            import("./scripts/alertHello.js").then(module => {
+                let message = document.getElementById('name').value
+                module.alertHello(message)
+            })
+        }
+    </script>
+
+    <script>
+        function sayButton2(message){
+            import("./scripts/alertHello.js").then(module => {
+                module.alertHello(message)
+            })
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/**
+ * JavaScript modules merupakan fitur dimana kita bisa membaut module (kode javascript yang bisa digunakan
+   ulang) untuk kode JavaScript lain
+ * JavaScript Modules diawali pada teknologi yang bernama NodeJS, selanjutya banyak liblary yang mengadopsi
+   penggunaan JavaScript Modules di NodeJS agar bisa berjalan di Web Server, seperti liblary CommonJS, AMD
+   RequireJS, dan lain-lain
+ * Namun untungnya, saat ini Browser modern sudah banyak sekali yang mendukung JavaScript Modules, kecuali
+   jika masih menggunakan Internet Explorer
+*/ 

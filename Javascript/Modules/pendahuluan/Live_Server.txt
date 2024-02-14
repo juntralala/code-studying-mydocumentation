@@ -1,0 +1,20 @@
+/** Live Server
+ * Saat kita menggunakan fitur JavaScript Modules, sangat disarankan menjalankan kode javascript kita
+   di dalam Web Server
+ * Hal ini karena spesifikasi JavaScript module secara default, kode JavaScript perlu di satu domain Server
+   yang sama
+ * Jika kita membaut file html menggunakan URL file:// maka dikhawatirkan akan terjadi error CORS (Cross 
+   Origin Resource Sharing)
+*/
+
+/** Visual Studio Code
+ * Jika menggunakan Visual Studi Code, disarankan menginstall plugin Live Server : 
+   https://marketplace.visual.studio.com/items?itemsName=ritwickdey.LiveServer
+ * Plugin Live Server ini bisa digunakan untuk menjalankan local web server, sehingga kita bsia mengakses
+   kode web JavaScript kita menggunakan localhost
+*/
+
+/** JetBrains IDE 
+ * Jika menggunakan JetBrains IDE, sudah terdapat fitur untuk membuka fitur halaman web dalam local web server
+ * Tanpa perlu menginstall plugin tambahan (seperti ItellijIdea, PHPStorm, WebStorm, dll)
+*/

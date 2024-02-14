@@ -1,0 +1,8 @@
+/** Latar Belakang
+ * Dahulu kode program JavaScript biasanya dimulai dari kode yang kecil dan sedikit di setiap halaman, jadi
+   jarang sekali kita akan menggunakan kode JavaScript dengan ukuran besar dalam satu halaman web
+ * Namun saat ini, kebutuhan web sudah berbeda, semenjak populernya framework-framwork JavaScript untuk 
+   membuat FrontEnd, kebutuhan pembuatan kode JavaScript semakin kompoleks dan besa
+ * Oleh karena itu, sudah seharusnya saat ini kita saat membuat kode JavaScript, kita perlu mekanisme
+   memotong motong kode JavaScript, sehingga tidak terlalu rumit dan banyak dalam satu file
+*/
