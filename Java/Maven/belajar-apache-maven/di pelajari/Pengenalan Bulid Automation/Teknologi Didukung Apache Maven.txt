@@ -1,0 +1,8 @@
+/** Teknologi didukung Apache Maven
+ * Apache Maven mendukung build automation untuk banyak teknologi, seperti
+  - Java
+  - Kotlin
+  - Groovy
+  - Scala
+  - dan lain-lain
+*/
