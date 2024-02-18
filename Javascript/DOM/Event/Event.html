@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <h1 id="text">Click Yellow Box</h1>
+    <div id="canvas" style="width: 500px;height: 500px;background-color: skyblue;"></div>
+    <script>
+        const text = document.getElementById("text")
+        const canvas = document.getElementById("canvas")
+
+        canvas.onclick = (event)=> {
+            text.textContent = `You clicked at ${event.x}, ${event.y}`
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/** Pengenalan APache Maven
+ * Apache Maven adalah salah satu build automation yang free dan open source
+ * Apche Maven menggunakan XML untuk mendifiniskan build script nya
+ * Apache Maven saat ini sangat Populer
+ * Apache Maven menggunakan JVM sebagai fondasi dasar
+ * https://maven.apache.org/
+*/

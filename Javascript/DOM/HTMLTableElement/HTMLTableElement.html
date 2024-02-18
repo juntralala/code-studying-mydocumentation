@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>HTML Table Element</title>
+</head>
+</html>
+<body>
+    <table id="orderRevenue" border="1">
+        <caption>Order Revenue</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Income</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>10.000.000</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>20.000.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>30.000.000</td>
+            </tr>
+        </tfoot>
+        <script>
+            const orderRevenueTable = document.getElementById("orderRevenue") 
+            console.info(orderRevenueTable.caption)
+            console.info(orderRevenueTable.tHead)
+            console.info(orderRevenueTable.tBodies)
+            console.info(orderRevenueTable.tFoot)
+            console.info(orderRevenueTable.rows)
+        </script>
+    </table>
+</body>

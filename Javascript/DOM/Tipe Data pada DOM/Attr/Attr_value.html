@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attr Value</title>
+</head>
+<body>
+    
+    <img id="photo-profile" src="./img/Itsuka Shido.jpg" alt="Photo Profile">
+
+    <script>
+        const logo = document.getElementById("photo-profile")
+        const src = logo.getAttribute("src")  // langsung mengambil value src nya
+        console.info(src)
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Element</title>
+</head>
+<body>
+    
+    <div id="content" class="content"></div>
+
+    <script>
+        const content = document.getElementById("content")
+
+        const title = document.createElement("h1")
+        title.textContent = "Belajar JavaScript DOM"
+        content.appendChild(title)
+
+        const description = document.createElement("p")
+        description.textContent = "Selamat Belajar JavaScript DOM"
+        content.appendChild(description)
+
+    </script>
+</body>
+</html>
