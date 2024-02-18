@@ -1,0 +1,4 @@
+/** Membuat Java Project
+ * mvn archetype:generate
+ * mvn-archetype-quickstart
+*/

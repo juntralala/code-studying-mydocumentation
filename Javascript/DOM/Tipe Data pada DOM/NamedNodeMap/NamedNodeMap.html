@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NamedNodeMap</title>
+</head>
+<body>
+    <img id="photo-profile" src="./../Attr/img/Itsuka Shido.jpg" alt="Photo Profile">
+
+    <script>
+
+        const photoProfile = document.getElementById("photo-profile")
+        const attributes = photoProfile.attributes
+
+        for(let attribute of attributes){
+            console.log(`${attribute.name} : ${attribute.value}`)
+        }
+
+    </script>
+</body>
+</html>

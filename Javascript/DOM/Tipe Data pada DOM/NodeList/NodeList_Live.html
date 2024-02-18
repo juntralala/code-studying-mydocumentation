@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeList Live</title>
+</head>
+<body>
+    <ul id="menu1">
+        <li id="first">First</li>
+        <li id="second">Second</li>
+        <li id="third">Third</li>
+    </ul>
+    <ul id="menu2">
+        <li>Ujun</li>
+        <li>Muhammad</li>
+        <li>Junaidi</li>
+    </ul>
+    
+    <script>
+        const menu1 = document.getElementById("menu1")
+        const list = menu1.childNodes 
+
+        console.log(list)
+        
+        menu1.appendChild(document.createElement("li"))
+        menu1.appendChild(document.createElement("li"))
+
+        console.log(list)  // yang disini ikut bertambah/berubah
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attr</title>
+</head>
+<body>
+    
+    <img id="photo-profile" src="./img/Itsuka Shido.jpg" alt="Photo Profile">
+
+    <script>
+
+        const logo = document.getElementById("photo-profile")
+        const src = logo.getAttributeNode("src")
+
+        console.info(src.name)
+        console.info(src.value)
+
+    </script>
+</body>
+</html>

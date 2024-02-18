@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <title>Operator di Attribute Selector</title>
+        </head>
+    </head>
+    <body>
+        <div class="first">First</div>
+        <div class="second menu">Second</div>
+        <div class="third/">Third</div>
+        <script>
+            const list = document.querySelectorAll("[class=first]")  // mencari element dengan attribute class dengan value 'first'
+            const list2 = document.querySelectorAll("[class^=second]")  // mencari element dengan attribute class dengan awalan value 'second'
+
+            console.log(list)
+            console.log(list2)
+        </script>
+    </body>
+</html>
