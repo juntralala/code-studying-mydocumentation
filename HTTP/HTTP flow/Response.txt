@@ -1,0 +1,5 @@
+/** Response
+ * Setelah Server memproses HTTP Request yang dikirim oleh Client
+ * Server akan membalas dengan HTTP Response
+ * HTTP Response biasanya berisikan data yang diminta oleh Client dalam HTTP Request 
+ */

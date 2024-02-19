@@ -1,0 +1,6 @@
+/** HTTP Message
+ * HTTP Request dan HTTP Response, sebenarnya adalah sebuah HTTP Message
+ * HTTP Message memiliki standarisasi format
+ * Dengan semikian, jika kita ingin membuat Client dan Server sendiri, sebenarnya bisa kita lakukan, asal
+   kita mengikuti standarisasi format HTTP Message 
+ */ 

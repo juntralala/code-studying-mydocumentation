@@ -1,0 +1,14 @@
+/** Contoh HTTP Header
+    +===============+===========================================================+
+    | HTTP Header   | Keterangan                                                |
+    +---------------+-----------------------------------------------------------+
+    | Host          | Authority pada URL (wajib sejak HTTP/1.1)                 |
+    | Content-Type  | Tipe data dari HTTP Body                                  |
+    | User-Agent    | Informasi user agent (seperti browser dan sistem operasi) |
+    | Accept        | Tipe data yang diterima oleh Client                       |
+    | Authorization | Credential untuk autentikasi (misal username + password)  |
+    +===============+===========================================================+
+ */
+
+ // kita tidak wajib hafal semua key http header, karna biasanya sudah ditangani otomatis oleh browser
+ // kita cuman perlu tau saja

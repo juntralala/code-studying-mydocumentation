@@ -1,0 +1,6 @@
+/** Stateless 
+ * HTTP didesain stateless, artinya setiap request yang dilakukan, dia tidak tahu request sebelumnya atau
+   selanjutnya yang akan dilakukan 
+ * Lantas pertanyaanya, bagaimana Server tahu, kalo Client sudah login sebelum mengakses halaman tertentu?
+ * Hal ini biasanya menggunakan HTTP cookie
+ */

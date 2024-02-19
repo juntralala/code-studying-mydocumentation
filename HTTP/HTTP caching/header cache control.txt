@@ -1,0 +1,9 @@
+/** Header Cache Control
+ * Server ketika meminta agar client melakukan caching, maka HTTP response perlu menambahkan informasi
+   Cache-Control di Header
+ * Cache-Control berisi informasi seperti berapa lama client bsia menyimpan data response tersebut, sehingga 
+   tidak perlu meminta ulang ke Server 
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+ */
+
+ // value dari key Cache-Control ada banyak silahkan cek dokumentasinya

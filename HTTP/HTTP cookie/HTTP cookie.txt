@@ -1,0 +1,8 @@
+/** HTTP Cookie
+ * HTTP Cookie adalah informasi yang diberikan oleh server, dan client secara otomatis akan menyimpan data
+   tersebut, contohnya di Web Browser 
+ * Ketika Web Browser melakukan request selanjutnya, maka Web Browser akan menyisipkan cookie yang sudah
+   diterima di request sebelumnya
+ * Dari cookie tersebut, Server bisa mengetahui apakah request tersebut merupakan client request yang sudah
+   log in atau belum
+ */

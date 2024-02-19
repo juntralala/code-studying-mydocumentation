@@ -1,0 +1,5 @@
+/** Successful Response (200-299)
+ * Successful Response merupakan kode yang mengindikasikan bahwa request yang terkirim oleh client telah
+   diterima, dimengerti dan sukses diproses oleh Server
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses
+ */

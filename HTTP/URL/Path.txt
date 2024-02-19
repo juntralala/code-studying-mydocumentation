@@ -1,0 +1,6 @@
+/** Path
+ * Selanjutnya setelah schema dan Authority, bagian selanjutnya tidak wajib, diantaranya Path
+ * Path biasanya berisikan informasi menuju resource yang kita tuju
+ * Path terlihat seperti kompulan folder dan diakhiri dengan file yang ingin kita akses
+ */
+ 

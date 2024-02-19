@@ -1,0 +1,8 @@
+/** Anatomi URL
+ * URL terdari dari beberapa bagian
+ * Beberapa bagian wajib ada, dan beberapa bagian tidak wajib ada
+ * Berikut contoh URL :
+   - https://www.programmerzamannow.com/
+   - https://www.programmerzamannow.com/premium-membership/
+   - https://www.programmerzamannow.com/?search=java
+ */

@@ -1,0 +1,9 @@
+/** Plain Language and Human Readable
+ * HTTP disesain menggunakan bahasa yang mudah dimengerti oleh manusia, seperti :
+    - GET
+    - POST
+    - PUT
+    - DELETE
+    - HEAD
+    - OPTION
+ */

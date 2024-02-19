@@ -1,0 +1,5 @@
+/** URL
+ * URL singkatan dari Uniform Resource Locator
+ * URL merupakan alamat dari sebuah resource di Web
+ */
+

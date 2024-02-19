@@ -1,0 +1,21 @@
+/** Jenis HTTP Method
+    +===============+===============================================================================+
+    | HTTP Method   | Keterangan                                                                    |
+    +---------------+-------------------------------------------------------------------------------+
+    | GET           | GET method digunakan untuk melakukan request data. Request menggunakan GET    |
+    |               |  hanyak untuk menerima data, bukan untuk mengirim data                        |
+    | HEAD          | HEAD method digunakan sama seperti dengan GET, tapi tanpa membutuhkan response|
+    |               |  body                                                                         |
+    | POST          | POST method digunakan untuk mengirim data ke Server. Biasanya POST digunakan  |
+    |               |  untuk mengirim baru sehigga biasanya memiliki request body                   |
+    | PUT           | PUT method sigunakan untuk mengganti semua data yang terdapat di Server dengan|
+    |               |  data baru yang dikirim di request                                            |
+    | DELETE        | DELETE method digunakan untuk menghapus data                                  |
+    | PATCH         | PATCH method digunakan untuk mengubah sebagian data                           |
+    | OPTIONS       | OPTIONS method digunakan untuk merepresentasikan opsi komunikasi yang tersedia|
+    | TRACE         | TRACE method merupakan request method untuk debugging. Response TRACE method  |
+    |               |  akan mengembalikan seluruh informasi yang dikirm oleh Client. Saat membuat   |
+    |               |  web sangat direkomendasikan untuk tidak mengaktifkan TRACE method ketika     |
+    |               |  sudah live di production                                                     |    
+    +===============+===============================================================================+
+ */

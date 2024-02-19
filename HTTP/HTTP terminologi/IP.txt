@@ -1,0 +1,7 @@
+/** IP
+ * IP singkatan dari Internet Protocol
+ * IP digunakan sebagai identitas komputer di jaringan
+ * Setiap komputer baik itu client dan server akan memiliki IP
+ * Untuk mengecek IP jaringan kita di internet, contohnya kita bisa menggunakan web
+   https://whatismyip.com/
+ */

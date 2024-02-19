@@ -1,0 +1,4 @@
+/** Web Browser
+ * Merupakan applikasi yang digunakan untuk mengakses Web menggunakan Protocol HTTP
+ * Contoh applikasi Google Chrome, Firefox, Opera, Safari, dan lain-lain
+*/

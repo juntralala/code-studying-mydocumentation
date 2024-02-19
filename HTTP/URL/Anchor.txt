@@ -1,0 +1,6 @@
+/** Anchor
+ * Anchor merupakan bagian yang tidak wajib dari URL
+ * Achor merupakan representasi bookmark dalam sebuah halaman website
+ * Misal jika dalam website terdapat banyak sekali informasi, kita bisa gunakan anchor sebagai bookmark
+   ke tiap bagian informasi tersebut agar lebih mudah diakses
+ */ 

@@ -1,0 +1,5 @@
+/** Cookie di HTTP response
+ * Informasi cookie yang diberikan dari Server, ditempatkan pada Header dengan value Set-Cookie
+ * Cookie bisa lebih dari satu, jika Server kita memberikan lebih dari satu cookie, bisa menggunakan
+   beberapa key Set-Cookie di Header  
+ */

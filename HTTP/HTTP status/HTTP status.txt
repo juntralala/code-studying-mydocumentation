@@ -1,0 +1,11 @@
+/** HTTP Status
+ * HTTP Sattus merupakan kode HTTP Response yang mengindikasikan apakah sebuah request yang diterima Server
+   sukses, gagal, atau hal lain yang harus diketahui oleh Client
+ * HTTP status diklasifikasikan dalam lima grup, yaitu :
+ * Informational Response (100-199)
+ * Successful Response (200-299)
+ * Redirect (300-399)
+ * Client Error (400-499)
+ * Server Error (500-599)
+ * https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+ */

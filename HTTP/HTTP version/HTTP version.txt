@@ -1,0 +1,5 @@
+/** HTTP Version
+ * Spesifikasi HTTP selalu diperbarui  (jadi sebenranya HTTP hanya spesifikasi, karenanya applikasi2 yang memenuhi spesifikasi HTTP bisa berkomunikasi)
+ * Saat ini, kebanyakan web berjalan di HTTP/1.1 atau HTTP2
+ * HTTP2 mulai hadir sekitar tahun 2015, dan saat ini sudah banyak sekali diadopsi semua web di dunia
+ */

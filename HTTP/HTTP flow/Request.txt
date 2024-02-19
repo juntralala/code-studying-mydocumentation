@@ -1,0 +1,6 @@
+/** Request
+ * Client akan mengirim request ke Server dalam bentuk HTTP Request
+ * HTTP Request berisikan informasi seperti lokasi resource, data yang dikirim jika ada, dan lain-lain
+ * HTTP Request akan diterima
+ * Selanjutnya Server akan memproses request yang diminta oleh Client tersebut
+ */

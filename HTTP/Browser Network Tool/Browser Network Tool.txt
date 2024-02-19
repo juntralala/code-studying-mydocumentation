@@ -1,0 +1,7 @@
+/** Browser Network Tool
+ * Untuk lebih mempermudah melihat apayang dilakukan di belakang Web Browser, biasanya Web Browser memiliki
+   fitur Network Tool
+ * Contohnya di browser seperti Google Chrome dan Firefox sudah memiliki Netowrk Tool 
+ * Dengan Netowrk Tool, kita bisa melihat semua detail HTTP Request dan HTTP Response yang dilakukan oleh
+   Clinet dan Server
+ */

@@ -1,0 +1,4 @@
+/** Schema
+ * Bagian awal URL adalah schema yang mengindikasikan protocol yang perlu digunakan oleh Client
+ * Biasnaya dalam URL websitem schema protocol tersebut adalah http dan https
+ */ 

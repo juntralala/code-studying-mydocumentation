@@ -1,0 +1,6 @@
+/** URL
+ * URL singaktan dari Uniform Resource Locator 
+ * URL merupakan alamat dari sebuah resource di Web
+ * URL wajib kita gunakan untuk menuju informasi resource yang akan kita tuju dalam Web
+ * Tanpa URL, Client atau Server tidak akan megerti informasi apa yang ingin kita cari
+ */

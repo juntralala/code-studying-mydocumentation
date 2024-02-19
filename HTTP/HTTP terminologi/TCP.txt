@@ -1,0 +1,6 @@
+/** TCP
+ * TCP singkatan dari Transmission Control Protocol adalah salah satu protocol dalam jaringan komputer
+   yang biasa digunakan oleh web, email, FTP atau lainnya
+ * Jika kita menggunakan jaringan internet, kemungkinan besar kita akan menggunakan protocol TCP untuk
+   melakukan koneksi jaringannya
+ */

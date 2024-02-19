@@ -1,0 +1,6 @@
+/** HTTP Method
+ * Dalam HTTP Request, hal yang pertama kita perlu tentukan adalah HTTP Method
+ * HTTP Method mirip seperti kategori request
+ * Ada banyak sekali Method yang dapat kita gunakan ketika membuat HTTP Request, dan kita bisa sesuailam
+   dengan kebutuhan yang kita inginkan
+ */

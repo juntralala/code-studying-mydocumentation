@@ -1,0 +1,7 @@
+/** Client Error (400-499)
+ * Client error status code merupakan indekasi bahwa request yang dikirim oleh Client tidak diterima oleh 
+   Server dikarenakan request yang dikirim dianggap tidak valid
+ * Contohnya client mengirim body yang salah, client melakukan request ke tanpa autentikasi di resource
+   yang mewajibkan autentikasim dan lain-lain
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
+ */ 

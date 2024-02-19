@@ -1,0 +1,8 @@
+/** DNS
+ * DNS singkatan dari Domain Name Server
+ * DNS merupakan tempat berisi data katalog pemetaan antara nama domain di URL menuju lokasi IP komputer
+ * Saat Web Browser mengakses sebuah domain di web, sebenarnya prosesnya akan bertanya ke DNS untuk
+   mendapatkan IP, lalu Web Browser akan melakukan request ke IP tersebur
+ * Untuk mengecek IP sebuah domain, Keta bisa gunakan website :
+   https://whatismyip.com/dns-lookup/
+ */

@@ -1,0 +1,6 @@
+/** HTTP Terminologi
+ * Saat kita belajar HTTP, ada banyak sekali menggunakan terminologi, istilah, atau teknologi
+ * Dan kita perlu mengerti tentang hal tersebut
+*/
+
+// terminologi itu istilah

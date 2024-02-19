@@ -1,0 +1,9 @@
+/** Redirect 
+ * Seperti yang sudah dijelaskan pada materi HTTP status, untuk memeksa client melakukan redirect ke halaman
+   lain, kita bisa gunakan http redirect status code (300-399)
+ * Lantar pertanyaanya, dari mana client tahum harus melakukan redirect ke URL mana?
+ * Oleh karena itu, biasanya response HTTP Status redirect, selalu dibarengi dengan informasi URL
+   redirectnya, dan itu disimpan pada header Location
+ */
+
+// jadi redirect adalah kombinasi dari Response Code 3xx dan Header key Location

@@ -1,0 +1,8 @@
+/** HTTP Body
+ * HTTP Body merupakan data yang bisa dikirim di HTTP Request, atau data yang diterima dari HTTP Response
+ * Artinya client bisa mengirim data ke server menggunakan HTTP Bodym begitu juga sebaliknya
+ * Server bisa memberikan body di response menggunakan HTTP Body
+ */
+
+// bisanya kalau kita melakukan pengiriman / menerima data body, maka di HTTP Message nya ada header
+// Content-Type 

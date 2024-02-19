@@ -1,0 +1,9 @@
+/** Stateless
+ * HTTP merupakan protokol yang stateless
+ * Artinya setiap HTTP Request merupakan request yang independen, tidak ada keterkaitan atau hubungan
+   dengan HTTP Request sebelumnya atau setelahnya
+ * Hal ini filakukan agar HTTP Request tidak harus dilakukan secara sequence, sehingga client bisa melakukan
+   HTTP Request secara bebas tanpa ada aturan harus dimulai dari mana
+ */
+
+ 

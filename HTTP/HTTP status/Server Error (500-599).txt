@@ -1,0 +1,6 @@
+/** Server Error (500-599)
+ * Server error status code mengindikasikan bahwa terjadi kesalahan di Server
+ * Biasanya ini terjadi ketika ada masalah di Server, seperti misalnya tidak bisa terkoneksi ke basis data,
+   terdapat jaringan error di server, dan lain-lain
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses
+ */

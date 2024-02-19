@@ -1,0 +1,6 @@
+/** Client
+ * Client merupakan komputer yang bertugas mengirim HTTP Request ke komputer Server
+ * Untuk mengirim request HTTP, biasanya client akan menggunakan applikasi Web Browser
+ * Client dan Server harus terkoneksi dalam jaringan internet yang sama, agar bisa berkomunikasi
+ * Misal saja, client dan server terhubung dalam jaringan internet
+ */ 

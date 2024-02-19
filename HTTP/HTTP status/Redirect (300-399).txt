@@ -1,0 +1,6 @@
+/** Redirect (300-399)
+ * Redirect status code mengindikasi bahwa client harus melakukan aksi selanjutnya untuk menyelesaikan request
+ * Biasanya redirect status code digunakan ketika lokasi sebuah resource berubah, sehingga Server meminta
+   Client untuk berpindah ke URL lain
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages
+ */

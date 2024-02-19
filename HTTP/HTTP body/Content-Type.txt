@@ -1,0 +1,8 @@
+/** Content-Type
+ * HTTP body erat kaitannya dengan Header key Content-Type
+ * Biasanya agar client dan server mudah mengerti isi HTTP Body, HTTP Message akan memiliki Header
+   Content-Type, yang berisi informasi tipe data HTTP Body 
+ * HTTP Body biasanya berisikan teks (html, JavaScript, css, json) atau binary (image, video, audio)
+ * Data Content-Type sudah memiliki standarisasi, misal nya bisa kita lihat di link berikut :
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types 
+ */ 

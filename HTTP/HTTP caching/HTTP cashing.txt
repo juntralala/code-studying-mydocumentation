@@ -1,0 +1,10 @@
+/** HTTP caching
+ * HTTP memiliki fitur yang bernama caching
+ * Caching adalah menyimpan data di client sampai batas waktu yang sudah ditentukan, sehingga jika client
+   ingin melakukan request resource yang sama, cukup ambil resource nya di client, tanpa harus meminta ulang
+   ke server
+ * HTTP caching sangat cocok dilakukan untuk resource file static yang jarang berubah, seperti file, gambar,
+   audio, video, dan lain-lain
+ */
+
+ // value dari key Cache-Control ada banyak silahkan cek dokumentasinya

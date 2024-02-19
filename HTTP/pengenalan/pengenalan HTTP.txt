@@ -1,0 +1,7 @@
+/** Pengenalan HTTP
+ * HTTP singkatan dari Hypertext Transfer Protocol
+ * HTTP merupakan protocol untuk melakukan trasmisi hypermedia document, seperti HTML, JavaScript, CSS, 
+   image, video, dan lain-lain
+ * HTTP pada awalnya disesain untuk komunikasi antara Web Browser dan Web Server, namun saat ini sering
+   juga digunakan untuk kebutuhan lain
+*/

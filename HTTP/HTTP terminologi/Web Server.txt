@@ -1,0 +1,8 @@
+/** Web Server
+ * Web Server merupakan applikasi yang berjalan di jaringan Internet yang bertugas sebagai server
+ * Web Server berisi informasi dan data yang biasa diakses oleh client
+ * Web Server akan menerima request dari client, dan akan membalas request tersebut berupa informasi
+   yang diminta oleh client
+ */
+
+ 

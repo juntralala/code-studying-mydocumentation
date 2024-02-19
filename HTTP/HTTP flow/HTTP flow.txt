@@ -1,0 +1,6 @@
+/** HTTP Flow
+ * Bagaimana alur kerja HTTP?
+ * Dalam HTTP, biasannya terdapat 2 pihak yang terlibat, Client dan Server
+ * Client akan mengirimkan Request
+ * dan Server akan menerima Request dan membalas dengan Response
+ */ 

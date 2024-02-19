@@ -1,0 +1,6 @@
+/** Session
+ * Jika HTTP merupakan protokol yang stateless, bagaimana dengan session? Misal client harus login
+   terlebih dahulu sebelum berinteraksi
+ * Untuk mengani masalah seperti ini, HTTP memiliki fitur yang bernama HTTP Cookie
+ * HTTP Cookie memaksa client menyimpan informasi yang diberikan server
+ */

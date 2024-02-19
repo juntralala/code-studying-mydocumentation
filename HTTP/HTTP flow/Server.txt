@@ -1,0 +1,6 @@
+/** Server
+ * Server merupakan sebuah komputer, dimana semua informasi disimpan pada komputer tersebut
+ * Komputer server biasanya menjalakan applikasi Web Server agar bisa menerima protocol HTTP
+ */
+
+ 

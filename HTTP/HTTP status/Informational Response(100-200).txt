@@ -1,0 +1,6 @@
+/** Informational Renponse (100-199)
+ * Informational response mengindikasikan bahwa request telah diterima dan dimengerti
+ * Namun client diminta untuk menunggu tahapan akhir response
+ * Pada kenyataanya, informational response sangat jarang sekali digunakan
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses
+ */

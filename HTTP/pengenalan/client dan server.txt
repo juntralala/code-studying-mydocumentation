@@ -1,0 +1,6 @@
+/** Client Server
+ * HTTP mengikuti arstitektur client dan server
+ * Client mengirimkan HTTP Request untuk meminta atau mengirim informasi ke server
+ * Dan server membalasnya dengan HTTP Response dari HTTP Request yang diterima
+*/
+ 

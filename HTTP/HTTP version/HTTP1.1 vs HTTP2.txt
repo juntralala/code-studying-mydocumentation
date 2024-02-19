@@ -1,0 +1,12 @@
+/** HTTP/1.1 vs HTTP/2
+ * Saat ini HTTP/1.1 merupakan fallback protocol, dimana Web Browser secara default akan melakukan request  
+   menggunakan HTTP/2, jika web server tidak mendukung, maka web browser akan melakukan fallback ke
+   protocol HTTP/1.1
+ * Secara garis besar spesifikasi HTTP/2 sama dengan HTTP/1.1, yang membedakan adalah pada HTTP/2, HTTP
+   Request nya yang dikirim dalam bentuk teks, secara otomatis menjadi binary, sehingga lebih cepar 
+   dibandingkan HTTP/1.1
+ * Selain itu, HTTP/2 menggunakan algortima kompresi untuk memperkecil request dan mendukung multiplexing,
+   sehingga bisa mengirim beberapa request dalam satu connection yang sama
+ * Dari sisi pembuatan applikasi, tidak ada perbedaan, semua ini biasanya sudah diurus secara otomatis oleh 
+   Web Server yang kita gunakan
+*/

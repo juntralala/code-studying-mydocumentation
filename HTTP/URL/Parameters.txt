@@ -1,0 +1,6 @@
+/** Parameters
+ * Selanjutnya setelah domain atau path, di URL juga bisa berisi informasi parameters, namun ini tidak wajib
+ * Parameter dipisah oleh karakter ? setelah Authority atau Path
+ * Parameter merupakan informasi tambahan yang berisi key=value, jika ingin menambah lebih dari satu
+   parameter, kita bisa tambahkan parameter dengan menggunakan karakter &
+ */ 

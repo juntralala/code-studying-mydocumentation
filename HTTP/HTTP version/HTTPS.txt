@@ -1,0 +1,9 @@
+/** HTTPS
+ * Secara default, HTTP tidak lah aman
+ * HTTPS merupakan HTTP dengan enskripsi
+ * Perbedaan HTTP dan HTTPS adalah, pada HTTPS menggunakan SSL (Secure Sockets Layer) untuk melakukan
+   enskripsi HTTP Request dan HTTP Response
+ * Hasilnya HTTPS jauh lebih aman dibanding dengan HTTP biasa
+ * Web yang menggunakann HTTPS akan menggunakan HTTPS akan menggunakan https:// pada url nya. Dan yang hanya
+   menggunakan HTTP tanpa enskripsi, akan menggunakan http://
+*/
