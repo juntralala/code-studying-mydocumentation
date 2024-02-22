@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload File dengan AJAX</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form>
+        <ul type="none">
+            <li>
+                <label for="username">Username:
+                    <input type="text" name="username" id="username">
+                </label>
+            </li>
+            <li>
+                <label for="name">Name:
+                    <input type="text" name="name" id="name">
+                </label>
+            </li>
+            <li>
+                <label for="profile">Profile:
+                    <input type="file" id="profile" name="profile">
+                </label>
+            </li>
+            <li><input type="button" value="Register" id="register"></li>
+        </ul>
+    </form>
+    <div id="response"></div>
+    <script>
+        function doRegister(){
+            const ajax = new XMLHttpRequest()
+            ajax.open("POST", "https://eogs5jvts45599g.m.pipedream.net")
+            ajax.onload = function(){
+                document.getElementById("response").textContent = `status code: ${ajax.status}`
+            }
+            // ajax.setRequestHeader("Content-Type", "multipart/form-data")
+// untuk Content-Type tidak perlu di set manual lagi karena akan di set secara otomatis ketika
+// kita mengirim FormData       
+
+            const form = new FormData();
+            form.append("username", document.getElementById("username").value)
+            form.append("name", document.getElementById("name").value)
+            
+            let files = document.getElementById("profile").files
+            let fisrtFile = files.item(0)
+            form.append("profile", fisrtFile)
+
+            ajax.send(form)
+        }
+
+        document.getElementById("register").onclick = doRegister;
+    </script>
+</body>
+
+</html>

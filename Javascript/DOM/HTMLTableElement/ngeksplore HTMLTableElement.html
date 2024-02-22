@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>HTML Table Element</title>
+</head>
+</html>
+<body>
+    <table id="orderRevenue" border="1">
+        <caption>Order Revenue</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Income</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>10.000.000</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>20.000.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>30.000.000</td>
+            </tr>
+        </tfoot>
+        <script>
+            const orderRevenueTable = document.getElementById("orderRevenue") 
+            console.info(orderRevenueTable.caption)
+            console.info(orderRevenueTable.tHead)
+            console.info(orderRevenueTable.tBodies)
+            console.info(orderRevenueTable.tFoot)
+            console.info(orderRevenueTable.rows)
+
+            /**
+             * @param {string} month 
+             * @param {string| int} income 
+             */
+            function insertRow(month, income){
+                let newRow = orderRevenueTable.rows
+                    .item(orderRevenueTable.tBodies
+                        .item(0)
+                        .insertRow()
+                        .rowIndex)
+                newRow.insertCell().textContent = month
+                newRow.insertCell().textContent = income
+            }
+
+            insertRow("Maret", "2.000.000")
+            insertRow("April", "600.000")
+            insertRow("Mei", "5.000.000")
+            insertRow("Juny", "20.000.000")
+            insertRow("July", 3000000)
+
+            let total = 0
+            for(let value of orderRevenueTable.tBodies.item(0).rows){
+                total += parseInt(value.cells[1].textContent.replaceAll(".", ""))
+            }
+            orderRevenueTable.tFoot.rows.item(0).cells.item(1).textContent = total
+        </script>
+    </table>
+</body>

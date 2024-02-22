@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Promise</title>
+</head>
+<body>
+    <script>
+        function getProduct(product){
+            return new Promise(function(resolve, reject) {
+                const ajax = new XMLHttpRequest()
+                ajax.open("GET", `api/${product}.json`)
+                ajax.onload = function(){
+                    if(ajax.status === 200){
+                        resolve(JSON.parse(ajax.responseText))
+                    } else {
+                        reject(`Error getProduct with response: status code ${ajax.status}`)
+                    }
+                }
+                ajax.send()
+            })
+        }
+
+        const promiseAll = Promise.all([
+            getProduct("product1"),
+            getProduct("product2"),
+            getProduct("product3")
+        ])
+        promiseAll.then(function(product){
+            console.log("All")
+            console.log(product)
+        })
+        
+        const promiseAny = Promise.any([
+            getProduct("product1"),
+            getProduct("product2"),
+            getProduct("product3")
+        ])
+        promiseAny.then(function(product){
+            console.log("Any")
+            console.log(product)
+        })
+        
+        const promiseRace = Promise.race([
+            getProduct("product1"),
+            getProduct("product2"),
+            getProduct("product3")
+        ])
+        promiseRace.then(function(product){
+            console.log("Race")
+            console.log(product)
+        })
+
+    </script>
+</body>
+</html>

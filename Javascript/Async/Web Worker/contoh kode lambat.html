@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Contoh kode lambat</title>
+</head>
+
+<body>
+    <button id="buttonTask">Click Me</button>
+    <script>
+
+        async function slowProses(total){
+            for(let i = 0 ; i < total ; i++){
+                console.info(i)
+            }
+        }
+
+        document.getElementById("buttonTask").onclick = () => {
+            console.info("Start")
+            slowProses(100000)
+            console.info("End")
+        } 
+    </script>
+</body>
+
+</html>

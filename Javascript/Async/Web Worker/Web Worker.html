@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Worker</title>
+</head>
+
+<body>
+    <button id="buttonTask">Tekan Saya</button>
+    <script>
+
+        const worker = new Worker("script/worker.js")
+
+        worker.addEventListener("message", function (message) {
+            console.log(message.data)
+        })
+
+        document.getElementById("buttonTask").onclick = function () {
+            worker.postMessage(100000)
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Promise</title>
+</head>
+<body>
+    <script>
+        function getProduct(product){
+            return new Promise(function(resolve, reject) {
+                const ajax = new XMLHttpRequest()
+                ajax.open("GET", `api/${product}.json`)
+                ajax.onload = function(){
+                    if(ajax.status === 200){
+                        resolve(JSON.parse(ajax.responseText))
+                    } else {
+                        reject(`Error getProduct with response: status code ${ajax.status}`)
+                    }
+                }
+                ajax.send()
+            })
+        }
+
+        console.info(getProduct("product1"))  // kode lebih lengkapnya untuk mendaptakan data dari Promise
+        console.info(getProduct("product2"))  //  ada di 'Promise methods.html'
+    </script>
+</body>
+</html>
