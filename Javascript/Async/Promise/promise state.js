@@ -1,0 +1,1 @@
+// penjelasan ada di file 'apa itu promise.js'

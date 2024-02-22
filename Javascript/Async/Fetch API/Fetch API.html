@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Fetch API</title>
+</head>
+<body>
+    <form>
+        <label for="username">Username:
+            <input type="text" name="username" id="username">
+        </label>
+        <br>
+        <label for="password">Password:
+            <input type="text" name="password" id="password">
+        </label>
+        <br>
+        <input type="button" value="Login" id="login">
+    </form>
+    <script>
+        function doLogin(){  // Contoh kode Fetch API dengan object Request   (lebih disarankan) supaya lebih mudah dibaca
+            const request = new Request("https://eogs5jvts45599g.m.pipedream.net", { // kode membuat request
+                method: "POST",
+                headers:{
+                    "Content-Type": "application/json",
+                    "Accept":  "application/json"
+                },
+                body: JSON.stringify({
+                    username: document.getElementById("username").value,
+                    password: document.getElementById("password").value
+                })
+            })
+            const response = fetch(request)         // nilai return fetch() -> Promise<Request>
+        }
+
+        function doLogin2(){  // Contoh kode Fetch API tanpa object Request      (kurang disarankan)
+            const response = fetch("url", {
+                method: "POST",
+                headers:{
+                    "Content-Type": "application/json",
+                    "Accept":  "application/json"
+                },
+                body: JSON.stringify({
+                    username: document.getElementById("username").value,
+                    password: document.getElementById("password").value
+                })
+            })
+        }
+
+        document.getElementById("login")
+            .addEventListener("click", doLogin)
+    </script>
+</body>
+</html>

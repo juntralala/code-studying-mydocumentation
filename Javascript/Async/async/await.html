@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Await</title>
+    </head>
+    <body>
+        <script type="module">
+            import {getProductNamePromise, getProductNameAsync} from "./await.js"
+
+            getProductNameAsync()
+                .then(name => console.log(name))
+                
+            getProductNamePromise()
+                .then(name => console.log(name))
+
+        </script>
+    </body>
+</html>

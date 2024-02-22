@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>URL Search Param</title>
+</head>
+<body>
+    <form>
+        <label for="search">Search:
+            <input type="text" name="search" id="search">
+            <input type="button" value="Search" id="search-button">
+        </label>
+        <h1 id="response"></h1>
+    </form>
+    <script>
+        function doSearch(){
+            const ajax = new XMLHttpRequest()
+            const param = new URLSearchParams()
+            param.append("search", document.getElementById("search").value)
+            param.append("filter", document.getElementById("search").value)
+    
+            ajax.open("GET", `https://eogs5jvts45599g.m.pipedream.net?${param.toString()}`)
+            ajax.onload = () => {
+                console.info(ajax.responseText)
+            }
+            ajax.send()
+        }
+        document.getElementById("search-button").onclick = doSearch
+
+    </script>
+</body>
+</html>

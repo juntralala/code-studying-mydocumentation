@@ -1,0 +1,29 @@
+<html>
+    <head><title>Menerima data Ajax</title></head>
+    <body>
+        <h1 id="response"></h1>
+        <script>
+
+            
+            function displayResponse(response){
+                const header = document.getElementById("response")
+                header.textContent = response
+            }
+             
+             const ajax = new XMLHttpRequest()
+             ajax.open("GET", "../api/heo.json")
+
+             ajax.addEventListener("load", function(){
+                if(this.status === 200){
+                    const json = JSON.parse(ajax.responseText)
+                    displayResponse(json.hello)
+                } else {
+                displayResponse(`Terjadi Error dengan status ${this.status}`)
+                }
+             })
+
+             ajax.send()
+
+        </script>
+    </body>
+</html>

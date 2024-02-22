@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Fetch API</title>
+</head>
+<body>
+    <form>
+        <label for="username">Username:
+            <input type="text" name="username" id="username">
+        </label>
+        <br>
+        <label for="password">Password:
+            <input type="text" name="password" id="password">
+        </label>
+        <br>
+        <input type="button" value="Login" id="login">
+    </form>
+    <div id="response"></div>
+    <script>
+        function doLogin(){  
+            const request = new Request("https://eogs5jvts45599g.m.pipedream.net", { 
+                method: "POST",
+                headers:{
+                    "Content-Type": "application/json",
+                    "Accept":  "application/json"
+                },
+                body: JSON.stringify({
+                    username: document.getElementById("username").value,
+                    password: document.getElementById("password").value
+                })
+            })
+            const response = fetch(request)
+            response
+                .then(response => response.json())
+                .then(function(json) {
+                    document.getElementById("response").textContent = `Sukses: ${json.success}`
+                })
+        }
+
+        document.getElementById("login")
+            .addEventListener("click", doLogin)
+    </script>
+</body>
+</html>

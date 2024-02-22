@@ -1,0 +1,21 @@
+<html>
+    <head><title>Menerima data Ajax</title></head>
+    <body>
+        <h1 id="response"></h1>
+        <script>
+             
+             const ajax = new XMLHttpRequest()
+             ajax.open("GET", "../api/hello.json")
+
+            //  ajax.onload = function(){}
+             ajax.addEventListener("load", function(){
+                const json = JSON.parse(ajax.responseText)
+
+                const header = document.getElementById("response")
+                header.textContent = json.hello
+             })
+             ajax.send()
+
+        </script>
+    </body>
+</html>

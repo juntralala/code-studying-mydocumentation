@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Error Handler di Async Await</title>
+    </head>
+    <body>
+        <script type="module">
+            import {getProductNamePromise, getProductNameAsync} from "./Error Handler di Async Await.js"
+
+            getProductNameAsync()
+                .then(name => console.log(name))
+                .catch(error => console.info(error))   // output "Product Not Found"
+                
+            getProductNamePromise()
+                .then(name => console.log(name))
+                .catch(error => console.info(error))  // output "Product Not Found"
+
+        </script>
+    </body>
+</html>
