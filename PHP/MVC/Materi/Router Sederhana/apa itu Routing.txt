@@ -1,0 +1,8 @@
+/** Apa itu Routing
+ * Routing adalah teknik melakukan penentuan rute dari URL ke file PHP yang akan dieksekusi
+ * Secara default routing sudah dilakukan oleh Web Server, misal jika kita buat /index.php maka akan
+   mengakses file index.php, jika membuat url /user/login.php, makan akan mengakses file login.php di
+   folder user
+ * Namun karena sekarang kita ingin menggunakan PATH_INFO, maka kita perlu melakukan routing sendiri
+ */
+

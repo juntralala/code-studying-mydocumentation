@@ -1,0 +1,10 @@
+/** Middleware
+ * Middleware merupakan fitur yang biasanya ada pada framework Web MVC 
+ * Middleware merupakan bagian kode yang dieksekusi sebelum Controller di eksekusi
+ * Dengan Middleware, kita bisa menggabungkan kode-kode yang sama yang harus dieksekusi sebelum Controller
+   dieksekusi
+ * Contoh misalnya pengecekan apakah pengguna sudah login atau belum
+ * Diabandingkan kita simpan di tiap Controller, lebih baik kita gunakan Middleware untuk melakukan hal tersebut
+ * Namun sayangnya, pada Router yang telah kita buat, belum mendukung Middleware, sehingga kita perlu 
+   menambahkan Middleware 
+ */

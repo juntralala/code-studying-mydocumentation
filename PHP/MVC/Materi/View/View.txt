@@ -1,0 +1,7 @@
+/**
+ * View adalah bagian yang berisikan kode untuk response
+ * Kenapa tidak dilakukan di Controller? Hal ini dikarenakan agar Controller bisa fokus berisikan kode logic
+   aplikasi kita, sedangkan jika kita ingin menampilkan response, kita bisa menggunakan View
+ * View biasanya tidak memiliki logic yang terlalu rumit, karena tugasnya hanya menampilkan data dari model 
+   yang sudah diberikan Controller
+ */

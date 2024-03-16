@@ -1,0 +1,7 @@
+/** Path Variable
+ * Saat kita membuat URL, kadang kita ingin menambahkan data didalam URL
+ * Bukan dalam bentuk Query Parameter, namun langsung pada URL nya
+ * Misal /products/1234
+ * Hal ini dinamakan Path Variable atau Path Parameter
+ * Sekarang pertanyaannya, bagaimana cara agar Router kita mendukung hal tersebut
+ */

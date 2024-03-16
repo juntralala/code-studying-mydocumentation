@@ -1,0 +1,9 @@
+/** Model
+ * Model merupakan data
+ * Saat membuat aplikasi, pada kenyataannya data itu banyak jenisnya
+ * Misal data request yang dikirim oleh client, data response yang dikirimkan oleh server, data di database
+   dan lain-lain
+ * Saat ini kita akan membuat data yang sederhana dahulu, tanpa menggunakan database
+ * Model biasanya digunakan oleh Controller, untuk selanjutnya dilanjutkan ke View 
+ */
+

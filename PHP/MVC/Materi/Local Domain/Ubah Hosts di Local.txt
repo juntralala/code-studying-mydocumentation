@@ -1,0 +1,6 @@
+/** Ubah Hosts di Local
+ * Tiap sistem operasi memiliki lokasi file hosts berbeda-beda
+ * File hosts ini bisa digunakan untuk mengubah ip dari sebuah host atau domain yang kita inginkan
+ * Di Mac atau Linux, lokasinya terdapat di : /etc/hosts/
+ * Di Windows, lokasinya terdapat di : C:\Windows\System32\Drivers\etc
+ */

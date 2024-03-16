@@ -1,0 +1,7 @@
+/** Untuk apa PATH_INFO ?
+ * PATH_INFO ini banyak digunakan sebagai URL Routing
+ * Artinya, saat membuat aplikasi PHP, kebanyakan kita biasanya membaut 1 file untuk 1 URL, misal 
+   contoh.com/index.php, contoh.com/product.php, contoh.com/login.php 
+ * Namun best practice dalam framework-framework MVC, biasanya kita hanya menggunakan 1 file php sebagai
+   gerbang masuknya, dan memanfaatkan PATH_INFO sebagai informasi file apa yang harus kita load 
+ */

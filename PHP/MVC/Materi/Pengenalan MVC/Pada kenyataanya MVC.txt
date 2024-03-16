@@ -1,0 +1,8 @@
+/** Pada kenyataanya
+ * Walaupun sekilas MVC (diagram MVC) sangat sederhana, pada kenyataanya ketika kita membuat aplikasi yang
+   kompleks, kita biasanya tidak lagi bisa memanfaatkan MVC
+ * Kadang kita butuh mengimplementasikan design pattern lain, seperti misalnya Service Pattern, Repository
+   Pattern, dan lain-lain
+ * Oleh karena itu jangan terlalu terpaku pada satu pattern, jika kita bisa mengkombinasikan dengan beberapa
+   pattern agar kode aplikasi kita lebih rapih dan baik, maka disarankan untuk menggunakan kombinasi
+ */

@@ -1,0 +1,7 @@
+/** Integrasi dengan Router
+ * Setelah membuat controller, sekarang pertanyaanya, bagaimana integrasi dengan class Router yang sudah 
+   kita buat?
+ * Pada Class Router sebelumnya, kita hanya susah menemukan class Contrller berupa String, artinya kita 
+   perlu buat dulu object dari class Controller tersebut dari String nya, lalu eksekusi function yang sudah
+   dipetakan dengan path tersebut
+ */

@@ -1,0 +1,5 @@
+/** URL Mapping
+ * Saat kita membuat Router, kita perlu memberitahu Router tentang pasangan antara PATH_INFO dan Controller 
+   yang akan dieksekusi
+ * Selain itu, kita juga bisa memberitahu HTTP Method mana yang dibolehkan untuk mengakses PATH_INFO tersebut
+ */

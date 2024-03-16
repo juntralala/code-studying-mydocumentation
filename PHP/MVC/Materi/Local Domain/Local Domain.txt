@@ -1,0 +1,5 @@
+/** Local Domain
+ * Sampai saat ini, kita hanya menggunakan domain localhost untuk mengetes aplikasi yang kita buat
+ * Ada baiknya di local kita, kita buat domain local sendiri untuk membuka aplikasi kita
+ * Hal ini bermanfaat saat kita memiliki banyak sekali aplikasi web, dan dijalankan di web server yang sama
+ */

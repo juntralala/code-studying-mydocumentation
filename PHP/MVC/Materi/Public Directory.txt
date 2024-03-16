@@ -1,0 +1,9 @@
+/** Public Directory
+ * Bet Practice ketika membuat web dengan PHP adalah, kita tidak mengekspose seluruh kode PHP kita
+ * Biasanya kita membuat directory public, dan hanya mengekspos directory tersebut ke public
+ * Directory tidak diekspos ke public
+ * Teknik ini biasanya digunakan oleh framework-framework seperti CodeIgniter dan Laravel
+ * Saat ini kita bisa menjalankan PHP di Server, kita akan menjalankannya dari directory public, sehingga
+   directory app tidak bisa diakses secara langsung melalui Web Browser
+ */
+ 

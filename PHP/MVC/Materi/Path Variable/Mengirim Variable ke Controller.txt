@@ -1,0 +1,4 @@
+/** Mengirim Variable ke Controller
+ * Setelah menggunakan Regex untuk melakukan pengecekan Path, kita juga bisa mengirim variable hasil Regex
+   tersebut ke parameter di Controller
+ */

@@ -1,0 +1,9 @@
+/** Model View Controller
+ * Seperti singaktan nya, MVC dibagi menjadi 3 bagian:
+   1. Model : merupakan merepresentasikan data. Seperti yang kita ketahui, ada banyak sekali jenis data,
+            seperti data request, data response, data table, dan lain-lain. Sehingga kadang kita perlu
+            memperkecil lagi scope dari Model itu sendiri ketika membuat aplikasi
+   2. View  : merupakan bagian yang merepresentasikan tampilan, Seperti halaman web, destop, mobile dll
+   3. Controller : merupakan bagian yang mengurus alur kerja dari menerima input, manipulasi data Model,
+            sampai menampilkan View. Anggap saja Controller merupakan core logic dari aplikasi kita 
+ */

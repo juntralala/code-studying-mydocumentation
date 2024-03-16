@@ -1,0 +1,6 @@
+/** Virtual Host
+ * Untuk menambahkan mapping local domain di Apache HTTPD, kita akan membuat virtual host baru di
+   konfigurasi Apache HTTPD 
+ * Selanjutnya kita tambahkan domain local yang sebelumnya kita buat, dan juga lokasi folder dimana kita
+   menyimpan project kita 
+ */

@@ -1,0 +1,4 @@
+/** Memilih Controller dari PATH_INFO 
+ * Setelah menambahkan semua URL Mapping ke Router, maka dengan mudah kita bisa mendapatkan Controller mana
+   yang perlu dieksekusi ketika ada request terhadap PATH_INFO
+ */

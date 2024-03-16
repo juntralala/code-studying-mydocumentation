@@ -1,0 +1,9 @@
+/** Sejarah MVC
+ * MVC singkatan dari Model View Controller, yaitu salah satu sofware desain pattern yang banyak digunakan
+   ketika pengembangan aplikasi berbasis user interface
+ * MVC pertama kali diperkenalkan oleh Trygve Reenskaug pada tahun 1970 ketika berkunjung ke Xerox Palo Alto
+   Research
+ * Awalnya MVC banyak digunakan di aplikasi berbasis Desktop, namun sekarang MVC banyak diadopsi di Web
+ * Saat ini sendiri, design pattern MVC sudah banyak berkembang, ada hierarchical model-view-controller
+   (HMVC), model-view-presenter (MVP), model-view-viewmodel (MVVM), dan lain-lain
+ */
