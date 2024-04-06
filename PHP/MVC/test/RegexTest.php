@@ -13,5 +13,4 @@ class RegexTest extends TestCase {
         $result = preg_match($pattern, $path, $variables);
         self::assertEquals(1, $result);
     }
-
 }

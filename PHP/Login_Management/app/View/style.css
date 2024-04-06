@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 52, 95);
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+    margin: 0;
+}
+
+button, input, textarea, select, table, th, td {
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}

@@ -1,0 +1,6 @@
+/** Setup Database
+ * Kita akan membuat dua database, pertama untuk database unit test, dan kedua untuk database web
+   ketika berjalan 
+ * php_login_management
+ * php_login_management_test
+ */
