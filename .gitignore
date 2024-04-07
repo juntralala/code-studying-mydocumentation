@@ -11,3 +11,4 @@ vendor/
 *.iml
 *.class
 *.pyc
+desktop.ini

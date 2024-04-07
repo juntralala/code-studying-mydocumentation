@@ -8,7 +8,7 @@
  | reduce(resultBefore, value => result): result | Melakukan transform dengan menggunakan value array   |
  |                                               | dan value selanjutnya, lalu hasilnya di lanjutkan ke |
  |                                               | ke iterasi selanjutnya                               |
- | reduceRight(resultBefore. value => result):   | Sama seperti reduce() namun dilakukan dari belakang  |
+ | reduceRight(resultBefore, value => result):   | Sama seperti reduce() namun dilakukan dari belakang  |
  | result                                        |                                                      |
  +===============================================+======================================================+ 
 */
