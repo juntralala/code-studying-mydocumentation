@@ -1,8 +1,8 @@
-maven berkerja dalam konsep lifecyle
-
-untuk menjalankan lifecyle, kita bisa menggunakan perintah : mvn namalifcyle
-
-lifecyle akan menjalankan banyak plugin, entah bawaan maven, atau bisa kita tambahkan plugin lain jika mau
+/** Life Cycle
+ * maven berkerja dalam konsep lifecyle
+ * untuk menjalankan lifecyle, kita bisa menggunakan perintah : mvn namalifcyle
+ * lifecyle akan menjalankan banyak plugin, entah bawaan maven, atau bisa kita tambahkan plugin lain jika mau
+*/
 
 /* CONTOH LIFCYCLE */
 clean : membersihkan folder target (tempat menyimpan hasil kompilasi)
