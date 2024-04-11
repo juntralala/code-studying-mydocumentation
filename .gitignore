@@ -2,6 +2,7 @@
 .git/
 .vscode/
 .idea/
+.phpunit.cache/
 out/
 __pycache__/
 vendor/
@@ -11,4 +12,5 @@ vendor/
 *.iml
 *.class
 *.pyc
+*.log
 desktop.ini
