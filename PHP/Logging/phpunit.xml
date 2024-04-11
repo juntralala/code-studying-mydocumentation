@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<phpunit colors="true" stopOnError="false" cacheResult="false">
+  <testsuites>
+    <testsuite name="all">
+      <directory>test/</directory>
+    </testsuite>
+    <testsuite name="every">
+      <file>test/Logger/Logger_.php</file>
+      <file>test/Logger/NamaLoggerDenganNamaClass.php</file>
+      <file>test/Logging/LoggingTest.php</file>
+      <file>test/Handler/Handler_.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>

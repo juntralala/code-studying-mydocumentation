@@ -1,0 +1,6 @@
+/** Monolog
+ * Pada kelas ini kita akan menggunakan Monolog 
+ * Monolog adalah library logging untuk PHP yang paling populer
+ * Bahkan framework Laravel pun menggunakan monolog
+ * https://packagist.org/packages/monolog/monolog 
+*/

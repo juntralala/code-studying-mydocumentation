@@ -1,0 +1,8 @@
+/** Logging Library
+ * Diluar PHP Logging, banyak sekali library yang bisa kita gunakan untuk logging, seperti:
+ * Monolog  : https://github.com/Seldaek/monolog
+ * Analog   : https://github.com/jbroadway/analog 
+ * Log4PHP  : https://logging.apache.org/log4php
+ * KLogger  : https://github.com/katzgrau/KLogger
+ * dan lain-lain
+*/

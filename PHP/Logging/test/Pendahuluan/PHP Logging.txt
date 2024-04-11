@@ -1,0 +1,6 @@
+/** PHP Logging
+ * PHP sendiri sebenarnya memiliki function bawaan yang dikhususkan untuk logging
+ * Namun saat ini, kebanyakan programmer tidak menggunakan nya
+ * Hal ini karena penggunaanya yang kurang flexible dan fiturnya sangat sederhana 
+ * https://www.php.net/manual/en/function.error-log.php
+*/
