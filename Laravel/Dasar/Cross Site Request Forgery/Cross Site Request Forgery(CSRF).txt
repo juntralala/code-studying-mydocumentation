@@ -1,0 +1,9 @@
+
+/** Cross Site Request Forgery(CSRF)
+ * CSRF merupakan salah satu security exploit yg biasanya dilakukan untuk mengirim action ke aplikasi web
+   kita dari web orang lain alian cross domain
+ * Hal ini sangat berbahaya, terutama pada misal ketika action yg dipanggil adalah action yg sangat
+   berpotensi merugikan, misalnya mengirim uang  
+ */
+
+// teruskan baca 'Cara melindungi dari CSRF.txt'

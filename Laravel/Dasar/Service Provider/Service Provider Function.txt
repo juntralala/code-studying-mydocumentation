@@ -1,0 +1,8 @@
+/** Service Provider Function 
+ * Di dalam Service Provider tedapat 2 function, yaitu register() dan boot()
+ * Di register(), kita harus melakukan registrasi dependency yang dibutuhkan ke Service Container, jangan
+   melakukan kode selain registrasi dependency di function register(), jika tidak ingin mengalami error
+   depedency belum tersedia
+ * Function boot() dipanggil dengan register() selesai, disini kita bisa melakukukan hal apapun yang 
+   diperlukan setelah proses dependency selesai
+ */

@@ -1,0 +1,15 @@
+/** Request Method
+ * Request juga bisa digunakan untuk mendapatkan informasi HTTP Method
+ * $request->method() akan mengembalikan HTTP Method
+ * $request->isMethod(method) digunakan untuk mengecek apakah request memiliki HTTP Method sesuai parameter
+   atau tidak, misal $request->isMethod('post')
+ */
+
+/** Request Method
+ * Untuk mendapatkan informasi HTTP Header, kita juga bisa menggunakan object Request
+ * $request->header(key) digunakan untuk mendapatkan data header dengan key parameter
+ * $request->header(key, default) digunakan untuk mendapatkan data header dengan key parameter, jika tidak
+   ada maka akan mengembalikan data default nya
+ * $request->bearerToken() digunakan untuk mendapatkan informasi token Bearer yang terdapat di header 
+   Authorization, dan secara otomatis menghapus prefix Bearer nya
+ */

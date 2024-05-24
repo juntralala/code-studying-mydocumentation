@@ -1,0 +1,9 @@
+/** Exclude Middleware
+ * Sebelumnya kita tahu bahwa di Laravel, terdapat group middleware bernama web dan api, disana sudah 
+   banyak sekali middleware yg secara default disediakan oleh Laravel
+ * Kadang kita ingin meng-exclude atau membuat middleware didalam sebuah route, pada kasus seperti ini 
+   kita bisa lakukan ketika menambahkan route
+ * Kita bisa gunakan method withoutMiddleware() pada Route
+ */
+
+contohnya ada di routes/web.php pada beberapa route disanan

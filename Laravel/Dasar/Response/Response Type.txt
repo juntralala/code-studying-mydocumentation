@@ -1,0 +1,24 @@
+/** Response Type
+ * Sebelumnya kita sudah melakukan response JSON secara manual, sebenarnya response sudah banyak sekali
+   memiliki helper method untuk beberapa jenis response type
+ * Untuk menampilkan view, kita bisa menggunakan method view(name, data, status, headers)
+ * Untuk menampilkan JSON, kita bisa menggunakan method json(array, status, headers)
+ * Untuk menampilkan file, kita bisa menggunakan file(pathToFile, headers)
+ * Untuk menampilkan file download, kita bisa menggunakan method download(pathToFile, name, headers)
+ */
+
+Contohnya ada di file app/Http/Controller/ResponseController.php pada function responseView()
+  pada route "/response/type/view"
+  dan testing nya ada pada tests/Feature/ResponseControllerTest.php pada function testResponseView()
+
+Contohnya ada di file app/Http/Controller/ResponseController.php pada function responseJson()
+  pada route "/response/type/json"
+  dan testing nya ada pada tests/Feature/ResponseControllerTest.php pada function testResponseJson()
+
+Contohnya ada di file app/Http/Controller/ResponseController.php pada function responseFile()
+  pada route "/response/type/file"
+  dan testing nya ada pada tests/Feature/ResponseControllerTest.php pada function testResponseFile()
+
+Contohnya ada di file app/Http/Controller/ResponseController.php pada function responseDownload()
+  pada route "/response/type/download"
+  dan testing nya ada pada tests/Feature/ResponseControllerTest.php pada function testResponseDownload()

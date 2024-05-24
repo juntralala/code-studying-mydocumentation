@@ -1,0 +1,12 @@
+/** Mengambil Konfigurasi
+ * Untuk mengambil konfigurasi di file, kita bisa menggunakan function config(key, default)
+ * Dimana pembuatan key pada config diawali dengan nama file, lalu diikuti dengan key yang terdapat didalam
+   return value nya
+ * Tiap nested array menggunakan . (titik)
+ * Misal contoh.name.first, artinya kita ambil konfigurasi dari file contoh.php, lalu ambil data array
+   key name, dan didalamnya kita ambil data key first
+ * Sama seperti function env(), function config() juga memiliki patameter default value jika key configurasi
+   tidak tersedia
+ */
+
+// contohnya ada di tests/Feature/ConfigurationTest.php pada testConfig()

@@ -1,0 +1,8 @@
+/**
+ * Laravel memiliki abstraction fitur untuk melakukan encryption, dengan ini kita tidak perlu melakukan
+   enkrip dan dekrip secara manual, kita bisa memanfaatkan fitur ini
+ * Untuk melakukan enkripsi Laravel membutuhkan Key, dimana key tersebut disimpan di config/app.php 
+ * Secara default Laravel mengambil key tersebut dari environment APP_KEY, kita bisa cek di file .env
+ */
+
+Contohnya di tests/Feature/EncryptionTest.php pada function testEncryption()

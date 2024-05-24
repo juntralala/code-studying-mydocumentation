@@ -1,0 +1,13 @@
+/** Middleware Group (Laravel9)
+ * Kadang kita ingin menggabungkan beberapa middleware dalam satu group, sehingga ketika kita membutuhkannya,
+   kita cukup sebutkan nama groupnya
+ * Laravel mendukung hal tersebut, kita bisa membuat nama group dan kumpulan middleware yg tersedia di 
+   group tersebut di property $middlewareGroups di kelas Kernel 
+ * Untuk menggunakan middleware group tersebut, kita cukup sebut nama groupnya saja
+ */
+
+/** (Laravel11)
+ * cara pembuatan group middleware telah berubah
+ * Untuk membuat group middleware pada bootstrap/app.php pada method withMiddlware(), kita bisa menggunakan
+   method appendToGroup(name, middlewares) di lluminate\Foundation\Configuration\Middleware
+ */

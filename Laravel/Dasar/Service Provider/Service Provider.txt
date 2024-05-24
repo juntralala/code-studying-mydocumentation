@@ -1,0 +1,10 @@
+/** Service Provider
+ * Sekarang kita sudah tau untuk melakukan dependency injection di Laravel, sekarang pertanyaanya apakah
+   ada best practice dimana melakukan depedency injection tersebut
+ * Laravel menyediakan fitur Service Provider, dari namanya kita sudah tahu bahwa ini adalah penyedia
+   service atau dependency
+ * Didalam Service Provider, biasanya kita melakukan registrasi dependency didalam Service Container
+ * Bahkan semua proses bootstraping atau pembuat object-object di Laravel itu sendiri dilakukan di 
+   ServiceProvider, bisa kita lihat saat pertama kali membuat object Laravel, ada banyak sekali file
+   ServiceProvider di namespace App\Providers
+ */

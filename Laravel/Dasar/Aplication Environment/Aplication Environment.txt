@@ -1,0 +1,9 @@
+/** Application environment
+ * Saat membuat aplikasi, kadang kita ingin menentukan saat ini sedang berjalan di environment mana, misal
+   di local, di dev, di staging, di qa atau production
+ * Di Laravel, hal ini biasanya dilakukan dengan menggunakan environment variable APP_ENV
+ * Dan untuk mengecek saat ini sedang berjalan di environment apa, kita bisa menggunakan function 
+   App::environment(value) atau App::environment([value1, value2]), dimana akan return true jika benar 
+ */
+
+Contohnya ada di tests/Feature/AppEnvironmentTest.php pada function testAppEnv()

@@ -1,0 +1,4 @@
+/** Test View Tanpa Routing
+ * Kadang kita juga ingin membuat View tanpa routing, misal untuk mengirim email misalnya
+ * Pada kasus ini kita bisa melakukan test view secara langsung, tanpa harus membuat Route terlebih dahulu
+ */

@@ -1,0 +1,8 @@
+/** Route Group
+ * Laravel mendukung grouping Route, dimana dengan melakukan grouping Route, kita bisa share konfigurasi antar
+   Route dalam satu group
+ * Ini lebih mudah dibanding membuat konfigurasi Route satu persatu
+ */
+
+
+// ada beberapa macam Grouping Route, bisa dilihat digrup ini

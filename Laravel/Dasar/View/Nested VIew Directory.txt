@@ -1,0 +1,6 @@
+/** Nested view Directory
+ * View juga bisa disimpan di dalam directory lagi di dalam directory views
+ * Hal ini baik ketika kita sudah banyak membuat views, dan ingin melakukan management file views
+ * Namun ketika kita ingin mengambil views nya, kita perlu ganti menjadi titik, tidak menggunakan / (slash)
+ * Misal jika kita buat views di folder admin/profile.blade.php, maka untuk mengaksesnya kita gunakan admin.profile
+ */

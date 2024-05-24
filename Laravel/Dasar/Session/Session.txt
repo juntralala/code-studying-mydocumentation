@@ -1,0 +1,9 @@
+/** Session 
+ * Seperti kita ketahui, bahwa HTTP itu stateless, artinya setiap request dilakukan secara independent, dan tidak
+   ada hubungannya dengan request lain
+ * Session digunakan untuk menyimpan data yg bisa digunakan antar request, dan biasanya session disimpan di
+   persistent storage
+ * Laravel menyediakan abstraction layer untuk kita mengelola session, sehingga kita tidak perlu menggunakan PHP
+   session lagi
+ * Semua konfigurasi Laravel session terdapat di file config/session.php
+ */

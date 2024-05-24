@@ -1,0 +1,12 @@
+/** Route Middleware (Laravel9)
+ * Selain global, kita juga bisa registrasikan middleware per route, dimana kita bisa registrasikan
+   satu-satu, atau bisa langsung buat group middleware
+ * Untuk meregistrasikan satu-satu middleware, kita bisa langsung menggunakan class middleware nya, atau 
+   alias di $routeMiddleware di kelas Kernel
+ */
+
+/** (Laravel11)
+ * cara meregistrasikan satu-satu middleware telah diubah 
+ * Di Laravel 11, untuk meregistrasikannya, kita menggunakan method alias(middlewares) di 
+   lluminate\Foundation\Configuration\Middleware
+ */

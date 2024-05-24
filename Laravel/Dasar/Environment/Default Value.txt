@@ -1,0 +1,8 @@
+/** Default Value
+ * Laravel mendukung default value untuk environment variable
+ * Default Value adalah nilai yang akan digunakan ketika environment variable yang kita ambil tidak tersedia
+ * Kita bisa menggunakan function env(key, default) atau Env::get(key, default)
+ */
+
+
+Contohnya ada di tests/Feature/EnvironmentTest.php pada function testDefaultValue()

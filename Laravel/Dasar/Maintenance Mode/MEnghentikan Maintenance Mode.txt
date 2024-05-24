@@ -1,0 +1,5 @@
+/** Menghentikan Maintenance Mode
+ * Untuk mengehentika maintenance mode, kita bisa gunakan perintah :
+   php artisan up
+ * Secara otomatis file storage storage/framework/down akan dihapus
+ */

@@ -1,0 +1,12 @@
+/** Menerima Cookie
+ * Setelah membuat Cookie di Response, secara otomatis Cookie akan disimpan di Browser sampai timeout expired
+ * Browser akan secara otomatis mengirim cookie tersebut ke domain dan path yg telah ditentukan ketika kita  
+   membuat cookie
+ * Oleh karena itu kita bisa menangkap dat cookie tersebut di Response dengan method cookie(name, default)
+ * Atau jika ingin mengambil semua cookies dalam array, kita bisa gunakan $request->cookies->all()
+ */
+
+
+contoh kode ada di CookieController.php pada function getCookie()
+  pada router routes/web.php dengan url '/cookie/get'
+  dan pada tests/Feature/CookieControllerTest.php pada function testGetCookie()

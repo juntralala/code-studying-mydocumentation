@@ -1,0 +1,7 @@
+/** Compmiling Views
+ * Untuk melakukan compile view atau blade template, kita bisa gunakan perintah :
+   php artisan view:cashe
+ * Semua hasil view akan disimpan di folder storage/framework/views
+ * Jika kita ingin mengahapus seluruh hasil compile, kita bisa gunakan perintah:
+   php artisan view:clear
+ */

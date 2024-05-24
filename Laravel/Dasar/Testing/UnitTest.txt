@@ -1,0 +1,5 @@
+/** Unit Test
+ * Untuk Unit Test, kita bisa membuat class unit test menggunakan PHPUnit seperti biasanya 
+ * Yaitu dengan membuat class turunan dari PHPUnit\Framework\TestCase
+ * Jika kita perlu membuat test tanpa harus menggunakan fitur Laravel, maka kita cukup buat UnitTest saja
+ */

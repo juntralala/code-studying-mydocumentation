@@ -1,0 +1,15 @@
+/** Server Requirements (Laravel 9)
+ * PHP >= 8.0
+ * BCMath PHP Extention
+ * Ctype PHP Extention
+ * cURL PHP Extention
+ * DOM PHP Extention
+ * Fileinfo PHP Extention
+ * JSON PHP Extention
+ * Mbstring PHP Extention
+ * OpenSSL PHP Extention
+ * PCRE PHP Extention
+ * PDO PHP Extention
+ * Tokenizen PHP Extention
+ * XML PHP Extention 
+*/

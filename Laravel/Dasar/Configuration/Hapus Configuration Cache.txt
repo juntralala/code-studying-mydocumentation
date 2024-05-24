@@ -1,0 +1,7 @@
+/** Hapus Configuration Cache
+ * Ketika file cache telah dibuat, jika kita menambahkan konfigurasi di file php yang terdapat di folder
+   config, makan config tersebut tidak akan bisa diakses
+ * Hal ini karena Laravel akan selalu menggunakan Configuration cache jika ada, oleh karena itu kita bisa
+   buat ulang cache nya, atau jika ingin menghapus cache nya, kita bisa gunakan perintah : 
+   php artisan config:clear 
+ */

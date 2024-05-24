@@ -1,0 +1,6 @@
+/** Kapan Menggunakan Facades?
+ * Gunakan Facades hanya jika dibutuhkan saja, jika bisa dikalukan menggunakan dependency injection, selalu
+   gunakan dependency injection
+ * Terlalu banyak menggunakan Facades membuat kita tidak sadar bahwa semua class banyak sekali memiliki 
+   dependency injection, kita bisa sadar dengan banyaknya parameter yang terdapat di constractor
+ */

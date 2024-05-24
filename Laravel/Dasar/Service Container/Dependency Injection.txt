@@ -1,0 +1,7 @@
+/** Dependency Injection
+ * Sekarang kita tahu bagaimana cara membuat dependency dan juga mendapatkan dependency di Laravel, Sekarang
+   bagaimana cara nya melakukan Depedency Injection?
+ * Secara default, jika kita membuat object menggunakan make(key), lalu Laravel mendeteksi terdapat 
+   constructor, maka Laravel akan mencoba menggunakan depedency yang sesuai dengan tipe yang dibutuhkan di
+   Laravel
+ */

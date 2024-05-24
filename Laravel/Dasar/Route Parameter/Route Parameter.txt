@@ -1,0 +1,14 @@
+/** Route Parameter
+ * Kadang kita ingin mengirim parameter yg terdapat dibagian URL ketika membuat web. Contoh parameter untuk
+   id di URL /products/{productid}
+ * Laravel mendukung Route Parameter, dimana kita bisa menambahkan parameter di route url, dan secara
+   otomatis kita bisa mengambil data nya di closure function yg kita gunakan di route
+ * Untuk membuat Route Parameter, kita bisa gunakan {nama}. Kita bisa menambahkan beberapa route parameter,
+   asal namanya berbeda
+ * Data route parameter itu akan dikirim secara otomatis pada closure function parameter 
+ */
+
+// contohnya ada di file /routes/web.php pada 
+   Route::get("products/{id}", ....) 
+   Route::get("products/{id}/items/{item}", ....) 
+  //dan tests/Feature/RoutingTest.php:testParameter

@@ -1,0 +1,5 @@
+/** Method Filter Request Input
+ * $request->only([key1, key2]) digunakan untuk mengambil hanya input yang kita sebutkan di parameter
+ * $request->except([key1, key2]) digunakan untuk mengambil semua input, tapi tidak dengan yang kita 
+   sebutkan di parameter
+ */

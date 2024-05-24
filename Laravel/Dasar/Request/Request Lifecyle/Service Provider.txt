@@ -1,0 +1,10 @@
+/** Service Provider
+ * Kernel sendiri sebenarnya adalah core dari logic aplikasi, dimana didalam Kernel, request yang masuk
+   ditangani sampai mendapatkan response
+ * Kernel melakukan beberapa hal, pertama Kernel melakukan proses bootstrapping, yaitu meload yang namanya
+   Service Provider, yang akan dibahas di materi terpisah
+ * Laravel melakukan iterasi semua Service Provider dan melakukan proses registrasi dan juga bootstrapping
+   untuk semua Service Provider
+ * Service Provider inilah yang bertanggung jawab melakukan bootstrapping semua kompunen di Laravel, seperti
+   database, queue, validation, routing dan lain-lain
+ */

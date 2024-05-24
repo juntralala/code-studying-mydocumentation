@@ -1,0 +1,11 @@
+/** Reguler Expression Constraint
+ * Kadang ada kalanya kita ingin menggunakan Route Parameter, Namun polanya memiliki pola tertentu, misal
+   parameternya hanya boleh angka.
+ * Pada kasus seperti itu, kita bisa menambahkan reguler expression di Route Parameter
+ * Caranya kita bisa menggunakan function where() setelah pembuatan Route nya
+ */
+
+// contohnya ada di file /routes/web.php pada 
+   Route::get("/categories/{id}", ....)
+   Route::get("/categories/{id}/status/{status}", ....)
+ //dan tests/Feature/RoutingTest.php:testParameterRegex

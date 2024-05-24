@@ -1,0 +1,4 @@
+/** Redirect
+ * Router juga bisa digunakan untuk melakuan redirect dari satu halaman ke halaman lain
+ * Kita bisa menggunakan function Route::redirect($from, $to);
+ */

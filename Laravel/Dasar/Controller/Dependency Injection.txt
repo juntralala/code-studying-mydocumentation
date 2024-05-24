@@ -1,0 +1,4 @@
+/** Dependency Injection
+ * Controller mendukung Dependency Injection, pembuatan object Controller, sebenarnya dilakukan oleh 
+   Service Container
+ */

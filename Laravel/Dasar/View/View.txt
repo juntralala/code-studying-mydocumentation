@@ -1,0 +1,7 @@
+/** View
+ * Membuat reponse dari route itu sangat mudah, tapi misal jika kita ingin membuat response yang kompleks
+   seperti HTML, Maka akan sulit jika kita melakukan route
+ * View adalah fitur di Laravel yang digunakan untuk mempermudah dalam pembuatan tampilan halaman web HTML
+ * Dengan View, kita bisa membedakan logic aplikasi, dengan kode tampilan
+ * Semua View disimpan di folder resources/views
+ */

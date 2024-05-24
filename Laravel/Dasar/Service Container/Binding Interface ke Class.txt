@@ -1,0 +1,9 @@
+/** Binding Interface ke Class
+ * Dalam praktek pengembangan perangkat lunak, hal yang bagus ketika membuat sebuah class yang berhungan
+   dengan logic adalah membuat Interface sebagai kontraknya. Harapannya agar implementasi class nya dapat
+   berbeda-beda tanpa harus mengubah kontrak interfacenya
+ * Laravel memiliki fitur melakukan binding dari interface ke class secara mudah, kita bisa menggunakan
+   function bind(interface, class) atau bind(interface, closure) dimana closurenya akan mengembalikan 
+   object class implementasinya, atau juga bisa menggunakan function singleton(interface, class) dan 
+   singleton(interface, closure)
+ */

@@ -1,0 +1,8 @@
+/** Multiple Route Group
+ * Route juga bisa menggunakan beberapa jenis route group, misal kita ingin membuat group dengan prefix sama, 
+   dan middleware sama, maka bisa kita lakukan juga dengan Route di Laravel
+ */
+
+contoh ada di web.php
+
+Route::middleware(middleware)->prefix(url, closure)

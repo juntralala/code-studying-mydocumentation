@@ -1,0 +1,17 @@
+/** Menyimpan Data ke Session
+ * Ada banyak method bisa kita gunakan untuk menyimpan data ke Session
+ * put(key, value) : menyimpan data dengan key dan value 
+ * push(key, value) : menambah data array didalam session dengan key dan value 
+ * pull(key, value) : mengambil data di array dan menghapusnya
+ * increment(key, increment) : menaikkan value di session
+ * decrement(key, decrement) : menurunkan value di session
+ * forget(key) : mengahapus data di session 
+ * flush() : mengahapus semua data di session
+ * invalidate() : menghapus semua data kemudian membuat session baru 
+ */
+
+// ini cuman sebagiannya saja
+
+Contohnya ada di SessionController pada method createSession()
+  pada route '/session/create'
+  pada test SessionControllerTest.php pada method testCreateSession()

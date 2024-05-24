@@ -1,0 +1,11 @@
+/** Basic Routing
+ * Salah satu contoh routing yang paling sederhana adalah menggunakan path dan juga closure function sebagai
+   handler nya
+ * Kita bisa menggunakan Facades Route, lalu menggunakan function sesuai dengan HTTP Method nya, misalnya:
+   - Route::get($uri, $callback);
+   - Route::post($uri, $callback);
+   - Route::put($uri, $callback);
+   - Route::patch($uri, $callback);
+   - Route::delete($uri, $callback);
+   - Route::options($uri, $callback);
+ */

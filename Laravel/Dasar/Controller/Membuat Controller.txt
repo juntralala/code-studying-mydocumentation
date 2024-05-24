@@ -1,0 +1,6 @@
+/**MEmebuat Controller
+ * Untuk membuat Controller, kita bisa membuatnya di namespace App\Http\Controller, dimana class Controller
+   adalah clas turunana dari Illumiate\RoutingController
+ * Agar lebih mudah, kita bisa menggunakan file artisan untuk membuat Controller, caranya dengan menggunakan
+   perintah : php artisan make:controller NamaController 
+ */

@@ -1,0 +1,10 @@
+/** Redirect
+ * Sebelumnya kita suda bahas tentang redirect di materi Route, sekarang kita bahas lebih detail tentang redirect
+ * Redirect itu sendiri di Laravel direpresentasi dalam response
+   Illuminate\Http\RedirectResponse
+ * Untuk membuat object redirect, kita bisa menggunakan helper function redirect(to)
+ */
+
+contohnya di RedirectController.php pada function redirectFrom() dan redirectTo()
+  dengan route '/redirect/from' dan 'redirect/to'
+  serta test tests/Feature/RedirectControllerTest.php 

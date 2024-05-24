@@ -1,0 +1,10 @@
+/** Error Handling (Laravel9)
+ * Saat kita membuat aplikasi Laravel, secara default Laravel akan membuatkan Error Handling di class
+   App/Exceptions/Handler
+ * Class ini bertanggung jawab menangkap exception yg terjadi di aplikasi kita 
+ */
+
+/** (Laravel11)
+ * di Laravel 11 pembuatan errir handling dipindahkan ke class Illuminate\Foundation\Configuration\Exceptions 
+ * dan untuk mengatur bagaimana exception di laporkan ada di bootstrap/app.php pada method withExceptions()
+ */

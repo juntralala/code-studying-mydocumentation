@@ -1,0 +1,7 @@
+/** File .env
+ * Selain mebaca dari environment variable, Laravel juga memiliki kemampuan untuk membaca nilai dari file
+   .env yang terdapat di project Laravel
+ * Kita cukup menambahkan environment variable ke file .env
+ * File .env secara default di ignore di Git project Laravel, oleh karena itu, kita bisa menambahkan
+   konfigurasi di local tanpa takut ter-commit ke Git Repository
+ */

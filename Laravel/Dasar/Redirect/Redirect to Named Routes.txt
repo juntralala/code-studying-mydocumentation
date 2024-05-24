@@ -1,0 +1,11 @@
+/** Redirect to Named Routes
+ * Sebelumnya kita sudah tahu bahwa kita bisa menambahkan name di routes
+ * Laravel juga bisa melakukan redirect ke routes berdasarkan namanya, salah satu keuntungannya adalah kita
+   bisa menambahkan parameter tanpa harus manual membuat path nya
+ * Kita bisa menggunakan method route(name, params) di RedirectResponse atau pada object response kita bisa
+   gunakan method redirectToRoute(name, params)
+ */
+
+contohnya di RedirectController.php pada function redirectName() dan redirectHello()
+  dengan route '/redirect/name' dan 'redirect/name/{name}'
+  serta test tests/Feature/RedirectControllerTest.php pada function testRedirectName() 

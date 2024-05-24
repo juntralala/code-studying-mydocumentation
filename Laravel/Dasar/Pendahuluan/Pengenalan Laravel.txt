@@ -1,0 +1,8 @@
+/** Pengenalan Laravel
+ * Laravel adalah framework di PHP untuk membuat Web atau API
+ * Laravel pertama kali dibuat oleh Tylor Otwell tahun 2011
+ * Laravel adalah framework yang opensource dan gratis, sehingga kita bisa menggunakannya tanpa biaya dan  
+   juga bisa kontribusi ke projectnya 
+ * https://laravel.com
+ * https://github.com/laravel/laravel
+ */ 

@@ -1,0 +1,9 @@
+/** Cara melindungi dari CSRF
+ * Salah satu cara melindungi dari CSRF adalah mewajibkan token ketika melakukan aksi POST ke aplikasi
+   Laravel kita
+ * Caranya sangat sederhana, kita cukup tambahkan input berupa token yg hanya diketahui oleh aplikasi kita,
+   dan ketika disubmit menggunakan POST, token tersebut dikirim dari form HTML ke aplikasi kita
+ * Jika token valid, maka kita tahu bahwa itu adalah aksi dari web kita sendiri, jika tidak valid maka akan
+   di-reject request tersebut
+ */
+

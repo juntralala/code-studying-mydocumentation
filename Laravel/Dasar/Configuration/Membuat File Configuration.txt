@@ -1,0 +1,4 @@
+/** Membuat File Configuration
+ * Untuk membuat file konfigurasi, kita cukup membuat file PHP didalam folder config
+ * Lalu didalam file tersebut, kita cukup return konfigurasi dalam bentuk Array
+ */

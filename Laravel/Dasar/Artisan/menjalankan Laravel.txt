@@ -1,0 +1,6 @@
+/** Menjalankan Laravel
+ * File artisan bisa digunakan untuk banyak hal, salah satunya menjalankan aplikasi laravel ketikas proses
+   devlopment
+ * Untuk menjalankan applikasi laravel dalam mode devlopment, kita bisa gunakan perintah :
+   php artisan serve
+ */

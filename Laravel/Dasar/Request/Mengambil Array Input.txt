@@ -1,0 +1,5 @@
+/** Mengambil Array Input
+ * Laravel juga memiliki kemampuan untuk mengambil value dari input berupa array
+ * Misal bisa gunakan $request->input('products.*.name'), artinya kita mengambil semua name yg ada di array 
+   products
+ */

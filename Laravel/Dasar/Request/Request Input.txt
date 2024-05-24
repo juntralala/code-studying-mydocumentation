@@ -1,0 +1,6 @@
+/** Request Input
+ * Saat membuat aplikasi web, kita tahu bahwa dalam HTTP Request kita bisa mengirim data, baik itu melalu
+   query parameter, atau melalui body (misal dalam bentuk form)
+ * Biasanya kita menggunakan $_GET atau $_POST atau $_FILES, namun di Laravel, kita bisa menggunakan object
+   Request untuk mendapatkan input yg dikirim melaku HTTP Request 
+ */

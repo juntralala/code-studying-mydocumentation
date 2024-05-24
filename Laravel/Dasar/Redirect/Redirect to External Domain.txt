@@ -1,0 +1,10 @@
+/** Redirect to External Domain
+ * Secara default, redirect hanya dilakukan ke domain yg sama dengan lokasi domain aplikasi web Laravelnya
+ * Jika kita ingin melakukan redirect ke domain lain, kita bisa menggunakan method away(url) di RedirectResponse
+   atau method redirectAway(url) di Response 
+ */
+
+/** My Note
+ * Sebenarnya method redirect(path) dan response()->redirectTo(url) bisa dipake buat ngeredirect ke domain
+   external tapi lebih direkomentasikan menggunakan away() agar kodenya lebih mudah dipahami pengembang lainnya
+ */

@@ -1,0 +1,8 @@
+/** Fallback Route
+ * Apa yang terjadi jika kita melakukan request ke halaman yang tidak ada di aplikasi Laravel kita?
+   Secara otomatis akan mengembalikan error 404
+ * Kadang-kadang kita ingin mengubah tampilan halaman error ketika halaman yang diakses tidak ada  
+ * Pada kasus seperti ini, kita bisa membuat fallback route, yaitu callback yang akan dieksekusi ketika
+   tidak ada route yang cocok dengan halaman yang diakses 
+ * Kita bia menggunakan function Route:(closure)
+ */

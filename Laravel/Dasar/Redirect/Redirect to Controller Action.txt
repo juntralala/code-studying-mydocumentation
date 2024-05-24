@@ -1,0 +1,10 @@
+/** Ridirect to Controller Action 
+ * Selain menggunakan Named Routes, kita bisa juga menggunakan redirect ke Controller Action
+ * Secara otomatis Laravel nanti akan mencari path yg sesuai dengan Controller Action tersebut
+ * Kita bisa guankan method action(controller, action) di RedirectResponse atau 
+   redirectToAction(controller, action) di Response
+ */
+
+contohnya di RedirectController.php pada function redirectAction() dan redirectHello()
+  dengan route '/redirect/action' dan 'redirect/name/{name}'
+  serta test tests/Feature/RedirectControllerTest.php pada function testRedirectAction() 

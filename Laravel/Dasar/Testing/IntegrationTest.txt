@@ -1,0 +1,10 @@
+/** Integration Test
+ * Laravel memiliki fitur yang mempermudah kita ketika membuat integration test
+ * Bedanya dari unit test, di integration test, aplikasi laravel bisa diakses dengan mudah, misal kita nanti 
+   mau memanggil Database, Controller dan lain-lain
+ * Untuk membuat Integration Test, kita cukup membuat class turunan dari :
+    Illuminate\Foundation\Testing\TestCase
+ * Integration Test akan lebih lambat dibandingkan Unit Test, karena kita butuh me-load framework Laravel
+   terlebih dahulu
+ * Dan jika kita membutuhkan fitur Laravel, maka kita wajib menggunakan Integration Test
+ */

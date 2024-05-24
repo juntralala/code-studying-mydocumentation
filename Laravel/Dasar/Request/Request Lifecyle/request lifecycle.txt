@@ -1,0 +1,7 @@
+/** Request Lifecycle
+ * Sebelum kita membuat kode program menggunakan Laravel, ada baiknya kita tau cara kerja Laravel itu
+   sendiri
+ * Terutama bagaimana alur hidup dari request yang kita lakukan ke aplikasi Laravel
+ * Jika teman-teman sudah mengikuta kelas PHP MVC yang saya buat, harusnya tidak akan terlalu bingung, karena
+   hampir sama cara kerjanya  
+ */

@@ -1,0 +1,5 @@
+/** Dependency Injection Di Closure
+ * Dalam function closure yang kita gunakan, kita juga bisa menggunakan $app untuk mengambil object yang
+   sudah ada di Service Container
+ * Kadang ini mempermudah kita ketika kita ingin membuat object yang kompleks
+ */

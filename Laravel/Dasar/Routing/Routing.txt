@@ -1,0 +1,8 @@
+/** Routing 
+ * Routing adalah proses menerima HTTP Request dan menjalankan kode sesuai dengan URL yang diminta. Routing
+   biasanya tergantung daru HTTP Method dan URL
+ * Salah satu Service Provider yang paling penting di Laravel adalah RouteServiceProvider
+ * RouteServiceProvider bertanggung jawab untuk melakukan load data routing dari folder routes
+ * Jika kita hapus Service Provider ini, secara otomatis proses routing tidak akan berjalan
+ * RouteServiceProvider secara default akan me-load data routing dari folder routes
+ */

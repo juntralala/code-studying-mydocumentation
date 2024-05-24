@@ -1,0 +1,12 @@
+/** Ignore Exception (Laravel9)
+ * Kadang ada kasus ketika terjadi error, kita tidak ingin melakukan report error tersebut
+ * Contoh jika terjadi error validasi, kita tidak perlu melakukan report
+ * Di Handler, terdapat property $dontReport, yg bisa kita gunakan untuk mendaftakan jenis exception yg
+   tidak mau kita report
+ */
+
+/** (Laravel11)
+ * Di laravel sebelas kita pada bootstrap/app
+ * untuk mendaftakan jenis exception yg tidak mau di report kita bisa gunakan method dontReport(exceptions)
+   pada object Exceptions
+ */

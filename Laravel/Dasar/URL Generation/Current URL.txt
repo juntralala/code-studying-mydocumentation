@@ -1,0 +1,7 @@
+/** Current URL
+ * Kadang kita ingin mengakses URL saat ini, sebenarnya kita bisa menggunakan object Request
+ * Namun jika dalam keadaan tidak ada object Request, kita bisa menggunakan class Illuminate\Routing\UrlGenerator
+ * Untuk membuat class UrlGenerator, kita bisa menggunakan helper function url atau facade URL
+ * url()->current() untuk mendapatkan url saat ini tanpa query param
+ * url()->full() untuk mendapatkan url saat ini dengan query param
+ */

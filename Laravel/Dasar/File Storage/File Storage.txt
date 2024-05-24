@@ -1,0 +1,8 @@
+/** File Storage
+ * Laravel mendukung abstraction untuk management File Storage menggunakan library Flysystem
+ * Dengan menggunakan fitur File Storage ini, kita bisa menyimpan file ke dalam File Storage dan mengubah
+   target dari File Storage tersebut
+ * Misal kita bisa simpan file ke Local tempat terinstall aplikasi Laravel kita, atau bahkan kita bisa 
+   simpan file kita di Amazon S3
+ * https://github.com/thephpleague/flysystem 
+*/

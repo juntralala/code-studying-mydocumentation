@@ -1,0 +1,6 @@
+/** Date
+ * Untuk melakukan konversi tipe data ke Date secara otomatis, kita bisa menggunakan method
+   date(key, pattern, timezone) pada class Request
+ * Laravel menggunakan library Carbon untuk memanipulasi tipe data Date dan Time
+ * https://github.com/brainesbitt/Carbon 
+ */

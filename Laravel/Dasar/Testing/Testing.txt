@@ -1,0 +1,4 @@
+/** Testing
+ * Laravel menggunakan PHPUnit untuk implementasi Unit Test nya
+ * Secara garis besar di Laravel ada 2 jenis test, unit test dan feature test / integration test 
+ */

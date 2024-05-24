@@ -1,0 +1,8 @@
+/** Membuat Test
+ * Untuk membuat Integration Test, bisa kita lakukan manual, atau kita bisa gunakan file artisan menggunakan
+   perintah : php artisan make:test _NamaTest_
+ * Secara otomatis masuk ke folder tests\Feature
+ * Jika kita ingin membuat Unit Test, kita bisa gunakan perintah :
+   php artisan make:test _NamaTest_ --unit
+ * Secara otomatis akan masuk ke folder tests\Unit
+ */

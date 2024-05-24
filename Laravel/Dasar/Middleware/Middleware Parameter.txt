@@ -1,0 +1,9 @@
+/** Middleware Parameter
+ * Jika kita ingin menambahkan dependency di middleware, kita bisa manfaatkan dependency injection di
+   Laravel, namun bagaiman jika kita ingin mengirimkan parameter sederhana saja?
+ * Kita bisa lakukan itu di handle() method, cukup tambahkan parameter tambahan sesudah $next parameter,
+   dan kita bisa kirim parameter tersebut ketika memanggil middleware nya dengan menggunakan : (titik dua)
+   lalu jika ada lebih dari satu parameter, gunakan koma sebagai pemisahnya
+ */
+
+contohnya ada id routes/web.php di "/middleware/api"

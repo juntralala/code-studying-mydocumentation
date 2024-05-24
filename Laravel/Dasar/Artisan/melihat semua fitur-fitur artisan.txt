@@ -1,0 +1,5 @@
+/**
+ * Untuk melihat semua fitur file artisan, kita bisa gunakan perintah:
+    php artisan
+ * Secara otomatis kita bisa melihat semua fitur yang terdapat di file artisan
+ */

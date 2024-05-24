@@ -1,0 +1,5 @@
+/** Isntance
+ * Selain menggunakan function singleton(key, closure), untuk membuat singleton object, kita juga bisa 
+   menggunakan object yang sudah ada, dengan cara menggunakan function isntance(key, object)
+ * Ketika menggunakan make(key), maka isntance object tersebut akan dikembalikan
+ */

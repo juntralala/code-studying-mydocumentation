@@ -1,0 +1,8 @@
+/** Configuration
+ * Environment variable cocok digunakan untuk jenis konfigurasi yang memang butuh berubah-ubah nilainya,
+   dan terintegrasi dengan baik dengan environment variable di sistem operasi
+ * Laravel juga mendukung penulisan konfigurasi dengan menggunakan PHP Code, konfigurasi ini biasanya 
+   digunakan ketika memang dibutuhkan tidak terlalu sering berubah, dan biasanya pengaturannya hampir sama
+   untuk setiap lokasi aplikasi dijalankan
+ * Namun saat menggunakan fitur Laravel Configuration, kita juga tetap bisa mengakses Environment Variable 
+ */

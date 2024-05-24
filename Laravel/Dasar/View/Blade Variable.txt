@@ -1,0 +1,9 @@
+/** Blade Variable
+ * Salah satu keuntungan menggunakan template dibanding kode PHP langsung adalah kita bisa memaksa programmer
+   untuk memisahkan logic kode program dengan tampilan (di template)
+ * Di Blade, walaupun kita bisa menambahkan kode PHP, tidak disarankan melakukannya
+ * Cara yang direkomendasikan adalah kita hanya membuat di template blade, lalu mengirim variable tersebut
+   dari luar ketika akan menampilkan template nya
+ * Untuk membuat menampilkan di blade template, kita bisa gunakan {{$nama}}, dimana nanti variable $nama bisa
+   diambil secara otomatis dari data yang kita kirim ketika menampilkan view blade
+ */

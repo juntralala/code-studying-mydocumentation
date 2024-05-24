@@ -1,0 +1,7 @@
+/** Storage Link
+ * Secara default, File Storage disimpan di folder /storage/app
+ * Laravel memiliki fitur bernama Storage Link, dimana kita bisa membuat link dari /storage/app/public ke
+   public/storage
+ * Untuk membuat linknya kita bisa menggunakan perintah :
+   php artisan storage:link
+ */

@@ -1,0 +1,11 @@
+/** Bagaimana Facades Berkerja
+ * Facades sebenarnya adalah class yang menyediakan akses kedalam dependency yang terdapa di ServiceContainer
+ * Semua class Fecades adalah turunan dari Illuminate\Support\Facades\Facade
+ * Class Facade memiliki sebuah Method __callStatic() yang digunakan sebagai magic method yang akan dipanggil
+   ketika memanggil static method di Facade, dan akan meneruskan otomatis ke dependency yang terdapat di 
+   Service Container
+ * Contoh Config::get() sebenarnya akan melakukan pemanggilan method get() di dependency config di Service
+  Container
+ * Untuk nama dependency yang terdapat didalam Container, kita bisa lihat di method getFacadeAccessor()
+   di class Facadenya 
+ */

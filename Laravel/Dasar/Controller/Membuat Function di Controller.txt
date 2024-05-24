@@ -1,0 +1,6 @@
+/** Mmebuat Function di Controller
+ * Sebagain pengganti closure function di Route, kita bisa membaut function Controller, dan menaruh semua
+   logic web kita di function Controller
+ * Selanjutnya, kita bisa meregistrasikan function Controller ke Route, dengan cara mengganti parameter 
+   closure di route dengan array yg berisi class Controller dan juga function Name nya  
+ */

@@ -1,0 +1,4 @@
+/** Boolean
+ * Untuk melakukan konversi tipe data input secara otomatis ke boolean, kita bisa gunakan method
+   boolean(key, default) pada class Request
+ */

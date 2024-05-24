@@ -1,0 +1,10 @@
+/** Named Route
+ * Di Laravel, kita bisa menamai Route dengan sebuah nama
+ * Hal ini bagus ketika misal kita nanti butuh mendapatkan informasi tentang Route tersebut, misal 
+   route urlnya, atau melakukan redirect ke route
+ * Dengan menambahkan nama di Route nya, kita bisa menggunakan nama Route saja, tanpa khawatir urlnya
+   diubah
+ * Untuk menambahkan nama di Route, kita cukup gunakan function name()
+ */
+
+ contohnya ada di routes/web.php

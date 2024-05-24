@@ -1,0 +1,8 @@
+/** Membuat Cookie
+ * Untuk membuat cookie, kita bisa menggunakan method cookie(name, value, timeout, path, domain, secure,
+   secure, httpOnly) di object Response
+ */
+
+contoh kode ada di CookieController.php pada function createCookie()
+  pada router routes/web.php dengan url '/cookie/create'
+  dan pada tests/Feature/CookieControllerTest.php pada function testCreateCookie()

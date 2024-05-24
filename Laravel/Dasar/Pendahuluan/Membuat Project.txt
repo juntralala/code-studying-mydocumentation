@@ -1,0 +1,6 @@
+/** Membuat Project
+ * Laravel menggunakan Composer untuk project management nya
+ * Dan untuk membuat projectpun bisa menggunakan Composer dengan perintah:
+   composer create-project laravel/laravel=version nama-folder
+ * https://packagist.org/packages/laravel/laravel
+ */

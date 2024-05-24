@@ -1,0 +1,7 @@
+/** Route Controller
+ * Route controller memungkinkan kita membaut route dengan controller yg sama 
+ * Ini mempermudah kita ketika ingin membuat beberapa route dengan class controller yg sama
+ * Caranya dengan memanggil method Route::controller(controller)->group(closure)
+ */
+
+contohnya ada di routes/web.php 

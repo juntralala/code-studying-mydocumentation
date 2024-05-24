@@ -1,0 +1,9 @@
+/** Konfigurasi Error Handler
+ * Error Handler akan membaca konfigurasi debug di config/app.php
+ * Jika debug bernilai true, maka Error Hadler akan memperlihatkan detail error yg terjadi. Jika false, maka hanya 
+   menampilkan error sederhana
+ * Ketika menjalankan di local, agar lebih mudah ketika mencari detail error, selalu gunakan nilai true, namun
+   ketika di production selalu gunakan nilai false, agar informasi sensitif tidak terlihat ketika terjadi error
+ */
+
+di file config/app.php ada key 'config' => true / false

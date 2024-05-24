@@ -1,0 +1,5 @@
+/** Kongigurasi File Storage
+ * Konfigurasi file storage di Laravel terdapat di file config/filesystems.php
+ * Kita bisa menambahkan banyak konfigurasi File Storage, dan nanti ketika kita akan menyimpan file, kita
+   bisa menentukan File Storage mana yang akan digunakan
+*/

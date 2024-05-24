@@ -1,0 +1,15 @@
+/** Error Reporter (Laravel9)
+ * Saat terjadi exception, kadang-kadang kita ingin melaporkan error tersebut, contoh misal ke Telegram, Slack
+   atau Sentry 
+ * Laravel mendukung fitur Error Reporter, dimana kita bisa menambahkan logic ketika terjadi error
+ * Untuk melakukan itu, kita bisa menggunakan function reportable() di Error Handler, dan kita bisa lakukan di
+   method register()
+ * Kita bisa menambahkan lebih dari satu Error Reporter
+ * Secara default semua Error Reporter akan dieksekusi ketika terjadi error, jika kita ingin menghentikan eksekusi
+   Error Reporter selanjutnya, silahkan return false pada callback reporter nya
+ */
+
+/** (Laravel11)
+ * di Laravel 11 sudah dipindahkan ke bootstrap/app.php pada method withExceptions()
+ * dan untuk menambahkan reporternya masih sama, kita bisa gunakan method reportable()
+ */

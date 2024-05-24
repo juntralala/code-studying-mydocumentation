@@ -1,0 +1,9 @@
+/** Manual Error Report
+ * Terkadang ada kasus dimana kita tidak ingin tampilan halaman web kita menjadi error ketika terjadi exception
+ * Pada kasus ini biasanya kita menggunakan try-catch kode program kita
+ * Laravel mendukung fitur untuk melakukan manual report exception, ketika kita melakukan report, maka Error
+   Reporter akan dieksekusi tanpa harus menampilkan halaman error 
+ * Untuk melakukan manual report, kita bisa menggunakan helper function report(exception)
+ */
+
+contohnya ada di route '/error/report'

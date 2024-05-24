@@ -1,0 +1,5 @@
+/** Model View Controller
+ * Laravel sendiri membawa konsep MVC (Model View Controller)
+ * Sehingga jika kita sudah terbiasa dengan konsep tersebut, kita akan dengan mudah menggunakan Laravel
+ * Detail dari konsep MVC itu sendiri sudah dibahas di kelas PHP MVC
+ */

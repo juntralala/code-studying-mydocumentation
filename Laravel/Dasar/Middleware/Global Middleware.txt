@@ -1,0 +1,14 @@
+/** Global Middleware (Laravel9)
+ * Secara default, middleware tidak akan dieksekusi oleh Laravel, kita perlu meregistrasikan middleware nya
+   terlebih dahulu ke aplikasi kita
+ * Kita bisa meregistrasikan middleware dengan beberapa cara
+ * Pertama kita bisa meregistrasikan middleware secara global
+ * Global, artinya middleware akan dieksekusi disemua route, ini bisa kita registrasikan di field
+   $middleware di app/Http/Kernel.php
+ */
+
+/** (Laravel11)
+ * Di Laravel 11 posisi registrasi global middleware telah diubah ke bootstrap/app.php pada method 
+   withMiddlware()
+ * Untuk menambahkan global middleware kita bisa bisa gunakan method append() yg ada di Illuminate\Foundation\Configuration\Middleware
+ */

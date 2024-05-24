@@ -1,0 +1,6 @@
+/** Daftar Facades
+ * Ada banyak sekali Facade di Laravel, dan seperti dijelaskan sebelumnya, hampir semuanya banyak menggunakan
+   dependency di Service Container
+ * Untuk lebih jelas ada Facades apa saja, bisa kita lihat disini:
+   https://laravel.com/docs/facades#facade-class-reference
+ */

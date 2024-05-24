@@ -1,0 +1,8 @@
+/** Library di Laravel
+ * Laravel sendiri sebenarnya tidak membuat semua bagian pada Framework nya sendiri 
+ * Beberapa bagian menggunakan library yang sudah populer di PHP, dan sudah kita bahas di roadmap kelas PHP
+ * Contohnya untuk project management, Laravel menggunakan Composer
+ * Untuk Logging, Laravel menggunakan Monolog
+ * Untuk Unit Test, Laravel menggunakan PHPUnit
+ * Dan lain-lain
+ */

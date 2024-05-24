@@ -1,0 +1,6 @@
+/** Melihat Detail Informasi
+ * Untuk melihat detail informasi perintah yang terdapat di file artisan, kita bisa gunakan perintah:
+    php artisan _perintah_ --help
+ * Contoh :
+    php artisan serve --help
+ */

@@ -1,0 +1,7 @@
+/**  Filter Request Input
+ * Kadang pada saat kita menerima input data dari user, kita ingin secara mudah menerima semua key input,
+   lalu menyimpannya ke database misalnya
+ * Pada kasus seperti ini, kadang sangat berbahaya jika misal user secara tidak sengaja mengirim key yang
+   salah, lalu kita mencoba melakukan update key yang salah itu ke database
+ * Untungnya Laravel memiliki helper method di class Request untuk melakukan filter input
+ */

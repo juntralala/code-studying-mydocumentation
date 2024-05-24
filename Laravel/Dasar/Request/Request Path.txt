@@ -1,0 +1,6 @@
+/** 
+ * Object Request banyak memiliki method yg bisa kita gunakan untuk mendapatkan informasi Path dan URL
+ * $request->path() untuk mendapatkan path, misal http://example.com/foo/bar, akan mengembalikan foo/bar
+ * $request->url() untuk mendapatkan url tanpa query parameter
+ * $request->fullUrl() untuk mendapatkan URL dengan query paramer 
+ */

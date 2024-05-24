@@ -1,0 +1,9 @@
+/** HTTP Error Page (Laravel9)
+ * Secara default halaman error untuk HTTP Exception sudah ditangani oleh Handler class
+ * Namun jika ingin membuat error page sendiri, kita tidak perlu manual meregistrasikan satu persatu
+ * Laravel akan secara otomatis menggunakan view dengan nama yg sama dengan status codenya, misal jika kita       
+   lakukan abort(400), maka Laravel akan menggunakan view resources/view/errors/400.blade.php kemudian Jika tidak
+   ada makan akan menggunakan 4xx.blade.php kemudian jika tidak ada jugamaka akan menggunakan default error page Handler
+ * Begitu juga contoh abort(500), akan menggunakan 500.blade.php, atau 5xx.blade.php atau error default page Handler
+ * Untuk mendapatkan object exceotionnya, kita bisa gunakan variable $exception di template blade nya
+*/

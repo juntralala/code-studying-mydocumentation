@@ -1,0 +1,7 @@
+/** Dynamic Properties
+ * Laravel juga mendukung Dynamic Properties yg secara otomatis akan mengambil input key dari Request
+ * Misal ketika kita menggunakan $request->first_name, jika dalam object tidak ada property dengan nama 
+   $first_name, maka akan secara otomatis mengambil input key dengan nama first_name
+ */
+
+// kata pak eko kuniawan khannedy ini tidak di rekomendasikan

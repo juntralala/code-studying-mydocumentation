@@ -1,0 +1,7 @@
+/** Kenapa Laravel?
+ * Saat ini Laravel adalah framework yang paling populer di PHP
+ * Banyak perusahaan yang telah menggunakan Laravel sebagai framework pilihan ketika menggunakan PHP
+ * Laravel juga memiliki ekosistem yang sangat besar, terutama dari ekosistem teknologi pendukung, sehingga
+   kita bisa menggunakan Laravel, kita bisa mengintegrasikan dengan teknologi pendukung nya dengan lebih 
+   mudah
+ */

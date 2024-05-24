@@ -1,0 +1,6 @@
+/** FileSystem
+ * Implementasi tiap File Storage di Laravel adalah sebuah interface bernama FileSystem
+ * https://laravel.com/api/9.x/Illuminate/Contracts/Filesystem/Filesystem.html 
+ * Dan untuk mendapatkan storage, kita bisa gunakan Facade Storage::disk(namaFileStorage)
+ * https://laravel.com/api/9.x/Illuminate/Support/Facades/Storage.html 
+ */ 

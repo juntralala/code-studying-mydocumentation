@@ -1,0 +1,5 @@
+/** Membuat Service Providers
+ * Untuk membuat Service Provider, kita bisa memanfaatkan file artisan untuk melakukan auto generate filenya
+ * Kita bisa menggunakan perintah:
+   php artisan make:provider NamaServiceProvider
+ */

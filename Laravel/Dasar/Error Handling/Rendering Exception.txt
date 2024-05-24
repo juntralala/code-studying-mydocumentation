@@ -1,0 +1,10 @@
+/** Rendering Exception (Laravel11)
+ * Secara default, Laravel akan melakukan render halaman error ketika terjadi exception
+ * Namun jika kita mau, kita juga bisa membuat halaman web kita sendiri ketika terjadi exception
+ * Untuk mendaftarkannya kita bisa gunakan renderable() di Handler
+ * Contoh saat  terjadi validation error, kita ingin tampilan halaman web Bad Request dan HTTP Status 400 misalnya
+ */
+
+/** Laravel(11)
+ * Di Laravel 11 bukandi Handler tapi di bootstrap/app.php pada method withExceptions()
+ */

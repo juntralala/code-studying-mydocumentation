@@ -1,0 +1,10 @@
+/** Routing Conflict
+ * Saat membuat router dengan parameter, kadang terjadi conflict routing
+ * Di Laravel jika terjadi conflict tidak akan menyebabkan error, namun Laravel akan memprioritaskan
+   router yg pertama kali dibuat
+ */
+
+// contohnya ada di file /routes/web.php pada
+   Route::get("/conflict/{name}", ....)
+   Route::get("/conflict/ujun", ....)
+  //dan tests/Feature/RoutingTest.php:testRouteConflict

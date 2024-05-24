@@ -1,0 +1,7 @@
+/** Git
+ * Saat kita membuat project Laravel, kita direkomendasikan untuk menggunakan Git sebagai source code managementnya
+ * Kita bisa melihat ada file sepert .gitignore yang otomatis dibuat oleh project Laravel, untuk meberitahu,
+   bagian mana saja yang tidak perlu di commit ke dalam Git Repository
+ * Jika teman-teman belum terbiasa dengan Git, saya sarankan mengikuti class Git saya yang sudah saya buat
+ * https://kelas.programmerzamannow.com/p/git-untuk-pemula-sampai-mahir
+ */

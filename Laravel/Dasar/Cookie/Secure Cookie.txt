@@ -1,0 +1,8 @@
+/** Secure Cookie
+ * Secara default, Cookie yg dibuat di Laravel akan selalu di enkripsi, dan ketika kita membaca cookie 
+   secara otomatis akan di dekrip
+ * Jika misal kita tidak ingin melakukan enkripsi pada sebuah cookie, kita bisa mengubah property EncryptCookies
+   yg bernama $except
+ */
+
+lanjutannya 'Membuat Cookie.txt'

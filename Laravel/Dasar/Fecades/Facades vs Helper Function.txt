@@ -1,0 +1,8 @@
+/** 
+ * Di Laravel, selain Facades ada juga Helper Function, bedanya pada Helper Function, tidak dikumpulkan
+   di dalam class
+ * Contohnya sebelum kita menggunakan Helper Function bernama config() dan env(), itu adalah Helper function 
+   yang terdapat di Laravel
+ * Penggunaan Helper function sebenarnya lebih mudah, namun jika dibandingkan dengan Facades, maka penggunaan
+   Facades akan lebih mudah di mengerti secara                               
+ */

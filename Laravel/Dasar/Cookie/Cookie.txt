@@ -1,0 +1,7 @@
+/** Cookie
+ * Saat kita membuat HTTP Response kadang kita perlu Cookie
+ * Cookie adalah data yg secara otomatis dikirim ketika kita melkukan HTTP Request juga
+ * Jadi kadang Cookie banyak dilakukan untuk melakukan management session di aplikasi berbasis web   
+ */
+
+// lanjutannya 'Secure Cookie.txt' kemudian 'Membut Cookie.txt' 

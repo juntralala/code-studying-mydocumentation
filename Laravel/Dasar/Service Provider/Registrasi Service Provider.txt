@@ -1,0 +1,10 @@
+/** Registrasi Service Provider (Laravel 9)
+ * Setelah kita membuat Service Provider, secara default Service Provider tidak diload oleh Laravel
+ * Untuk memberi tahu Laravel jika ingin menambahkan Service Provider, kita perlu menambahkannya pada config
+   di config/app.php, terdapat key providers yang berisi class-class Service Provider yang akan dijalankan
+   oleh Laravel 
+ */
+
+/** (Laravel11)
+ * Jika ingin meregistrasikan Service Provider, kita harus menambakannya pada bootsrap/providers.php
+ */

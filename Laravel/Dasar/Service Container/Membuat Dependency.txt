@@ -1,0 +1,8 @@
+/** Membuat Dependency
+ * Dengan menggunakan Service Container, kita tidak perlu membuat object secara manual lagi menggunakan
+   katakunci new
+ * Kita bisa menggunakan function make(key) yang terdapat di class Application untuk membuat Dependency
+   secara otomatis
+ * Saat kita menggunakan make(key), object akan selalu dibuat baru, jadi harap hati-hati ketika
+   menggunakannya, karena dia bukan menggunakan object yang sama 
+ */

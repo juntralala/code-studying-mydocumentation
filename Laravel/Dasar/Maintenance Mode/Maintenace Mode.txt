@@ -1,0 +1,8 @@
+/** Maintenance Mode
+ * Saat kita melakukan maintenance di aplikasi kita, misal melakukan perubahan database atau upgrade server, maka
+   ada baiknya kita menggunakan Maintenance Mode di aplikasi Laravel kita 
+ * Saat aplikasi kita sedang Maintenance Mode, secara otomatis semua request akan mengembalikan HTTP Exception 503 
+ * Untuk menyalakan Maintenance Mode kita bisa gunakan perintah :
+   php artisan down
+ * Secara otomatis akan ada file di storage/framework/down
+ */

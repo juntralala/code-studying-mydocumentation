@@ -1,0 +1,8 @@
+/** Request
+ * Di PHP, biasanya ketika kita ingin mendapatkan detail dari request biasanya kita lakukan menggunakan
+   global variable seperti $_GET, $_POST dan lain-lain  
+ * Di Laravel kita tidak perlu melakukan itu lagi, HTTP Request di bungkus dalam sebuah object dari class
+   Illuminate\Http\Request
+ * Dan kita bisa menambahkan Request di parameter function di Router atau Controller, dan secara otomatis
+   nanti Laravel akan melakukan dependency injection data request tersebut  
+ */

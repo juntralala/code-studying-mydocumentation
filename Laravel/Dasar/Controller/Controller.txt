@@ -1,0 +1,8 @@
+/** Controller
+ * Membuat Route memang mudah, namun kita harus menyimpan semua logic aplikasi di closure function Route,
+   lama-lama akan semakin sulit dilakukan karena kode akan semakin banyak bertambah
+ * Di Laravel kita bisa menggunakan Controller sebagai tempat menyimpan logic dari Route, sehingga tidak 
+   perlu kita lakukan lagi di Route
+ * Controller direpresentasikan sebagai class, dan penamaan classnya selalu diakhiri Controller, misalnya
+   UserController, ProductController, CategoryController, dan lain-lin
+ */

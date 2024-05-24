@@ -1,0 +1,6 @@
+/** Membuat Encryption Key
+ * Key untuk enckripsi hendaknya dibuat secara random dan secara berkala
+ * Dan untuk membuat key enkripsi secara random, kita tidak perlu buat secara manual, kita bisa menggunakan
+   bantuan file artisan : php artisan key:generate
+ * secara otomatis akan mengisi key APP_KEY di file.env
+ */

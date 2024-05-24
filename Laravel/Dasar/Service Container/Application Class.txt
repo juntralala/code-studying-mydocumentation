@@ -1,0 +1,7 @@
+/** Application Class
+ * Service Container di Laravel di representasikan dalam class bernama Application
+ * Kita tidak perlu membuat class Application secara manual, karena semua sudah dilakukan secara otomatis 
+   oleh framework Laravel
+ * Di semua framework Laravel, hampir semua bagian terdapat field $app yang merupakan isntance dari Application
+   https://laravel.com/api/9.x/Illuminate/Foundation/Application.html 
+ */

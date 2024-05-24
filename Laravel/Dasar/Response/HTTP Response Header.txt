@@ -1,0 +1,10 @@
+/** HTTP Response Header
+ * Saat kita membuat Response, kita bisa ubah status dan juga response header
+ * Kita bisa menggunakan function response(content, status, headers)
+ * Atau bisa menggunakan method withHeaders(ArrayHeaders) dan header(key, value)
+ */
+
+ 
+Contohnya ada di file app/Http/Controller/ResponseController.php pada function Header()
+  pada route "/response/hello"
+  dan testing nya ada pada tests/Feature/ResponseControllerTest.php pada function testHeader()

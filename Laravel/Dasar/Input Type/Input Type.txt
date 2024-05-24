@@ -1,0 +1,6 @@
+/** Input Type
+ * Class Request di Laravel memiliki beberapa helper method yg digunakan untuk melakukan konversi input
+   secara otomatis
+ * Ini bisa digunakan untuk mempermudah kita ketika ingin otomatis melakukan konversi input data ke tipe
+   data yg kita inginkan 
+ */

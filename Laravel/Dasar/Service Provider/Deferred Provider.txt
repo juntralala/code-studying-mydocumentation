@@ -1,0 +1,11 @@
+/** Deferred Provider
+ * Secara default semua Service Provider akan di load oleh Laravel, baik itu yang kita butuhkan atau tidak 
+ * Laravel memiliki fitur bernama Deferred Provider, dimana kita bisa menandai sebuah Service Provider agar
+   tidak diload ketika tidak dibutuhkan dependencynya
+ * Kita bisa menandai Service Provider kita dengan implementasi interface DeferrableProvider, lalu
+   implementasi method provides() yang memberitahu tipe dependency apa saja yang terdapat di Service
+   Provider ini
+ * Dengan fitur ini Service Provider hanya akan diload ketika memang dependencynya dibutuhkan 
+ * Setiap ada request baru, maka Service Provider yang telah di Deferred tidak akan di-load jika memang tidak 
+   dibutuhkan
+ */

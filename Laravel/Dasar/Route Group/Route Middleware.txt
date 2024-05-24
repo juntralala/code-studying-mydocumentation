@@ -1,0 +1,7 @@
+/** Route Middleware
+ * Route Middleware mendukung grouping berdasarkan middleware, dimana secara otomatis semua route akan memiliki
+   middleware tersebut
+ * cara nya dengan method Route::middleware()->group(closure);
+ */
+
+ contohnya ada di routse/web.php

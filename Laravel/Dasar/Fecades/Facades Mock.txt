@@ -1,0 +1,8 @@
+/** Facades Mock
+ * Salah satu kekurangan static function biasanya sulit untuk di test, karena mocking static function sangat
+   sulit 
+ * Namun untung nya di Laravel sudah disediakan function untuk melakukan Mocking Facades, sehingga kita bisa
+   mudah ketika implentasi Unit Test
+ * Laravel menggunakan Library Mockery untuk melakukan Mocking Facades
+ * https://github.com/mockery/mockery
+ */

@@ -1,0 +1,5 @@
+/** Melihat Semua Routing
+ * Kadang kita ada kebutuhan melihat semua Rounting yang ada di aplikasi laravel kita
+ * Untuk melihatnya, kita bisa memanfaatkan file artisan dengan perintah:
+   php artisan route:list
+ */

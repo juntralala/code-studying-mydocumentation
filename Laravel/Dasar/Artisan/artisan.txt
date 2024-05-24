@@ -1,0 +1,5 @@
+/** Artisan
+ * Saat kita membuat object Laravel, laravel sendiri sudah menyediakan secara otomatis sebuah file bernama
+   artisan
+ * File artisan ini sebenarnya adalah file berisi kode PHP yg bisa digunakan untuk banyak hal.
+ */

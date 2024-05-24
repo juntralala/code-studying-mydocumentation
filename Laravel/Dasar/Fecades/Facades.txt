@@ -1,0 +1,9 @@
+/** Fecades
+ * Sebelumnya kita berinteraksi dengan fitur-fitur Laravel menggunajab dependency injection
+ * Namun kadang ada ketika kita tidak bisa mendapatkan object Application, misal kita membuat kode di class
+   yang buka fitur bawaan Laravel, pada kasus seperti ini, Facades sangat membantu
+ * Facades adalah sebuah class yang menyediakan static akses ke fitur di Service Container atau Application
+ * Laravel menyediakan banyak sekali class Facades, kita akan bahas secara bertahap
+ * Semua class Facades ada di namespace
+ * https://laravel.com/api/9.x/Illuminate/Support/Facades.html
+ */

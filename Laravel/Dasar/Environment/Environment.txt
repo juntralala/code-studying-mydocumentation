@@ -1,0 +1,9 @@
+/** Environment
+ * Saat kita membuat aplikasi, kadang kita perlu menyimpan nilai konfigurasi di environment variable
+ * Laravel memiliki fitur untuk memudahkan kita mengambil data dari environment variable
+ * Kita bisa menggunakan function env(key) atau Env::get(key) untuk mendapatkan nilai dari environment variable
+ * Interval emplementasi dari Environment variable di Laravel menggunakan library
+   https://github.com/vlucas/phpdotenv
+ */
+
+Contohnya ada di tests/Feature/EnvironmentTest.php pada function testGetEnv()

@@ -1,0 +1,10 @@
+/** Mengubah Cara Membuat Dependency 
+ * Saat kita membuat function make(key), secara otomatis Laravel akan membuat object, namun kadang kita
+   ingin menentukan cara membuat objectnya 
+ * Pada kasus seperti ini, kita bisa menggunakan method bind(key, closure)
+ * Kita cukup retrun kan data yang kita inginkan pada function closurenya
+ * Saat kita menggunakan make(key) untuk mengambil dependency nya, secara otomatis function closure akan 
+   dipanggil
+ * Perlu diingat juga, setiap kali kita memanggil make(key), makan function closure akan selalu dipanggil,
+   jadi bukan menggunakan object yang sama
+ */

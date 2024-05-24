@@ -1,0 +1,6 @@
+/** bindings dan singletons Properties
+ * Jika kita hanya butuh melakukan binding sederhana, misal dari interface ke class, kita bisa menggunakan
+   fitur binding via properties di Service Provider
+ * Kita bisa tambahkan property bindings untuk membuat binding
+ * atau menggunakan property singletons untuk membuat binding singleton
+ */

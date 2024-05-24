@@ -1,0 +1,7 @@
+/** Route Prefix
+ * Laravel mendukung pembuatan Route Prefix, dimana kita bisa membuat prefix (awalan) untuk url route
+ * Ini sangat berguna ketika kita ingin membuat Route dengan URL yg awalannya hampir sama semua
+ * Kita bisa menggunakan function Route::prefix(prefix)->group(closure)
+ */
+
+contohnya ada di routes/web.php

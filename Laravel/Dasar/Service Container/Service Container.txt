@@ -1,0 +1,7 @@
+/** Service Container
+ * Sebelumnya kita sudah mencoba melakukan Dependency Injection secara manual
+ * Laravel memiliki fitur Dependency Injection secara otomatis, dan ini wajib dikuasai agar lebih mudah
+   membuat aplikasi menggunakan Laravel
+ * Di Laravel fitur ini bernama Service Container, dimana Service Container ini memiliki fitur yang digunakan
+   untuk dependencies dan juga dependency injection
+ */

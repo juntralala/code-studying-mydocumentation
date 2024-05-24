@@ -1,0 +1,7 @@
+/** Input Query String
+ * Method input() digunakan untuk mengambil data di semua input, baik itu query param atau body
+ * Jika misal kita hanya perlu mengambil data di query param, kita bisa menggunakan method $request->query(key)
+ * Atau jika semua query dalam bentuk array, kita bisa menggunakan $request->query() tanpa parameter key
+ */
+
+// method query() tidak di contohkan karena cara penggunaannya sama saja dengan input()

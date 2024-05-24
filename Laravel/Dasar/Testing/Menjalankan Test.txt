@@ -1,0 +1,5 @@
+/** Menjalankan Test
+ * Untuk menjalankan Test, kita bisa gunakan PHPUnit seperti biasanya
+ * Atau jika ingin menjalankan semua test, kita bisa menggunakan perintah file artisan dengan perintah:
+   php artisan test
+ */

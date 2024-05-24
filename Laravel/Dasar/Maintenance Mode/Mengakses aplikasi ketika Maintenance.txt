@@ -1,0 +1,9 @@
+/** Mengakses Aplikasi ketika Maintenance
+ * Kadang saat Maintenance Mode, ada kebutuhan untuk kita mengakses aplikasi Laravelnya
+ * Untuk melakukan itu, kita perlu membuat secret key ketika melakukan maintenance mode :
+   php artisan down --secret="yoursecretkeyhere"
+ * Selanjutnya kita bisa mengakses web kita melalui URL :
+   http://contoh.com/yoursecretkeyhere
+ * Nanti otomatis Laravel akan membuat Cookie secret key tersebut, sehingga kita bisa mengakses aplikasi Laravel 
+   walaupun sedang dalam Maintenance Mode
+ */

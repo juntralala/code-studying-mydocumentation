@@ -1,0 +1,7 @@
+/** Kernel
+ * Dari index.php, request akan dilanjutkan ke class Kernel
+ * Di Laravel, terdapat 2 jenis Kernel, HTTP Kernel dan Console Kernel. HTTP Kernel digunakan untuk menagani
+   request berupa HTTP, sedangkan Console Kernel digunakan untuk mengani request berupa perintah Console
+ * Pada kelas ini kita akan bahas tentang HTTP Kernel, jadi ketika request web masuk ke index.php maka 
+   request akan dilanjutkan ke HTTP Kernel
+ */

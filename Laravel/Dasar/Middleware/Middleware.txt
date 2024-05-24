@@ -1,0 +1,9 @@
+/** Middleware
+ * Middleware merupakan cara melakuka filtering terhadap HTTP Request yg masuk ke aplikasi kita
+ * Laravel banyak sekali menggunakan middleware, contohnya melakukan enkripsi cookie, dan verivikasi CSRF,
+   authentication dan lain-lain
+ * Semua middleware biasanya disimpan di folder app/Http/Middleware
+ */
+
+harus memebaca file yg lain di folder ini
+contohnya ada di tests/Feature/ContohMiddlewareTest.php 

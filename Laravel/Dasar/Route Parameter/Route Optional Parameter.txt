@@ -1,0 +1,9 @@
+/** Optional Route Parameter
+ * Laravel juga mendukung Route Parameter Optional, artinya parameternya tidak wajib diisi
+ * Untuk mengubah route parameter menjadi optional, kita bisa tambahkan ? (tanda tanya)
+ * Namun perlu diingat, jika kita menjadikan route parameter optional, maka kita wajib menambahkan 
+   default value di closure function nya
+ */
+
+// contohnya ada di file /routes/web.php pada Route::get("users/{id?}", ....) 
+ //dan tests/Feature/RoutingTest.php:testRoutingOptionalParameter

@@ -1,0 +1,10 @@
+/** Response
+ * Sebelumnya kita sudah tahu di Route dan Controller, kita bisa mengembalikan data berupa string dan view
+ * Laravel memiliki class Illuminate\Http\Response yg bisa digunakan untuk membuat representasi dari HTTP Response
+ * Dengan class Response ini kita bisa mengubah HTTP Response  seperti Body, Header, Cookie, dan lain-lain
+ * Untuk membuat object response, kita bisa menggunakan function helper response(content, status, headers)
+ */
+
+Contohnya ada di file app/Http/Controller/ResponseController.php pada function response()
+  pada route "/response/hello"
+  dan testing nya ada pada tests/Feature/ResponseControllerTest.php pada function testResponse()

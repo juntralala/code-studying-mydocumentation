@@ -1,0 +1,9 @@
+/** Singleton
+ * Sebelumnya kita menggunakan make(key), maka secara default Laravel akan membuat object baru, atau jika 
+   menggunakan bind(key, closure), function closure akan selalu dipanggil  
+ * Kadang ada kebutuhan kita membuat object singleton, yaitu object saja, dan ketika butuh, kita cukup
+   menggunakan object yang sama
+ * Pada kasus ini, kita bisa menggunakan function singleton(key, closure), maka secara otomatis ketika kita
+   menggunakan make(key), maka object hanya dibuat di awal, selanjutnya object yang sama akan digunakan 
+   terus menerus ketika kita memanggil make(key) 
+ */
