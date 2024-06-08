@@ -1,0 +1,8 @@
+/** Forelse Loop
+ * Apayang terjadi ketika kita misal melakukan iterasi menggunakan @foreach, namun ternyata datanya tidak ada
+ * Secara tomatis tidak akan menampilkan data apapun
+ * Kadang kita ingin menampilkan sesuatu ketika tidak ada datanya
+ * Pada kasus ini kita bisa menggunakan @forelse, dimana kita bisa menambahkan directive @empty ketika data array
+   tidak ada isinya
+ */
+// jadi ini improvement @foreach

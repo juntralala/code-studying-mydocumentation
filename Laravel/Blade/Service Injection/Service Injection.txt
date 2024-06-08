@@ -1,0 +1,4 @@
+/** Service Injection
+ * Blade Template mendukung directive @inject(variableName, service) untuk mengambil object dari Service Container
+ * Secara otomatis data object akan diinject ke variableName yg disebutkan di directive @inject 
+ */

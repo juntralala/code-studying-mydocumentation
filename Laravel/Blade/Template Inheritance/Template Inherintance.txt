@@ -1,0 +1,7 @@
+/**
+ * Sebelumnya, kita menggunakan @include untuk menggunakan template lain
+ * Blade mendukung Template Inheritance, caranya terbalik dengan @include
+ * Dalam @include, parent akan melakukan include ke template child nya
+ * Dalam Template Inheritance, child yang akan melakukan extends ke parent template, dan child yang akan menentukan\
+   isi dari parent nya
+*/

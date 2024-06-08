@@ -1,0 +1,7 @@
+/** Blade
+ * Membuat response dari Route itu sangat mudah, tapi jika kita ingin membuat response yg komplex seperti HTML,
+   maka akan menyulitkan jika kita lakukan di Routes 
+ * Blade adalah fitur Laravel yg digunakan untuk mempermudah dalam pembuatan tampilan halaman web HTML
+ * Dengan Blade Template, kita bisa membedakan lokasi logic aplikasi dan kode tampilan
+ * Semua template disimpan di folder resources/views
+ */

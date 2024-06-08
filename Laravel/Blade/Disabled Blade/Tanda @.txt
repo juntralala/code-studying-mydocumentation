@@ -1,0 +1,7 @@
+/** Tanda @
+ * Di bagian yg kita ingin Blade Template tidak eksekusi, kita bisa menambahkan @ diawal perintah Blade Templatenya
+ * Misalnya @{{$name}}, maka akan ditampilkan apa adanya tanpa @
+ * Misalnya @@if, maka hasilnya akan ditampilkan apa adanya tanpa @ pertama
+ * Namun jika terdapat banyak baris yg kita harapkan tidak menggunakan Blade Template, kita bisa gunakan perintah
+   @verbatim dan diakhiri dengan @endverbatim
+ */

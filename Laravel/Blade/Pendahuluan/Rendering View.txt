@@ -1,0 +1,6 @@
+/** Rendering View
+ * Setelah kita membuat View , selanjutnya untuk merender (menampilkan) View tersebut didalam Router, kita bisa
+   gunakan function Route::view(uri, template, array) atau menggunakan view didalam closure function Route / Controller
+ * Dimana template adalah nama template, tanpa menggunakan .blade.php dan array berisakan data variable yg ingin
+   kita kirimkan
+ */

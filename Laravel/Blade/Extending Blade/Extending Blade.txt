@@ -1,0 +1,10 @@
+/**
+ * Blade Facade juga bisa kita gunakan untuk menambahkan custom directive
+ * Sehingga kita bisa membuat directive sendiri, dan bisa digunakan di Blade Template menggunakan 
+   method Blade::directive(nama, function)
+ * Agar aman, kita perlu meregistrasi directive di Service Provider
+*/
+
+// <!- Sesudah melakukan perubahan pada directive jangan lupa untuk view:clear menggunakan artisan -!>
+
+// Contohnya ada di app/Providers/AppServiceProvider.php dan extending.blade.php

@@ -1,0 +1,8 @@
+/** Costum Echo Handler
+ * Saat kita menggunakan {{ $variable }}, secara otomatis Blade Template akan mengkonversi menjadi 
+   echo ($variable)__toString()
+ * Pada kasus tertentu, mungkin kita ingin mengubahnya, misal ketika datanya berupa beberapa class tertentu, 
+   kita ingin mengubah hasil Stringnya
+ * Kita bisa menggunakan Facade Blade untuk mengubahnya, dengan cara menggunakan method 
+   Blade::stringable(class, function)
+*/

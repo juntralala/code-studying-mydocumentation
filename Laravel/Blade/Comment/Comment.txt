@@ -1,0 +1,4 @@
+/** Comment
+ * Blade Templatem juga mendukung komentar, dengan menggunakan {{-- isi komentar --}}
+ * Isi komentar secara otomatis tidak akan dieksekusi, dan tidak akan ditampilkan juga di hasil HTMLnya
+ */

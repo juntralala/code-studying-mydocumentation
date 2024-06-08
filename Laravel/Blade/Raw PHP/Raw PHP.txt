@@ -1,0 +1,5 @@
+/** Raw PHP
+ * Kadang ada kasus kita ingin menggunakan kode PHP langsung di Blade Template
+ * Walaupun ini tidak direkomendasikan, tapi bisa kita lakukan
+ * Kita bisa gunakan directive @php untuk memasukkan kode php
+ */

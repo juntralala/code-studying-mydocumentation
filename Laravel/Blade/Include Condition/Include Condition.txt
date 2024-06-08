@@ -1,0 +1,19 @@
+/** Include Condition
+ * Kadang terdapat kondisi kita ingin melakukan @include pada kondisi tertentu
+ * Maka biasanya kita akan menggunakan directive @if untuk melakukan pengecekan kondisi tersebut
+ * Blade Template memiliki directive lain untuk mempermudah kita ketika membutuhkan kondisi tertentu untuk
+   melakukan @include
+ */
+
+/*
+    +===========================================+=======================================+
+    | Directive                                 | Keterangan                            |
+    +-------------------------------------------+---------------------------------------+
+    | @includeWhen(kondisi, template, data)     | Include dilakukan ketika kondisi true |
+    | @includeUnless(kondisi, template, data)   | Include dilakukan ketika kondisi false|
+    +-------------------------------------------+---------------------------------------+
+*/
+
+// contohnya ada di include-condition.blade.php
+
+// @includeUnless tidak dibuatkan contoh

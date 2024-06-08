@@ -1,0 +1,6 @@
+/**
+ * Salah satu fitur yang bisa kita gunakan dengan Blade Facade adalah, Inline Template
+ * Inline Template adalah kemampuan dimana kita bisa me-render template tanpa harus membuat file template,
+   cukup menggunakan string saja
+ * Kita bisa menggunakan method Blade::render(template, data)
+ */

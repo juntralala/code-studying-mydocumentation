@@ -1,0 +1,5 @@
+/**
+ * Secara default, saat kita menampilkan data di Blade Template menggunakan {{}}, secara otomatis Blade akan memanggil function htmlspecialchars(data) untuk memastikan data aman dari tag HTML yang bisa menyebabkan XSS Attack (Cross Site Scripting)
+ * Namun jika kita ingin menampilkan tanpa di escape, maka kita bisa menggunakan {!! $variable !!}
+ * Namun harap hati-hati, karena jika tidak hati-hati, kita bisa terkena serangan XSS
+*/

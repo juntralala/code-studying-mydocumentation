@@ -1,0 +1,6 @@
+/** Parent Layout
+ * Di parent layout, kita bisa gunakan @yield('name', default) untuk lokasi template yg harus dibuat nanti
+   di child layout 
+ */
+
+contohnya ada di file inheritance/template/child.blade.php

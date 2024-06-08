@@ -1,0 +1,12 @@
+/** Include
+ * Saat kita membuat halaman web, kadang ada beberapa bagian yang sama di beberapa halaman web
+ * Pada kasus ini, ada baiknya kita membuat kode web tersebut di file template yang berbeda
+ * Selanjutnya kita bisa menggunakan directive @include untuk mengambil file template tersebut
+ */
+
+// contohnya ada di include.blade.php
+
+/**
+ * Untuk cara mengambilan file menggunakan @include sama seperti menggunakan function view()
+ * @include('home.header')
+ */

@@ -1,0 +1,5 @@
+/** Disabled Blade
+ * Blade menggunakan tanda kurung kurawal untuk menampilkan variable
+ * Saat kita membuat web, kadang kita ingin menampilkan tulisan seperti perintah-perintah yg ada di Blade
+ * Hal ini akan menimbulkan perintah-perintah akan dieksekusi oleh Blade
+ */

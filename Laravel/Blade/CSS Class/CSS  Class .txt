@@ -1,0 +1,9 @@
+/** CSS Class
+ * Saat membuat web, kadang kita ingin mengubah-ubah CSS class berdasarkan response backend
+ * Blade Template menyediakan @class directive untuk mempermudah kita melakukannya
+*/
+
+// contohnya ada di class.blade.php
+
+// kelas akan digunakan jika kondisi yg diberikan true
+<span @class(['kelas1', 'kelas2' => true, 'kelas3' => false])>ada teks disini</span>

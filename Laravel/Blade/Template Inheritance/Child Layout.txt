@@ -1,0 +1,9 @@
+/**
+ * Untuk membuat child layout, kita bisa menggunakan directive @extends(parentlayout)
+ * Di dalam child layout, kita bisa membuat @section(name) yang nanti akan dieksekusi di posisi @yield(name)
+   di parent nya
+*/
+
+// @section harus ditutup @endsection
+
+contohnya ada di file inheritance/template/child.blade.php

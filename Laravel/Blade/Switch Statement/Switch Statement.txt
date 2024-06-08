@@ -1,0 +1,6 @@
+/** Switch Statement
+ * Selain menggunakan @if, percabangan di Blade Template juga bisa menggunakan directive @switch 
+ * @switch harus diakhiri @endswitch 
+ * Seperti di kode PHP, dalam Blade Template, kita perlu kombinasikan dengan @case dan juga @break dan @default
+ */
+

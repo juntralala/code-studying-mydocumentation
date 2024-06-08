@@ -1,0 +1,19 @@
+/** Form Directive
+ * Blade Template memiliki beberapa directive untuk membantu kita mempermudah ketika kita membuat form
+ * Ada @checked(kondisi) @selected(kondisi) @disabled(kondisi) @readonly(kondisi) dan @required(kondisi)
+ * Kondisi pada form directive merupakan boolean, jika true, maka secara otomatis directive tersebut akan
+   dijalankan
+ * Penggunaan form directive ini lebih mudah dibanding kita menggunakan directive @if secara manual
+*/
+
+/** Detail Form Directive
+    +===========+=======================================================+
+    | Directive | Jika kondisi true                                     |
+    +-----------+-------------------------------------------------------+
+    | @checked  | Maka input checkbox akan memiliki attribute checked   |
+    | @selected | Maka input option akan memiliki attribute selected    |
+    | @disabled | Maka input akan memiliki attribute disabled           |
+    | @readonly | Maka input akan memiliki attribute readonly           |
+    | @required | Maka input akan memiliki attribute required           |
+    +-----------+-------------------------------------------------------+
+*/

@@ -1,0 +1,5 @@
+/**
+ * Blade juga mendukung perintah untuk melakukan perulangan for
+ * For loop mirip seperti di PHP, kita bisa menggunakan increment
+ * diawali @for() dan diakhiri @endfor
+*/

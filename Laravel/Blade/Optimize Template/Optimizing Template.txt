@@ -1,0 +1,10 @@
+/**
+ * Secara default, Blade Template di compile menjadi kode PHP ketika ketika ada request, Laravel akan mengecek
+   apakah hasil compile Blade Template ada atau tidak, jika ada maka akan menggunakannya, jika tidak ada maka
+   akan coba melakukan compile. 
+ * Termasuk Laravel juga akan mendeteksi ketika ada perubahan Blade Template.
+ * Kompilasi ketika request masuk akan ada efek buruknya, yaitu performanya jadi lambat karena harus melakukan
+   kompilasi. Oleh karena itu ketika nanti menjalankan aplikasi Laravel di production, ada baiknya melakukan 
+   proses kompilasi seluruh blade template terlebih dahulu, agar tidak perlu melakukan kompilasi lagi ketika 
+   request masuk
+ */

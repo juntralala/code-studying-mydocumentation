@@ -1,0 +1,7 @@
+/** Blade Template
+ * Blade adalah library yg terdapat di Laravel sebagai templating engine
+ * Tidak seperti templating egine lainnya, Blade tidak melarang kita menggunakan kode PHP di file template, walaupun ini sebenarnya tidak disarankan
+    Semua file template di Blade sebenarnya akan di compile menjadi kode PHP
+ * Blade menggunakan extention file .blade.php sebagai nama file template nya
+ * Dan biasanya disimpan di folder resources/views
+ */

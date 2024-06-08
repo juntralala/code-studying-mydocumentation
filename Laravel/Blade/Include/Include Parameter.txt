@@ -1,0 +1,7 @@
+/**
+ * Secara default, semua data yang dikirim ke template utama akan dikirim ke template yang kita @include
+ * Namun, jika kita ingin menambah parameter tambahan, kita juga bisa menambahnya ketika menggunakan directive
+   @include(template, data)
+*/
+
+// contohnya ada di include.blade.php

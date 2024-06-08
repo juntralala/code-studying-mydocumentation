@@ -1,0 +1,6 @@
+/** While Loop
+ * Selain perulangan for, di Blade Template juga mendukung perulangan @while
+ * Dengan perulangan @while, kita bisa melakukan perulangan selama kondisi @while bernilai true
+ */
+
+// harus diakhiri @endwhile

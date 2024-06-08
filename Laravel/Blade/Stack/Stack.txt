@@ -1,0 +1,9 @@
+/** Stack
+ * Laravel memiliki kemampuan mirip seperti struktur data Stack / Tumpukan
+ * Dimana kita bisa mengirim data ke stack tersebut menggunakan directive @push(nama) atau @pushIf(kondisi, nama)
+ * Ketika ingin menampilkan semua data yg terdapat di Stack, kita bisa menggunakan directive @stack(nama)
+ * Secara default @push akan mengirim data ke posisi paling belakang. Jika kita ingin mengirimkan data ke posisi
+   paling awaln kita bisa gunakan directive @prepend(name)
+ */
+
+// @push dan @prepend harus diakhiri @endpush dan @endprepend

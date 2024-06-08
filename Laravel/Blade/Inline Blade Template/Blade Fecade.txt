@@ -1,0 +1,7 @@
+/** Blade Fecade
+ * Blade juga memiliki Facade yang bisa kita gunakan untuk menggunakan Blade Template
+ * Ini akan mempermudah kita ketika kita ingin mengakses Blade Template dari Class seperti contohnya
+   dari Controller
+ * Ada banyak sekali fitur yang terdapat di Blade Facade yang bisa kita gunakan
+ * https://laravel.com/api/9.x/Illuminate/Support/Facades/Blade.html 
+*/

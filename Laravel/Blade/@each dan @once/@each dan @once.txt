@@ -1,0 +1,18 @@
+/** Each dan Once
+ * Pada kasus tertentu, kadang kita ingin menampilkan layout sesuai dengan jumlah data
+ * Lalu misal kita perlu menambahkan sebuah kode yang cukup sekali saja ditampilkan, walaupun layout ditampilkan lebih dari sekali, misal kode CSS atau JavaScript
+ * Kita bisa menggunakan directive @each dan @once
+*/
+
+// @once harus diakhiri @endonce 
+
+/** Each and Once Directive
+    +===================================+===============================================================+
+    | Directive                         | Keterangan                                                    |
+    +-----------------------------------+---------------------------------------------------------------+
+    | @each(template, array, variable)  | Include berulang kali sesuai iterasi jumlah array, dimana tiap|
+    |                                   |  data array bisa diakses dengan variable di templatenya       |
+    | @once                             | Disimpan di layout, secara otomatis jika layout tersebut      |
+    |                                   |  ditampilkan berulang, bagian @once hanya ditampilkan sekali  | 
+    +-----------------------------------+---------------------------------------------------------------+
+ */

@@ -1,0 +1,6 @@
+/** If Statement
+ * Blade Template mendukung percabangan menggunakan perintah/directive @if, @else, @elseif dam @endif
+ * Perintah ini hampir sama dengan PHP 
+ */
+
+ 

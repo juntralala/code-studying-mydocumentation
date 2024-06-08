@@ -1,0 +1,12 @@
+/** Show Directive 
+ * Pada beberapa kasus, kadang kita ingin membuat default @section(name) di parent layout, namun tetap bisa di
+   override di child layout
+ * Kita bisa menggunakan @section(name) di parent layout, namun ditutup dengan @show, bukan @endsection
+ * Jika di child layout kita membuat @section(name), secara otomatis @section(name) di parent akan di override,
+   namun jika kita tetap ingin memanggil @section(name) di parent, kita bisa gunakan directive @parent di child
+   layout nya
+*/
+
+// contohnya ada di inherintance/show/parent.blade.php
+// contohnya ada di inherintance/show/child.blade.php
+// unittest nya ada di file InheritanceTest.php

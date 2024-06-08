@@ -1,0 +1,5 @@
+/**
+ * Kadang ada kalanya kita ingin melakukan iterasi terhadap semua data yang terdapat di array
+ * Di Blade Template, kita bisa lebih mudah menggunakan directive @foreach dibandingkan menggunakan @for 
+ * Perlu diakhiri @foreach
+*/
