@@ -4,6 +4,7 @@
 .idea/
 .phpunit.cache/
 out/
+target/
 __pycache__/
 vendor/
 
