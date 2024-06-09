@@ -5,5 +5,6 @@
  * Dengan menggunakan @testWith kita bisa mengirim data ke unit test tanpa harus membuat function, kita
    cukup memasukkan data di dalam doc nya saja
 */
+// ini alternatif dataprovider
 
 // Contoh @testWith ada di MathTest.php  

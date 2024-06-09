@@ -21,7 +21,7 @@ class RotatingFileHandlerTest extends TestCase {
     function testRotatingFileHandler(): void {
         $logger = new Logger(self::class);
         $logger->pushHandler(new StreamHandler("php://stderr"));
-        $logger->pushHandler(new RotatingFileHandler(__DIR__ . "/application.log", 10, Logger::INFO));
+        $logger->pushHandler(new RotatingFileHandler(__DIR__ . "/application.log", 10, Logger::DEBUG));
 
         $logger->info("Belajar PHP Dasar");
         $logger->info("Belajar PHP OOP");
