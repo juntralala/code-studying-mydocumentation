@@ -1,0 +1,5 @@
+/** Logging Configuration
+ * Laravel secara default menggunakan file config/logging.php sebagai configurasi untuk logging
+ * Saat kita membuat project, secara default sudah disediakan banyak sekali konfigurasi yg bisa kita gunakan,
+   namun yg secara default aktif adalah yg sederhana 
+ */ 

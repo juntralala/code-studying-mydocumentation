@@ -1,0 +1,8 @@
+/** With Context
+ * Cara lain menambahkan context, kita bisa gunakan function withContext(), yg secara otomatis kode selanjutnya
+   akan menggunakan context yg kita gunakan didalam withContext()
+ * Ini sangat cocok misal ketika di Controller kita menambahkan withContext() berisi data user, sehingga di
+   kode-kode selanjutnya, setiap log akan berisi informasi siapa user yg melakukan proses logging tersebut 
+ */
+
+// contohnya pada LoggingTest.php pada function testWithContext()

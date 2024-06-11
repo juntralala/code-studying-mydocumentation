@@ -1,0 +1,3 @@
+/** Pengenalan Logging
+ * Materi logging sudah kita bahas tuntas di kelas PHP Logging
+ */

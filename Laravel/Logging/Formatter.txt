@@ -1,0 +1,5 @@
+/** Formatter
+ * Saat kita menggunakan driver monolog, secara default akan mengguankan LineFormatter
+ * Pada kasus tertentu, kita ingin bentuk log dibuat dalam bentuk JSON misalnya
+ * Di Laravel untuk melakukan itu, kita bisa gunakna config formatter berisi class Formatter untuk monolognya
+ */

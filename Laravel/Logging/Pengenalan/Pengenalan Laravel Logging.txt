@@ -1,0 +1,7 @@
+/** Penegenalan Laravel Logging
+ * Laravel sendiri tidak membuat fitur Logging dari awal, ia menggunakan library monolog untuk melakukan logging
+ * Oleh karena itu wajib menyelesaikan kelas PHP Logging, karena di kelas ini kita tidak akan lagi membahas
+   library Monolog nya
+ * Walaupun Laravel menggunakan library Monolog untuk melakukan logging, namun Laravel juga menambahkan fitur 
+   untuk mempermudah penggunaan library Monolog, sehigga kita tidak perlu melakukan konfigurasi manual 
+ */

@@ -1,0 +1,6 @@
+/** Membuat Slack Web Hook
+ * Karna kita disini ingin menggunakan SlackHandler, jadi kita perlu membuat Slack webhook URL, agar kita bisa
+   mengirim log ke sana
+ * https://slack.com/apps/new/A0F7XDUAZ-incoming-webhooks
+ */
+

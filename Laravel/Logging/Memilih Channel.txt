@@ -1,0 +1,11 @@
+/** Selected Channel
+ * Secara default, Laravel akan menggunakan logging channel DEFAULT yg sudah dipilih
+ * Namun, pada kasus tertentu, kita mungkin ingin membuat channel, tapi hanya digunakan ketika kita mau gunakan
+ * Laravel juga memiliki fitur menseleksi channel yg ingin digunakan, sehingga sebelum kita kirim data log, kita 
+   pilih channel mana yg akan kita gunakan
+ * Kita bisa menggunakan method Log::channel(string)
+ * method Log::channel() adalah adalah Logger, jadi kita akan menggunakan Logger tersebut untuk mengirim ke
+   channel yg kita pilih
+ */
+
+// Contohnya di LoggingTest.php pada function testSelectedChannel

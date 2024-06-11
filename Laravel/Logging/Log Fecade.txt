@@ -1,0 +1,7 @@
+/** Log Fecade
+ * Untuk melakukan logging di Laravel, kita bisa dengan mudah mengguakan Log Fecade
+ * Kita tidak perlu manual membuat object logger secara manual lagi
+ * https://laravel.com/api/9.x/Illuminate/Support/Fecades/Log.html 
+ */
+
+// Contohnya ada di LoggingTest.php

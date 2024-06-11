@@ -1,0 +1,8 @@
+/** Handler 
+ * Saat menggunanakan driver monolog, kita bisa menentukan attribute handler yg berisi class Monolog Handler 
+ * Contoh sebelumnya terdapat driver single untuk menyimpan data log ke file, sebenarnya jika kita mau, kita bisa
+   menggunakan driver monolog dan handler StreamHandler
+ */
+
+// untuk contohnya kita membuat channel baru pada config/logging.php dengan nama 'file'
+// dan juga membuat test pada LoggingTest.php pada function testFileHandler()

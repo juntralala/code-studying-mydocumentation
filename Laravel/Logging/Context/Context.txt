@@ -1,0 +1,10 @@
+/** Context
+ * Kita tahu saat belajar di PHP Logging, di monolog terdapat fitur bernama Context
+ * Itu juga bisa kita gunakan di Laravel logging
+ * Setelah message di  Log Facade memiliki parameter kedua yg kita isi dengan data Context, sama seperti yg kita 
+   lakukan di PHP Logging menggunakan Monolog
+ */
+
+Log::info(message, context)
+
+// contohnya pada LoggingTest.php pada function testContext

@@ -1,0 +1,5 @@
+/** Multiple Log Channel
+ * Seperti yg sudah kita bahas di materi Logging Configuration, kita bisa menggunakan stack untuk mengirim data 
+   log ke beberapa channel 
+ * Contohnya, kita bisa mengirim log menggunakan stack channel ke single, stderr, dan slack sekaligus
+ */
