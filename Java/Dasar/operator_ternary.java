@@ -1,4 +1,4 @@
-public class ternary {
+public class operator_ternary {
     public static void main(String[] args) {
 
         int nilai = 75;

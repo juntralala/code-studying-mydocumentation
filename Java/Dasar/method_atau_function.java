@@ -5,7 +5,6 @@ public class method_atau_function {
         sapa("Muhammad Junaidi");
         sapa("Muhammad Junaidi");
 
-        System.out.println(tambah(2,2));
 
     } // mainEnd
 
@@ -13,9 +12,6 @@ public class method_atau_function {
         System.out.printf("%s, apakabar\n",nama);
     }
 
-    public static int tambah(int a, int b) {
-        return a+b;
-    }
 
 }
 
