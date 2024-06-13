@@ -7,3 +7,4 @@
    di-reject request tersebut
  */
 
+// untuk mendapatkan CSRF token kita bisa menggunakan function csrf_token()
