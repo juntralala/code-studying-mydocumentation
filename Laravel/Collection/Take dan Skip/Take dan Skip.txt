@@ -1,0 +1,6 @@
+/** Take & Skip
+ * Untuk mengambil sebagian element di collection, selain menggunakan slice, kita juga bisa menggunakan 
+   operator take dan skip
+ */
+
+// take dan skip sebenarnya function

@@ -1,0 +1,14 @@
+/** First Operations (sebagian)
+    +===========================+=======================================================================+
+    | method                    | keterangan                                                            |
+    +---------------------------+-----------------------------------------------------------------------+
+    | first()                   | Mengambil data pertama di Collection, atau null jika tidak ada        |
+    | firstOrFail()             | Mengambil data pertama di Collection, atau error ItemNotFoundException|
+    |                           |  jika tidak ada                                                       |
+    | first(function)           | Mengambil data pertama di Collection yg sesuai dengan kondisi function|
+    |                           |  jika menghasilkan data true                                          |
+    | first(function, default)  | Mengambil data pertama di Collection yg sesuai dengan kondisi function|
+    |                           |  jika menghasilkan data true, dan jika tidak yg sesuai return false   |
+    | firstWhere(key, value)    | Mengambil data pertama di Collection dimana key sama dengan value     |
+    +---------------------------+-----------------------------------------------------------------------+
+ */

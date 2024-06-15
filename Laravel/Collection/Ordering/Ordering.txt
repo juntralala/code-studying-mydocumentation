@@ -1,0 +1,17 @@
+/** Ordering
+ * Ordering adalah operasi untuk pengurutan data di Collection
+ */
+
+/** Ordering Operations (sebagian)
+    +===========================+===============================================================+
+    | method                    | keterangan                                                    |
+    +---------------------------+---------------------------------------------------------------+
+    | sort()                    | Mengurutkan secara ascending                                  |
+    | sortBy(key/function)      | Mengurutkan berdasarkan key atau function secara ascending    |
+    | sortDesc()                | Mengurutkan secara descending                                 |
+    | sortByDesc(key/function)  | Mengurutkan berdasarkan key atau function secara ascending    |
+    | sortKeys()                | Mengurutkan berdasarkan key secara ascending                  |
+    | sortKeysDesc()            | Mengurutkan berdasarkan key secara descending                 |
+    | reverse(function)         | Membalikkan urutan data dalam collection                      |
+    +---------------------------+---------------------------------------------------------------+
+ */

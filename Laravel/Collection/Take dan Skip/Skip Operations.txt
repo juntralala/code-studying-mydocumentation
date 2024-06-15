@@ -1,0 +1,9 @@
+/** Skip Operations
+    +=======================+===========================================================================+
+    | method                | keterangan                                                                |
+    +-----------------------+---------------------------------------------------------------------------+
+    | skip(lenght)          | Ambil seluruh data kecuali sejumlah lenght data                           |
+    | takeUntil(function)   | Iterasi setiap data, jangan ambil tiap data sampai function mereturn true |
+    | takeWhile(function)   | Iterasi setiap data, janagn ambil tiap data sampai function mereturn false|
+    +-----------------------+---------------------------------------------------------------------------+
+ */

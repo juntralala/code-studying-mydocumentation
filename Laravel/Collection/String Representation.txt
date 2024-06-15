@@ -1,0 +1,14 @@
+/** String Representation
+ * String Representation adalah operasi transformasi formasi untuk mengubah collection menjadi string
+ */
+
+/** String Representation Operations
+    +===============================+=======================================================================+
+    | method                        | keterangan                                                            |
+    +-------------------------------+-----------------------------------------------------------------------+
+    | join(glue='', finalGlue='')   | mengubah tiap item menjadi string dengan menggabungkan separator glue,|
+    |                               |  dan separator akhir finalGlue                                        |
+    +-------------------------------+-----------------------------------------------------------------------+
+ */
+
+// conothnya di CollectionTest.php function testJoin()

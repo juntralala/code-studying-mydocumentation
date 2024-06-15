@@ -1,0 +1,6 @@
+/** Foreach
+ * Collection adalah struktur data turunan dari Iterable PHP
+ * Dengan demikian kita bisa melakukan iterasi data Collection menggunakan perintah foreach di PHP
+ */
+
+// Contohnya ada di function

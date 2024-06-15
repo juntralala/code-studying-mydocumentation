@@ -1,0 +1,8 @@
+/** Masalah Array di PHP
+ * Saat kita menggunakan PHP, kita sering sekali menggunakan data array
+ * Namun array hanyalah tempat menyimpan data, ketika kita butuh melakukan operasi terhadap data di arraynya, maka
+   kita harus lakukan secara manual
+ * Hal ini kadang menyulitkan ketika operasi yg perlu kita lakukan sangat kompleks 
+ * Di bahasa pemrograman seperti Java, terdapat tipe data Collection untuk mempermudah hal tersebut, sayangnya
+   hal ini tidak ada di PHP
+ */

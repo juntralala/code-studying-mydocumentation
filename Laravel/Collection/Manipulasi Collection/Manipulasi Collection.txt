@@ -1,0 +1,18 @@
+/** manipulasi Collection
+ * Collection adalah class, oleh karena itu untuk memanipulasi datanya, kita perlu menggunakan method yg terdapat
+   di Collection
+ */
+
+/** beberapa Collection Operation
+    +===============+===================================================+
+    | method        | Keterangan                                        |
+    +---------------+---------------------------------------------------+
+    | push(data)    | Menambahkan data ke paling belakang               |
+    | pop()         | Mengambil serta menghapus data di paling belakang |
+    | prepend(data) | Menambah data ke paling depan                     |
+    | pull(key)     | mengambil serta menghapus data berdasarkan key    |
+    | put(key, data)| mengubah data dengan key                          |
+    +---------------+---------------------------------------------------+
+ */
+
+// contohnya di class CollectionTest pada function testCollectionManipulation()

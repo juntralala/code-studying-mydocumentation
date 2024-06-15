@@ -1,0 +1,19 @@
+/** Checking Existance
+ * Checking Existance merupakan operasi untuk mengecek apakah terdapat data yg di cari di Collection 
+ */
+
+/** Checking Existance Operations (sebagian)                    
+    +=======================+===============================================================================+
+    | method                | keterangan                                                                    |
+    +-----------------------+-------------------------------------------------------------------------------+
+    | isEmpty(): bool       | Mengecek apakah collection kosong                                             |
+    | isNotEmpty()          | Mengecek apakah collection tidak kosong                                       |
+    | contains(value)       | Mengecek apakah collection memiliki value                                     | 
+    | contains(function)    | Mengecek apakah collection memiliki value dengan kondisi fungsi mereturn true |
+    | containsOneTime()     | Mengecek apakah collection memiliki satu data saja                            |
+    +-----------------------+-------------------------------------------------------------------------------+
+*/
+
+// contains sebelumnya sudah pernah dibahas di materi 'Testing' tapi entah kenapa disini ada lagi
+
+// contohnya di CollectionTest::testCheckingExistance()

@@ -1,0 +1,14 @@
+/** Partitioning
+ * Pada filtering, kita akan kehilangan data yg tidak masuk ke kondisi filter functionnya
+ * Dengan partitioning, kita bisa mendapatkan 2 collection yg terdiri dari collection yg masuk filter dan
+   yg tidak masuk filter
+ */
+
+/** Partitioning Operator
+    +=======================+===============================================================================+
+    | method                | keterangan                                                                    |
+    +-----------------------+-------------------------------------------------------------------------------+
+    | partition(function)   | Iterasi setiap data akan dikirim ke function, jika true data akan masuk ke    |
+    |                       |  collection pertama ,dan jika false maka data akan masuk ke collection kedua  |
+    +-----------------------+-------------------------------------------------------------------------------+
+*/

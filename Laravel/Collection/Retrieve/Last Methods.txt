@@ -1,0 +1,9 @@
+/** Last Operations (sebagian)
+    +===================+===============================================================+
+    | method            | keterangan                                                    |
+    +-------------------+---------------------------------------------------------------+
+    | last()            | Mengambil data terakhir didalam Collection                    |
+    | last(function)    | Mengambil data terakhir di Collection yg sesuai dengan kondisi|
+    |                   |  function jika menghasilkan data true                         |         
+    +-------------------+---------------------------------------------------------------+
+ */

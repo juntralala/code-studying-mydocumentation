@@ -1,0 +1,17 @@
+/** Reduce
+ * Jika kita ingin membuat proses agregate secara manual, kita bisa gunakan function reduce
+ * Reduce merupakan operasi yg dilakukan pada setiap data yg ada di collection secara sequential dan mengembalikan hasil
+ * Hasil dari reduce sebelumnya akan digunakan oleh iterasi selanjutnya 
+ */
+
+/** Reduce Operations
+    +===============================+=======================================================================+
+    | method                        | keterangan                                                            |
+    +-------------------------------+-----------------------------------------------------------------------+
+    | reduce(function(carry, item)) | Pada iterasi pertama, carry akan bernilai data pertama dan item adalah|
+    |                               |  data selanjutnya
+    |                               | Pada iterasi selanjutnya, carry adalah hasil iterasi sebelumnya
+    +-------------------------------+-----------------------------------------------------------------------+
+ */
+
+// contohnya di CollectionTest::reduce()

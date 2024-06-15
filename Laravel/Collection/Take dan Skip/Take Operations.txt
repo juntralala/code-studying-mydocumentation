@@ -1,0 +1,12 @@
+/** Take Operations
+    +=======================+===========================================================================+
+    | method                | keterangan                                                                |
+    +-----------------------+---------------------------------------------------------------------------+
+    | take(lenght)          | Mengambil data dari awal sepanjang lenght, jika lenght negative berarti   |
+    |                       |  proses penganbilan dari posisi belakang                                  |
+    | takeUntil(function)   | Iterasi setiap data, ambil tiap data sampai function mereturn true        |
+    | takeWhile(function)   | Iterasi setiap data, ambil tiap data sampai function mereturn false       |
+    +-----------------------+---------------------------------------------------------------------------+
+ */
+
+// contohnya di CollectionTest::testTake()

@@ -1,0 +1,14 @@
+/** Grouping
+ * Grouping adalah operasi mengelompokkan element-element yg ada didalam collection
+ */
+
+/** Grouping Operations
+ +==================+===================================================+
+ | method           | keterangan                                        |
+ +------------------+---------------------------------------------------+
+ | groupBy(key)     | Menggabungkan data collection per key             |
+ | groupBy(function)| Menggabungkan data Collection per hasil function  |
+ +------------------+---------------------------------------------------+
+ */
+
+// contohnya di CollectionTest.php pada function testGroupby() dan testGroupbyFunctionParam()
