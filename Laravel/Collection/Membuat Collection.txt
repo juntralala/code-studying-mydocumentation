@@ -1,0 +1,6 @@
+/** Membuat Collection
+ * Untuk membuat Collection, Laravel menyediakan global function collect(array) yg digunakan untuk mengubah tipe
+   data array menjadi Collection
+ */
+
+// Contohnya ada di CollectionTest.php di function testCreateCollection()

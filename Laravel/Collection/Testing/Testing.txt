@@ -1,0 +1,21 @@
+/** Testing
+ * Testing adalah operasi untuk mengecek isi data di collection
+ * Hasil dari testing adalah boolean, dimana true jika sesuai kondisi, dan false jika tidak sesuai kondisi
+ */
+
+ // fitur testing ini mungkin bisa disebut pengecekan
+
+/** Testing Operations (sebagian)
+    +=======================+===============================================================+
+    | method                | keterangan                                                    |
+    +-----------------------+---------------------------------------------------------------+
+    | has(array)            | Mengecek apakah collection memiliki tiap-tiap key data        |
+    | hasAny(array)         | Mengecek apakah collection memiliki salah satu key data       |
+    | contains(value)       | Mengecek apakah collection memiliki data value                |
+    | contains(key, value)  | Mengecek apakah collection memiliki semua key dengan value    |
+    | contains(function)    | Iterasi tiap data, data dikirim kefunction dan dicek apakah   |
+    |                       |   salah satu data menghasilkan true                           |
+    +-----------------------+---------------------------------------------------------------+
+ */
+
+// Contohnya di CollectionTest.php pada function testTesting()

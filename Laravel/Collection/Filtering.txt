@@ -1,0 +1,16 @@
+/** Filtering
+ * Filtering adalah salah satu operasi di array yang banyak digunakan 
+ * Filtering membutuhkan function sebagai parameter
+ * Jika function mengembalikan true, maka data akan diambil, jika false maka data akan dibuang
+ * Hati-hati ketika menggunakan data array menggunakan index number, karena data array bisa dihapus sehingga
+   index akan hilang di Collection baru hasil filter
+ */
+
+    +===================+===============================================================================+
+    | method            | keterangan                                                                    |
+    +-------------------+-------------------------------------------------------------------------------+
+    | filter(function)  | Iterasi setiap data, dikirim ke function, jika return true maka data diambil, |
+    |                   |  jika return false data dibuang                                               |
+    +-------------------+-------------------------------------------------------------------------------+
+
+// contohnya ada di CollectionTest.php pada function testFilter()

@@ -1,0 +1,20 @@
+/** Mapping
+ * Mapping adalah transformasi (mangubah bentuk data) menjadi data lain
+ * Mapping membutuhkan function sebagai parameter yg digunakan untuk membentuk data lainnya
+ * Urutan Collection hasil mapping adalah sama dengan urutan collection aslinya
+ */
+
+/** Mapping Operations (sebagian)
+    +=======================+===============================================================================+
+    | Method                | Keterangan                                                                    |
+    +-----------------------+-------------------------------------------------------------------------------+
+    | map(function)         | Iterasi seluruh data, dan mengirim setiap data ke function                    |
+    | mapInto(class)        | Iterasi seluruh data, dan membuat object baru untuk class dengan mengirim     |
+    |                       |   parameter tiap data                                                         |
+    | mapSpread(function)   | Iterasi seluruh data, dan mengirim tiap data sebagai parameter function       |
+    | mapToGroups(function) | Iterasi seluruh data, dan mengirim data ke function, function harus           |
+    |                       |  mengembalikan single key-value array untuk di group sebagai collection baru  |
+    +-----------------------+-------------------------------------------------------------------------------+
+ */
+
+// contohnya ada CollectionTest.php pada function testMap(), testMapInto(), testMapSpread() dan testMapToGroups()

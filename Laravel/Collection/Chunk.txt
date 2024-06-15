@@ -1,0 +1,18 @@
+/** Chunked
+ * Chunked adalah operasi memotong Collection mennjadi beberapa collection
+ */
+
+/** Chunked Operations                      
+    +=======================+===============================================================================+
+    | method                | keterangan                                                                    |
+    +-----------------------+-------------------------------------------------------------------------------+
+    | chunk(number)         | Potong sebuah collection menjadi lebih beberapa kecil dimana tiap collection  |
+    |                       |  hasil memiliki data sebanyak parameter number                                |
+    | chunkWhile(function)  | Potong jika function mereturn false, kita meletakkan parameter $value, $key,  | 
+    |                       |   dan $chunk pada functionnya, dan $chunk menggunakannya untuk mengevaluasi   |
+    |                       |   data sebelumnya atau yg lainnya                                                  |
+    +-----------------------+-------------------------------------------------------------------------------+
+*/
+
+// contohnya di CollectionTest::testChunk()
+// contohnya di CollectionTest::testChunkWhile()

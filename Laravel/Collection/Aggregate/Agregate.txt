@@ -1,0 +1,19 @@
+/** Agregate
+ * Laravel Collection juga memiliki beberapa method untuk melakukan agregate
+ */
+
+/** Agregate Operations (beberapa)
+    +=======================+=======================================+
+    | method                | keterangan                            |
+    +-----------------------+---------------------------------------+
+    | min()                 | Mengambil data paling kecil           |
+    | max()                 | Mengambil data paling besar           |
+    | avg() / everange()    | menghitung rata-rata data             |
+    | sum()                 | menghitung penjumlahan seluruh data   |
+    | count()               | Menghitung banyak data                |
+    +-----------------------+---------------------------------------+
+*/
+
+// contohnya ada di CollectionTest pada test Group('Agregate')
+
+// untuk membuat operasi agregate baca Reduce/Reduce.txt

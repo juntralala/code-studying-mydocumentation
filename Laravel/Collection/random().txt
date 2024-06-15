@@ -1,0 +1,12 @@
+/** Radom
+ * Random adalah operasi untuk mengambil data di Collection dengan posisi random
+ */
+
+/** Random Opeartions (sebagian)
+    +===============+===============================================================+
+    | method        | keterangan                                                    |
+    +---------------+---------------------------------------------------------------+
+    | random()      | Mengambil satu data coleection secara posisi acak             |
+    | random(total) | Mengambil sebanyak total data coleection secara posisi acak   |
+    +---------------+---------------------------------------------------------------+
+*/

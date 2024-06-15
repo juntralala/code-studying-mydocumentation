@@ -1,0 +1,16 @@
+/** Zipping
+ * Zipping adalah transformasi yg digunakan untuk menggabungkan 2 buah collection
+ */
+
+/** Zipping Operations (sebagian)
+    +===========================+===============================================================================+
+    | method                    | keterangan                                                                    |
+    +---------------------------+-------------------------------------------------------------------------------+
+    | zip(array/collection)     | Menggabungkan tiap item didalam collection sehingga menjadi collection baru   |
+    | concat(array/collection)  | Menambahkan collection pada bagian akhir sehingga menjadi collection baru     |
+    | combine(array/collection) | Menggabungkan collection jadilah collection pertama jadi key dan collection   |
+    |                           |  jadi value                                                                   |
+    +---------------------------+-------------------------------------------------------------------------------+
+ */
+
+// contohnya ada CollectionTest.php pada function testZip(), testConcat(), dan testCombine()

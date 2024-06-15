@@ -1,0 +1,12 @@
+/** Slicing 
+ * Slicing adalah operator untuk mengambil sebagian data didalam Collection
+ */
+
+/** Slicing Operations
+    +=======================+=======================================================+
+    | method                | keterangan                                            |
+    +-----------------------+-------------------------------------------------------+
+    | slice(start)          | Mengambil data mulai dari start sampai data terakhir  |
+    | slice(start, lenght)  | Mengambil data mulai dari start sepanjang lenght      |
+    +-----------------------+-------------------------------------------------------+
+*/

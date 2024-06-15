@@ -1,0 +1,5 @@
+/** Laravel Collection
+ * Laravel menyediakan tipe data Collection untuk menangani keterbatasan tipe data array
+ * Collection sendiri sebenarnya seperti array, hanya dia direpresentasikan dalam class, dan memiliki banyak sekali method/function yang bisa digunakan untuk mempermudah ketika kita butuh melakukan manipulasi data Collection tersebut
+ * https://laravel.com/api/10.x/Illuminate/Support/Collection.html 
+ */

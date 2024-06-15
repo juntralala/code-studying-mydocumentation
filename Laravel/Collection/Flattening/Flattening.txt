@@ -1,0 +1,16 @@
+/** Flattening
+ * Flattening adalah operasi transformasi untuk menjadikan nested collection menjadi flat
+ */
+
+/** Flattening Operations (sebagian)
+    +===================+===================================================================+
+    | method            | keterangan                                                        |
+    +-------------------+-------------------------------------------------------------------+
+    | collapse()        | Mengubah tiap array di item collection menjadi flat collection    |
+    | flatMap(function) | Iterasi tiap data, dikirim ke function yg menghasilkan collection,|
+    |                   |  dan diubah menjadi flat collection                               |
+    +-------------------+-------------------------------------------------------------------+
+ */
+
+
+// Contohnya ada di CollectionTest.php pada function testCollapse() dan testFlatMap()

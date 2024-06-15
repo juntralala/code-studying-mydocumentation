@@ -1,0 +1,10 @@
+/** Lazy Collection
+ * Saat belajar PHP, kita pernah membuat Generator (Lazy Array/Iterable)
+ * Di Laravel juga kita bisa membuat hal seperti itu, bernama Lazy Collection
+ * Keuntungan menggunakan Lazy Collection adalah kita bisa melakukan manipulasi data besar, tanpa harus takut semua operasi dieksekusi sebelum dibutuhkan
+ * Saat membuat Lazy Collection, kita perlu menggunakan PHP Generator
+ * https://laravel.com/api/10.x/Illuminate/Support/LazyCollection.html 
+ */
+
+// method-method yg dimiliki LazyCollection sama saja dengan Collection, cuman ada beberapa method saja 
+   yg tidak dimiliki LazyCollection
