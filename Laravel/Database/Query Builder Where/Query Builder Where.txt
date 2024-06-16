@@ -1,0 +1,6 @@
+/** Query Builder
+ * Sebelum kita lanjut ke materi Update dan Delete, kita harus tahu tentang Where di Query Builder
+ * Untuk menambahkan Where di Query Builder, kita bisa menggunakan banyak sekali method dengan awalan where…()
+ */
+
+Contoh-contohnya di QueryBuilderWhereTest.php 

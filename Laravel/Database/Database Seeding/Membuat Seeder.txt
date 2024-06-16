@@ -1,0 +1,6 @@
+/** 
+ * Untuk membuat seeder kita bisa gunakan perintah :
+   php artisan make:seeder _NamaSeeder_
+ */
+
+// cotoh praktek di turotial PZN : php artisan make:seeder CategorySeeder

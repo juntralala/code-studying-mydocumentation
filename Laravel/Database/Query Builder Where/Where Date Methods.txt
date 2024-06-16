@@ -1,0 +1,13 @@
+/** Where Date Methods (sebagian)
+    +===========================+===================================+
+    | method                    | keterangan                        |
+    +---------------------------+-----------------------------------+
+    | whereDate(column, value)  | WHERE DATE(column) = value        |
+    | whereMonth(column, value) | WHERE MONTH(column) = value       |
+    | whereDay(column, value)   | WHERE DAY(column) = value         |
+    | whereYear(column, value)  | WHERE YEAR(column) = value        |
+    | whereTime(column, value)  | WHERE TIME(column) = value        |
+    +---------------------------+-----------------------------------+
+ */
+
+// contonya di QueryBuilderWhereTest::testWhereDate()

@@ -1,0 +1,1 @@
+// penjelasannya di "Query Builder Locking.txt"

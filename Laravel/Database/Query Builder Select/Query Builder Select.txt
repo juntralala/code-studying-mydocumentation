@@ -1,0 +1,12 @@
+/** Query Builder Select
+ * Ada beberapa function di Query Builder yang bisa kita gunakan untuk melakukan perintah select
+ * select(columns), untuk mengubah select kolom, dimana defaultnya adalah semua kolom
+ * Setelah itu, untuk mengeksekusi SQL dan menyimpannya di Collection secara langsung, 
+   kita bisa menggunakan beberapa method 
+ * get(columns), untuk mengambil seluruh data, defaultnya semua kolom diambil
+ * first(columns), untuk mengambil data pertama, defaultnya semua kolom diambil
+ * pluck(column), untuk mengambil salah satu kolom saja
+ * Hasil dari Query Builder Select adalah Laravel Collection
+ */
+
+// contohnya ada di QueryBuilderSelectTest::testSelect()

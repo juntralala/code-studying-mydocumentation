@@ -1,0 +1,7 @@
+/** Query Builder Join
+ * Query Builder juga menyediakan cara mudah untuk melakukan join, dengan menggunakan beberapa method
+   - join(table, column, operator, ref_column) untuk JOIN atau INNER JOIN
+   - leftJoin(table, column, operator, ref_column) untuk LEFT JOIN
+   - rightJoin(table, column, operator, ref_column) untuk RIGHT JOIN
+   - crossJoin(table, column, operator, ref_column) untuk CROSS JOIN
+ */

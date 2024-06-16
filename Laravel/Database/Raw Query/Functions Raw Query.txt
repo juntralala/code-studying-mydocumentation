@@ -1,0 +1,14 @@
+/** Functions Raw Query
+    +===================================+===============================================+
+    | method                            | keterangan                                    |
+    +-----------------------------------+-----------------------------------------------+
+    | DB::insert(sql, array): bool      | Untuk melakukan insert data                   |
+    | DB::update(sql, array): int       | Untuk melakukan update data                   |
+    | DB::delete(sql, array): int       | Untuk melakukan delete data                   |
+    | DB::select(sql, array): array     | Untuk melakukan select data                   |
+    | DB::statement(sql, array): bool   | Untuk melakukan statement data                |
+    | DB::unprepared(sql, array): bool  | Untuk melakukan sql bukan prepared statement  |
+    +-----------------------------------+-----------------------------------------------+
+*/
+
+contohnya di RawSqlTest.txt

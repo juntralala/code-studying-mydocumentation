@@ -1,0 +1,7 @@
+/** Database Migration
+ * Sebelumnya kita telah membuat table, kita melakukannya secara manual ke MySQL
+ * Laravel memiliki fitur yg namanya Database Migration
+ * Fitur ini digunakan untuk versioning schema database, dimana setiap perubahan akan di track sehingga akan
+   selalu konsisten
+ * Dengan menggunakan Database Migration, kita tidak perlu mengubah schema database secara manual lagi 
+ */

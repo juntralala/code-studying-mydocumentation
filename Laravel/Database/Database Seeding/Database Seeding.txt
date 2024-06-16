@@ -1,0 +1,9 @@
+/** Database Seeding
+ * Sebelumnya saat membuat unittest, kita sering melakukan insert data terlebih dahulu
+ * Proses ini dinamakan seeding, yaitu mengubah (insert update atau delete) data di database 
+ * Laravel memiliki cara yang lebih baik untuk melakukan seeding
+ */
+
+// sebenarnya seeder bukan buat unit-tets
+// contohnya kegunaan seeder misal kita ingin memperbaiki data di database, jadi kita bisa bikin kode buat 
+//  memperbaikinya didalam seeder, lalu kita bisa langsung menjalankanya saja

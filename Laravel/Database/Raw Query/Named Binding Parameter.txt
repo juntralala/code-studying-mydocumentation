@@ -1,0 +1,4 @@
+/** Named Binding
+ * Kadang menggunakan parameter ? (tanda tanya) membingungkan saat kita membuat query dengan parameter yang banyak
+ * Laravel mendukung fitur bernama named binding, sehingga kita bisa mengganti ? (tanda tanya) menjadi nama parameter , dan data bisa kita kirim menggunakan array dengan key sesuai nama parameter nya
+ */ 

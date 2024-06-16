@@ -1,0 +1,9 @@
+/** Pagination 
+ * Saat kita membuat aplikasi Web atau RESTful API yang mengembalikan data di database, kita sering memberi
+   informasi tentang pagination, misal jumlah record, jumlah page, page saat ini, dan lain-lain
+ * Jika kita lakukan semuanya secara manual, maka lumayan memakan waktu
+ * Untungnya Laravel memiliki fitur pagination, dimana kita bisa menggunakan method paginate(), dan secara
+   otomatis akan mengembalikan object LengthAwarePagination
+ * https://laravel.com/api/10.x/Illuminate/Database/Query/Builder.html#method_paginate 
+ * https://laravel.com/api/10.x/Illuminate/Contracts/Pagination/LengthAwarePaginator.html 
+ */

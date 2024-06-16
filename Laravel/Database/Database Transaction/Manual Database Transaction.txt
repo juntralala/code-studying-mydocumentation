@@ -1,0 +1,10 @@
+/** Manual Database Transaction
+ * Selain menggunakan fitur otomatis, kita juga bisa melakukan database transaction secara manual menggunakan
+   Laravel Database
+ * Kita bisa gunakan beberapa function
+ * DB::beginTransaction() untuk memulai transaksi
+ * DB::commit() untuk melakukan commit transaksi
+ * DB::rollBack() untuk melakukan rollback transaksi
+ */
+
+// Contohnya di TransactionTest::tesManualTransaction()

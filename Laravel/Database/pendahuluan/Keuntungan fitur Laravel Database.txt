@@ -1,0 +1,5 @@
+/** Keuntungan Laravel Database 
+ * Dengan menggunakan Laravel Database, kita bisa dengan mudah berganti-ganti database
+ * Mirip seperti PHP PDO, Laravel Database juga menggunakan satu cara untuk terkoneksi ke Database, dan kita bisa 
+   berganti-ganti database nya di lain waktu
+ */ 

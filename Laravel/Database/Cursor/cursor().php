@@ -1,0 +1,1 @@
+// Penjelasan di Cursor.txt

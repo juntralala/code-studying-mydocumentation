@@ -1,0 +1,1 @@
+//penjelasannya ada di 'Query Builder Select.txt' 

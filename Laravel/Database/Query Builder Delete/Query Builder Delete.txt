@@ -1,0 +1,4 @@
+/** Query Builder Delete
+ * Untuk melakukan delete, kita bisa gunakan method :
+   - delete()   untuk melakukan sql DELETE 
+   - truncate() untuk melakukan sql TRUNCATE table

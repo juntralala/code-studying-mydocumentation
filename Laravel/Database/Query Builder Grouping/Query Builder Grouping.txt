@@ -1,0 +1,4 @@
+/** Query Builder Grouping
+ * Saat melakukan Query menggunakan Aggregate Function, kadang kita ingin melakukan grouping
+ * Kita bisa menggunakan method groupBy(value) untuk melakukan Grouping
+ */

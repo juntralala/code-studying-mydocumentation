@@ -1,0 +1,10 @@
+/** Where In Methods (sebagian)
+    +===============================+===============================+
+    | method                        | keterangan                    |  
+    +-------------------------------+-------------------------------+
+    | whereIn(column, [array])      | WHERE column IN (array)       |
+    | whereNotIn(column, [array])   | WHERE column NOT IN (array)   |
+    +-------------------------------+-------------------------------+
+*/
+
+// contohnya ada di QueryBuilderWhereTest::testWhereIn()

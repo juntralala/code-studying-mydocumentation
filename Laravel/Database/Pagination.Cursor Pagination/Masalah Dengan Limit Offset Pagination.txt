@@ -1,0 +1,8 @@
+/** Masalah dengan Limit Offset
+ * Saat jumlah data kita semakin banyak di tabel, dan ketika kita melakukan pagination, semakin dalam page yang kita cari, maka akan semakin lambat, hal ini karena setiap melakukan paging, kita harus melakukan offset / skip sejumlah data hasil pencarian, semakin banyak yang kita skip, semakin lambat juga hasilnya
+ * https://mariadb.com/kb/en/pagination-optimization/ 
+ * Salah satu cara untuk optimalisasi proses paging, adalah menggunakan SEARCH AFTER, dimana kita tidak menggunakan nomor page lagi, melainkan menampilkan data setelah data terakhir yang kita lihat
+ * Hal ini membuat proses Query menjadi lebih cepat, karena kita selalu akan menampilkan page pertama dan tidak pernah melakukan offset / skip data
+*/ 
+
+/** Lanjutakn baca 'Kekurangan Search After.txt'

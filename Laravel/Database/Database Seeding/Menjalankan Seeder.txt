@@ -1,0 +1,6 @@
+/** Menjalankan Seeder
+ * Untuk menjalankan seeder, kita bisa gunakan perintah :
+   php artisan db:seed --class=ClassSeeder
+ */
+
+// contohnya : php artisan db:seed --class=CategorySeeder
