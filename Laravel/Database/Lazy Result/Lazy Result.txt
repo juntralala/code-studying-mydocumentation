@@ -1,0 +1,6 @@
+/** Lazy Result
+ * Menggunakan Chunk Results kadang menyulitkan, karena kita harus proses datanya secara manual per chunk
+ * Untungnya Laravel memiliki fitur Lazy, dimana kita bisa menjadikan Query Builder dengan Lazy Results, yang menghasilkan Lazy Collection
+ * Karena hasilnya berupa Lazy Collection, data yang diambil dari database akan bertahap, tidak langsung semuanya di load ke Memory, tidak seperti Collection biasa
+ * Implementasi detailnya sebenarnya tetap menggunakan Chunk Results
+ */

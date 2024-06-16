@@ -1,0 +1,10 @@
+/** Where Methods (sebagian)
+    +===================================================+===========================================+
+    | method                                            | keterangan                                |
+    +---------------------------------------------------+-------------------------------------------+
+    | whereBetweend(column, [value1, value2, ...])      | WHERE column BETWEEN value1 AND value2    |
+    | whereNotBetweend(column, [value1, value2, ...])   | WHERE column NOT BETWEEN value1 AND value2|
+    +---------------------------------------------------+-------------------------------------------+
+ */
+
+// contohnya ada di QueryBuilderWhereTest::testWhereBetween()

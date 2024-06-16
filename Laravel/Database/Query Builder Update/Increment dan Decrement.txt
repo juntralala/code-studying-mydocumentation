@@ -1,0 +1,7 @@
+/** Increment dan Decrement
+ * Query Builder juga menyediakan cara mudah untuk melakukan increment atau decrement
+ * Jadi kita tidak perlu melakukan inscrement atau decrement secara manual di kode PHP 
+ * Untuk itu, kita bisa gunakan method :
+   - increment(columnt, increment) untuk melakukan increment
+   - decrement(columnt, decrement) untuk melakukan decrement
+ */

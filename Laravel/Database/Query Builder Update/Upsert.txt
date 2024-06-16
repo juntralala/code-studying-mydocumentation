@@ -1,0 +1,7 @@
+/** Upsert (UPDATE or INSERT)
+ * Query Builder menyediakan method untuk melakukan update or insert, dimana ketika mencoba melakukan update,
+   jika datanya tidak ada, maka akan dilakukan insert data baru
+ * Kita bisa menggunakan method updateOrInsert(attributes, values)
+ */
+
+// contohnya di QueryBuilderUpdateTest::testUpdateOrDelete()

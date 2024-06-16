@@ -1,0 +1,5 @@
+/** Search After
+ * Cara ini dinamakan Search After (lihat 'Masalah Dengan Limit Offset Pagination.txt')
+ * Kekurangan Search After adalah kita tidak bisa loncat dari satu page ke page lain, karena query nya selalu harus diubah
+ * Selain itu, Cursor Pagination harus melakukan sort dan filter berdasarkan salah satu kolom yang unique, misalnya primary key
+ */

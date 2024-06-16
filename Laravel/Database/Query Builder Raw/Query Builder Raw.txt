@@ -1,0 +1,6 @@
+/** Query Builder Raw SQL
+ * Sayangnya, Aggregate Method yang ditawarkan oleh Laravel langsung menghasilkan data
+ * Padahal mungkin kita ingin membuat query untuk beberapa Aggregate Function, misal kombinasi Min, Max, dan
+   yang lainnya
+ * Pada kasus seperti ini, kita bisa menggunakan bantuan kombinasi Query Builder dan juga Raw Query
+ */

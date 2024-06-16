@@ -1,0 +1,9 @@
+/** Debug Query
+ * Pada kasus tertentu, kadang kita ingin melakukan debugging SQL query yang dibuat oleh Laravel
+ * Kita bisa menggunakan DB::listen()
+ * DB::listen() akan dipanggil setiap kali ada operasi yang dilakukan oleh Laravel Database
+ * Kita bisa me-log query misalnya
+ * Kita bisa daftarkan DB::listen pada Service Provider
+*/
+
+// contoh kodenya di app/Providers/AppServiceProvider.php

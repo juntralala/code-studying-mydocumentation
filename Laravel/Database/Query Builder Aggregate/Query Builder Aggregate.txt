@@ -1,0 +1,14 @@
+/** Query Builder Aggreagte
+ * Query Builder juga mendukung untuk melakukan Aggregate Query, kita bisa menggunakan method :
+   - count(column) untuk jumlah data
+   - min(column) untuk minimal data
+   - max(column) untuk maksimal data
+   - avg(column) untuk rata-rata data
+   - sum(column) untuk menjumlahkan data
+ */
+
+touch "Penjelasannya ada di 'Query Builder Aggreagte.txt'" > "../Query Builder Aggregate/count().php"
+touch "Penjelasannya ada di 'Query Builder Aggreagte.txt'" > "../Query Builder Aggregate/min().php"
+touch "Penjelasannya ada di 'Query Builder Aggreagte.txt'" > "../Query Builder Aggregate/max().php"
+touch "Penjelasannya ada di 'Query Builder Aggreagte.txt'" > "../Query Builder Aggregate/avg().php"
+touch "Penjelasannya ada di 'Query Builder Aggreagte.txt'" > "../Query Builder Aggregate/sum().php"

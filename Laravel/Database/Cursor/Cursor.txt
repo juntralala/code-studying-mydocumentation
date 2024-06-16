@@ -1,0 +1,9 @@
+/** Cursor
+ * Selain chunk dan Lazy, terdapat cara lain untuk membuat Lazy Result, yaitu mengguankan Cursor
+ * Chunk dan Lazy sebenarnya melakukan paging dibelakan layar, sedangkan Cursor akan melakukan query satu kali saja,
+   tidak seperti Chunk dan Lazy 
+ * Lalu mengambil datanya satu persatu menggunakan PDO::fetch()
+ * Jadi secara penggunaan memory, Chunk akan lebih hemat dibanding Chunk atau Lazy
+ */
+// PZN: tetapi cursor juga punya kekurangan, jika prosesnya perlu waktu lama maka bisa saja dia terkena error
+//      yg namanya Timeout Error

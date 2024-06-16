@@ -1,0 +1,5 @@
+/** Query Builder Locking
+ * Saat kita belajar Database Transaction di MySQL, kita sudah belajar cara melakukan Lacking Record ketika
+   melakukan SELECT dengan menambahkan perintah FOR UPDATE
+ * DI Query Builder, jika kita ingin melakukan Locking, kita bisa menggunakan method lockForUpdate()
+ * Secara otomatis Laravel akan menambahkan perintah FOR UPDATE ke query untuk melakukan Locking

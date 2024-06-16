@@ -1,0 +1,5 @@
+/** Tipe data Migrations
+ * Laravel mendukung banyaka tipe data Migrations
+ * Kita bisa lihat di halaman dokumentasinya
+ * https://laravel.com/docs/10.x/migrations#available-column-types
+ */

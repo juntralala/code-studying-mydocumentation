@@ -1,0 +1,9 @@
+/** Chunk Result
+ * Saat kita membuat aplikasi, kadang ada kasus kita harus mengelola data dengan ukuran yg besar
+ * secara default, semua query yg kita lakukan dilaravel, akan diload ke Memory (RAM) sebagai Collection
+ * Hal ini berbahaya ketika hasil querynya banyak, karena bisa berakibat terjadi error Out Off Menory
+ * Dari pada kita meload semua data ke Memory, kita bisa memotong data hasil query secara bertahap menggunakan
+   method chunk
+ * Implementasi chunk sebenarnya dengan melakukan paging
+ * dan jika ingin menggunakan chunk, kita harus menambahkan ordering pada querynya 
+ */

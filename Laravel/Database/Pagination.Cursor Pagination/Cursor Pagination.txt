@@ -1,0 +1,9 @@
+// baca lebih dulu 'Masalah dengan Limit Offset Pagination.txt'
+// kemudian 'Kekurangan Search After.txt'
+
+/** Cursor Pagination
+ * Implementasi Search After di Laravel tidak perlu dilakukan secara manual, kita bisa menggunakan method cursorPaginate() untuk melakukan Search After
+ * Hasil dari method ini adalah object CursorPaginator
+ * https://laravel.com/api/10.x/Illuminate/Database/Query/Builder.html#method_cursorPaginate 
+ * https://laravel.com/api/10.x/Illuminate/Contracts/Pagination/CursorPaginator.html 
+*/ 

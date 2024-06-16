@@ -1,0 +1,8 @@
+/** Rollback Database Migrations
+ * Saat selesai menjalankan migration, kadang kita ingin membatalkan migration tersebut
+ * Kita bisa membatalkan migration, atau istilahnya adalah di rollback
+ * Rollback akan dijalankan dari mulai migration file terakhir yg sukses, ke migration file sebelumnya secara bertahap
+ * Untuk menjalankan rollback, kita harus tentukan berapa jumlah file migration yg akan di rollback menggunakan 
+   perintah : 
+   > php artisan migrate:rollback --step=jumlah
+ * Diaman jumlah akan berisi jumlah file migration yg akan di rollback

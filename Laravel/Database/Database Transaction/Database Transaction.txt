@@ -1,0 +1,11 @@
+/** Database Transaction
+ * Laravel Database juga memiliki fitur untuk melakukan database transaction secara otomatis
+ * Dengan begitu, kita tidak perlu melakukan start transaction dan commit/rollback secara manual lagi
+ * Kita bisa menggunakan function DB::transactions(function)
+ * Di dalam function tersebut kita bisa melakukan perintah database, jika terjadi error, secara otomatis transaksi akan di rollback
+*/
+
+// pada DB::transaction(function, attempts) untuk menentukan berapa kali percobaan dilakukan setelah gagal
+
+// Contohnya di TransactionTest::tesTransactionSuccess()
+// Contohnya di TransactionTest::tesTransactionFailed()

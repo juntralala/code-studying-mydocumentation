@@ -1,0 +1,6 @@
+/**
+ * Saat kita sudah mengatur konfigurasi database, kita bisa berinteraksi dengan database melalui Facade DB
+ * Facade DB memiliki banyak sekali function yang bisa kita gunakan untuk berinteraksi dengan database, seperti
+   melakukan insert, update, delete dan select
+ * https://laravel.com/api/10.x/Illuminate/Support/Facades/DB.html 
+ */

@@ -1,0 +1,8 @@
+/** Membuat Database Migration
+ * Untuk membuat file Database Migration baru, kita bisa gunakan perintah :
+   php artisan make:migration nama_file_migration
+ * Otomatis akan dibuatkan file PHP untuk melakukan perubahan schema di database, filenya di database/migrations
+ * Untuk melakukan perubahan schema, kita bisa gunakan Schema Builder, tidak perlu menggunakan SQL manual lagi 
+ * https://laravel.com/api/10.x/Illuminate/Support/Facades/Schema.html
+ * https://laravel.com/api/10.x/Illuminate/Database/Schema/Blueprint.html 
+ */

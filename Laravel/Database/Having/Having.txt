@@ -1,0 +1,4 @@
+/** Having
+ * Di SQL, kita bisa menambahkan having ketika menggunakan Group By
+ * Di Laravel Query Builder juga bisa kita lakukan menggunakan method having(column, operator, value)
+ */

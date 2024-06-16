@@ -1,0 +1,8 @@
+/** Query Builder
+ * Selain menggunakan Raw Sql, Laravel Database juga memiliki fitur bernama query builder
+ * Fitur ini sangat mempermudah kita ketika ingin membuat perintah ke database dibanding melakukannya secara
+   manual menggunakan Raw SQL
+ * Query Builder di representasikan dengan class Builder
+ * https://laravel.com/api/10.x/Illuminate/Database/Query/Builder.html
+ * Untuk membuat Query Builder kita bisa gunakan function DB::table(nama)
+ */

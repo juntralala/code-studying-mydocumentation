@@ -1,0 +1,7 @@
+/** CRUD SQL
+ * Dengan menggunakan DB Facade, kita bisa melakukan Raw Query (query ke database secara manual)
+ * Walaupun pada kenyataannya saat kita menggunakan Laravel, kita akan banyak menggunakan Eloquent ORM, tapi
+   pada kasus tertentu ketika kita butuh performa yang sangat cepat, ada baiknya kita lakukan menggunakan Raw Query
+ */
+
+// lanjutannya 'Functions Raw SQL.txt'

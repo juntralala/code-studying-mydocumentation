@@ -1,0 +1,15 @@
+/** Where Methods (sebagian) (sebagian)
+    +===================================+===========================================+
+    | method                            | keterangan                                |
+    +-----------------------------------+-------------------------------------------+
+    | where(column, operator, value)    | AND column operator value                 | 
+    | where([condition1, condition2])   | AND (condition1 AND condition2 AND ...)   |
+    | where(callback(Builder))          | AND (condition)                           |
+    | orWhere(column, operator, value)  | OR condition                              |
+    | orWhere(callback(Builder))        | OR (condition ...)                        |
+    | WhereNot(callback(Builder))       | OR (condition ...)                        |
+    +-----------------------------------+-------------------------------------------+                               
+ */
+
+// contohnya ada di QueryBuilderWhereTest::testWhere()
+// tidak dicontohkan semua method diatas 

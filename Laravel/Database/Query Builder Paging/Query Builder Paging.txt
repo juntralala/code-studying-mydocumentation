@@ -1,0 +1,5 @@
+/** Query BuilderPaging
+ * Untuk melakukan paging, biasanya di SQL kita akan menggunakan perintah LIMIT OFFSET
+ * Di Query Builder, kita bisa menggunakan method 
+ * take(number) untuk melakukan LIMIT
+ * skip(number) untuk melakukan OFFSET

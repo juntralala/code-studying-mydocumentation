@@ -1,0 +1,10 @@
+/** Menjalankan Database Migrations
+ * Setelah file database migration selesai dibuat, selanjutnya kita bisa menjalankan file migration tersebut
+ * Untuk melihat status migration : php artisan migrate:status
+ * Untuk menjalankan migration : php artisan migrate
+ * Setelah migration dijalankan, status file mana yang pernah dijalankan akan disimpan di tabel migrations
+ * Jika kita mengubah file lama yang sudah dijalankan, maka tidak ada gunanya, karena tidak akan pernah dijalankan lagi
+ * Jika mau melakukan perubahan, silahkan buat migration file baru untuk melakukan perubahannya
+ */
+
+// php artisan make:migration add_column_descriptions_to_counters

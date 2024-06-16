@@ -1,0 +1,10 @@
+/** Where Null Methods (sebagian)
+    +=======================+===============================+
+    | method                | keterangan                    |  
+    +-----------------------+-------------------------------+
+    | whereNull(column, )   | WHERE column IS NULL          |
+    | whereNotNull(column)  | WHERE column IS NOT NULL      |
+    +-----------------------+-------------------------------+
+*/
+
+// contohnya ada di QueryBuilderWhereTest::testWhereNull()

@@ -1,0 +1,6 @@
+/** Interasi Per Page
+ * Untuk melakukan Iterasi semua halaman, kita bisa lakukan dengan cara menaikkan nilai dari parameter page
+   dari 1 sampai page terakhir 
+ */
+
+// contohnya ada di PaginationTest::testIteratePagination

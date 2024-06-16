@@ -1,0 +1,4 @@
+/** Query Builder Update
+ * Setelah kita tahu cara menggunakan Where, sekarang kita bahas tetang Update Methods
+ * Untuk melakukan update kita bisa menggunakan method update(array)
+ * Dimana di parameternya kita bisa mengirim associative array yg berisi _columnName_=>_value_

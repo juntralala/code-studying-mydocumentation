@@ -1,0 +1,5 @@
+/** Variable Environment
+ * Walaupun konfigurasi database terdapat di file config/database.php, namun beberapa atribut menggunakan
+   environment variable untuk mengambil datanya
+ * Oleh karena itu, kita juga perlu perhatikan data yang terdapat pada file .env
+ */

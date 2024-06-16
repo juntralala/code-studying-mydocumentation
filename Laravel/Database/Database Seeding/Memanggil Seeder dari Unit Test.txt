@@ -1,0 +1,6 @@
+/** Memanggil Seeder dari Unit Test
+ * Kadang kita ingin memanggil seeder dari Unit Test, kita bisa menggunakan method seed(class) dan diisi dengan 
+   parameter class seeder nya
+ */
+
+// contohnya ada di SeedingTest::testSeed()

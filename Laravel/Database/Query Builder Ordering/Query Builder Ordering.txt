@@ -1,0 +1,6 @@
+/** Query Builder Ordering
+ * Query Builder juga memiliki method untuk memudahkan kita untuk melakukan pengurutan data menggunakan
+ * orderBy(column, order) dimana order bisa asc atau desc
+ */
+
+// contohnya di Query Builder Ordering
