@@ -1,0 +1,1 @@
+// penjelasannya di 'Cara Mematikan Global Scope.txt'

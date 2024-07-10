@@ -1,0 +1,15 @@
+/** One To One Polymorphic
+ * One to One Polymorphic sebenarnya mirip seperti relasi One to One, hanya saja, relasinya bisa ke lebih dari satu
+   Model
+ * Contoh, kita cukup Customer dan punya Product, misal saja Customer dan Product punya satu Image
+ * Artinya kita bisa membuat Model Image yang berelasi One to One dengan Customer atau Product
+ */
+
+php artisan make:model Image --migration --seed
+
+contoh penerapannya ada di App\Models\Image::imagable(): MorphTo
+                    dan di App\Models\Customer::image(): MorphOne
+                    dan di App\Models\Product::image(): MorphOne
+
+contoh penggunaannya ada di PolymorphicRelationship\OneToOnePolymorphicTest::testOneToOnePolymorphicCustomer()
+                        dan PolymorphicRelationship\OneToOnePolymorphicTest::testOneToOnePolymorphicProduct()

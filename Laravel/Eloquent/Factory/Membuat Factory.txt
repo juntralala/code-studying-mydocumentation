@@ -1,0 +1,8 @@
+/** Membuat Factory
+ * Nama Factory secara default adalah nama Model + Factory
+ * Jika tidak menggunakan format yang sesuai, secara default Factory tidak bisa ditemukan
+ * Selain itu, di Model harus menggunakan trait HasFactory untuk memberitahu bahwa Model ini memiliki Factory
+ * Untuk membuat class Factory, kita tidak perlu melakukannya secara manual, cukup gunakan perintah : php artisan make:factory NamaFactory
+ */
+
+php artisan make:factory EmployeeFactory

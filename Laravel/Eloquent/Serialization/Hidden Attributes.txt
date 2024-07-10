@@ -1,0 +1,12 @@
+/** Hidden Attributes
+ * Kadang, beberapa attribute tidak ingin kita tampilkan dalam proses Serialization
+ * Kita bisa menambahkan attributes mana saja yang mau kita hilangkan pada proses Serialization di property
+   $hidden
+ */
+
+contohnya ada di Product->$hidden = []
+
+contoh penggunaanya ada di kode testSebelumnya pada SerializationTest::testSerializeToJson()
+                                                dan SerializationTest::testSerializationRelation()
+
+sebelumnya hasil json pada .log dari 2 test tersebut terdapat property category_id, sesudah ditambahkan ke $hidden tidak ada lagi

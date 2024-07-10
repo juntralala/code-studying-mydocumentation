@@ -1,0 +1,8 @@
+/** UUID selain Primary Key
+ * Kadang ada kasus dimana kita ingin menggunakan UUID pada kolom selain primary key
+ * Kita juga bisa melakukan hal itu, dengan cara meng-override method uniqueIds() dari trait HasUuids 
+ * Secara default, dia pengembalikan fields $primaryKey, kita bisa ubah jika kita mau
+ */
+
+// contohnya ada di file app/Models/Voucher.txt
+// contohnya ada di VoucherTest::testVoucherCodeUuid()

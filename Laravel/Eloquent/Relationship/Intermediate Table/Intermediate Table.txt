@@ -1,0 +1,8 @@
+/** Intermediate Table
+ * Tabel penghubung untuk relasi Many to Many kita sebut dengan Intermediate Table
+ * Kadang, pada kasus tertentu, tabel tersebut tidak hanya berisikan dua kolom (FK Model 1 dan FK Model 2), kadang 
+   pada kasus tertentu, terdapat kolom tambahan
+ * Misal created_at, berisikan waktu relasi tersebut dibuat
+ */
+
+lanjutannya di 'Pivot Attribute.txt'

@@ -1,0 +1,6 @@
+/** Composite Primary
+ * Sampai materi ini dibuat, sayangnya Laravel Eloquent tidak mendukung Composite Primary Key 
+   (primary key untuk lebih dari satu kolom)
+ * Oleh karena itu, kita harus membuat satu kolom yang unique untuk primary key
+ * Jika memang butuh composite key, kita bisa membuat dua kolom dengan index unique
+ */

@@ -1,0 +1,10 @@
+/** Membuat Global Scope
+ * Untuk membuat Global Scope, kita perlu membuat Scope terlebih dahulu menggunakan perintah : 
+   php artisan make:scope NamaScope
+ * Selanjutnya kita bisa tambahkan isi kondisi pada Scope yang sudah kita buat
+ * Setelah itu, kita bisa tambahkan Scope yang sudah kita buat ke Model dengan cara meng-override method booted()
+   dan menggunakan method addGlobalScope(scope)
+ */
+
+// contohnya ada di app/Models/Category.php
+// contohnya ada di app/Models/Scope/IsActiveScope.php

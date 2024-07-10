@@ -1,0 +1,8 @@
+/** Serialization
+ * Saat kita membuat RESTful API, kita sering sekali melakukan konversi data Model menjadi JSON atau Array
+ * Eloquent sudah menyediakan method untuk melakukan konversi tersebut menggunakan method toArray() dan toJSON()
+ * Secara otomatis Model akan dikonversi, dan semua kolom akan di include
+ * Termasuk Eloquent Collection pun bisa kita konversi menjadi Array dan JSON
+ */
+
+// contoh penggunaanya ada di SerializationTest::testSerialization()

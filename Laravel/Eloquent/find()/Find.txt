@@ -1,0 +1,6 @@
+/** Find()
+ * Laravel menyediakan method dengan prefix find() di Query Builder untuk mendapatkan satu data menggunakan
+   primary key
+ * Ini lebih mudah dibanding melakukan select dimana mengembalikan data berupa array
+ */
+

@@ -1,0 +1,8 @@
+/** create method
+ * Model memiliki shortcut method selain membuat object Model lalu memanggil method save()
+ * Kita bisa langsung menggunakan method create() yang sebenarnya memanggil method query()->create()
+ */
+
+// create() method langusung melakukan save() ke database
+
+// contohnya di FillableTest::testCreateMethod

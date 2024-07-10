@@ -1,0 +1,7 @@
+/** Jenis-jenis Polimorphic Relationships 
+ * Laravel mendukung banyak Polymorphic Relationships, yaitu 
+   - One to One Polymorphic
+   - One to Many Polymorphic
+   - One of Many Polymorphic
+   - Many to Many Polymorphic
+*/

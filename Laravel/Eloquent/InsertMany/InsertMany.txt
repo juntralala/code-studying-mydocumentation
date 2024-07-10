@@ -1,0 +1,6 @@
+/** Insert Many
+ * Saat kita membuat aplikasi, kadang ada kasus dimana kita harus melakukan insert data Model lebih dari satu,
+   atau disebut bulk / batch
+ * Pada kasus ini, kita tidak perlu membuat object dari Model, kita cukup gunakan Query Builder untuk melakukan
+   insert banyak data sekaligus menggunakan array
+ */

@@ -1,0 +1,8 @@
+/** Lazy dan Eager Loading
+ * Secara default, semua relasi akan di load (ambil) datanya secara Lazy
+ * Lazy artinya, ketika kita panggil attribute nya, baru Laravel akan melakukan query untuk mendapatkan datanya
+ * Salah satu keuntungan menggunakan Lazy adalah, ketika kita tidak butuh datanya, Laravel tidak akan melakukan
+   query
+ */
+
+contohnya di EagerLoadingTest::testLazyLoading()

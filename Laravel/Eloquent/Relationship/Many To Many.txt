@@ -1,0 +1,26 @@
+/** Many To Many
+ * Seperti yang kita tahu, relasi Many to Many harus membuat tabel jembatan di tengahnya
+ * Dan ketika implementasi relasi Many to Many di Model, cukup mudah, cukup gunakan belongsToMany di kedua Model nya
+ * Misal kita akan membuat fitur Likes, dimana Customer bisa melakukan Likes ke Product, yang artinya satu Customer
+   bisa Likes banyak Product, satu Product bisa di Likes oleh banyak Customer
+ * Artinya relasinya adalah Many to Many
+ * Kita akan buat tabel customers_likes_products sebagai tabel jembatan nya
+ */
+
+/* Menambah Relasi
+ * Karena pada kasus Many to Many, kita tidak memiliki Model untuk tabel jembatannya, oleh karena itu untuk menambah
+   relasi kita tidak bisa melakukan insert data Model pertama atau Model kedua
+ * Untuk menambah relasi, kita bisa menggunakan method relation BelongsToMany dengan mengunakan method attach()
+/*
+
+/*
+=> Contoh kasus :
+    php artisan make:migration create_table_customers_likes_products
+=> contoh penerapan :
+    Customer::likeProfucts(): BelongsToMany
+    Product::likedByCutomers(): BelongsToMany
+=> Contoh penggunaan :
+    Relationship\ManyToManyTest::testInsertManyToMany()
+    Relationship\ManyToManyTest::testQueryManyToMany()
+    Relationship\ManyToManyTest::testRemoveManyToMany()
+*/

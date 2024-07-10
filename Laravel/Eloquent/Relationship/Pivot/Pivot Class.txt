@@ -1,0 +1,16 @@
+/** Pivot Class
+ * Pivot Class sebenarnya adalah turunan dari Model class, oleh karena itu hampir semua yang bisa dilakukan di 
+   Model, bisa juga dilakukan di Pivot
+ * Namun pada Pivot Class, secara default $incrementing bernilai false, jadi jika kita membuat Pivot Model dengan 
+   auto increment, maka kita harus mengubah nilai $incrementing nya menjadi true
+ * Selain itu, Pivot Model tidak mendukung SoftDeletes, jika kita ingin menggunakan SoftDeletes, kita perlu mengubah
+   Pivot Model, menjadi Model biasa pada Eloquent
+ * Cara menggunakan model Pivot yg telah dibuat kita gunakan, di function relasi pada kembalian object BelongsTo nya
+   kita panggil method ->using(Pivot)
+*/
+
+contoh penerapan ada di App\Models\Like
+                    dan App\Models\Customer::likeProducts(): BelongsTo
+                    dan App\Models\Product::likedByCustomers(): BelongsTo
+
+contoh penggunaan ada di Relationship\PivotModelTest::testPivotModel()

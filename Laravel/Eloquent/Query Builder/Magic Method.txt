@@ -1,0 +1,8 @@
+/** Magic Method
+ * Beberapa tutorial ada yang tidak menggunakan method query() ketika melakukan operasi ke Model, kenapa?
+ * Hal ini karena terdapat fitur Metaprogramming di Model, yang sebenarnya meneruskan method yang dipanggil ke Query Builder
+ * Kita bisa lihat di source code Model, terdapat method __call() dan __callStatic()
+ * Magic Method ini sudah pernah kita bahas di kelas PHP OOP
+ * https://www.php.net/manual/en/language.oop5.magic.php 
+ */
+

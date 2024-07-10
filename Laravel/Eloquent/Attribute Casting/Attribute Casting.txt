@@ -1,0 +1,12 @@
+/** Attribute Casting
+ * Attribute Casting adalah fitur di Eloquent untuk melakukan konversi tipe data secara otomatis dari tipe data di
+   database, dengan tipe data yang ada di PHP
+ * Cara kerjanya sebenarnya sama seperti Accessor dan Mutator, hanya saja kita tidak perlu melakukannya secara
+   manual, tinggal simpan pemetaan Attribute Casting nya di attribute $casts di Model
+ * $casts adalah array, dimana key nya berisi attribute / kolom, dan value nya berisi tipe data tujuan melakukan
+   casting
+ * Tipe data casting yang didukung oleh Eloquent bisa dilihat disini : 
+ * https://laravel.com/docs/10.x/eloquent-mutators#attribute-casting 
+ */
+
+contoh penerapannya di App\Models\Person->$casts

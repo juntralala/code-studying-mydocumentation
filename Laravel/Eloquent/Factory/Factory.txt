@@ -1,0 +1,15 @@
+/** Factory
+ * Saat kita membuat object Model, biasanya kita harus ubah tiap atribut satu satu secara manual
+ * Laravel Eloquent memiliki fitur bernama Factory, ini sebenarnya adalah implementasi dari Design Patterns
+   bernama Factory Patterns
+ * Dimana, kita membuat class Factory yang digunakan untuk membuat object
+ * Dengan begitu, jika kita membuat object yang hampir sama, kita bisa menggunakan Factory
+ * https://refactoring.guru/design-patterns/factory-method 
+ */
+
+/** Contoh kasus 
+ * Misal kita akan membuat model Employee, dimana Employee memiliki title dan salary yang selalu sama untuk title yang sama 
+ * Untuk mempermudah, kita bisa menggunakan Factory ketika membuat object Employee
+ */
+
+php artisan make:model Employee --migration --seed

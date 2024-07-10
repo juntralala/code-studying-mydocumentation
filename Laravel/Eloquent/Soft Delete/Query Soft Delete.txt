@@ -1,0 +1,8 @@
+/** Query Soft Delete
+ * Secara default, saat kita melakukan query dari Model yang memiliki fitur soft delete, maka akan selalu
+   otomatis ditambah kondisi deleted_at is null
+ * Namun jika kita benar-benar ingin mengambil seluruh data termasuk yang sudah di soft delete, kita bisa
+   gunakan withTrashed() saat membuat query
+ */
+
+// contohnya ada di SoftDeletesTest::testWithTrashed()

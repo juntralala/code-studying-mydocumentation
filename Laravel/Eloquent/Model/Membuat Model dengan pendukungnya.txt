@@ -1,0 +1,6 @@
+/** Membuat Model dengan pendukungnya
+ * Kadang, saat membuat Model, kita sering juga membuat fitur pendukung lainnya, seperti database migration atau database seeding
+ * Kita tidak perlu melakukannya secara manual satu per satu, kita bisa sebutkan ketika membuat Model, sehingga otomatis akan dibuatkan Migrations dan Seeding nya
+ * --migrations untuk menambahkan Migrations
+ * --seed untuk menambahkan Seeder
+ */

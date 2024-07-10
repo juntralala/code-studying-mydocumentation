@@ -1,0 +1,15 @@
+/** One To Many Polymorphic
+ * Selain One to One, Polymorphic juga mendukung relasi One to Many
+ * Sebenarnya cara pembuatan One to One dan One to Many hampir mirip, bedanya adalah pada tabel, kita tidak
+   menambahkan Unique Constraint, karena bisa lebih dari satu
+ * Contoh kasus, misal kita sebelumnya sudah membuat model Comment
+ * Misal, kita akan membuat relasi One to Many Polymorphic pada Comment dengan Product dan Voucher
+ * Artinya kita bisa menambah Comment ke Product dan juga Voucher, dan lebih dari satu Comment
+ */
+
+// contoh penerapannya ada di App\Models\Comment::commentable(): MorphTo
+                       dan di App\Models\Product::comments(): MorphMany
+                       dan di App\Models\Voucher::comments(): MorphMany
+
+// contoh penggunaanya ada di PolymorphicRelationship\OneToManyPolymorphicTest::testOneToManyPolymorphicProduct()
+                       dan di PolymorphicRelationship\OneToManyPolymorphicTest::testOneToManyPolymorphicVoucher()

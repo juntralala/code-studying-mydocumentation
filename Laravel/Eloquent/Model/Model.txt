@@ -1,0 +1,6 @@
+/** Model
+ * Model adalah representasi dari Tabel di database
+ * Model biasanya dibuat di folder app\Models
+ * Dan Model adalah class turunan dari Illuminate\Database\Eloquent\Model
+ * https://laravel.com/api/10.x/Illuminate/Database/Eloquent/Model.html 
+ */

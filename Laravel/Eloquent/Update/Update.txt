@@ -1,0 +1,10 @@
+/** Update
+ * Untuk melakukan update terhadap Model, kita bisa menggunakan method update() atau save()
+ * Saat melakukan update, kita harus melakukan find() data terlebih dahulu, jadi bukan dengan membuat object
+   Model baru dengan menggunakan kata kunci new
+ * Jika pada kasus tertentu, kita akhirnya tidak bisa melakukan find(), dan terpaksa harus menggunakan kata
+   kunci new, kita harus mengubah attribute $exists dari defaultnya false, menjadi true, untuk memberi tahu
+   Laravel bahwa data object itu ada di database
+ */
+
+// kalau dari sourceCode nya method update() memanggil method save() juga untuk melakukan update datanya

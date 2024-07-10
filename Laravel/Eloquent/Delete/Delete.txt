@@ -1,0 +1,9 @@
+/** Delete
+ * Untuk melakukan delete data, kita bisa menggunakan method delete() di object Model yang sudah kita buat
+ * Untuk menggunakan delete(), kita harus melakukan find() data terlebih dahulu
+ * Sama seperti update data, jika kita terpaksa harus melakukan delete dengan membuat Model dengan kata kunci
+   new, kita harus mengubah attribute $exists dari false menjadi true
+ */
+
+// contohnya ada di DeleteTest.php
+// contohnya ada di 

@@ -1,0 +1,7 @@
+/** Delete
+ * Untuk melakukan soft delete, kita bisa menggunakan method delete() seperti biasanya
+ * Untuk memaksa menghapus dari table secara permanent kita bisa gunakan method forceDelete()
+ */
+//
+
+// contohnya ada di SoftDeletesTest::testSoftDeletes()

@@ -1,0 +1,7 @@
+/** Jenis Query Builder
+ * Terdapat dua jenis Query Scope, yaitu :
+   - Global Scope, dan
+   - Local Scope
+   
+   Detailnya akan kita bahas di materi masing-masing
+ */

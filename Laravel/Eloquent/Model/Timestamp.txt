@@ -1,0 +1,4 @@
+/** Timestamp
+ * Secara default, Eloquent berharap terdapat kolom created_at dan updated_at sebagai informasi audit timestamp
+ * Jika memang tidak membutuhkan informasi tersebut, kita bisa meng-override $timestamp menjadi false di Model
+ */

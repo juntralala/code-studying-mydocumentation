@@ -1,0 +1,5 @@
+/** Pengenalan Eloquent
+ * Laravel Eloquent adalah fitur ORM (Object Relational Mapping) di Laravel
+ * Programmer Laravel lebih banyak menggunakan Eloquent ORM dibanding menggunakan Query Builder karena lebih mudah
+ * Namun pada kasus-kasus tertentu, ada juga kasus yang tidak bisa dilakukan menggunakan ORM, sehingga kita harus membuat query SQL secara manual menggunakan Query Builder
+ */

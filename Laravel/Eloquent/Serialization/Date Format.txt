@@ -1,0 +1,5 @@
+/** Date Format
+ * Secara default, tipe data Date/Time akan ditampilkan dalam format String
+ * Kadang, kita ingin mengubah formatnya, pada kasus ini, kita bisa menambahkan informasi date format pada $casts
+ * Date Format bisa kita pelajari di https://www.php.net/manual/en/datetime.format.php 
+ */

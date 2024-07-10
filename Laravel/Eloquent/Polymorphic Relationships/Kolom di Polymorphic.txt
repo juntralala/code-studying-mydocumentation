@@ -1,0 +1,6 @@
+/** Kolom di Polimorphic
+ * Saat kita membuat relasi Polymorphic, kita harus membuat kolom nama relasinya, misal imageable di tabel images
+ * Kolom harus dibuat dalam dua kolom, pertama _id dan kedua _type, misal imageable_id dan imageable_type
+ * Dimana di imageable_id, isinya adalah FK pada primary key di tabel relasi
+ * Sedangkan imageable_type isinya adalah tipe Model, biasanya diisi dengan nama class Model
+ */

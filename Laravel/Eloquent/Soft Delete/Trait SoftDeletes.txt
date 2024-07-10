@@ -1,0 +1,10 @@
+/** Trait SoftDeletes
+ * Untuk implementasi Soft Delete di Model, kita bisa menggunakan trait SoftDeletes
+ * Dan saat membuat tabel, kita harus menambahkan kolom deleted_at dengan tipe data timestamp, atau bisa
+   menggunakan method softDeletes() di Migrations, yang secara otomatis akan dibuatkan kolom yang
+   dibutuhkan
+ */
+
+// contohnya ada di app/Models/Voucher.php
+// contohnya ada di database/migrations/2024_06_19_030625_add_deleted_at_column_to_vouchers.php
+// contohnya ada di SoftDeletesTest::testSoftDeletes()

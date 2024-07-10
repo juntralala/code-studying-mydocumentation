@@ -1,0 +1,12 @@
+/** Query Builder pada Relationship
+ * Semua class relationship di Laravel adalah turunan dari Builder, dari HasOne, HasMany, BelongsTo sampai
+   BelongsToMany
+ * Artinya, sebenarnya untuk melakukan proses CRUD, kisa bisa menggunakan method relationship, untuk mempermudah
+*/
+
+contoh INSERT ada di :
+  - Relationship/QueryBuilderPadaRelationshipModelTest::testOneToOneInsert()
+  - Relationship/QueryBuilderPadaRelationshipModelTest::testOneToManyInsert()
+
+Contoh READ :
+  - RelationshipTest::testSearchProductOnCategoryModel()

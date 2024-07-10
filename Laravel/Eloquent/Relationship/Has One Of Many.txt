@@ -1,0 +1,12 @@
+/** Has One Of Many
+ * Saat kita membuat relasi One to Many, kadang kita ingin mendapatkan salah satu data saja pada relasi One to Many nya
+ * Contoh pada relasi One to Many Category dan Product, kita ingin mengambil satu product Termurah atau Termahal di
+   Category tersebut
+ * Sebenarnya kita bisa lakukan secara manual menggunakan Query Builder
+ * Namun Laravel menyediakan relasi Has One of Many yang bisa digunakan untuk mempermudah hal ini
+ */
+
+Contoh penerapan ada di App\Models\Category::cheapestProduct()
+                 dan di App\Models\Category::mostExpensiveProduct()
+
+contoh penggunaannya ada di Relationship\HasOneOfManyTest::testHasOneOfMany()

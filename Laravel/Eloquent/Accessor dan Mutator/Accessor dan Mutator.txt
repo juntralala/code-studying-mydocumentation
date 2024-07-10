@@ -1,0 +1,11 @@
+/** Accessor dan Mutator
+ * Saat kita mengambil dan mengubah attribute di object Model, secara otomatis akan mengambil data di kolom
+ * Laravel memiliki fitur untuk mengubah data ketika di akses (Accessor) dan mengubah data ketika di set (Mutator)
+ * Caranya kita bisa membuat dengan menggunakan function yang mengembalikan object Attribute
+ * https://laravel.com/api/10.x/Illuminate/Database/Eloquent/Casts/Attribute.html 
+ */
+
+php artisan make:model Person --migration --seed
+
+contoh penerapan ada di App\Models\Person::fullName()
+contoh penggunaan ada di AccessorDanMutatorTest::testAccessorDanMutator()

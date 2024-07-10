@@ -1,0 +1,9 @@
+/** Factory State
+ * Secara default, saat membuat Factory, kita wajib meng-override method definition(), yang digunakan sebagai 
+   state awal data ketika dibuat menggunakan Factory
+ * Selanjutnya, kita bisa membuat state lainnya, dimana state awal akan menggunakan data dari method definition()
+ */
+
+// contoh penerapanya ada di EmployeeFactory::programmer()
+                         dan EmployeeFactory::seniorProgrammer()
+// contoh penggunaannya ada FactoryTest::testFactory()

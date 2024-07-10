@@ -1,0 +1,6 @@
+/** Select
+ * Untuk melakukan select data yang datanya bisa lebih dari satu, maka kita bisa menggunakan Query Builder
+   seperti biasanya, yang sudah kita bahas di materi Laravel Database
+ */
+
+// contohnya di SelectTest::testSelect

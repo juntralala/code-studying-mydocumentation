@@ -1,0 +1,6 @@
+/** Update Model
+ * Bagaimana jika kita mau mengupdate object Model, tapi secara sekaligus
+ * Kita bisa menggunakan method fill(attributes) pada Model
+ */
+
+// contohnya ada di FillableTest::testUpdateModel()

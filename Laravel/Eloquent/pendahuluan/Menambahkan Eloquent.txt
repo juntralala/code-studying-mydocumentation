@@ -1,0 +1,4 @@
+/** Menambahkan Eloquent
+ * Saat kita membuat project Laravel, secara otomatis Laravel Eloquent sudah ada di dalamnya, sehingga kita
+   tidak perlu menambah package atau library baru via composer
+ */

@@ -1,0 +1,6 @@
+/** Relationship
+ * Secara default, relasi yang belum di load, tidak akan di include ke dalam proses Serialization
+ * Jika kita ingin, kita harus load data relasinya terlebih dahulu
+ */
+
+contoh penggunaanya ada di SerializationTest::testSerializationRelation()

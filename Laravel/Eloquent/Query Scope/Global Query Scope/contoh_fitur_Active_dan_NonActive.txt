@@ -1,0 +1,8 @@
+/** 
+ * Contoh kita akan menambahkan fitur Active dan Non Active pada Category dengan cara menambahkan kolom 
+   is_active : boolean
+ * Selanjutnya kita akan menambahkan Global Scope agar setiap kita melakukan query, kita selalu mengambil
+   data Category yang Active
+ */
+
+// php artisan make:migration add_column_is_active_to_categories
