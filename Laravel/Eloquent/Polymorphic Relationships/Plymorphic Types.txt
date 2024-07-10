@@ -1,0 +1,11 @@
+/** Polymorphic Type
+ * Secara default, type di relasi Polymorphic akan menggunakan nama Class Model yang kita gunakan
+ * Namun, hal ini bisa berbahaya misal kita mengubah nama Model atau mengubah namespace Model, karena secara
+   otomatis type di Polymorphic tidak akan berjalan
+ * Kadang, ada baiknya kita menambahkan type untuk Polymorphic
+ * Kita bisa tambahkan pada Service Provider dengan manggil Relation::enforceMorphMap()
+ */
+ 
+contoh penerapannya ada di AppServiceProvider::boot()
+
+contoh penggunaanya ada di ProductSeeder, VoucherSeeder, CustomerSeeder

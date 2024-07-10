@@ -1,0 +1,6 @@
+/** Menggunakan Scope
+ * Untuk menggunakan Local Scope, kita bisa memanggil method nya, diawali dengan lowercase, dan tanpa prefix
+   scope, ketika menggunakan Builder, misal :
+ * Local Scope scopeActive(), dipanggil active()
+ * Local Scope scopeNonActive(), dipanggil nonActive()
+ */

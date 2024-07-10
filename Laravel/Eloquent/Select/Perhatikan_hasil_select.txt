@@ -1,0 +1,7 @@
+/** Perhatikan
+ * Saat kita melakukan select lebih dari satu data, hasil dari Query Builder adalah Collection dari Model nya
+ * Jadi bukan hanya Collection Array
+ * Artinya kita bisa melakukan operasi lainnya pada hasil select Model tersebut, misal melakukan update
+ */
+
+// contohnya di SelectTest::testUpdateSelectResult()

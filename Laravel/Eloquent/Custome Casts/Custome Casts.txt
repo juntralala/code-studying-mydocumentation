@@ -1,0 +1,14 @@
+/** Custome Casts
+ * Kadang ada tipe data yang mungkin tidak didukung atau mungkin kita ingin membuat jenis tipe data baru
+ * Kita bisa membuat Custom Casts agar Model bisa menggunakan nya untuk melakukan konversi tipe data nya
+ * Kita bisa membuat Custom Casts dengan perintah : php artisan make:cast NamaCustomCasts
+ * Contoh, kita punya kolom address di Person, tapi kita ingin ketika kita ubah atau ambil datanya, dalam bentuk
+   class Address, bukan String
+ */
+
+php artisan make:migration add_column_address_to_people
+
+php artisan make:class Data\Address
+php artisan make:cast AsAddress
+
+contoh penerapannya ada di class AsAddress dan Person::$casts 

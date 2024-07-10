@@ -1,0 +1,12 @@
+/** Query Buidler 
+ * Setelah membuat Model, untuk melakukan operasi CRUD terhadap Model yang sudah kita buat, kita bisa 
+   menggunakan Query Builder
+ * Caranya kita tidak perlu menggunakan Facade DB, kita cukup gunakan static method query() di class Model yang
+   sudah kita buat
+ */
+
+// tidak dibuatkan contoh, pada turotial
+
+// Category::query()
+
+// Category::where()

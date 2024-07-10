@@ -1,0 +1,9 @@
+/** Relationship
+ * Di kelas MySQL, kita pernah belajar tentang Relasi antar Tabel, dari mulai One to One, One to Many dan Many 
+   to Many
+ * Relasi antar tabel tersebut bisa kita lakukan secara manual di Laravel, namun artinya kita harus melakukan
+   join tabel secara manual
+ * Untungnya Laravel Eloquent mendukung Model Relationship, sehingga proses join tabel tidak perlu kita lakukan
+   secara manual
+ * Kita akan bahas secara bertahap relasi-relasi antar tabel di Laravel Eloquent di materi-materi berikutnya
+ */

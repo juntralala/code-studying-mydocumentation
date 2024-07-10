@@ -1,0 +1,7 @@
+/** Querying Relations
+ * Semua relasi di Laravel sebenarnya adalah turunan dari Query Builder, baik itu Polymorphic ataupun bukan
+ * Oleh karena itu, sebenarnya kita bisa melakukan Query seperti yang kita lakukan di Query Builder pada method
+   relationship di Model yang sudah kita buat
+ */
+
+contohnya ada di Relations\QueryingRelationsTest::testQueryingRelations()

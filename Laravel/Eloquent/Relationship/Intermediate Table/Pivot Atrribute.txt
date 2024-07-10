@@ -1,0 +1,11 @@
+/** Pivot Attribute
+ * Untuk mendapatkan informasi dari Intermediate Table, kita bisa menggunakan attribute bernama pivot pada Model,
+   yang secara otomatis akan mengambil semua isi kolom dari Intermediate Table
+ * Secara default, cuma FK Model 1 dan Model 2 saja yang akan di query di Pivot Attribute. 
+ * Jika kita ingin tambahkan kolom lain, kita bisa tambahkan pada relasi BelongsToMany dengan menambah withPivot()
+ */
+
+// contoh penerapannya ada di App\Models\Customer::likeProducts()
+                       dan di App\Models\Products::likedByCustomers()
+
+// contoh testny ada di Relationship\ManyToMany::testPivotAttribute()

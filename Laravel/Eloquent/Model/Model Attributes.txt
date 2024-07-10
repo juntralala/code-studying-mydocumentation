@@ -1,0 +1,6 @@
+/** Model Attributes
+ * Setelah membuat Model, kita harus beri tahu informasi tentang schema tabel yang digunakan oleh Model
+ * Kita bisa override attributes yang terdapat di class Model
+ * Seperti $table, $primaryKey, $keyType, $incrementing dan lain-lain
+ * https://laravel.com/api/10.x/Illuminate/Database/Eloquent/Model.html 
+ */

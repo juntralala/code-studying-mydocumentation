@@ -1,0 +1,12 @@
+/** Many To Many Polymorphic
+ * Terakhir, kita juga bisa melakukan relasi Many to Many Polymorphic
+ * Contoh, misal kita akan membuat Model Tag, dimana satu Tag bisa digunakan di banyak Voucher dan Product. Begitu
+   juga kebalikannya, Satu Voucher atau Product bisa punya banyak Tag
+ */
+
+php artisan make:model Tag --migration --seed
+
+contoh penerapannya ada di Tag::products(): MorphToMany
+                       dan Tag::vouchers(): MorphToMany
+                       dan Product::tags(): MorphToMany
+                       dan Voucher::tags(): MorphToMany   

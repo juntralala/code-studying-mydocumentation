@@ -1,0 +1,10 @@
+/** Query Local Scope
+ * Selain Global Scope, terdapat Local Scope, perbedaan dari Local Scope adalah, secara default tidak akan aktif,
+   kecuali kita mengaktifkannya ketika melakukan Query
+ * Untuk membuat Local Scope, kita bisa membuat method di Model dengan awalan scope lalu diikuti dengan nama
+   scope nya, misal scopeActive(), scopeNonActive(), dan lain-lain
+ * Method untuk Local Scope memerlukan parameter Builder yang bisa kita gunakan untuk menggunakan menambah kondisi
+ * https://laravel.com/api/10.x/Illuminate/Database/Eloquent/Builder.html 
+ */
+
+// contohnya ada di app/Models/Vouchers.php

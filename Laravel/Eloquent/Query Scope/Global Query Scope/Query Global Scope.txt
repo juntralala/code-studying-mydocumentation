@@ -1,0 +1,13 @@
+/** Query Global Scope
+ * Query Global Scope merupakan kondisi query yang bisa kita tambahkan secara default ke Model
+ * Dengan menambahkan Global Scope, secara otomatis ketika kita melakukan query apapun, query tambahkan
+   di Global Scope akan ditambahkan ke Query Builder secara otomatis
+ * Contoh pada SoftDeletes, trait tersebut secara otomatis menambahkan kondisi : where deleted_at is null
+ * Walaupun kita tidak pernah melakukannya secara manual
+ */
+
+// kondisi disini maksudnya pemeriksaan menggunakan WHERE
+
+// contohnya ada di contoh_fitur_Active_dan_NonActive.txt
+
+// contohnya penggunaanya di QueryGlobalScopeTest::testQueryGlobalScope

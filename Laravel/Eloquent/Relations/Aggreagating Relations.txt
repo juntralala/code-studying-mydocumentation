@@ -1,0 +1,6 @@
+/** Aggregating Relations
+ * Karena Relation di Laravel adalah Query Builder, jadi kita juga bisa melakukan Aggregate Query di Relation
+ * Bisa kita lakukan seperti yang biasa kita lakukan di Query Builder
+ */
+
+contohnya ada di Relations\AggregatingRelationsTest::testQueryingRelationsAggreagte()

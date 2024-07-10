@@ -1,0 +1,9 @@
+/** Pivot Model
+ * Jika Intermediate Table memiliki kolom selain kolom untuk Join, kadang ada baiknya dibuat dalam bentuk Pivot 
+   Model
+ * Pivot Model adalah Model seperti biasanya, hanya saja harus turunan dari Pivot, bukan Model
+ * Salah satu kelebihan menambahkan Pivot Model adalah, kita bisa query data secara langsung lewat Pivot Model atau
+   menambahkan relasi pada Pivot Model
+ */
+
+//lanjutkan ke 'Pivot Class.txt'

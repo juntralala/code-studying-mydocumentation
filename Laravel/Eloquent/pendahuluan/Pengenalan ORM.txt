@@ -1,0 +1,9 @@
+/** Object Relational Mapping (ORM)
+ * ORM (Object Relational Mapping) adalah teknik dalam pemrograman, dimana kita melakukan pemetaan data di
+   database dalam konsep relational object
+ * Oleh karena itu, ORM sering banyak digunakan di database dengan jenis relational, seperti MySQL, PostgreSQL,
+   Oracle, dan sejenisnya
+ * Konsep ORM sendiri adalah membuat representasi object di aplikasi yang merepresentasikan data (table) di
+   database, sehingga ketika melakukan manipulasi data (table) di database, seakan-akan kita melakukan manipulasi
+   object di pemrograman
+ */

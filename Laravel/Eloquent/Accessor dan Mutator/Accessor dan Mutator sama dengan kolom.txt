@@ -1,0 +1,9 @@
+/** Accessor dan Mutator sama dengan kolom
+ * Saat membuat Accessor dan Mutator, kita juga bisa buat sama dengan nama kolom nya
+ * Untuk mendapatkan value yang asli dari kolom, kita bisa tambahkan satu parameter di function Accessor
+ * Dan pada kasus tertentu, jika ingin mengambil semua kolom, kita bisa tambahkan dua parameter pada function
+   Accessor nya
+ */
+
+penerapan ada di App\Models\Person::firstName()
+contoh penggunaan ada di AccessorDanMutatorTest::testAccessorDanMutator()

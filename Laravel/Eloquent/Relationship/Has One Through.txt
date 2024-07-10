@@ -1,0 +1,18 @@
+/** Has One Through
+ * Saat kita membuat relasi One to One, kadang kita buat relasi One to One yang melewati Lebih dari satu Model
+ * Contoh, Customer punya satu Wallet, dan Wallet punya satu Virtual Account
+ * Kita bisa membuat relasi Customer ke Virtual Account, dengan relasi One to One yang melewati Model Wallet
+ */
+
+/** Contoh kasus
+php artisan make:model VirtualAcount --migration --seed
+kelas yg terlibat Product, Wallet, VirtualAcount
+*/
+
+contoh penerapannya Product::wallet(): HasOne
+                    Wallet::product(): BelongsTo
+                    Wallet::virtualAcount(): HasOne
+                    VirtualAcount::wallet(): BelongsTo
+                    Product::virtualAcount(): HasOneThrough  <- yg utama
+
+contoh penggunaannya Relationship\HasOneThroughTest::testHasOneThrough()

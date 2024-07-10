@@ -1,0 +1,9 @@
+/** One Of Many Polimorphic
+ * Relasi One to Many Polymorphic juga mendukung penambahan kondisi, seperti yang pernah kita pelajari di materi
+   Has One of Many
+ */
+
+// contoh penerapannya ada di App\Models\Product::latestComment(): MorphOne
+                          dan App\Models\Product::oldestComment(): MorphOne
+
+// contoh penggunaanya ada di PolymorphicRelationship\OneOfManyPolymorphic::testOneOfManyPolymorphic()

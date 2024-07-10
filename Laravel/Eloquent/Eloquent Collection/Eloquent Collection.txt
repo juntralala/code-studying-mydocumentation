@@ -1,0 +1,10 @@
+/** Eloquent Collection
+ * Saat kita mengambil data dari database menggunakan Eloquent, semua hasilnya adalah Collection (yang sudah kita
+   pelajari di kelas Laravel Collection)
+ * Namun khusus dari Eloquent, sebenarnya hasil nya itu bukan class Collection 
+ * https://laravel.com/api/10.x/Illuminate/Support/Collection.html 
+ * Melainkan class Collection di Eloquent
+ * https://laravel.com/api/10.x/Illuminate/Database/Eloquent/Collection.html
+ * Namun Eloquent Collection adalah class turunan dari Laravel Collection, oleh karena itu semua fitur tetap bisa
+   kita gunakan
+ */

@@ -1,0 +1,7 @@
+/** Mematikan Global Scope
+ * Kadang kita butuh mematikan Global Scope
+ * Kita bisa menggunakan method withoutGlobalScope(ScopeClass) atau withoutGlobalScopes(array) pada Query Builder
+   dengan parameter daftar Global Scope yang ingin kita hilangkan
+ */
+
+// contohnya ada di QueryGlobalScopeTest::testDisableGlobalScope

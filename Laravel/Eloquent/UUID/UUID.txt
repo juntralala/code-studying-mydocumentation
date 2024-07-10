@@ -1,0 +1,13 @@
+/** UUID
+ * Laravel Eloquent memiliki fitur untuk melakukan generate primary key untuk tipe string dengan otomatis 
+   menggunakan format UUID
+ * UUID adalah random string yang dijamin unique, sehingga cocok untuk membuat random string sebagai primary key
+ * Untuk menggunakan UUID, kita perlu menggunakan trait HasUuids pada Model nya
+ * Secara default, Laravel Eloquent akan membuat UUID yang berurut, jadi kita tidak perlu takut dengan urutan
+   datanya walaupun nilainya random
+ * https://en.wikipedia.org/wiki/Universally_unique_identifier 
+ */
+
+// php artisan make:model Voucher --migration --seed
+// contohnya ada di app/Models/Voucher.php
+// contohnya ada di tests/Feature/UuidTest::testCreateUuid()

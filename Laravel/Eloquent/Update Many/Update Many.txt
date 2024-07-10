@@ -1,0 +1,7 @@
+/*  Update Many
+ * Pada kasus misal kita mau melakukan update yang bisa berdampak ke lebih dari satu data, kita tidak perlu
+   melakukan update satu per satu ke object model nya
+ * Kita bisa menggunakan Query Builder
+ */
+
+// contohnya ada di UpdateManyTest

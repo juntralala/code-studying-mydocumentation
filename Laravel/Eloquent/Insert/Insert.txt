@@ -1,0 +1,7 @@
+/** Insert
+ * Untuk melakukan insert data, kita bisa menggunakan method save() setelah membuat object dari class Model
+   yang kita buat
+ * Method save() akan mengembalikan status bool, jika sukses atau gagal
+ */
+
+//contoh kode nya di file InsertTest::testInsert()

@@ -1,0 +1,9 @@
+/** Intermediate Table
+ * Kita juga bisa melakukan filtering melalui Intermediate Table
+ * Contoh, kita ingin mengambil data Product yang di Like Customer, tapi created_at nya yang satu minggu yang lalu
+   misalnya
+ * Kita bisa tambahkan kondisi pada relasi BelongsToMany dengan menambahkan method dengan prefix wherePivot()
+ */
+
+// contoh penerapannya ada di 
+// contoh testnya ada di Relationship\ManyToManyTest::testFilteringViaPivotAtribute()  

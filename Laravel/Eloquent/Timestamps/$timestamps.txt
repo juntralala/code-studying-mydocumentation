@@ -1,0 +1,11 @@
+/** Timestamps
+ * Di materi Model, kita sudah bahas sedikit tentang attribute $timestamps di Model yang jika menggunakan value
+ * true, maka secara otomatis Eloquent akan menambahkan attribute created_at dan updated_at pada Model
+   Yang artinya kita harus membuat kolom tersebut
+ * Namun, di Migrations, kita bisa menggunakan tipe timestamps() untuk membuat hal itu secara otomatis
+ */
+
+// contonya :
+ php artisan make:model Comment --migration --seed
+ contohnya ada di app/Models/Comment.php
+ contohnya ada di CommentTest::testCreateComment()

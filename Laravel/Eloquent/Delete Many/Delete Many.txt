@@ -1,0 +1,6 @@
+/** Delete Many
+ * Pada kasus kita mau melakukan delete yang bisa berdampak pada banyak data, maka kita harus menggunakan Query
+   Builder
+ */
+
+// pakai Query Builder kaya biasanya 

@@ -1,0 +1,16 @@
+/** One To One
+ * Relasi One to One didukung oleh Laravel Eloquent, dengan cara menggunakan method hasOne() pada Model
+ * Kadang-kadang untuk relasi One to One, kita ingin membuat relasi bidirectional antar Model, kita juga bisa lakukan secara mudah di Laravel Eloquent
+ * Pada Model kebalikannya, kita bisa menggunakan method belongsTo() pada Model
+ */
+
+/** Contoh kasus
+ * Sekarang kita akan buat dua model, Customer dan Wallet, dimana satu Customer memiliki satu Wallet
+    php artisan make:model Customer --migration --seed
+    php artisan make:model Wallet --migration --seed
+ */
+
+contoh penerapannya di app/Models/Customer::wallet()
+                   dan app/Models/Wallet::customer()
+
+contohnya penggunaannya ada di Relationship/OneToOneTest::testOneToOne()

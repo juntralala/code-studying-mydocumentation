@@ -1,0 +1,13 @@
+/** Eager Loading
+ * Namun pada kasus tertentu, kadang kita ingin melakukan Eager Loading
+ * Yaitu langsung mengambil data relasi secara langsung ketika kita mengambil data Model
+ * Terdapat dua cara untuk melakukannya, pertama dengan menggunakan Query Builder, atau langsung di hardcode di
+   Model nya
+ * Menggunakan Query Builder bisa kita pilih, apakah mau di menggunakan Eager Loading atau tidak
+ * Jika menggunakan Model, secara otomatis akan dilakukan Eager Loading
+ * Untuk menggunakan Query Builder, kita bisa gunakan method with([relation])
+ * Untuk menggunakan Model, kita bisa override attribute $with
+ */
+
+contohnya di EagerLoadingTest::testEagerLoadingInQueryBuilder()
+         dan EagerLoadingTest::testEagerLoadingInModel()

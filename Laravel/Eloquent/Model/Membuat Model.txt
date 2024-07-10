@@ -1,0 +1,4 @@
+/** Membuat Model
+ * Kita tidak perlu membuat Model secara manual, kita bisa gunakan file artisan untuk membuat model
+ * php artisan make:model NamaModel
+ */

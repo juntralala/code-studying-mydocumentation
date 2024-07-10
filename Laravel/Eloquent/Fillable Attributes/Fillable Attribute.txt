@@ -1,0 +1,17 @@
+/** Fillable Attributes
+ * Saat kita membuat object Model yang datanya dikirim dari Web Form atau Body HTTP Request
+ * Jika kita harus tambahkan satu persatu attribute nya ke object Model, maka itu sangat merepotkan
+ * Laravel memiliki fitur untuk membuat Model secara otomatis dengan menggunakan method create(attributes) pada
+   Query Builder
+ */
+
+// di tutorial PZN ngak pakek method create(attributes), tapi pakai parameter dari Model yg kita buat 
+
+/** Error : MassAssignmentException
+ * Secara default, semua attribute di Model tidak bisa di set secara masal menggunakan method create()
+ * Kenapa? Hal ini untuk menjaga agar tidak ada data salah yang akhirnya tidak sengaja mengubah data di database, misal jika ada Model User, lalu terdapat attribute is_admin, jika sampai ada request yang mengirim attribute is_admin: true, maka secara otomatis data di database akan diubah
+ * Oleh karena itu, kita harus beri tahu ke Laravel, attribute mana saja yang bisa diubah secara masal
+ * Kita bisa override attribute $fillable di Model nya
+ */
+
+contohnya ada di FillableTest::testFillableAttributes()

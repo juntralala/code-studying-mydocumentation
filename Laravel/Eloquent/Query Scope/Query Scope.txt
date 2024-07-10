@@ -1,0 +1,6 @@
+/** Query Scope
+ * Saat kita menambahkan trait SoftDeletes, secara otomatis Model akan memiliki Query Scope
+ * Query Scope adalah mekanisme cara menambahkan kondisi query secara otomatis sehingga tidak perlu manual lagi
+   setiap kita melakukan query ke database untuk Model tersebut
+ * Jika kita mau, kita juga bisa menambahkan fitur Query Scope pada Model yang kita buat
+ */

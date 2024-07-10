@@ -1,0 +1,12 @@
+/** Default attribute Values
+ * Saat kita membuat tabel, kita bisa membuat default value, namun kadang itu kurang flexible karena kita tidak
+   bisa mengubah-ubah secara mudah
+ * Laravel Model memiliki fitur default attribute values, dimana kita bisa membuat default value untuk attributes
+   di Model, sehingga ketika pertama kali dibuat object Model nya, secara otomatis default value nya mengikuti
+   yang sudah kita tetapkan
+ * Untuk menentukan default values, pada model yg kita buat kita bisa mengoverride property $attributes yang
+   berisi associative array : kolom => default value
+ */
+
+contohnya ada di app/Models/Comment.php
+contohnya ada di DefaultAttributeValuesTest

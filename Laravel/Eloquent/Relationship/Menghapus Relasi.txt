@@ -1,0 +1,6 @@
+/** Menghapus Relasi
+ * Untuk menghapus relasi One to One atau One to Many cukup mudah, tinggal menghapus data kolom FK nya (Model::where()->delete())
+ * Untuk menghapus data relasi Many to Many, kita bisa menggunakan method detach() pada BelongsToMany
+ */
+
+// Contohnya ada di Relationship\ManyToManyTest::testRemoveMannyToManny()

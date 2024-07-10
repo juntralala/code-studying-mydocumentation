@@ -1,0 +1,17 @@
+/** One To Many
+ * Sekarang kita akan coba implementasi untuk relasi One to Many di Laravel
+ * Kita akan buat Model Product, dimana berelasi dengan Category
+ * Satu Category memiliki banyak Product
+ * Untuk membuat relasi One to Many, hampir sama dengan One to One, yang membedakan adalah menggunakan method hasMany()
+ */
+
+/** Contoh kasus
+ * kita akan membuat table baru yakni products, dimana products akan mereference ke table categories, dimana categories
+   boleh memiliki banyak products, tetapi satu products hanya boleh dimiliki oleh satu categories
+php artisan make:model Product --migration --seed
+*/
+
+// contoh penerapannya ada di app/Models/Category::products() 
+                          dan app/Models/Product::category()
+// contoh penggunannya ada di RelationshipTest::testQueryCategory()
+// contoh penggunannya ada di RelationshipTest::testQueryProduct()

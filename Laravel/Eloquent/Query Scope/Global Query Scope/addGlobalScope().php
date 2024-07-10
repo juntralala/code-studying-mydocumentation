@@ -1,0 +1,1 @@
+//Cara Membuat Global Scope.txt

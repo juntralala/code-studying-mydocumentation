@@ -1,0 +1,13 @@
+/** Has Many Through
+ * Selain Has One Through, Laravel juga bisa digunakan untuk mengambil relasi One to Many melalui Model lain
+ * Contoh misal pada kasus kita, kita punya model Category yang berelasi One to Many dengan Product. Misal Product
+   memiliki relasi One to Many lagi ke model Review
+ * Kita bisa membuat relasi One to Many dari Category ke Review melewati model Product
+ */
+
+/** Contoh kasus
+php artisan make:model Review --migration --seed
+  pada klass Category::reviews(): HasMany
+
+=> contoh penggunaanya ada di Relationship\HasManyThroughTest::testHasManyThrough()
+*/

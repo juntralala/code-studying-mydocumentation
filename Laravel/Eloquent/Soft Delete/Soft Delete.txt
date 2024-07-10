@@ -1,0 +1,11 @@
+/** Soft Delete
+ * Secara default, saat kita melakukan operasi DELETE, data di database akan dihapus secara permanen
+ * Terdapat konsep yg namanya SOFT DELETE, yaitu konsep dimana kita melakukan penghapusan data, tapi sebenarnya
+   hanya menandai di database bahwa row tersebut dihapus, sehingga sebenarnya datanya masih tetap ada di table
+ * Untuk menandainya, di Laravel biasanya menambahkan kolom tambahan deleted_at, dimana jika ada nilainya berarti
+   data dianggap telah dihapus
+ * artinya seluruh query ke database pun, harus di beri kondisi dimana deleted_at nilainya null, agar hasil Query
+   adalah hanya data yg belum dihapus 
+ */
+
+lanjutanya di "Trait SoftDeletes.txt"

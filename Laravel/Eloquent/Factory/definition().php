@@ -1,0 +1,1 @@
+// baca Factory State.txt

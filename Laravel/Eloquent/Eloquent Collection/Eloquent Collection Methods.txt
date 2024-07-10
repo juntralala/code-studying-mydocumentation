@@ -1,0 +1,5 @@
+/** Eloquent Collection
+ * Namun terdapat banyak tambahan pada Eloquent Collection yang bisa kita gunakan
+ * https://laravel.com/docs/10.x/eloquent-collections#available-methods 
+ * https://laravel.com/docs/11.x/eloquent-collections#available-methods 
+ */
