@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\CustomRule;
+namespace Tests\Feature\CustomRule;
 
 use App\Rules\Uppercase;
 use Illuminate\Support\Facades\Validator;

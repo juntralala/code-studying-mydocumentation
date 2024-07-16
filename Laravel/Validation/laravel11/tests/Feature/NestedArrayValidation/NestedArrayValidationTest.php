@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\NestedArrayValidation;
+namespace Tests\Feature\NestedArrayValidation;
 
 use Tests\TestCase;
 

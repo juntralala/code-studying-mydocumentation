@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\ErrorDirective;
+namespace Tests\Feature\ErrorDirective;
 
 use PHPUnit\Framework\Attributes\TestDox;
 use Tests\TestCase;

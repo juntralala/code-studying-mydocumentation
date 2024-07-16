@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\CustomFunctionRule;
+namespace Tests\Feature\CustomFunctionRule;
 
 use App\Rules\RegistrationRule;
 use Closure;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature;
+namespace Tests\Feature;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;

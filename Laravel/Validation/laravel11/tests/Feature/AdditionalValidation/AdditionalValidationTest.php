@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\AdditionalValidation;
+namespace Tests\Feature\AdditionalValidation;
 
 use Illuminate\Support\Facades\Validator;
 use Tests\TestCase;

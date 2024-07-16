@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\ValidationMessage;
+namespace Tests\Feature\ValidationMessage;
 
 use Illuminate\Support\Facades\Validator;
 use Tests\TestCase;

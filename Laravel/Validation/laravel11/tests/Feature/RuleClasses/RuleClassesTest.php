@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\RuleClasses;
+namespace Tests\Feature\RuleClasses;
 
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\In;

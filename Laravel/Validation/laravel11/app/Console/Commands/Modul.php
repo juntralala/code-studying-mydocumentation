@@ -101,7 +101,7 @@ class Modul extends Command
         if ($slash || $backSlash) {
             $folder = "\\" . ($slash ?: $backSlash);
         }
-        return "Tests\\Frature$folder";
+        return "Tests\\Feature$folder";
     }
 
     private function extractFileFolder(string $file): string

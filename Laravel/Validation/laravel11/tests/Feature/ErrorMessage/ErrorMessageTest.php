@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature;
+namespace Tests\Feature;
 
 use Illuminate\Log\Logger;
 use Illuminate\Support\Facades\Log;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\HttpRequestValidation;
+namespace Tests\Feature\HttpRequestValidation;
 
 use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;

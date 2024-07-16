@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Frature\ErrorPage;
+namespace Tests\Feature\ErrorPage;
 
 use Tests\TestCase;
 
