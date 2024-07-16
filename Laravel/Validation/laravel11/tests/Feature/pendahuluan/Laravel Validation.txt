@@ -1,0 +1,6 @@
+/** Laravel Validation
+ * Laravel menyediakan fitur untuk melakukan validasi menggunakan Class bernama Validator
+ * https://laravel.com/api/10.x/Illuminate/Validation/Validator.html 
+ * Di kelas ini, kita akan fokus membahas bagaimana cara menggunakan Laravel Validation, untuk mempermudah
+   melakukan validasi data yang diterima oleh aplikasi Laravel kita
+ */

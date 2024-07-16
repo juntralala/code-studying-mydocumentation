@@ -1,0 +1,8 @@
+/** Validation 
+ * Saat kita membuat aplikasi, sudah dipastikan bahwa kita akan selalu menambahkan validasi terhadap data yang
+   diterima oleh aplikasi
+ * Di database, saat membuat tabel pun, biasanya kita menambahkan validasi, misal kolom yang tidak boleh null,
+   atau unique, atau menambahkan check constraint
+ * Validasi adalah proses yang dilakukan untuk menjaga agar data di aplikasi kita tetap konsisten dan baik
+ * Tanpa validasi, data di aplikasi bisa rusak dan tidak konsisten
+ */

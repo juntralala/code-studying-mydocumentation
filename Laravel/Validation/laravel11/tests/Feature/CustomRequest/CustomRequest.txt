@@ -1,0 +1,7 @@
+/** Custom Request
+ * Saat kita membuat form request yang kompleks, ada baiknya kita membuat class sendiri untuk Form Request tersebut
+ * Salah satu kelebihannya dengan membuat form request sendiri, bisa diintegrasikan dengan Laravel Validator
+ * Hal ini membuat kode yang kita buat lebih rapi, karena data Request dan Validasi terpisah dari kode Controller
+*/
+
+// vaca MembuatFormRequest dan file lainnya

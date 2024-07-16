@@ -1,0 +1,7 @@
+/** Before dan After Validation
+ * Jika kita ingin melakukan sesuatu sebelum melakukan validasi, misal membersihkan data yang tidak dibutuhkan,
+   kita bisa menggunakan method prepareForValidation()
+ * Sedangkan jika kita ingin melakukan sesuai sesudah validasi, kita bisa menggunakan method passedValidation()
+*/
+
+// contoh penerapannya ada di App\Http\Requests\LoginRequest

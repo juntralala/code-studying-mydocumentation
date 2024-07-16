@@ -1,0 +1,6 @@
+/** Custom Message untuk Attribute tertentu
+ * Kadang, pada beberapa kasus, kita tidak ingin menggunakan default message saat melakukan validasi
+ * Kita bisa menambah Custom Message untuk Attribute, di file validation.php
+*/
+
+// message telah diubab jadi pesan error dari validasi didalam unittest sebelumnya telah berubah
