@@ -1,0 +1,8 @@
+/** Membuat Form Request
+ * Untuk membuat Form Request sendiri, kita bisa menggunakan perintah : 
+   php artisan make:request NamaFormRequest
+ * Walaupun namanya Form Request, namun sebenarnya kita tetap bisa menggunakannya ketika misal kita 
+   ingin menerima data dalam bentuk JSON misalnya
+*/
+
+// php artisan make:request LoginRequest

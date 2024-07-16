@@ -1,0 +1,15 @@
+/** FormRequest Class
+ * Form Request adalah class turunan dari FormRequest
+ * https://laravel.com/api/10.x/Illuminate/Foundation/Http/FormRequest.html
+ * Untuk menambahkan Rule untuk validasi, kita bisa menggunakan method rules()
+ * Untuk menambahkan Additional Validator setelah validasi, kita bisa gunakan method after()
+ * Jika ingin berhenti melakukan validasi, setelah terdapat satu attribute yang error, kita bisa gunakan property
+   $stopOnFirstFailure
+ * Jika ingin mengubah halaman redirect ketika terjadi ValidationException, kita bisa gunakan property $redirect
+   (URL) atau $redirectRoute (Route)
+ * Jika ingin menambahkan authentication sebelum melakukan Validasi, kita bisa menggunakan method authorize()
+ * Untuk mengubah default message, kita bisa menggunakan method messages()
+ * Untuk mengubah default nama attribute, kita bisa menggunakan method attributes()
+*/
+
+// contoh class nya App\Http\Requests\LoginRequest

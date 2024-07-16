@@ -1,0 +1,10 @@
+
+/** Translation
+ * Saat membuat Custom Rule, di function validate terdapat parameter ke-3 berupa Closure
+ * Closure tersebut jika dipanggil, maka akan mengembalikan object PotentiallyTranslatedString
+ * https://laravel.com/api/10.x/Illuminate/Translation/PotentiallyTranslatedString.html
+ * Dengan Class itu, kita bisa membuat translation
+*/
+
+penerapannya ada di app/models/Upppercase.php
+penggunaanya ada di CustomeRuleTest::testCustomeRule()

@@ -1,0 +1,8 @@
+/** Manual melakukan validasi
+ * Saat kita menggunakan Laravel, validasi secara manual sangat tidak direkomendasikan
+ * Misal melakukan pengecekan apakah input data berisi string kosong, atau apakah input data berupa angka,
+   tanggal, dan lain-lain
+ * Hal ini bisa saja kita lakukan secara manual, dan lakukan pengecekan menggunakan if statement
+ * Namun, hal ini tidak direkomendasikan
+ * Untungnya, Laravel menyediakan fitur untuk melakukan Validasi
+ */

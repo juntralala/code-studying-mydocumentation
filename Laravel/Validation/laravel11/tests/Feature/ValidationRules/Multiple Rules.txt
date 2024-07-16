@@ -1,0 +1,5 @@
+/** Multiple Rules
+ * Saat kita membuat validasi, biasanya dalam satu attribute, kita sering menggunakan beberapa aturan
+ * Misal untuk username, kita ingin menggunakan aturan wajib diisi, harus email, dan panjang tidak boleh lebih dari 100 karakter
+ * Untuk menggunakan multiple Rules, kita bisa menggunakan tanda | (pagar), atau menggunakan tipe data array
+*/

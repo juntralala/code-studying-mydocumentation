@@ -1,0 +1,18 @@
+/** Alur Validation Error di Web
+ * Saat kita membuat form, biasanya kita akan membuat dua halaman. Pertama GET /form untuk menampilkan form nya,
+   dan POST /form untuk melakukan submit form nya
+ * Jika terjadi error ketika melakukan POST /form, dan terjadi error ValidationException, secara otomatis Laravel
+   akan melakukan redirect ke halaman sebelumnya, yaitu GET /form
+ * Saat melakukan redirect kembali ke halaman GET /form, Laravel akan menyisipkan informasi sementara object error
+   tersebut ke Session
+ * Middleware ShareErrorsFromSession akan mendeteksi errors tersebut dan melakukan sharing informasi ke View
+   sehingga kita bisa dengan mudah menggunakan variable 
+ * Saat kita membuat form, biasanya kita akan membuat dua halaman. Pertama GET /form untuk menampilkan form nya,
+   dan POST /form untuk melakukan submit form nya
+ * Jika terjadi error ketika melakukan POST /form, dan terjadi error ValidationException, secara otomatis Laravel
+   akan melakukan redirect ke halaman sebelumnya, yaitu GET /form
+ * Saat melakukan redirect kembali ke halaman GET /form, Laravel akan menyisipkan informasi sementara object error
+   tersebut ke Session
+ * Middleware ShareErrorsFromSession akan mendeteksi errors tersebut dan melakukan sharing informasi ke View
+   sehingga kita bisa dengan mudah menggunakan variable $errors di Blade Templat\eerrors di Blade Templat
+*/

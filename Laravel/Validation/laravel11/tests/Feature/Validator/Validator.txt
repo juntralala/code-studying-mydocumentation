@@ -1,0 +1,5 @@
+/** Validator
+ * Validator adalah class sebagai representasi untuk melakukan validasi di Laravel
+ * https://laravel.com/api/10.x/Illuminate/Validation/Validator.html
+ * Ada banyak sekali fitur yang dimiliki oleh class Validator, dan kita akan bahas secara bertahap
+*/
