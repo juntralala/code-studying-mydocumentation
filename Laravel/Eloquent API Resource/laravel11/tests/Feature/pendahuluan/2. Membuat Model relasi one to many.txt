@@ -1,0 +1,7 @@
+/** Membuat Model relasi one to many
+ * Buatlah model Category dan Product, dimana Category memiliki relasi one to many ke Product
+*/
+
+php artisan make:model Category --migration --seed
+php artisan make:model Product --migration --seed
+

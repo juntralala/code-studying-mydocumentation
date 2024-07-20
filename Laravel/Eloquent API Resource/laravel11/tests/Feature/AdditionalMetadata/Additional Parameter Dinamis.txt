@@ -1,0 +1,7 @@
+/** Additional Parameter Dinamis
+ * Jika kita butuh tambahan additional parameter yang dinamis, kita bisa langsung saja buat di dalam toArray()
+ * Yang penting adalah ada attribute yang sama dengan $wrap
+*/
+
+// contoh penggunaaanya ada di AdditionalMetadataTest
+// dan contoh penerapannya ada di App\Http\Resources\ProductDebugResource

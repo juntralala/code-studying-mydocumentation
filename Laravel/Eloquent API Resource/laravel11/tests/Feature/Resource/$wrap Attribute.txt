@@ -1,0 +1,6 @@
+/** $wrap Attribute
+ * Secara default, data JSON yang kita kembalikan dalam method toArray() akan di wrap dalam attribute bernama “data”
+ * Jika kita ingin ubah nama attribute di JSON nya, kita bisa ubah menggunakan attribute $wrap di Resource nya
+*/
+
+// contoh penerapannya ada di App\Http\Resources\CategoryResource::$wrap
