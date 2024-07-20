@@ -1,12 +1,12 @@
 [submodule "Git/Remote/latihansubmodule"]
 	path = Git/Remote/latihan_submodule
-	url = git@github.com:UJUN-Al-Rantaui/belajar-git-submodule
+	url = git@github.com:juntralala/belajar-git-submodule
 [submodule "Git/Remote/latihan_clone/belajar-git-remote"]
 	path = Git/Remote/latihan_clone/belajar-git-remote
-	url = git@github.com:UJUN-Al-Rantaui/belajar-git-remote
+	url = git@github.com:juntralala/belajar-git-remote
 [submodule "Git/Remote/latihan-clone/belajar-git-remote"]
 	path = Git/Remote/latihan-clone/belajar-git-remote
-	url = git@github.com:UJUN-Al-Rantaui/belajar-git-remote
+	url = git@github.com:juntralala/belajar-git-remote
 [submodule "Git/Remote/belajar-git-remote"]
 	path = Git/Remote/belajar-git-remote
-	url = git@github.com:UJUN-Al-Rantaui/belajar-git-remote
+	url = git@github.com:juntralala/belajar-git-remote
