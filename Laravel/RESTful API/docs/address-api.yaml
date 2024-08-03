@@ -1,0 +1,186 @@
+openapi: 3.0.3
+info:
+  title: Belajar Laravel RESTful API
+  version: 1.0.0
+  contact:
+    name: juntralala
+    url: https://github.com/juntralala
+servers:
+  - url: http://{domain}
+    variables:
+      domain:
+        default: localhost
+        enum:
+          - localhost
+          - localhost:8000
+          - www.ujun.com
+paths:
+  /api/contacts/{contactId}/addresses:
+    post:
+      description: Create new contact address
+      parameters:
+        - $ref: "#/components/parameters/Authorization"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AddressWithoutId"
+      responses:
+        201:
+          description: "Success Create new contact address"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Address"
+              examples:
+                Address1:
+                  $ref: "#/components/examples/Address1"
+    get:
+      description: Get contact addresses
+      parameters:
+        - $ref: "#/components/parameters/Authorization"
+      responses:
+        200:
+          description: Succes get contact addresses
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Address"
+                  errors:
+                    type: object
+                  meta:
+                    type: object
+              examples:
+                Addresses:
+                  value:
+                    data:
+                      - id: 1
+                        street: Jl. Padi Hijau
+                        city: Tanah Batu
+                        province: Kalimantan
+                        country: Indonesia
+                        postalCode: "080812"
+                      - id: 2
+                        street: Jl. Suruk Sungai
+                        city: Tanah Daun
+                        province: Kalimantan
+                        country: Indonesia
+                        postalCode: "080812"
+  /api/contacts/{contactId}/addresses/{addressId}:
+    get:
+      description: Get contact address by addresss id
+      parameters:
+        - $ref: "#/components/parameters/Authorization"
+        - $ref: "#/components/parameters/ContactId"
+        - $ref: "#/components/parameters/AddressId"
+      responses:
+        200:
+          description: Success get contact address by id
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Address"
+              examples: 
+                Address: 
+                  $ref: "#/components/examples/Address1"
+    patch:
+      description: Update existing contact address
+      parameters:
+        - $ref: "#/components/parameters/Authorization"
+        - $ref: "#/components/parameters/ContactId"
+        - $ref: "#/components/parameters/AddressId"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AddressWithoutId"
+      responses:
+        200:
+          description: "Success Update new contact address"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Address"
+              examples:
+                Address:
+                  $ref: "#/components/examples/Address1"
+    delete:
+      description: Delete contact addresses
+      parameters:
+        - $ref: "#/components/parameters/Authorization"
+        - $ref: "#/components/parameters/ContactId"
+        - $ref: "#/components/parameters/AddressId"
+      responses:
+        200:
+          description: Success delete object
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: boolean
+                  errors:
+                    type: object
+components:
+  parameters:
+    Authorization:
+      name: Authorization
+      in: header
+      schema:
+        type: string
+    ContactId:
+      name: contactId
+      in: path
+      required: true
+      schema:
+        type: string
+    AddressId:
+      name: addressId
+      in: path
+      required: true
+      schema:
+        type: string
+  examples:
+    Address1:
+      value:
+        id: 1
+        street: Jl. Padi Hijau
+        city: Tanah Batu
+        province: Kalimantan
+        country: Indonesia
+        postalCode: "080812"
+  schemas:
+    AddressWithoutId:
+      type: object
+      properties:
+        street:
+          type: string
+        city:
+          type: string
+        province:
+          type: string
+        country:
+          type: string
+        postalCode:
+          type: string
+    Address:
+      type: object
+      properties:
+        id:
+          type: string
+        street:
+          type: string
+        city:
+          type: string
+        province:
+          type: string
+        country:
+          type: string
+        postalCode:
+          type: string

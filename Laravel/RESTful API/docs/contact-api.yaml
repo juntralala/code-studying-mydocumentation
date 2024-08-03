@@ -1,0 +1,266 @@
+openapi: 3.0.3
+info:
+  title: Contact ApI
+  version: 1.0.0
+  description: Contact API for Contact User Manjement
+servers:
+  - url: http://{domain}.com
+    variables:
+      domain:
+        default: localhost
+        enum:
+          - localhost
+          - ujun
+paths: 
+  /api/contacts:
+    post:
+      description: "Create new contact"
+      parameters:
+        - name: Authorization
+          in: header
+          schema: 
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                firstName: 
+                  type: string
+                lastName:
+                  type: string
+                email: 
+                  type: string
+                phone:
+                  type: string
+                  pattern: ^[0-9]{10,20}$
+            example:
+              firstName: amat
+              lastName: handil
+              email: amat@gmail.com
+              phone: 0812891218261
+      responses:
+        201:
+          description: Success create new contact
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      firstName:
+                        type: string
+                      lastName:
+                        type: string
+                      email:
+                        type: string
+                      phone:
+                        type: string
+              example:
+                id: 1
+                firstName: amat
+                lastName: handil
+                email: amat@gmail.com
+                phone: 0812891218261
+    get:
+      description: Search contact
+      parameters:
+        - name: Authorization
+          in: header
+          schema:
+            type: string
+        - name: firstName
+          in: query
+          schema: 
+            type: string
+        - name: lastName
+          in: query
+          schema: 
+            type: string
+        - name: email
+          in: query
+          schema: 
+            type: string
+        - name: phone
+          in: query
+          schema: 
+            type: string
+        - name: page
+          in: query
+          schema: 
+            type: integer
+            default: 1
+        - name: size
+          in: query
+          schema: 
+            type: integer
+            default: 2
+      responses:
+        200:
+          description: Success search contact
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        firstName:
+                          type: string
+                        lastName:
+                          type: string
+                        email:
+                          type: string
+                        phone:
+                          type: string
+                  errors:
+                    type: object
+                  meta:
+                    type: object
+              example:
+                data:
+                  - id: 1
+                    firstName: amat
+                    lastName: handil
+                    email: amat@gmail.com
+                    phone: 0812891218261
+                  - id: 2
+                    firstName: anonym
+                    lastName: unkown
+                    email: unknown@gmail.com
+                    phone: 080000000000
+                errors: {}
+                meta: {}
+  /api/contacts/{contactId}:
+    get:
+      description: Get contact by id
+      parameters:
+        - name: Authorization
+          in: header
+          schema: 
+            type: string
+        - name: contactId
+          in: path
+          required: true
+          schema: 
+            type: string
+      responses:
+        200:
+          description: Success get contact by id
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id: 
+                    type: string
+                  firstName: 
+                    type: string
+                  lastName: 
+                    type: string
+                  email: 
+                    type: string
+                  phone: 
+                    type: string
+              example:
+                id: 1
+                firstName: amat
+                lastName: handil
+                email: amat@gmail.com
+                phone: 0812891218261
+    put:
+      description: "Update existing contact"
+      parameters:
+        - name: Authorization
+          in: header
+          schema: 
+            type: string
+        - name: contactId
+          in: path
+          required: true
+          schema: 
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                firstName: 
+                  type: string
+                lastName:
+                  type: string
+                email: 
+                  type: string
+                phone:
+                  type: string
+            example:
+              firstName: amat
+              lastName: handil
+              email: amat@gmail.com
+              phone: 0812891218261
+      responses:
+        200:
+          description: Success update contact
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      firstName:
+                        type: string
+                      lastName:
+                        type: string
+                      email:
+                        type: string
+                      phone:
+                        type: string
+              example:
+                id: 1
+                firstName: amat
+                lastName: handil
+                email: amat@gmail.com
+                phone: 0812891218261
+    delete:
+      description: Delete contact
+      parameters:
+        - name: Authorization
+          in: header
+          schema:
+            type: string
+        - name: contractId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Success delete contact
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data: 
+                    type: boolean
+                  errors:
+                    type: object
+
+                
+
+        
