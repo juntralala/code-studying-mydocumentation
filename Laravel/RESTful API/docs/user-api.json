@@ -1,0 +1,74 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "User API",
+        "description": "User API for user management",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://{host}",
+            "description": "The server for devloping in local computer",
+            "variables": {
+                "host": {
+                    "default": "localhost",
+                    "enum": [
+                        "localhost",
+                        "www.ujun.com"
+                    ]
+                }
+            }
+        }
+    ],
+    "paths": {
+        "/api/users": {
+            "post": {
+                "description": "Register new user",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema":{
+                                "type": "object",
+                                "properties": {
+                                    "username": {
+                                        "type": "string"
+                                    },
+                                    "password": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "example": {
+                                "username": "juntralala",
+                                "password": "katasandi",
+                                "name": "Ujun"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "tidak ada"
+                    }
+                }
+            }
+        },
+        "/api/users/login": {
+            "post": {
+                "description": "Login User"
+            }
+        },
+        "/api/users/current": {
+            "get": {
+                "description": "Get current user"
+            },
+            "patch": {
+                "description": "Update current user"
+            }
+        },
+        "/api/users/logout": {}
+    }
+}
