@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data di Open API</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: ghostwhite;
+        }
+
+        #content {
+            display: flex;
+            justify-content: center;
+            padding-top: 10vh;
+        }
+
+        table, tr, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        tr, td {
+            padding: 5px 100px 5px 20px;
+        }
+
+        caption {
+            margin-bottom: 2vh;
+        }
+
+        thead > tr > td {
+            color: darkslategray;
+            background-color: thistle;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="content">
+        <table id="tableTypes">
+            <caption>Open API Tipe Data</caption>
+            <thead>
+                <tr>
+                    <td>Type</td>
+                    <td>Format</td>
+                    <td>Comments</td>
+                </tr>
+            </thead>
+            <tbody id="types">
+            </tbody>
+        </table>
+    </section>
+    <script>
+        class Type {
+            /** @type {String} */
+            type
+
+            /** @type {String} */
+            format
+
+            /** @type {String} */
+            comments
+
+            /**
+             * @param {String} type
+             * @param {String} format
+             * @param {String} comments
+             */
+            constructor(type, format = "", comments = "") {
+                this.type = type
+                this.format = format
+                this.comments = comments
+            }
+        }
+
+        /** @type {Type[]} */
+        let types = [
+            new Type("integer", "int32", "signed 32 bits"),
+            new Type("integer", "int64", "signed 64 bits"),
+            new Type("number", "float", ""),
+            new Type("number", "double", ""),
+            new Type("string", "", ""),
+            new Type("string", "byte", "base64 encoded characters"),
+            new Type("string", "binary", "any sequence of octets"),
+            new Type("boolean", "", ""),
+            new Type("string", "date", "As defined by full-date-RFC3339"),
+            new Type("string", "date-time", "As defined by full-date-RFC3339"),
+            new Type("string", "password", "A hint to UIs to obscure input")
+        ];
+
+        const typesCompunent = document.getElementById("types");
+
+        types.forEach(function(item){
+            let row = document.createElement('tr')
+            let type = document.createElement('td')
+            let format = document.createElement('td')
+            let comments = document.createElement('td')
+            type.textContent = item.type
+            format.textContent = item.format
+            comments.textContent = item.comments
+            row.append(type, format, comments)
+            typesCompunent.append(row)
+        })
+    </script>
+</body>
+
+</html>

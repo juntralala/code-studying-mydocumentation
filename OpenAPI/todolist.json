@@ -1,0 +1,450 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "TodoList Restful API",
+    "description": "OpenAPI for TodoList Restful API",
+    "version": "1",
+    "contact": {
+      "name": "juntralala",
+      "url": "https://github.com/juntralala"
+    },
+    "license": {
+      "name": "APACHE 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-20.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://{environment}.juntralala.com/api/v1",
+      "description": "Todolist RESTful API Server",
+      "variables": {
+        "environment": {
+          "default": "dev",
+          "description": "Server Environment",
+          "enum": [
+            "dev",
+            "qa",
+            "prod"
+          ]
+        }
+      }
+    }
+  ],
+  "externalDocs": {
+    "description": "juntralala",
+    "url": "https://github.com/juntralala"
+  },
+  "paths": {
+    "/todolist": {
+      "get": {
+        "summary": "Get All Todolist",
+        "description": "Only will return active todolist, complete todolist will removed",
+        "tags": [
+          "TodoList"
+        ],
+        "parameters": [
+          {
+            "name": "include_done",
+            "description": "Inlcude todolist in the result",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "nullable": true,
+              "default": false
+            }
+          },
+          {
+            "name": "name",
+            "description": "Search todolist by name",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": false,
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "examples": {
+              "java": {
+                "value": "Java"
+              },
+              "php": {
+                "value": "PHP"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Get Todolist  Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/todolistArray"
+                },
+                "examples": {
+                  "success": {
+                    "value": [
+                      {
+                        "id": "1",
+                        "name": "Java",
+                        "priority": 3,
+                        "tags": [
+                          "Java",
+                          "Pemrograman"
+                        ]
+                      },
+                      {
+                        "id": "2",
+                        "name": "PHP",
+                        "priority": 2,
+                        "tags": [
+                          "PHP",
+                          "Pemrograman"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create New Todolist",
+        "description": "Create New Todolist in Database",
+        "tags": [
+          "TodoList"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/todolistCreateOrUpdate"
+              },
+              "examples": {
+                "java": {
+                  "value": {
+                    "name": "Belajar Pemrograman Java",
+                    "tags": [
+                      "Java",
+                      "Pemrograman"
+                    ],
+                    "priority": 3
+                  }
+                },
+                "php": {
+                  "value": {
+                    "name": "Belajar Pemrograman PHP",
+                    "tags": [
+                      "PHP",
+                      "Pemrograman"
+                    ],
+                    "priority": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success Create new Todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/todolist"
+                },
+                "examples": {
+                  "java": {
+                    "value": {
+                      "id": "1",
+                      "name": "Belajar Pemrograman Java",
+                      "tags": [
+                        "Java",
+                        "Pemrograman"
+                      ],
+                      "priority": 3
+                    }
+                  },
+                  "php": {
+                    "value": {
+                      "id": "2",
+                      "name": "Belajar Pemrograman PHP",
+                      "tags": [
+                        "PHP",
+                        "Pemrograman"
+                      ],
+                      "priority": 2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/todolist/{todolistId}": {
+      "put": {
+        "summary": "Update existing todolist",
+        "description": "Update Existing todolist in database",
+        "tags": [
+          "TodoList"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/todolistId"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/todolistCreateOrUpdate"
+              },
+              "examples": {
+                "java": {
+                  "value": {
+                    "name": "Belajar Pemrograman Java",
+                    "tags": [
+                      "Java",
+                      "Pemrograman"
+                    ],
+                    "priority": 3
+                  }
+                },
+                "php": {
+                  "value": {
+                    "name": "Belajar Pemrograman PHP",
+                    "tags": [
+                      "PHP",
+                      "Pemrograman"
+                    ],
+                    "priority": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success Create new Todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "description": "Todolist Id",
+                      "nullable": false
+                    },
+                    "name": {
+                      "type": "string",
+                      "description": "Todolist Name"
+                    },
+                    "tags": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "priority": {
+                      "type": "integer",
+                      "format": "int32",
+                      "default": 1
+                    }
+                  }
+                },
+                "examples": {
+                  "java": {
+                    "value": {
+                      "id": "1",
+                      "name": "Belajar Pemrograman Java",
+                      "tags": [
+                        "Java",
+                        "Pemrograman"
+                      ],
+                      "priority": 3
+                    }
+                  },
+                  "php": {
+                    "value": {
+                      "id": "2",
+                      "name": "Belajar Pemrograman PHP",
+                      "tags": [
+                        "PHP",
+                        "Pemrograman"
+                      ],
+                      "priority": 2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete existing Todolist",
+        "description": "Delete existing todolist in database",
+        "tags": [
+          "TodoList"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/todolistId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success delete for a todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "examples": {
+                  "success": {
+                    "description": "Determine success delete todolist",
+                    "value": {
+                      "success": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Failed delete for not found todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "examples": {
+                  "Failed": {
+                    "description": "Determine success delete todolist",
+                    "value": {
+                      "success": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "todolistId": {
+        "name": "todolistId",
+        "in": "path",
+        "description": "Todolist id for deliting",
+        "required": true,
+        "schema": {
+          "type": "string",
+          "minLength": 1,
+          "nullable": false
+        }
+      }
+    },
+    "schemas": {
+      "todolist": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Todolist Id",
+            "nullable": false
+          },
+          "name": {
+            "type": "string",
+            "description": "Todolist Name"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "priority": {
+            "type": "integer",
+            "format": "int32",
+            "default": 1
+          }
+        }
+      },
+      "todolistArray": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Todolist Id",
+              "nullable": false
+            },
+            "name": {
+              "type": "string",
+              "description": "Todolist Name"
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "priority": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        }
+      },
+      "todolistCreateOrUpdate": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "name",
+          "priority"
+        ]
+      }
+    }
+  }
+}
