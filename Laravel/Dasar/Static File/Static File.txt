@@ -1,4 +1,4 @@
-/** Statuc File
+/** Static File
  * Untuk menambahkan static file, kita bisa dengan mudah menambahkan ke dalam folder public 
  * Secara otomatis ketika kita mengakses url ke file static, maka web Server akan mencari static file
    terlebih dahulu, jika tidak ada, maka terakhir akan dikirim requestnya ke index.php

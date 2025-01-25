@@ -1,0 +1,9 @@
+/** Hidden Attributes
+ * Di Laravel, pada Model kita bisa menyembunyikan attribute agar tidak bisa diakses dari luar atau agar tidak
+   diikut sertakakn ketika melakukan serialisasi ke json atau array
+ * Atau kita telah membuat accessor ke suatu property dengan nama yg beda dan tidak ingin property asal bisa diakses
+*/
+
+contoh accessor ada di Person.php
+
+// penjelasan lainnya di Serialization/Hidden Attributes.txt

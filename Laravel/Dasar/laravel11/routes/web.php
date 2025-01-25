@@ -195,3 +195,6 @@ Route::get('/abort/401', function(){
 Route::get('/abort/500', function(){
     abort(500);
 });
+Route::get('/abort/json', function(){
+    abort(response()->json(['message' => "unathoraized"], status: 401));
+});

@@ -24,14 +24,8 @@ class Person extends Model
     protected function fullName(): Attribute
     {
         return Attribute::make(
-            get: fn() => "$this->first_name $this->last_name",
-            set: function (string $value) {
-                $names = mb_split(' +', $value, 2);
-                return [
-                    'first_name' => $names[0],
-                    'last_name' => $names[1] ?? ''
-                ];
-            }
+            get: fn() => $this->full_name,
+            set: fn($value)=> ['full_name' => $value]
         );
     }
 

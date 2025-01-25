@@ -49,11 +49,11 @@ class LoggingTest extends TestCase {
     }
 
     public function testDiscordWebhook(): void {
-        self::markTestSkipped("Supaya tidak mengirim pesan ke Discord");
+        // self::markTestSkipped("Supaya tidak mengirim pesan ke Discord");
         $logger = new \Monolog\Logger("Discord");
         $logger->pushHandler(new \Tests\Handlers\DiscordHandler("https://discord.com/api/webhooks/1248793056313081908/28vFg7Qik6YbZhc73ATWn2IUhR8e-C1z6AQJTQoLbV3ssIzXAD_l1H342Jf_KK6dfgxy"));
 
-        $logger->info("Monolog PHP");
+        $logger->info("okeh @ngokngok0116");
 
         $this->assertTrue(true);
     } 

@@ -1,5 +1,5 @@
 /** Laravel Entry Point 
- * Entry Point atau masuk masuk utama Laravel sebenarnya adalah index.php yang terdapat di folder public
+ * Entry Point atau tempat masuk utama Laravel sebenarnya adalah index.php yang terdapat di folder public
  * Ketika kita melakukan request /hello, sebenarnya kita mengakses /index.php/hello. hal ini sudah saya 
    jelaskan di PHP MVC
  * Lantas bagaimana jika kita ingin menambahkan file static? Misal JavaScript, CSS, HTML, Gambar dan lain-lain?
