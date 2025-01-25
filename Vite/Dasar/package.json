@@ -1,0 +1,10 @@
+{
+  "name": "vite-dasar",
+  "module": "index.js",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vite": "^5.4.0"
+  },
+  "type": "module",
+  "dependencies": {}
+}
