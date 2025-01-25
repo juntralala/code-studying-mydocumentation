@@ -79,6 +79,6 @@ function validateLength(ReflectionProperty $property, object $object){
 $request = new LoginRequest();
 
 $request->username = "ujun";
-$request->password = "1234";
+$request->password = "12111111111111111111111111134";
 
 validate($request);

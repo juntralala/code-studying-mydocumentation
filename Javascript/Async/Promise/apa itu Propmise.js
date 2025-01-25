@@ -20,7 +20,7 @@
 
 
 // Kode: Membuat Promise         (ini contoh saja, jangan di run!)
-const promise = new Promise(function(resolve, reason){
+const promise = new Promise(function(resolve, reject){
     if(success){
         resolve(value)
     } else {

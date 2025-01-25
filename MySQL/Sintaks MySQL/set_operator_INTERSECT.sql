@@ -11,4 +11,4 @@ SELECT DISTINCT email FROM customers
 WHERE email IN (SELECT DISTINCT email FROM guestbook);
 
 SELECT email FROM customers 
-INNER JOIN guestbooks ON (guestbooks.email = customers.email );
+INNER JOIN guestbooks ON (guestbooks.email = customers.emailcl);

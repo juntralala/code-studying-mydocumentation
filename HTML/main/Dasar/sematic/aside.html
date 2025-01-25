@@ -1,0 +1,36 @@
+<h1>Aside</h1>
+<p style="width: 60vw;">
+
+    Elemen &lt;aside&gt; memiliki dua tujuan, tergantung kita menempatkannya di dalam sebuah elemen &lt;article&gt; atau
+    tidak.
+    Ketika elemen ini ditempatkan di dalam elemen &lt;article&gt;, elemen ini dapat berisi informasi yang berhubungan
+    dengan artikel tersebut, tetapi bukan bagiandari konten artikelnya itu sendiri (dipisahkan dari konten utama).
+
+    Ketika ditempatkan di luar elemen&lt;article&gt;, elemen ini dapat berisi informasi yang berhubungan pada keseluruhan halaman.
+    Elemen &lt;aside&gt; biasanya terletak di samping dari sebuah elemen yang menampungnya.
+</p>
+<div id="content">
+    <pre></pre>
+</div>
+<script>
+    document.querySelector('#content > pre').innerText = `
+    <main>
+        <article>
+          <!-- ...... -->
+        </article>
+       
+        <aside>
+          <article>
+            <header>
+              <h2>Kota Bandung</h2>
+              <p>Kota Kembang Paris van Java</p>
+              <figure>
+                <img src="img/bandung-badge.png" />
+                <figcaption>Lambang</figcaption>
+              </figure>
+            </header>
+          </article>
+        </aside>
+      </main>
+    `
+</script>
