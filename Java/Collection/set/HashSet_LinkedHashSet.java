@@ -1,3 +1,5 @@
+package set;
+
 /**
 * dibelakang HashSet dan LinkedHashSet sebenarnya sama-sama ada hash table, dimana data di simpan didalam hash table dengan mengkalkulasikan hashCode() function
 * yang membedakan adalah, HashSet tidak menjamin data terurut sesuai dengan waktu kita memasukkan data, sedangkan LinkedHashSet menjamin data trurut sesuai waktu kita memasukkan data

@@ -1,3 +1,5 @@
+package map;
+
 /**
 * IdentityHashMap adalah implementasi Map sa seperti HashMap
 * yang membedakan adalah cara pengecekan kesamaan datanya, tidak menggunakan method equals() melainkan menggunakan ==(references equality)

@@ -1,3 +1,4 @@
+package set;
 /**
 * EnumSet adalah Set yang elemen datanya harus Enum
 * karena data Enum itu unik, sehingga sangat cocok menggunakan Set dibadingkan List

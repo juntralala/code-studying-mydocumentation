@@ -1,4 +1,4 @@
-/**
+package map; /**
 * WeakHashMap adalah implementasi Map sama seperti HashMap
 * yang membesakan adalah WeakHashMap menggunakan weak key, dimana jika tidak digunakan lagi maka secara otomatis data WeakHashMap akan di hapus
 * artinya jika terjadi garbage collection di java, bisa dimungkinkan data di WeakHashMap akan dihapus
@@ -15,6 +15,7 @@ public class WeakHashMapApp {
         for(int i = 0; i < 1000_000 ; i++) {
             myIndentity.put(String.valueOf(i), String.valueOf(i));
         }
+        myIndentity.get(1);
         
         System.gc(); // mengaktigkan garbage collection
         
