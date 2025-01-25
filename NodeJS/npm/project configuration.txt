@@ -1,0 +1,21 @@
+/** package.json 
+ * Inti dari konfigurasi dari NodeJS adalah package.json
+ * File package.json merupakan konfigurasi yg berupa fotmat json untuk project NodeJS yg kita buat
+ */
+
+/** Keys
+    +===============+===========================+
+    | Attribute     | Description               |
+    +---------------+---------------------------+
+    | name          | Nama project / package    |
+    | version       | Versi project             |
+    | description   | Deskripsi Project         |
+    | homepage      | Home page project         |
+    | author        | Author Project            |
+    | contributors  | Nama-nama contributors project
+    | main          | entry point package       |
+    | keywords      | Keyword pencarian         |
+    | license       | Lisensi project           |
+    | repository    | Repository project        |
+    +===============+===========================+
+ */

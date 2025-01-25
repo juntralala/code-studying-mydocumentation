@@ -1,0 +1,24 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "author": "juntralala",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juntralala/code-studying-mydocumentation",
+    "directory": "NodeJS/npm"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "description": "Belajar NPM di NodeJS",
+  "license": "ISC",
+  "scripts": {
+    "prestart": "echo 'Before Command Start Execution'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "start": "node index.js"
+  },
+  "type": "module"
+}

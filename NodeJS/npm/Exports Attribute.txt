@@ -1,0 +1,15 @@
+/** exports
+ * Problem ketika kita menggunakan attribute main adalah, kita cuma bisa mengekspos satu file JS, oleh karena itu
+   penggunaan attribute main sebenarnya sudah tidak direkomendasikan lagi
+ * Sebagai penggantinya, terdapat attribute export yang bisa digunakan sebagai konfigurasi untuk mengekspos file JS
+ * Yang menarik dari fitur export ini, kita bisa membuat alias ketika mengekspos file JS, sehingga tidak perlu
+   menggunakan nama file JS aslinya
+ */
+
+/** menggunakan Modul
+ * Untuk menggunakan module yang sudah di export, kita cukup gunakan import dari nama module yang di export
+   tersebut, namun ganti tanda . (titik) dengan nama package yang ada di package.json
+ * Misal :
+   - “.” menjadi “belajar-nodejs-npm”
+   - “./write” menjadi “belajar-nodejs-npm/write”
+ */

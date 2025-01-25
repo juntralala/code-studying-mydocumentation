@@ -1,0 +1,7 @@
+/**
+ * Untuk menjalankan script, kita bisa gunakan NPM dengan perintah :
+   - npm run-script namascript
+ * atau bisa juga dengan perintah :
+   - npm run namaScript
+   - bun run namaScript
+ */

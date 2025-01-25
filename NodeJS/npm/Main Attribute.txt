@@ -1,0 +1,9 @@
+/**
+ * Sampai saat ini, kita tidak pernah membahas tentang attribute main di package.json
+ * Attribute main adalah entry point yang akan di-load ketika kita me-load NodeJS Project / Package
+ * Pada kasus ketika kita membuat aplikasi, mungkin tidak terlalu berguna, tapi pada kasus ketika kita membuat
+   library yang akan digunakan di banyak project, baru attribute main ini akan terlihat kegunaanya
+ */
+
+// tapi sebenarnya fitur ini sudah tidak disarankan karna keterbatasan hanya bisa untuk satu file,
+// Attribute "exports" bisa kita gunakan sebagai gantinya 

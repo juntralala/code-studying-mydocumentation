@@ -1,0 +1,6 @@
+/**
+ * NPM memiliki fitur yang bernama script, dimana kita bisa menyediakan perintah script yang nanti bisa digunakan
+   untuk menjalankan perintah lainnya
+ * Penggunaan script ini biasanya digunakan untuk mempermudah ketika kita menjalankan perintah yang panjang
+ * Untuk menambahkan script, kita bisa tambahkan script nya di package.json
+ */

@@ -1,0 +1,8 @@
+/** 
+ * Untuk menjalankan project, sebenarnya yg akan kita lakukan sama seperti kita menjalankan script nodeJS
+   seperti biasanya 
+ * kita bisa gunakan perintah :
+   node filescript.js
+ * Yang membedakan adalah, (pada proses dibelakang) NodeJS sebelum menjalankan filenya, dia akan membaca konfigurasi
+   dari package.json terlebih dahulu
+ */
