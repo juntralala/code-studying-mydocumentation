@@ -7,6 +7,7 @@ out/
 target/
 __pycache__/
 vendor/
+node_modules/
 
 # mengignore semua file ber extensi .exe
 *.exe
