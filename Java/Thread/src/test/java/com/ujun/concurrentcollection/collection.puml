@@ -1,0 +1,44 @@
+@startuml
+
+
+interface BlockingQueue {
+}
+
+class LinkedBlockingQueue {
+}
+
+class ArrayBlockingQueue {
+}
+
+class DelayQueue {
+}
+
+class PriorityBlockingQueue {
+}
+
+class SynchronousQueue {
+}
+
+interface BlockingDeque {
+}
+
+class LinkedBlockingDeque {
+}
+
+interface TransferQueue {
+}
+
+class LinkedTransferQueue {
+}
+
+BlockingQueue <|-- TransferQueue
+BlockingQueue <|-- BlockingDeque
+BlockingQueue <|-- ArrayBlockingQueue
+BlockingQueue <|-- SynchronousQueue
+BlockingQueue <|-- LinkedBlockingQueue
+BlockingQueue <|-- DelayQueue
+BlockingQueue <|-- PriorityBlockingQueue
+BlockingDeque <|-- LinkedBlockingDeque
+TransferQueue <|-- LinkedTransferQueue
+
+@enduml
