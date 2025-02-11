@@ -1,0 +1,11 @@
+{
+  "age" : 30,
+  "married" : true,
+  "lastName" : "Junaidi",
+  "firstName" : "Muhammad",
+  "address" : {
+    "country" : "Imagian",
+    "city" : "Tambang Intan",
+    "street" : "Tanah Besi"
+  }
+}
