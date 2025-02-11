@@ -2,4 +2,4 @@ Salah satu plugin yang bisa kita gunakan untuk membuat distribution file beserta
 adalah Assble Plugin
 maven.apache.org/plugins/maven-assembly-plugin/usage.html
 Tidak hanya Assemly Plugin, sebenarnya masih banyak lagi plugin lain yang bisa kita gubakan untuk membuat distribution file
-Untuk membuat distribution file, kita bisa menggunakan perintah mvn package assmbly:single
+Untuk membuat distribution file, kita bisa menggunakan perintah mvn package assembly:single
