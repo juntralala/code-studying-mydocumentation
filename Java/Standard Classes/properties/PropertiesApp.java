@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Properties;
 
 /**
@@ -41,7 +43,7 @@ public class PropertiesApp  {
         }
 
         try {
-            prop.load(new FileInputStream("properties/data.properties"));
+            prop.load(new FileInputStream("properties/myData.properties"));
 
             // menyimpan data
             prop.put("saya.nama", "Muhammad Junaidi");
