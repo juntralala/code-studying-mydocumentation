@@ -1,0 +1,4 @@
+livewire memiliki cara khusus untuk mengganti title page, terutama yang dinamis
+cek dokuemntasi : https://livewire.laravel.com/docs/components#setting-the-page-title
+
+// caranya ada 2, cek docs

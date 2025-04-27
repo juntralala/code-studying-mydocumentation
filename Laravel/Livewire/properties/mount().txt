@@ -1,0 +1,3 @@
+initializing properties
+
+https://livewire.laravel.com/docs/properties#initializing-properties

@@ -1,0 +1,3 @@
+dengan directive @script, @script akan dieksuksi tiapkali instance livewire di initialisasi
+
+https://livewire.laravel.com/docs/components#using-javascript

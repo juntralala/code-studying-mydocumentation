@@ -1,0 +1,3 @@
+pull() mereset property dan menrima data dari function mount()
+
+https://livewire.laravel.com/docs/properties#pulling-properties

@@ -1,0 +1,2 @@
+Memungkinkan menggunakan layout yang sudah ada yang menggunakan cara layout tradtional menggunakan @extends
+docs: https://livewire.laravel.com/docs/components#per-component-layout-configuration

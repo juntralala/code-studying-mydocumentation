@@ -1,0 +1,2 @@
+Kamu bisa melakukan konfigurasi untuk layout dasar secara global fullpage-component di live-wire.
+docs : https://livewire.laravel.com/docs/components#global-layout-configuration

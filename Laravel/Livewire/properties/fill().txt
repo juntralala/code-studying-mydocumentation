@@ -1,0 +1,3 @@
+Bulk assignment (alternative of mount for bulk assignment)
+
+https://livewire.laravel.com/docs/properties#bulk-assignment

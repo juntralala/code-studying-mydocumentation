@@ -1,0 +1,1 @@
+contohnya ada di App\Livewire\ModelLive

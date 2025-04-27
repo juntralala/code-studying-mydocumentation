@@ -1,0 +1,3 @@
+Kamu bisa melakukan konfigurasi untuk layout dasar fullpage-component di live-wire.
+cek dokumentasi untuk caranya (caranya ada 3)
+docs : https://livewire.laravel.com/docs/components#per-component-layout-configuration

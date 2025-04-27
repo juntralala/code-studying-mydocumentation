@@ -1,0 +1,3 @@
+reset() mengatur ulang property ke keadaan sebelum mount() dipanggil, sedangkan pull() sebaliknya
+
+https://livewire.laravel.com/docs/properties#resetting-properties

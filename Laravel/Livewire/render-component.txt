@@ -1,0 +1,2 @@
+1. menggunakan syntax <wire:component-name>
+2. Full page component : langsung memberikan nama class pada route get

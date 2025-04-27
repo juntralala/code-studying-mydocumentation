@@ -1,0 +1,4 @@
+me-load asset. 
+@asset tidak dieksekusi tiap kali instance livewire di initialisasi tidak seperti @script 
+
+https://livewire.laravel.com/docs/components#loading-assets
