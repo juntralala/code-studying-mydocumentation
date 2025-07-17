@@ -1,0 +1,27 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="belajar-jpa">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!--    Entity classes  -->
+        <class>com.juntralala.entity.Customer</class>
+        <class>com.juntralala.entity.Category</class>
+        <class>com.juntralala.entity.Member</class>
+        <class>com.juntralala.entity.User</class>
+        <class>com.juntralala.entity.Student</class>
+        <class>com.juntralala.entity.Credential</class>
+        <class>com.juntralala.entity.Wallet</class>
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://172.20.82.191:3306/jpa"/>
+
+<!--            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create" />-->
+
+            <property name="jakarta.persistence.jdbc.user" value="super"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
