@@ -1,0 +1,4 @@
+# Message Source Aware
+* Jika kita ingin menggunakan MessageSource, kita juga bisa menggunakan MessageSourceAware
+* https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/MessageSourceAware.html
+* Atau sebenarnya, ApplicationContext adalah turunan dari MessageSource

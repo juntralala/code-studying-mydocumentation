@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{acceptLanguage}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+</head>
+<script>
+</script>
+<body>
+<h1>Konversi Suhu</h1>
+
+<form action="/temperature/conversion" method="post">
+    <label for="temperature">
+        <input name="temperature" type="text" pattern="[0-9]*" inputmode="numeric">
+    </label>
+    <label for="type">
+        <select name="type">
+            <option value="celsius" {{#isCelsius}} selected {{/isCelsius}}>Celsius</option>
+            <option value="kelvin" {{^isCelsius}} selected {{/isCelsius}}>Kelvin</option>
+        </select>
+    </label>
+    <label for="conversionType">
+    <select name="conversionType">
+        <option value="celsius" {{^isCelsius}} selected {{/isCelsius}}>Celsius</option>
+        <option value="kelvin" {{#isCelsius}} selected {{/isCelsius}}>Kelvin</option>
+    </select>
+    </label>
+    <button type="submit">Konversi</button>
+</form>
+{{#result}}
+    <h1>Hasil : <span id="result">{{result}}</span> {{conversionType}}</h1>
+{{/result}}
+</body>
+</html>

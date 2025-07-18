@@ -1,0 +1,6 @@
+# Format Query Method
+* Untuk melakukan query yang mengembalikan data lebih dari satu, kita bisa gunakan prefix findAll…
+* Untuk melakukan query yang mengembalikan data pertama, kita bisa gunakan prefix findFirst…
+* Selanjutnya diikuti dengan kata By dan diikuti dengan operator query nya
+* Untuk operator query yang didukung, kita bisa lihat di halaman ini
+* https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation 

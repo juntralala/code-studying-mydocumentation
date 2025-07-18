@@ -1,0 +1,11 @@
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 100
+    scheduling:
+      pool:
+        size: 2
+      thread-name-prefix: my-name-schedule-

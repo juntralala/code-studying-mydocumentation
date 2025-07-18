@@ -1,0 +1,36 @@
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+server:
+  port: 8080
+
+spring:
+  security:
+    user:
+      name: jun
+      password: rahasia
+  threads:
+    virtual:
+      enabled: true
+  application:
+    title: Belajar Spring Security 2
+  datasource:
+    username: super
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_security2
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 1
+      maximum-pool-size: 10
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+  session:
+    timeout: 30m
+    jdbc:
+      initialize-schema: always
+      table-name: SPRING_SESSION
+      schema: classpath:org/springframework/session/jdbc/schema-@@platform@@.sql

@@ -1,0 +1,33 @@
+logging:
+  level:
+#    root: WARN
+    org.springframework.security.web: DEBUG
+    org.springframework.boot.autoconfigure.security: WARN
+
+spring:
+  security:
+    user:
+      name: ujun
+      password: rahasia
+  threads:
+    virtual:
+      enabled: true
+  datasource:
+    username: super
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_security
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 1
+      maximum-pool-size: 10
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+  session:
+    timeout: 10000000000
+    jdbc:
+      initialize-schema: always
+      table-name: SPRING_SESSION
+      schema: classpath:org/springframework/session/jdbc/schema-@@platform@@.sql
