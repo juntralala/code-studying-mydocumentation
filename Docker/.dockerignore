@@ -1,0 +1,4 @@
+# kumpulan file/folder yang akan diignore dari instruksi COPY atau ADD
+# bisa menggunakan regular expression
+text/*.txt
+*/cache/*
