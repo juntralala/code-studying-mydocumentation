@@ -18,7 +18,7 @@ public class ThreadDaemonApp {
             }
         });
 
-        thread.setDaemon(true); // <- aktifkan dan noaktifkan daemon
+        thread.setDaemon(false); // <- aktifkan dan noaktifkan daemon
         thread.start();
         System.out.println("Program selesai");
     }

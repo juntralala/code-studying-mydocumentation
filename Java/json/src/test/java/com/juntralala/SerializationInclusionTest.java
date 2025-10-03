@@ -15,7 +15,6 @@ import java.util.List;
  * Kita bisa mengubah cara Jackson melakukan include field mana saja yang akan dibuat sebagai attribute di JSON dengan menggunakan attribute Serialization Inclusion
  * https://fasterxml.github.io/jackson-annotations/javadoc/2.7/com/fasterxml/jackson/annotation/JsonInclude.Include.html
  */
-
 public class SerializationInclusionTest {
 
     @Test

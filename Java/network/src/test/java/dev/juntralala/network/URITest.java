@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
- * instanciate URI dengan constructor yang schemenya terpisah dengan bagian uri lain akan melakukan url encode otomatis untuk special character atau character invalid di uri
+ * instanciate URI dengan constructor yang schemenya terpisah dengan bagian uri lain akan melakukan escape character otomatis untuk special character atau character invalid di uri
  */
 public class URITest {
 
@@ -46,6 +46,7 @@ public class URITest {
         assertDoesNotThrow(() -> {
             new URI("https://youtube.com");
             new URI("/hello");
+            new URI("hello");
         });
     }
 
@@ -62,6 +63,7 @@ public class URITest {
         assertDoesNotThrow(() -> {
             var uri = new URI("http", "//localhost:80/hello?name=jun tralala", null);
             System.out.println("uri = " + uri);
+            new URI(null, "hello", null);
         });
     }
 
@@ -114,5 +116,22 @@ public class URITest {
             }
         }
         System.out.println("uncalled: " + unCalledMethods);
+    }
+
+    @Test
+    public void testResolve() {
+        var base = URI.create("http://localhost/api/?key=anu");
+        var relative = URI.create("hello?name=saya");
+        var result = base.resolve(relative);
+        System.out.println(result);
+
+        System.out.println(URI.create("/hello/apa").resolve(base));
+        System.out.println(base.resolve(URI.create("hello/apa")));
+
+        System.out.println(base.resolve("http://localhost:8080/hello"));
+
+        // kalau lupa, baca dokumentasi java URI untuk 2 dibawah ini
+        System.out.println(URI.create("http://localhost:"));
+        System.out.println(URI.create("file:///temp"));
     }
 }

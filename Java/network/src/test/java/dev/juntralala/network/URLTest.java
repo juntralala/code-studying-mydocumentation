@@ -5,10 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URI;
-import java.net.URL;
-import java.net.URLConnection;
+import java.net.*;
 
 /**
  * Sejak java 20, semua constructor URL sudah deprecated, lebih desarankan menggunakan URI.toURL()
@@ -43,6 +40,18 @@ public class URLTest {
 
         String data = new String(inputStream.readAllBytes());
         System.out.println(data);
+    }
+
+    @Test
+    public void test() throws MalformedURLException {
+        var uri1 = URI.create("http://localhost:8080");
+        var uri2 = URI.create("http://127.0.0.1:8080");
+
+        System.out.println(uri1.equals(uri2));
+
+        var url1 = uri1.toURL();
+        var url2 = uri2.toURL();
+        System.out.println(url1.equals(url2));
     }
 
 }

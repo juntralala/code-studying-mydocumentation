@@ -18,6 +18,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+import java.time.Duration;
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
@@ -33,13 +35,13 @@ public class SecurityConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .httpBasic(Customizer.withDefaults())
 //                .formLogin(Customizer.withDefaults())
-                .sessionManagement(configurer -> configurer.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)
-                .sessionManagement(session -> session
+                .sessionManagement(configurer -> configurer
+                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                         .sessionFixation().changeSessionId())
+                .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)
                 .rememberMe(remember -> remember
                         .key("somthingthatsecret")
-                        .tokenValiditySeconds(60 * 60 * 24 * 15)) // 15 hari
+                        .tokenValiditySeconds((int) Duration.ofDays(15).toSeconds())) // 15 hari
                 .build();
     }
 

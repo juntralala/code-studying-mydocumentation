@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 public class JpaApplication {
 
     public static void main(String[] args) {
-        int[] a = new int[]{1, 2};
         SpringApplication.run(JpaApplication.class, args);
     }
 
