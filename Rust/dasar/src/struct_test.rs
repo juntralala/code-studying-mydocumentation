@@ -41,6 +41,11 @@ fn struct_test() {
     let Person{name, age} = ujun;           // nah ownership name terpindah
     // destructuring struct (dan mengabaikan sisanya)
     let Person{name, ..} = ozon;
+
+    let ujun = Person{
+        name, // gak perlu nulis nama field, kalo ngambil nilai dari variable dengan nama yang sama
+        age,
+    };
 }
 
 // tuple struct

@@ -7,7 +7,16 @@ mod function_return;
 mod slice_test;
 mod struct_test;
 mod method_dan_associated_function;
-mod closure_anonymous_function;
+mod closure_or_anonymous_function;
+mod trait_test;
+mod super_keyword_pada_nested_module;
+mod generic;
+mod optional_value_atau_nilai_kosong;
+mod overloadable_operator;
+mod string_manipulation;
+mod error_handling;
+mod iterators;
+mod lifetime;
 
 fn main() {
     println!("Hello world");

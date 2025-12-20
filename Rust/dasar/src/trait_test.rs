@@ -12,6 +12,12 @@ trait CanSayHello {
     fn hello(&self, name: String); // bisa juga ini dikasih body method, sama kyak java, namanya default implementation
 }
 
+trait CanSayGoodBye {
+    fn goodbye(&self, name: String) { // bisa punya default implementation
+        println!("bye {}", name);
+    }
+}
+
 struct Person {} 
 
 impl CanSayHello for Person {
@@ -19,8 +25,13 @@ impl CanSayHello for Person {
         println!("hello {}", name);
     }
 }
+impl CanSayGoodBye for Person { // mengimplementasikan trait lebih 1
+    fn goodbye(&self, name: String) {
+        println!("goodbye {}", name);
+    }
+}
 
-trait CanSay: CanSayHello { // <- super trait (mirip pewarisan kalau di oop) 
+trait CanSay: CanSayHello + CanSayGoodBye { // <- fitur super trait (mirip pewarisan kalau di oop), pakai + untuk mewarisi lebih dari 1 trait
 
 }
 
@@ -44,6 +55,13 @@ Saat kita buat implementasi dari Trait, Rust tidak akan menjadikan itu sebagai e
 Rust akan menjadikan itu error karena method nya ambigu, Rust akan komplen karena ada beberapa method dengan nama yang sama
 Cara agar kita bisa menentukan method yang ingin kita panggil, kita bisa sebutkan Type::nama_method(instance)
 */
+#[test]
+fn conflict_method_name() {
+    let person = Person{};
+    
+    Person::hello(&person, "ajid".to_string());
+    CanSayHello::hello(&person, "ajid".to_string());
+}
 
 /* Super Trait
 Trait bisa digabungkan dengan konsep mirip pewarisan, dimana satu Trait bisa memiliki memiliki beberapa Trait dibawahnya
