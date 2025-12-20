@@ -1,0 +1,1 @@
+// pakai pub di depan tipe, properti, function dan method

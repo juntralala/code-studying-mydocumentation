@@ -1,0 +1,3 @@
+// aritmatika: + - / * %
+// augmented asignment: += -= /= *= %=
+// logika: ! && ||
