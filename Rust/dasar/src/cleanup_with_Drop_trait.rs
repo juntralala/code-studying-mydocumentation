@@ -1,0 +1,1 @@
+// implementasi Drop trait untuk melakukan sesuatu sebelum instance struct dihapus dari memori

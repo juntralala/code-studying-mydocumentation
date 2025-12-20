@@ -17,6 +17,9 @@ mod string_manipulation;
 mod error_handling;
 mod iterators;
 mod lifetime;
+mod attribute_derive;
+mod dereference;
+mod macro_;
 
 fn main() {
     println!("Hello world");
