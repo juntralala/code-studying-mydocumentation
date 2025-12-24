@@ -22,7 +22,10 @@ mod dereference;
 mod macro_;
 
 fn main() {
-    println!("Hello world");
+    unsafe {
+        let teks = "Hello World";
+        println!("{:?}", teks.as_ptr());
+    }
 }
 
 

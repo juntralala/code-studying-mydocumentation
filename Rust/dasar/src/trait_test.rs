@@ -19,8 +19,14 @@ trait CanSayGoodBye {
 }
 
 struct Person {} 
+struct Orang {} 
 
 impl CanSayHello for Person {
+    fn hello(&self, name: String) {
+        println!("hello {}", name);
+    }
+}
+impl CanSayHello for Orang {
     fn hello(&self, name: String) {
         println!("hello {}", name);
     }
@@ -35,6 +41,21 @@ trait CanSay: CanSayHello + CanSayGoodBye { // <- fitur super trait (mirip pewar
 
 }
 
+/* Dispatch (tulisan sendiri, bukan copas ppt pak eko)
+Di trait rust ada yang namanya dispatch
+Definisi: menentukan implementasi function mana yang akan dipanggil (di compiletime atau runtime)
+Kalau secara praktek penulisan kode, kita menentukan tipe dengan trait terhadap suatu variable atau return.
+Trait dispatch ada di 3 tempat:
+1. Parameter
+2. Return function
+3. Generic Type
+(tidak bisa pada variable)
+
+dan kemudian dispatch terbagi 2:
+static: pada generic dan dengan keyword impl pada paramter dan return type (diketahui saat compile, lebih efisien)
+dynamic: dengan keyword dyn (diketahui saat runtime, sedikit terdapat overhead tambahan)
+*/
+
 /*
 Type itu bisa mengimplementasikan lebih dari satu Trait
 Oleh karena itu, saat kita membuat parameter juga, kita bisa buat satu parameter untuk beberapa tipe Trait
@@ -46,6 +67,16 @@ Selain untuk Parameter, Trait juga bisa digunakan sebagai Return Value di functi
 Namun seperti yang dijelaskan di awal, karen Trait tidak bisa dibuat instance-nya secara langsung, maka value yang kita kembalikan juga harus dalam bentuk implementasi Type nya
 Untuk membuat Trait sebagai return value, kita perlu sebutkan seperti Parameter, yaitu impl NamaTrait nya
 */
+fn newPerson() -> impl CanSayHello { // <- static dispatch, cuman bisa return satu type
+    Person{} // hanya bisa return satu tipe disemua path branch code, kalau mau banyak tipe pakai Box<dyn TraitName>
+}
+fn new() -> Box<dyn CanSayHello> { // dynamic dispatch
+    if(true) {
+        Box::new(Person{}) // type 1
+    } else {
+        Box::new(Orang{}) // type 2
+    }
+}
 
 /* conflict method name
 Salah satu problem ketika menggunakan beberapa Trait adalah, kadang nama method di Trait bentrok atau konflik dengan method di Trait lainnya
