@@ -3,7 +3,6 @@ package dev.juntralala.nio.channel;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
@@ -12,7 +11,6 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
 
-import static java.nio.channels.SelectionKey.OP_CONNECT;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 /*
@@ -52,7 +50,7 @@ public class SocketChannelTest {
         channel.configureBlocking(false);
         channel.connect(new InetSocketAddress("localhost", 8080));
         while (!channel.finishConnect()) { // connect() bisa belum selesai, jadi harus tunggu dulu sebelum proses selanjutnya
-            if (channel.finishConnect()) break;
+            if (channel.finishConnect()) break; // finishConnect wajib dipanggil di non-blocking socket, karna method connect saja tidak menyelesaikan koneksi
         }
 
         var buffer = ByteBuffer.allocate(64);
@@ -79,57 +77,138 @@ public class SocketChannelTest {
     }
 
     @Test
-    public void testNonBlockingWithSelector() throws IOException { // bisa pakai beberapa socket langsung by the way (masih ada yang salah, dah lah muak dan malas)
-        ByteBuffer buffer = ByteBuffer.wrap("Muhammad junaidi".getBytes(UTF_8));
-        SocketChannel socket = SocketChannel.open();
-        socket.configureBlocking(false);
-        socket.connect(new InetSocketAddress("localhost", 8080));
-        Selector selector = Selector.open();
-        socket.register(selector, OP_CONNECT, buffer);
+    public void testNonBlockingWithSelector() throws IOException {
+        Selector selector = null;
+        SocketChannel socket = null;
 
-        while (true) {
-            selector.select();
+        try {
+            // 1. Setup
+            socket = SocketChannel.open();
+            socket.configureBlocking(false);
+            selector = Selector.open();
 
-            Set<SelectionKey> keys = selector.selectedKeys();
-            Iterator<SelectionKey> keyIterator = keys.iterator();
-            if (keyIterator.hasNext()) {
-                SelectionKey key = keyIterator.next();
-                keyIterator.remove();
+            // 2. Connect
+            socket.connect(new InetSocketAddress("localhost", 8080));
+            ByteBuffer writeBuffer = ByteBuffer.wrap("Muhammad junaidi".getBytes(UTF_8));
+            socket.register(selector, SelectionKey.OP_CONNECT, writeBuffer);
 
-                if (key.isValid()) {
+            // 3. State tracking
+            boolean isConnected = false;
+            boolean dataSent = false;
+            boolean dataReceived = false;
+
+            // 4. Event loop
+            while (!dataReceived) {
+                // Block until event available (with timeout)
+                int readyChannels = selector.select(10_000);
+
+                if (readyChannels == 0) {
+                    System.out.println("Timeout waiting for events");
                     break;
                 }
 
-                if (key.isConnectable()) {
-                    System.out.println("Connected to " + socket.getRemoteAddress());
-                } else {
-                    break;
-                }
-                if (key.isReadable()) {
-                    SocketChannel sc = (SocketChannel) key.channel();
-                    ByteBuffer buf = ByteBuffer.allocate(8);
-                    int byteCount = sc.read(buf);
-                    buf.flip();
-                    if (byteCount > 0) {
-                        byte[] bytes = new byte[byteCount];
-                        System.out.println(new String(bytes));
-                    }
-                    buf.clear();
-                }
-                if (key.isWritable()) {
-                    SocketChannel sc = (SocketChannel) key.channel();
-                    ByteBuffer buf = (ByteBuffer) key.attachment();
-                    sc.write(buf);
+                // 5. Process all ready keys
+                Set<SelectionKey> selectedKeys = selector.selectedKeys();
+                Iterator<SelectionKey> keyIterator = selectedKeys.iterator();
 
-                    while (buf.hasRemaining()) {
-                        socket.write(buf);
+                while (keyIterator.hasNext()) {
+                    SelectionKey key = keyIterator.next();
+                    keyIterator.remove(); // ALWAYS remove processed key
+
+                    try {
+
+                        // CONNECT event
+                        if (key.isConnectable() && !isConnected) {
+                            SocketChannel channel = (SocketChannel) key.channel();
+
+                            // Finish connection
+                            if (channel.isConnectionPending() && channel.finishConnect()) {
+                                System.out.println("✓ Connected to " + channel.getRemoteAddress());
+                                isConnected = true;
+                                // Switch to WRITE mode
+                                key.interestOps(SelectionKey.OP_WRITE);
+                            } else {
+                                System.err.println("✗ Failed to finish connection");
+                                dataReceived = true; // exit loop
+                            }
+                        }
+
+                        // WRITE event
+                        if (key.isWritable() && isConnected && !dataSent) {
+                            SocketChannel channel = (SocketChannel) key.channel();
+                            ByteBuffer buffer = (ByteBuffer) key.attachment();
+
+                            // Write data
+                            int bytesWritten = channel.write(buffer);
+
+                            if (!buffer.hasRemaining()) {
+                                System.out.println("✓ Sent " + buffer.position() + " bytes");
+                                dataSent = true;
+
+                                // Switch to READ mode
+                                key.interestOps(SelectionKey.OP_READ);
+
+                                // Replace attachment with read buffer
+                                ByteBuffer readBuffer = ByteBuffer.allocate(1024);
+                                key.attach(readBuffer);
+                            }
+                        }
+
+                        // READ event
+                        if (key.isReadable() && dataSent) {
+                            SocketChannel channel = (SocketChannel) key.channel();
+                            ByteBuffer buffer = (ByteBuffer) key.attachment();
+
+                            // Read data
+                            int bytesRead = channel.read(buffer);
+
+                            if (bytesRead == -1) {
+                                // Server closed connection
+                                System.out.println("✗ Connection closed by server");
+                                dataReceived = true; // exit loop
+                            } else if (bytesRead > 0) {
+                                // Process received data
+                                buffer.flip();
+                                byte[] data = new byte[buffer.remaining()];
+                                buffer.get(data);
+                                System.out.println("✓ Received: " + new String(data, UTF_8));
+
+                                dataReceived = true; // exit loop
+                            }
+                        }
+
+                    } catch (IOException e) {
+                        System.err.println("✗ Error processing key: " + e.getMessage());
+                        key.cancel();
+                        key.channel().close();
+                        dataReceived = true; // exit on error
                     }
+                }
+            }
+
+            System.out.println("✓ Communication completed");
+
+        } catch (IOException e) {
+            System.err.println("✗ Fatal error: " + e.getMessage());
+            throw e;
+        } finally {
+            // 6. Cleanup
+            if (socket != null && socket.isOpen()) {
+                try {
                     socket.close();
-                    buf.clear();
+                    System.out.println("✓ Socket closed");
+                } catch (IOException e) {
+                    System.err.println("✗ Error closing socket: " + e.getMessage());
+                }
+            }
+            if (selector != null && selector.isOpen()) {
+                try {
+                    selector.close();
+                    System.out.println("✓ Selector closed");
+                } catch (IOException e) {
+                    System.err.println("✗ Error closing selector: " + e.getMessage());
                 }
             }
         }
-
-        socket.close();
     }
 }
