@@ -10,4 +10,4 @@
 
 // php artisan make:model Voucher --migration --seed
 // contohnya ada di app/Models/Voucher.php
-// contohnya ada di tests/Feature/UuidTest::testCreateUuid()
+// contohnya ada di tests/Feature/UuidTest::testCreateUuid()    

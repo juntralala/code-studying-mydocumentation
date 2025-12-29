@@ -31,10 +31,10 @@ public class MessageFormatTypeChoiceTest {
     public void testChoiceFormatOnResourceBundleIndonesia() {
         var locale = Locale.of("id", "ID");
         var bundle = ResourceBundle.getBundle("message", locale);
-        String pattern = bundle.getString("balance");
+        String pattern = bundle.getString("message.balance");
 
         MessageFormat messageFormat = new MessageFormat(pattern, locale);
-        String formatted = messageFormat.format(new Object[]{120_000_000.213});
+        String formatted = messageFormat.format(new Object[]{120_000_000.213, 20_999});
         System.out.println(formatted);
     }
 
