@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ripple</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+        background-color: blue;
+      }
+      * {
+        box-sizing: inherit;
+      }
+
+      .ripple-container {
+        position: relative;
+      }
+
+      .ripple {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.4);
+        /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
+        filter: blur(1px);
+        transform: scale(0);
+        position: absolute;
+        animation: ripple 500ms ease-out;
+        pointer-events: none;
+      }
+
+      @keyframes ripple {
+        to {
+          transform: scale(2);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ripple-container" style="height: 100dvh"></div>
+
+    <script>
+      function rippleClick(e) {
+        const ripple = document.createElement("div");
+        ripple.classList.add("ripple");
+        const rect = e.target.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        ripple.style.top = y - 40 + "px";
+        ripple.style.left = x - 40 + "px";
+
+        e.target.appendChild(ripple);
+        setTimeout(() => ripple.remove(), 1_000);
+      }
+
+      const container = document.querySelector(".ripple-container");
+      container.addEventListener("mousedown", rippleClick);
+    </script>
+  </body>
+</html>

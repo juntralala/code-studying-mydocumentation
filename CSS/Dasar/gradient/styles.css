@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    gap: 20px;
+}
+
+body > div {
+    aspect-ratio: 16/9;
+    width: 200px;
+}
+
+body > div:first-child {
+    background: linear-gradient(to right, rgb(138, 169, 255), blue);
+}
+
+body > div:nth-child(2) {
+    background: radial-gradient(rgb(189, 0, 0), blue);
+}
+
+body > div:nth-child(3) {
+    border-radius: 50%;
+    background: conic-gradient( rgb(6, 136, 34) 25%, red 25% 66%, blue 66% 100%);
+}
