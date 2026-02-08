@@ -1,0 +1,17 @@
+{
+    "name": "juntralala/learn-carbon",
+    "autoload": {
+        "psr-4": {
+            "Juntralala\\LearnCarbon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "juntralala",
+            "email": "ujun.muhammadjunaidi@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^3.11"
+    }
+}
