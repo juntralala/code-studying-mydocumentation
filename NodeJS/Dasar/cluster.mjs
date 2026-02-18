@@ -21,6 +21,6 @@ if(cluster.isWorker){
         response.end()
         process.exit()
     })
-    server.listen(80)
+    server.listen(8080)
     console.info(`Start cluster worker ${process.pid}`)
 }

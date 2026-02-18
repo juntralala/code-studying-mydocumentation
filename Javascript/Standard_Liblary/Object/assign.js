@@ -1,6 +1,8 @@
 /** Object Assign 
- * Kadang ada kasus  menggabungkan semua attribute dari sebuah object ke object lain
+ * Kadang ada kasus menggabungkan semua attribute dari sebuah object ke object lain
  * Hal ini bisa kita lakukan dengan menggunakn Object.assign(target, source)
+ * 
+ * bisa juga buat mengcopy object
 */
 
 // contoh 1
@@ -21,3 +23,6 @@ Object.assign(target2, source2) // lastName: "Humaidi" akan di timpa
 
 console.log("target : ", target2)
 console.log("source : ", source2)
+
+const copyData = Object.assign({}, target2);
+console.log(copyData);

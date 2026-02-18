@@ -11,4 +11,7 @@ const b = BigInt("9394")
 const c = 928n
 
 console.log(typeof c)
-console.log(Number.MAX_SAFE_INTEGER * 2)
+console.log(Number.MAX_SAFE_INTEGER)
+console.log(Number.MAX_SAFE_INTEGER * 512) // ujung angkanya seharunsya 2, karna 1 * 2 = 2 (perkalian angka paling ujung), tapi angka paling ujung malah 0
+
+console.log(BigInt(Number.MAX_SAFE_INTEGER) * 512n)
