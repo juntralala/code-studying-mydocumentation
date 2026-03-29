@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>sessionStorange punya method dan property yg sama dengan localStorage karna sama-sama implement Storage interface
+    </p>
+    <p>key/value hanya bisa string, method toString() dipanggil jika object</p>
+    <div>Token : <span id="token"></span></div>
+    <script>
+        window.onstorage = function (e) {
+            console.log(e.constructor.name);
+        };
+        
+        sessionStorage.setItem("token", crypto.randomUUID());
+
+        const data = sessionStorage.getItem("token");
+        document.getElementById("token").textContent = data;
+        
+    </script>
+</body>
+
+</html>

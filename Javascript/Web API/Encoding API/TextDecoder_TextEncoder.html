@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <script>
+        const encoder = new TextEncoder(); // <- hanya ada encode ke utf-8
+        const decoder = new TextDecoder("utf-8"); // <- bisa milih encoding
+
+        const raw = "muhammad junaidi";
+
+        const bytes = encoder.encode(raw);
+        console.log(bytes);
+        console.log(bytes instanceof Uint8Array);
+
+        const decoded = decoder.decode(bytes);
+        console.log(decoded);
+    </script>
+</body>
+
+</html>

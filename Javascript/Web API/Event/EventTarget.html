@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* EventTarget
+            class parent dari semua yg mendukung event listener di js browser
+        */
+        const eventTarget = new EventTarget();
+        eventTarget.addEventListener('hello', function (e) {
+            console.log("hello");
+        });
+
+        eventTarget.dispatchEvent(new Event("hello"));
+        eventTarget.dispatchEvent(new Event("hello", { bubbles: false, cancelable: true, composed: false }));
+
+        console.log(document instanceof EventTarget); // true semua
+        console.log(window instanceof EventTarget);
+        console.log(document.body instanceof EventTarget);
+        console.log(document.createElement('div') instanceof EventTarget);
+    </script>
+</body>
+
+</html>

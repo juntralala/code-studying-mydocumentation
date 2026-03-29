@@ -1,0 +1,21 @@
+<!doctype html>
+
+<head>
+    <title>OK</title>
+</head>
+
+<body>
+    <script>
+        /*
+            globalThis itu standard js, jadi aman dipakai di browser, bun, dan nodejs.
+
+            jangan pakai this di top level kalau mau ngakses global object yg tersedia di node ataupun browser, this undefined kalau pakai mode strict
+        */
+
+        var author = "ujun";
+        console.log(this.author);
+        console.log(window.author);
+        console.log(globalThis.author);
+        console.log(globalThis == window);
+    </script>
+</body>

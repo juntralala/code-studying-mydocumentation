@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Readable Stream</title>
+</head>
+
+<body>
+    <form>
+        <label for="photo">Pilih File
+            <input type="file" name="photo" accept="text/plain" id="photo">
+        </label>
+    </form>
+    <script>
+        const photo = document.getElementById("photo");
+        photo.addEventListener('change', async function() {
+            const file = this.files[0];
+            const stream = file.stream();
+            
+            for await (const chunk of stream) { // const chunk: Uint8Array<ArrayBuffer>
+                console.log(String.fromCodePoint(...data)); // harusnya pakai TextDecoder biar bisa tampil emoji
+            }
+        });
+    </script>
+</body>
+
+</html>

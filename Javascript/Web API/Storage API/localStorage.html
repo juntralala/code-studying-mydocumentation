@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>key/value hanya bisa string, method toString() dipanggil jika object</p>
+    <div>Token : <span id="token"></span></div>
+
+    <script>
+        window.onstorage = function (e) {
+            console.log(e.constructor.name);
+        }
+
+        localStorage.setItem("token", crypto.randomUUID());
+
+        const data = localStorage.getItem("token");
+        document.getElementById("token").textContent = data;
+
+        console.log(localStorage.length);
+        console.log(localStorage.removeItem.toString());
+        console.log(localStorage.clear.toString());
+        console.log(localStorage.key.toString());
+    </script>
+</body>
+
+</html>

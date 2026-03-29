@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecoderStream</title>
+</head>
+<body>
+    <input type="file" name="file" id="file">
+
+    <p id="result"></p>
+    
+    <script>
+        document.getElementById("file").onchange = async function(e) {
+            const file = this.files[0];
+            let stream = file.stream();
+            stream = stream.pipeThrough(new TextDecoderStream('utf-8'));
+            
+            let result = document.getElementById('result');
+            result.innerText = "";
+            for await (let chunk of stream) {
+                result.innerText += chunk;
+            }
+        }
+    </script>
+</body>
+</html>

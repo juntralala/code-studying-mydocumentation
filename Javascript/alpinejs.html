@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlpineJS</title>
+    <script defer src="alpine.js"></script> <!-- <- download dari link cdn -->
+</head>
+
+<body>
+    <div x-data="{counter: 0}">
+        <button x-text="counter" x-on:click="()=>counter +=1"></button>
+    </div>
+    <div x-data="{teks: ''}">
+        <input type="text" x-model="teks">
+        <div x-text="teks"></div>
+
+        <template x-if="teks.length > 10">
+            <div>wow, panjang...</div>
+        </template>
+    </div>
+
+    <div x-data="{orang: 'hey'}">
+        <div class="ani" x-text="console.log($store)"></div>
+    </div>
+
+    <ul x-data="{ colors: ['red', 'orange', 'yellow'] }" @click="alert('ei')">
+        <template x-for="color in colors">
+            <li x-text="color" x-bind:style="{backgroundColor:color}"></li>
+        </template>
+    </ul>
+</body>
+
+</html>

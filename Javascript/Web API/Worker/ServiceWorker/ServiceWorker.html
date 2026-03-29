@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button id="notifikasi">Notifikasi saya</button>
+
+    <script type="module">
+        function urlBase64ToUint8Array(base64) {
+            if (typeof base64 !== "string") {
+                throw TypeError("Expected type to be string");
+            }
+            const padding = '='.repeat((4 - base64.length % 4) % 4);
+            const raw = atob((base64 + padding).replaceAll("_", "/").replaceAll("-", "+"));
+            const result = new Uint8Array(raw.length);
+            for (let index = 0; index < raw.length; index++) {
+                result[index] = raw.charCodeAt(index);
+            }
+            return result;
+        }
+
+        const myweb = {
+            vapidkey: "BF-quCvBd1zZoopi5FS1vlQKYsoWPWH2nHmyyD55lQPZpm2gfPQJ1kGcLLp_uxW4gBVhJQRJV91ljhvxm4jqaGg"
+        };
+
+        const registration = await navigator.serviceWorker.register("./sw.js");
+        console.log(registration);
+        await navigator.serviceWorker.ready;
+
+        navigator.serviceWorker.onmessage = function (e) {
+            console.log(`received: ${e.data}`);
+        }
+        registration.active.postMessage("ok bos");
+        console.log(`registration.active: ${registration.active.constructor.name}`);
+
+        const result = await fetch('./orang.json');
+        console.log((await result.text()));
+
+        // push notifkasi
+        document.getElementById("notifikasi").onclick = async function (e) {
+            const subscription = await registration.pushManager.subscribe({ applicationServerKey: urlBase64ToUint8Array(myweb.vapidkey), userVisibleOnly: true });
+            console.log(subscription.toJSON());
+            fetch("/subscribe", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(subscription.toJSON()) 
+            });
+        };
+    </script>
+</body>
+
+</html>

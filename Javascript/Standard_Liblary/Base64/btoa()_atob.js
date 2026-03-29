@@ -24,3 +24,14 @@ console.log(`encoded : ${encoded}`)
 
 const decoded = atob(encoded)
 console.log(`decoded : ${decoded}`)
+
+
+// toString() terpanggil untuk object
+const person = {
+   name: "orang",
+   toString() {
+      console.log("Halo dari toStiring()");
+      return this.name;
+   }
+}
+console.log(btoa(person));

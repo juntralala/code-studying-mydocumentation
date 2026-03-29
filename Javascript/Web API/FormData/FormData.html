@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form>
+        <input name="name" type="text">
+        <input name="password" type="password">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+<script>
+    document.forms.item(0).onsubmit = function (e) {
+        e.preventDefault()
+        const formData = new FormData(e.target); // <- bisa otomatis terisi dengan pass langsung HTMLFormElement 
+        console.log(formData);
+        console.log(new URLSearchParams(formData)); // <- bisa langsung di pass ke URLSearchParam()
+    }
+
+</script>
+
+</html>

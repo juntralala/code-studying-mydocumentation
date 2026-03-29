@@ -1,0 +1,1 @@
+// contohnya ada di localStorage.html dan sessionStorage.html

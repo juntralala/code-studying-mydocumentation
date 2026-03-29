@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Importing non-js (css and json)</title>
+</head>
+
+<body>
+    <script type="module">
+        /*
+        di chrome aman 2 2 nya,
+        tapi di firefox v144 nggak bisa import stylesheet, hanya json saja
+        */
+
+        import orang from "./orang.json" with { type: "json" };
+        import styles from "./styles.css" with { type: "css" };
+        document.body.innerText = `
+            orang.json: ${JSON.stringify(orang)}
+            styles js class: ${styles.constructor.name}
+        `;
+    </script>
+</body>
+
+</html>

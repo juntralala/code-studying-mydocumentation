@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        /*
+        URI bisa digunakan untuk parse string url, trus ambil component urlnya
+
+        note: ada di bun dan NodeJS juga
+        */
+
+        const url = new URL("https://www.example.com/ini/path?name=ujun#anu");
+
+        document.body.innerText = `
+        ${url.search}
+        ${url.searchParams.get("name")}
+        ${url.pathname}
+        ${url.protocol}
+        ${url.host}
+        ${url.hostname}
+        ${url.origin}
+        ${url.href}
+        `;
+    </script>
+</body>
+
+</html>

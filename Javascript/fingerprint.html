@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fingerprint</title>
+</head>
+
+<body>
+    <div id="id"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.umd.js"></script>
+    <script type="module">
+        const tm = new ThumbmarkJS.Thumbmark();
+
+        const data = await tm.get();
+        console.log("ID Fingerprint Anda:", data.thumbmark);
+        console.log("Data Lengkap:", data);
+        document.getElementById('id').textContent = data.thumbmark;
+    </script>
+
+</body>
+
+</html>
