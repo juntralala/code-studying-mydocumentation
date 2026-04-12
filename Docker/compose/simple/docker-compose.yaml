@@ -1,0 +1,59 @@
+services:
+  nginx-axample:
+    container_name: contoh-nginx
+    image: nginx:latest
+    ports:
+      - "81:80"
+      - protocol: tcp
+        target: 80
+        published: 82
+        mode: ingress
+    environment:
+      AUTHOR_NAME: ujun
+    volumes:
+      - "/folder/di/host:/folder/di/container:readwrite"
+      - type: bind
+        source: /folder/di/host
+        target: /folder/di/container
+        read_only: true
+      - "mydisk:/folder/di/container"
+      - "mydisk2:/folder/di/container"
+    networks:
+      - mynetwork1
+    restart: always
+    deploy:
+      resources:
+        reservations:
+          cpus: "0.25"
+          memory: "50M"
+        limits:
+          cpus: "0.5"
+          memory: "100M"
+    healthcheck:
+      disable: false # <- digunakan jika ingin menonaktifkan healthcheck bawaan image
+      interval: 30s
+      retries: 3
+      start_period: 10s
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+  
+  # Buat service dari build, bukan image langsung
+  app:
+    container_name: simpleserver
+    build:
+      context: "./app"
+      dockerfile: Dockerfile
+    ports:
+      - "80:8080"
+    depends_on: # membuat container ini disetelahkan kontainer tertentu
+    - contoh-nginx
+
+volumes:
+  mydisk:
+    name: mydisk
+  mydisk2:
+    name: mydisk2
+
+networks:
+  mynet:
+    name: mynetwork1
+    driver: bridge

@@ -39,6 +39,8 @@ docker container create --name namacontainer -p 80:8080 imageName:tag --name ENV
 --cpus number => batasan cpu, bisa decimal (misalnya 1.5 atau 0.5)
 --mount => melakukan mount ke folder host OS
 --network => menggunakan network yang sudah dibuat
+--restart => menentukan aturan restart: no(default),always,unless-stopped,on-failure,on-failure:3
+--scale => menentukan jumlah replika (int)
 
 docker volume ls
 docker volume create nama_volume
@@ -61,3 +63,11 @@ docker image prune
 docker container prune
 docker volume prune
 docker network prune
+
+docker cp namacontainer:/path/file /host/path/file
+docker cp /host/path/file namacontainer:/path/file
+docker container cp
+
+docker events
+docker events --filter container=nama
+docker stats _namacontainer # melihat penggunaan cpu,ram,dan disk
